@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 145
+- complete: 146
 - digital_only_approximation: 5
-- not_started: 1405
+- not_started: 1404
 
 ## Chips
 
@@ -2231,7 +2231,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x126 - quad bus buffer, positive enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x126
 - Aliases: none
 - Source section: Larger footprints
@@ -2244,7 +2244,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x126/tb_ttl_74x126.sv
 - README: rtl/chips/ttl_74x126/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x128 - quad 2-input NOR gate
 - Status: [ ]
