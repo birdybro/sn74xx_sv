@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 120
+- complete: 121
 - digital_only_approximation: 1
-- not_started: 1434
+- not_started: 1433
 
 ## Chips
 
@@ -1767,7 +1767,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x100 - dual 4-bit bistable latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x100
 - Aliases: none
 - Source section: Larger footprints
@@ -1780,7 +1780,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x100/tb_ttl_74x100.sv
 - README: rtl/chips/ttl_74x100/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md.
 
 ### 74x101 - AND-OR-gated J-K negative-edge-triggered flip-flop, preset
 - Status: [ ]
