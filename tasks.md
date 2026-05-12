@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 61
+- complete: 62
 - digital_only_approximation: 1
-- not_started: 1493
+- not_started: 1492
 
 ## Chips
 
@@ -4023,7 +4023,7 @@ For every chip:
   - (none)
 
 ### 74x244 - octal buffer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x244
 - Aliases: none
 - Source section: Larger footprints
@@ -4036,7 +4036,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x244/tb_ttl_74x244.sv
 - README: rtl/chips/ttl_74x244/README.md
 - Notes:
-  - (none)
+  - Two banks of 4 buffers with separate active-low OE. Tri-state represented as muxed-zero per docs/conventions.md.
 
 ### 74x245 - octal bus transceiver, non-inverting outputs
 - Status: [ ]
