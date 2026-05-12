@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 136
+- complete: 137
 - digital_only_approximation: 1
-- not_started: 1418
+- not_started: 1417
 
 ## Chips
 
@@ -2023,7 +2023,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74116 - dual 4-bit latch, clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74116
 - Aliases: 74L116
 - Source section: Larger footprints
@@ -2036,7 +2036,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74116/tb_ttl_74116.sv
 - README: rtl/chips/ttl_74116/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74H116 - AND-gated J-K flip flop
 - Status: [ ]
