@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 391
+- complete: 392
 - digital_only_approximation: 17
-- not_started: 1147
+- not_started: 1146
 
 ## Chips
 
@@ -6567,7 +6567,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x433 - 256-bit FIFO memory (64x4)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x433
 - Aliases: none
 - Source section: Larger footprints
@@ -6580,7 +6580,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x433/tb_ttl_74x433.sv
 - README: rtl/chips/ttl_74x433/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x436 - line driver/memory driver circuits - MOS memory interface, damping output resistor
 - Status: [ ]
