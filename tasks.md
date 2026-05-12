@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 277
+- complete: 278
 - digital_only_approximation: 7
-- not_started: 1271
+- not_started: 1270
 
 ## Chips
 
@@ -4567,7 +4567,7 @@ For every chip:
   - Same adder function as 74x83; differs only in DIP pin assignment.
 
 ### 74x284 - 4-bit by 4-bit parallel binary multiplier (high order 4 bits of product)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x284
 - Aliases: none
 - Source section: Larger footprints
@@ -4580,7 +4580,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x284/tb_ttl_74x284.sv
 - README: rtl/chips/ttl_74x284/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x285 - 4-bit by 4-bit parallel binary multiplier (low order 4 bits of product)
 - Status: [ ]
