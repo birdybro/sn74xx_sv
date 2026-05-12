@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 117
+- complete: 118
 - digital_only_approximation: 1
-- not_started: 1437
+- not_started: 1436
 
 ## Chips
 
@@ -1719,7 +1719,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x97 - synchronous 6-bit binary rate multiplier
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x97
 - Aliases: none
 - Source section: Larger footprints
@@ -1732,7 +1732,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x97/tb_ttl_74x97.sv
 - README: rtl/chips/ttl_74x97/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x98 - 4-bit data selector/storage register
 - Status: [ ]
