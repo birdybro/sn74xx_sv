@@ -846,8 +846,10 @@
     "pins": "14",
     "datasheet": "SN74LS40",
     "datasheet_url": "https://web.archive.org/web/20180720052029/http://pdf.datasheetcatalog.com/datasheet/motorola/SN54LS40J.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x20; higher drive not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x40/ttl_74x40.sv",
     "testbench_path": "tb/chips/ttl_74x40/tb_ttl_74x40.sv",
     "readme_path": "rtl/chips/ttl_74x40/README.md"

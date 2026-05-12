@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 38
-- not_started: 1517
+- complete: 39
+- not_started: 1516
 
 ## Chips
 
@@ -678,7 +678,7 @@ For every chip:
   - Same logic as 74x00; OC 60mA drive not modeled.
 
 ### 74x40 - dual 4-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x40
 - Aliases: none
 - Source section: Larger footprints
@@ -691,7 +691,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x40/tb_ttl_74x40.sv
 - README: rtl/chips/ttl_74x40/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x20; higher drive not modeled.
 
 ### 74x41 - BCD to decimal decoder / Nixie tube driver
 - Status: [ ]
