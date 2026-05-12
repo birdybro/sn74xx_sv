@@ -1846,8 +1846,10 @@
     "pins": "14",
     "datasheet": "MC7479",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaTTLIntegratedCircuitsDataBook_38442857/page/n387",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74x79/ttl_74x79.sv",
     "testbench_path": "tb/chips/ttl_74x79/tb_ttl_74x79.sv",
     "readme_path": "rtl/chips/ttl_74x79/README.md"
