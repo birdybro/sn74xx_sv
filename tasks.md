@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 414
+- complete: 415
 - digital_only_approximation: 17
-- not_started: 1124
+- not_started: 1123
 
 ## Chips
 
@@ -6935,7 +6935,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74455 - dual binary up/down counter, synchronous, preset input
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74455
 - Aliases: none
 - Source section: Larger footprints
@@ -6948,7 +6948,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74455/tb_ttl_74455.sv
 - README: rtl/chips/ttl_74455/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74F455 - octal buffer / line driver with parity, inverting
 - Status: [ ]
