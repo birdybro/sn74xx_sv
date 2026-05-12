@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 272
+- complete: 273
 - digital_only_approximation: 7
-- not_started: 1276
+- not_started: 1275
 
 ## Chips
 
@@ -4471,7 +4471,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x278 - 4-bit cascadeable priority registers, latched data inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x278
 - Aliases: none
 - Source section: Larger footprints
@@ -4484,7 +4484,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x278/tb_ttl_74x278.sv
 - README: rtl/chips/ttl_74x278/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x279 - quad set-reset latch
 - Status: [ ]
