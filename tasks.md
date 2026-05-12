@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 67
+- complete: 68
 - digital_only_approximation: 1
-- not_started: 1487
+- not_started: 1486
 
 ## Chips
 
@@ -2711,7 +2711,7 @@ For every chip:
   - (none)
 
 ### 74x157 - quad 2-line to 1-line data selector/multiplexer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x157
 - Aliases: none
 - Source section: Larger footprints
@@ -2724,7 +2724,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x157/tb_ttl_74x157.sv
 - README: rtl/chips/ttl_74x157/README.md
 - Notes:
-  - (none)
+  - Four 2-to-1 muxes; output forced low when chip enable g_n=1.
 
 ### 74x158 - quad 2-line to 1-line data selector/multiplexer, inverting outputs
 - Status: [ ]
