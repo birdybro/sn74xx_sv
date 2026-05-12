@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 544
+- complete: 545
 - digital_only_approximation: 27
-- not_started: 984
+- not_started: 983
 
 ## Chips
 
@@ -9175,7 +9175,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x632 - 32-bit parallel error detection and correction, byte-write
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x632
 - Aliases: none
 - Source section: Larger footprints
@@ -9188,7 +9188,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x632/tb_ttl_74x632.sv
 - README: rtl/chips/ttl_74x632/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x633 - 32-bit parallel error detection and correction, byte-write
 - Status: [ ]
