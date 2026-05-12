@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 31
-- not_started: 1524
+- complete: 32
+- not_started: 1523
 
 ## Chips
 
@@ -566,7 +566,7 @@ For every chip:
   - Exhaustive testbench passes; Verilator lint and Yosys synth check clean.
 
 ### 74x33 - quad 2-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x33
 - Aliases: none
 - Source section: Larger footprints
@@ -579,7 +579,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x33/tb_ttl_74x33.sv
 - README: rtl/chips/ttl_74x33/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x02; open-collector drive not modeled.
 
 ### 74x34 - hex buffer gate
 - Status: [ ]
