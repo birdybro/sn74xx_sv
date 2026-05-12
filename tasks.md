@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 311
+- complete: 312
 - digital_only_approximation: 9
-- not_started: 1235
+- not_started: 1234
 
 ## Chips
 
@@ -5127,7 +5127,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x323 - 8-bit bidirectional universal shift/storage register, synchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x323
 - Aliases: none
 - Source section: Larger footprints
@@ -5140,7 +5140,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x323/tb_ttl_74x323.sv
 - README: rtl/chips/ttl_74x323/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x324 - voltage-controlled oscillator (or crystal controlled), enable input, complementary outputs
 - Status: [ ]
