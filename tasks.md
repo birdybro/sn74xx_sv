@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 523
+- complete: 524
 - digital_only_approximation: 21
-- not_started: 1011
+- not_started: 1010
 
 ## Chips
 
@@ -8743,7 +8743,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x602 - dynamic memory refresh controller, cycle steal and burst modes, for 4K or 16K dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x602
 - Aliases: none
 - Source section: Larger footprints
@@ -8756,7 +8756,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x602/tb_ttl_74x602.sv
 - README: rtl/chips/ttl_74x602/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x603 - dynamic memory refresh controller, cycle steal and burst modes, for 64K dRAM
 - Status: [ ]

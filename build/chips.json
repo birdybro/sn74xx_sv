@@ -11447,8 +11447,10 @@
     "pins": "20",
     "datasheet": "SN74LS602A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1217",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x602/ttl_74x602.sv",
     "testbench_path": "tb/chips/ttl_74x602/tb_ttl_74x602.sv",
     "readme_path": "rtl/chips/ttl_74x602/README.md"
