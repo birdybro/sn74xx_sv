@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 70
+- complete: 71
 - digital_only_approximation: 1
-- not_started: 1484
+- not_started: 1483
 
 ## Chips
 
@@ -4407,7 +4407,7 @@ For every chip:
   - (none)
 
 ### 74x273 - 8-bit register, asynchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x273
 - Aliases: none
 - Source section: Larger footprints
@@ -4420,7 +4420,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x273/tb_ttl_74x273.sv
 - README: rtl/chips/ttl_74x273/README.md
 - Notes:
-  - (none)
+  - 8 D flip-flops, common posedge clock, common async clear. No output enable.
 
 ### 74x274 - 4-bit by 4-bit binary multiplier
 - Status: [ ]

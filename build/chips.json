@@ -5348,8 +5348,10 @@
     "pins": "20",
     "datasheet": "SN74LS273",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls273",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8 D flip-flops, common posedge clock, common async clear. No output enable."
+    ],
     "rtl_path": "rtl/chips/ttl_74x273/ttl_74x273.sv",
     "testbench_path": "tb/chips/ttl_74x273/tb_ttl_74x273.sv",
     "readme_path": "rtl/chips/ttl_74x273/README.md"
