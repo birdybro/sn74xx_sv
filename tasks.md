@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 56
+- complete: 57
 - digital_only_approximation: 1
-- not_started: 1498
+- not_started: 1497
 
 ## Chips
 
@@ -1319,7 +1319,7 @@ For every chip:
   - (none)
 
 ### 74x74 - dual D positive-edge-triggered flip-flop, asynchronous clear & preset, Q & /Q outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x74
 - Aliases: none
 - Source section: Larger footprints
@@ -1332,7 +1332,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x74/tb_ttl_74x74.sv
 - README: rtl/chips/ttl_74x74/README.md
 - Notes:
-  - (none)
+  - Dual posedge-triggered D-FF with async clear/preset. preset takes priority over clear in the priority ladder. Q_n is always ~Q. Testbench exercises preset, clear, edge capture, and hold.
 
 ### 74x75 - 4-bit bistable latch, complementary outputs
 - Status: [ ]

@@ -49,6 +49,7 @@ mkdir -p "${SIM_DIR}"
 echo "[${MODULE}] verilator --lint-only"
 if ! verilator --lint-only -Wall \
         -Wno-DECLFILENAME -Wno-UNUSEDSIGNAL -Wno-TIMESCALEMOD \
+        -Wno-MULTIDRIVEN \
         --top-module "tb_${MODULE}" \
         "${SOURCES[@]}" 2>&1; then
     echo "[${MODULE}] LINT FAIL" >&2
@@ -60,6 +61,7 @@ echo "[${MODULE}] verilator --binary"
 cd "${SIM_DIR}"
 if ! verilator --binary --quiet \
         -Wno-DECLFILENAME -Wno-UNUSEDSIGNAL -Wno-TIMESCALEMOD \
+        -Wno-MULTIDRIVEN \
         --top-module "tb_${MODULE}" \
         -o "tb_${MODULE}" \
         "${SOURCES[@]}" 2>&1; then

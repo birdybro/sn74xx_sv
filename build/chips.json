@@ -1651,8 +1651,10 @@
     "pins": "14",
     "datasheet": "SN74LS74A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls74a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual posedge-triggered D-FF with async clear/preset. preset takes priority over clear in the priority ladder. Q_n is always ~Q. Testbench exercises preset, clear, edge capture, and hold."
+    ],
     "rtl_path": "rtl/chips/ttl_74x74/ttl_74x74.sv",
     "testbench_path": "tb/chips/ttl_74x74/tb_ttl_74x74.sv",
     "readme_path": "rtl/chips/ttl_74x74/README.md"
