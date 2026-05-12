@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 384
-- digital_only_approximation: 16
-- not_started: 1155
+- digital_only_approximation: 17
+- not_started: 1154
 
 ## Chips
 
@@ -6439,7 +6439,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74424 - dual voltage-controlled oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74424
 - Aliases: none
 - Source section: Larger footprints
@@ -6452,7 +6452,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74424/tb_ttl_74424.sv
 - README: rtl/chips/ttl_74424/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74LS424 - two-phase clock generator/driver for Intel 8080 (equivalent to Intel 8224)
 - Status: [ ]
