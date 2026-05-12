@@ -8339,8 +8339,10 @@
     "pins": "40",
     "datasheet": "74S419",
     "datasheet_url": "https://archive.org/details/bitsavers_mmidataBook6ed_79579213/page/n727",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74s419/ttl_74s419.sv",
     "testbench_path": "tb/chips/ttl_74s419/tb_ttl_74s419.sv",
     "readme_path": "rtl/chips/ttl_74s419/README.md"

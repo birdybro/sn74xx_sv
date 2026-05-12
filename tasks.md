@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 382
+- complete: 383
 - digital_only_approximation: 14
-- not_started: 1159
+- not_started: 1158
 
 ## Chips
 
@@ -6375,7 +6375,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74S419 - FIFO RAM controller
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74s419
 - Aliases: none
 - Source section: Larger footprints
@@ -6388,7 +6388,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74s419/tb_ttl_74s419.sv
 - README: rtl/chips/ttl_74s419/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x420 - 32-bit check bit / syndrome bit generator
 - Status: [ ]
