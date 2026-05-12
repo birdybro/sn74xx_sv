@@ -663,8 +663,10 @@
     "pins": "16",
     "datasheet": "SN74LS31",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls31",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Real chip is analog propagation-delay buffers (6 ns, 23-32 ns, 45-48 ns); not modelable in RTL. Implementation is a straight pass-through; use explicit pipeline registers for clock-cycle delays at the consuming module."
+    ],
     "rtl_path": "rtl/chips/ttl_74x31/ttl_74x31.sv",
     "testbench_path": "tb/chips/ttl_74x31/tb_ttl_74x31.sv",
     "readme_path": "rtl/chips/ttl_74x31/README.md"

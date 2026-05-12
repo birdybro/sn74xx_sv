@@ -30,7 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 41
-- not_started: 1514
+- digital_only_approximation: 1
+- not_started: 1513
 
 ## Chips
 
@@ -534,7 +535,7 @@ For every chip:
   - Single 8-input NAND; exhaustive 256-vector testbench.
 
 ### 74x31 - hex delay elements (two 6ns, two 23-32ns, two 45-48ns)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x31
 - Aliases: none
 - Source section: Larger footprints
@@ -547,7 +548,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x31/tb_ttl_74x31.sv
 - README: rtl/chips/ttl_74x31/README.md
 - Notes:
-  - (none)
+  - Real chip is analog propagation-delay buffers (6 ns, 23-32 ns, 45-48 ns); not modelable in RTL. Implementation is a straight pass-through; use explicit pipeline registers for clock-cycle delays at the consuming module.
 
 ### 74x32 - quad 2-input OR gate
 - Status: [x]
