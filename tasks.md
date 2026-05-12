@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 77
+- complete: 78
 - digital_only_approximation: 1
-- not_started: 1477
+- not_started: 1476
 
 ## Chips
 
@@ -1015,7 +1015,7 @@ For every chip:
   - Divide-by-50 counter; output toggles every 25 cycles for 50% duty.
 
 ### 74x57 - 60:1 frequency divider
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x57
 - Aliases: none
 - Source section: Larger footprints
@@ -1028,7 +1028,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x57/tb_ttl_74x57.sv
 - README: rtl/chips/ttl_74x57/README.md
 - Notes:
-  - (none)
+  - Divide-by-60 counter; output toggles every 30 cycles for 50% duty.
 
 ### 74x58 - 3-3-input AND-OR gate and 2-2-input AND-OR gate
 - Status: [ ]

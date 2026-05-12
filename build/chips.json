@@ -1300,8 +1300,10 @@
     "pins": "8",
     "datasheet": "SN74LS57",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n291",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Divide-by-60 counter; output toggles every 30 cycles for 50% duty."
+    ],
     "rtl_path": "rtl/chips/ttl_74x57/ttl_74x57.sv",
     "testbench_path": "tb/chips/ttl_74x57/tb_ttl_74x57.sv",
     "readme_path": "rtl/chips/ttl_74x57/README.md"
