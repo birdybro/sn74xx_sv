@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 26
-- not_started: 1529
+- complete: 27
+- not_started: 1528
 
 ## Chips
 
@@ -454,7 +454,7 @@ For every chip:
   - (none)
 
 ### 74x26 - quad 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x26
 - Aliases: none
 - Source section: Larger footprints
@@ -467,7 +467,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x26/tb_ttl_74x26.sv
 - README: rtl/chips/ttl_74x26/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x00; OC 15V HV drive not modeled.
 
 ### 74x27 - triple 3-input NOR gate
 - Status: [ ]
