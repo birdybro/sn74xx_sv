@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 332
+- complete: 333
 - digital_only_approximation: 14
-- not_started: 1209
+- not_started: 1208
 
 ## Chips
 
@@ -5543,7 +5543,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x362 - four-phase clock generator/driver for Texas Instruments TMS9900
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x362
 - Aliases: none
 - Source section: Larger footprints
@@ -5556,7 +5556,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x362/tb_ttl_74x362.sv
 - README: rtl/chips/ttl_74x362/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x363 - octal transparent latch
 - Status: [ ]
