@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 517
+- complete: 518
 - digital_only_approximation: 21
-- not_started: 1017
+- not_started: 1016
 
 ## Chips
 
@@ -8647,7 +8647,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x596 - 8-bit shift registers, serial-in, parallel-out, output latches, output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x596
 - Aliases: none
 - Source section: Larger footprints
@@ -8660,7 +8660,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x596/tb_ttl_74x596.sv
 - README: rtl/chips/ttl_74x596/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x597 - 8-bit shift registers, parallel-in, serial-out, input latches
 - Status: [ ]
