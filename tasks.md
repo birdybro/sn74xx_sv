@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 307
+- complete: 308
 - digital_only_approximation: 7
-- not_started: 1241
+- not_started: 1240
 
 ## Chips
 
@@ -4743,7 +4743,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x297 - digital phase-locked loop filter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x297
 - Aliases: none
 - Source section: Larger footprints
@@ -4756,7 +4756,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x297/tb_ttl_74x297.sv
 - README: rtl/chips/ttl_74x297/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x298 - quad 2-input multiplexer, storage
 - Status: [ ]
