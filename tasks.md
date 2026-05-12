@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 85
+- complete: 86
 - digital_only_approximation: 1
-- not_started: 1469
+- not_started: 1468
 
 ## Chips
 
@@ -1143,7 +1143,7 @@ For every chip:
   - 4-3-2-2 AOI.
 
 ### 74x65 - 4-3-2-2 input AND-OR-Invert gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x65
 - Aliases: none
 - Source section: Larger footprints
@@ -1156,7 +1156,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x65/tb_ttl_74x65.sv
 - README: rtl/chips/ttl_74x65/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x64; OC physics not modeled.
 
 ### 74x67 - AND gated J-K master-slave flip-flop, asynchronous preset and clear (improved 74L72)
 - Status: [ ]

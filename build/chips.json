@@ -1468,8 +1468,10 @@
     "pins": "14",
     "datasheet": "SN74S65",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54s64",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x64; OC physics not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x65/ttl_74x65.sv",
     "testbench_path": "tb/chips/ttl_74x65/tb_ttl_74x65.sv",
     "readme_path": "rtl/chips/ttl_74x65/README.md"
