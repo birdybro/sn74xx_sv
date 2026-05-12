@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 174
+- complete: 175
 - digital_only_approximation: 6
-- not_started: 1375
+- not_started: 1374
 
 ## Chips
 
@@ -2791,7 +2791,7 @@ For every chip:
   - 4-bit counter differing from 74x163 only in clear being async vs sync.
 
 ### 74x162 - synchronous presettable 4-bit decade counter, synchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162
 - Aliases: none
 - Source section: Larger footprints
@@ -2804,7 +2804,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x162/tb_ttl_74x162.sv
 - README: rtl/chips/ttl_74x162/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x163 - synchronous presettable 4-bit binary counter, synchronous clear
 - Status: [x]
