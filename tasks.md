@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 411
+- complete: 412
 - digital_only_approximation: 17
-- not_started: 1127
+- not_started: 1126
 
 ## Chips
 
@@ -6887,7 +6887,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74453 - dual binary counter, synchronous
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74453
 - Aliases: none
 - Source section: Larger footprints
@@ -6900,7 +6900,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74453/tb_ttl_74453.sv
 - README: rtl/chips/ttl_74453/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74LS453 - quad 4-to-1 multiplexer
 - Status: [ ]
