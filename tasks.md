@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 438
+- complete: 439
 - digital_only_approximation: 19
-- not_started: 1098
+- not_started: 1097
 
 ## Chips
 
@@ -7351,7 +7351,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x481 - 4-bit slice cascadable processor elements
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x481
 - Aliases: none
 - Source section: Larger footprints
@@ -7364,7 +7364,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x481/tb_ttl_74x481.sv
 - README: rtl/chips/ttl_74x481/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x482 - 4-bit slice expandable control elements
 - Status: [ ]
