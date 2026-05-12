@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 314
+- complete: 315
 - digital_only_approximation: 13
-- not_started: 1228
+- not_started: 1227
 
 ## Chips
 
@@ -5239,7 +5239,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x333 - PLA (12 inputs, 32 terms, 6 outputs, 4 state registers)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x333
 - Aliases: none
 - Source section: Larger footprints
@@ -5252,7 +5252,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x333/tb_ttl_74x333.sv
 - README: rtl/chips/ttl_74x333/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x334 - PLA (12 inputs, 32 terms, 6 outputs)
 - Status: [ ]
