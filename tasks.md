@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 72
+- complete: 73
 - digital_only_approximation: 1
-- not_started: 1482
+- not_started: 1481
 
 ## Chips
 
@@ -919,7 +919,7 @@ For every chip:
   - 2-2-2-2 AOI. Expander pin omitted.
 
 ### 74H53 - 3-2-2-2-input AND-OR-Invert gate, expandable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74h53
 - Aliases: none
 - Source section: Larger footprints
@@ -932,7 +932,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74h53/tb_ttl_74h53.sv
 - README: rtl/chips/ttl_74h53/README.md
 - Notes:
-  - (none)
+  - 3-2-2-2 AOI; expander pin omitted.
 
 ### 7454 - 2-2-2-2-input AND-OR-Invert gate
 - Status: [ ]

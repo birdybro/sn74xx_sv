@@ -1172,8 +1172,10 @@
     "pins": "14",
     "datasheet": "SN74H53",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n273",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3-2-2-2 AOI; expander pin omitted."
+    ],
     "rtl_path": "rtl/chips/ttl_74h53/ttl_74h53.sv",
     "testbench_path": "tb/chips/ttl_74h53/tb_ttl_74h53.sv",
     "readme_path": "rtl/chips/ttl_74h53/README.md"
