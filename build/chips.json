@@ -2976,8 +2976,10 @@
     "pins": "16",
     "datasheet": "SN74LS139A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls139a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Two independent 2-to-4 active-low decoders, each with active-low enable. 64-vector exhaustive testbench."
+    ],
     "rtl_path": "rtl/chips/ttl_74x139/ttl_74x139.sv",
     "testbench_path": "tb/chips/ttl_74x139/tb_ttl_74x139.sv",
     "readme_path": "rtl/chips/ttl_74x139/README.md"
