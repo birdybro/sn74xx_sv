@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 257
+- complete: 258
 - digital_only_approximation: 7
-- not_started: 1291
+- not_started: 1290
 
 ## Chips
 
@@ -4199,7 +4199,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x257 - quad 2-line to 1-line data selector/multiplexer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x257
 - Aliases: none
 - Source section: Larger footprints
@@ -4212,7 +4212,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x257/tb_ttl_74x257.sv
 - README: rtl/chips/ttl_74x257/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x258 - quad 2-line to 1-line data selector/multiplexer, inverting outputs
 - Status: [ ]
