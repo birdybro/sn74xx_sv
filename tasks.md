@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 248
+- complete: 249
 - digital_only_approximation: 7
-- not_started: 1300
+- not_started: 1299
 
 ## Chips
 
@@ -4055,7 +4055,7 @@ For every chip:
   - Bidirectional transceiver split into a_in/a_out/a_oe_n and b_in/b_out/b_oe_n since FPGA internal logic cannot infer tri-state. README explains how to wrap with a tri-state pad.
 
 ### 74x246 - BCD to 7-segment decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x246
 - Aliases: none
 - Source section: Larger footprints
@@ -4068,7 +4068,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x246/tb_ttl_74x246.sv
 - README: rtl/chips/ttl_74x246/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x247 - BCD to 7-segment decoder/driver
 - Status: [ ]
