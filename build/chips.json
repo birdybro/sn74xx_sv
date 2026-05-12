@@ -7121,8 +7121,10 @@
     "pins": "16",
     "datasheet": "SN74LS353",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1047",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x353/ttl_74x353.sv",
     "testbench_path": "tb/chips/ttl_74x353/tb_ttl_74x353.sv",
     "readme_path": "rtl/chips/ttl_74x353/README.md"
