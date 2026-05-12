@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 370
+- complete: 371
 - digital_only_approximation: 14
-- not_started: 1171
+- not_started: 1170
 
 ## Chips
 
@@ -6183,7 +6183,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x409 - controller/driver for 16k/64k/256k dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x409
 - Aliases: none
 - Source section: Larger footprints
@@ -6196,7 +6196,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x409/tb_ttl_74x409.sv
 - README: rtl/chips/ttl_74x409/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x410 - 64-bit RAM (16x4) with output register
 - Status: [ ]
