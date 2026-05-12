@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 349
+- complete: 350
 - digital_only_approximation: 14
-- not_started: 1192
+- not_started: 1191
 
 ## Chips
 
@@ -5847,7 +5847,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x383 - 8-bit register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x383
 - Aliases: none
 - Source section: Larger footprints
@@ -5860,7 +5860,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x383/tb_ttl_74x383.sv
 - README: rtl/chips/ttl_74x383/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x384 - 8-bit by 1-bit two's complement multipliers
 - Status: [ ]
