@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 371
+- complete: 372
 - digital_only_approximation: 14
-- not_started: 1170
+- not_started: 1169
 
 ## Chips
 
@@ -6199,7 +6199,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x410 - 64-bit RAM (16x4) with output register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x410
 - Aliases: none
 - Source section: Larger footprints
@@ -6212,7 +6212,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x410/tb_ttl_74x410.sv
 - README: rtl/chips/ttl_74x410/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x411 - FIFO RAM controller
 - Status: [ ]
