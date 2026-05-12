@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 118
+- complete: 119
 - digital_only_approximation: 1
-- not_started: 1436
+- not_started: 1435
 
 ## Chips
 
@@ -1735,7 +1735,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x98 - 4-bit data selector/storage register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x98
 - Aliases: none
 - Source section: Larger footprints
@@ -1748,7 +1748,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x98/tb_ttl_74x98.sv
 - README: rtl/chips/ttl_74x98/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x99 - 4-bit bidirectional universal shift register
 - Status: [ ]
