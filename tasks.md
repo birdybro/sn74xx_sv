@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 379
+- complete: 380
 - digital_only_approximation: 14
-- not_started: 1162
+- not_started: 1161
 
 ## Chips
 
@@ -6327,7 +6327,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74418 - modulo 16 counter, preload and clear inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74418
 - Aliases: none
 - Source section: Larger footprints
@@ -6340,7 +6340,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74418/tb_ttl_74418.sv
 - README: rtl/chips/ttl_74418/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74F418 - 32-bit error detection and correction circuit
 - Status: [ ]
