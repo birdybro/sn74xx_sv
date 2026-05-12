@@ -537,8 +537,10 @@
     "pins": "14",
     "datasheet": "SN7425",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn7425",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x23 without expander; 1024-vector exhaustive testbench."
+    ],
     "rtl_path": "rtl/chips/ttl_74x25/ttl_74x25.sv",
     "testbench_path": "tb/chips/ttl_74x25/tb_ttl_74x25.sv",
     "readme_path": "rtl/chips/ttl_74x25/README.md"

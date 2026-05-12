@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 40
-- not_started: 1515
+- complete: 41
+- not_started: 1514
 
 ## Chips
 
@@ -438,7 +438,7 @@ For every chip:
   - Same logic as 74x00; Schmitt input hysteresis not modeled.
 
 ### 74x25 - dual 4-input NOR gate with strobe
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x25
 - Aliases: none
 - Source section: Larger footprints
@@ -451,7 +451,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x25/tb_ttl_74x25.sv
 - README: rtl/chips/ttl_74x25/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x23 without expander; 1024-vector exhaustive testbench.
 
 ### 74x26 - quad 2-input NAND gate
 - Status: [x]
