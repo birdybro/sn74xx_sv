@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 48
+- complete: 49
 - digital_only_approximation: 1
-- not_started: 1506
+- not_started: 1505
 
 ## Chips
 
@@ -871,7 +871,7 @@ For every chip:
   - Same logic as 74x50 without expander pins.
 
 ### 74L51 - 3-3-input AND-OR-Invert gate and 2-2-input AND-OR-Invert gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74l51
 - Aliases: 74LS51
 - Source section: Larger footprints
@@ -884,7 +884,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74l51/tb_ttl_74l51.sv
 - README: rtl/chips/ttl_74l51/README.md
 - Notes:
-  - (none)
+  - Distinct gate widths: 3-3 AOI + 2-2 AOI. 1024-vector exhaustive testbench.
 
 ### 74x52 - 3-2-2-2-input AND-OR gate, expandable with 74x61
 - Status: [ ]
