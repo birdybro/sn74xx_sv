@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 115
+- complete: 116
 - digital_only_approximation: 1
-- not_started: 1439
+- not_started: 1438
 
 ## Chips
 
@@ -1687,7 +1687,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x95 - 4-bit shift register, parallel in, parallel out, serial input; different pinout for 74L95
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x95
 - Aliases: none
 - Source section: Larger footprints
@@ -1700,7 +1700,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x95/tb_ttl_74x95.sv
 - README: rtl/chips/ttl_74x95/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x96 - 5-bit parallel-in/parallel-out shift register, asynchronous preset
 - Status: [ ]
