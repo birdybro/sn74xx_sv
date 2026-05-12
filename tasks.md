@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 449
-- digital_only_approximation: 20
-- not_started: 1086
+- digital_only_approximation: 21
+- not_started: 1085
 
 ## Chips
 
@@ -7543,7 +7543,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x505 - 8-bit successive approximation ADC
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x505
 - Aliases: none
 - Source section: Larger footprints
@@ -7556,7 +7556,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x505/tb_ttl_74x505.sv
 - README: rtl/chips/ttl_74x505/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x508 - 8-bit multiplier/divider
 - Status: [ ]
