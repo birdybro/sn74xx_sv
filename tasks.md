@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 372
+- complete: 373
 - digital_only_approximation: 14
-- not_started: 1169
+- not_started: 1168
 
 ## Chips
 
@@ -6215,7 +6215,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x411 - FIFO RAM controller
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x411
 - Aliases: none
 - Source section: Larger footprints
@@ -6228,7 +6228,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x411/tb_ttl_74x411.sv
 - README: rtl/chips/ttl_74x411/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x412 - multi-mode buffered 8-bit latches (equivalent to Intel 3212/8212)
 - Status: [ ]
