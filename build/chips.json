@@ -2119,8 +2119,10 @@
     "pins": "14",
     "datasheet": "SN74LS92",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74ls92",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x92/ttl_74x92.sv",
     "testbench_path": "tb/chips/ttl_74x92/tb_ttl_74x92.sv",
     "readme_path": "rtl/chips/ttl_74x92/README.md"
