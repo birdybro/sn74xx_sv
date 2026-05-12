@@ -201,8 +201,10 @@
     "pins": "14",
     "datasheet": "SN74LS09",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls09",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logic identical to push-pull variant; open-collector physical behavior not modeled (see docs/unsupported_physical_behavior.md). Exhaustive testbench passes; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x09/ttl_74x09.sv",
     "testbench_path": "tb/chips/ttl_74x09/tb_ttl_74x09.sv",
     "readme_path": "rtl/chips/ttl_74x09/README.md"
