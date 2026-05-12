@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 310
+- complete: 311
 - digital_only_approximation: 9
-- not_started: 1236
+- not_started: 1235
 
 ## Chips
 
@@ -5111,7 +5111,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x322 - 8-bit shift register, sign extend
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x322
 - Aliases: none
 - Source section: Larger footprints
@@ -5124,7 +5124,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x322/tb_ttl_74x322.sv
 - README: rtl/chips/ttl_74x322/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x323 - 8-bit bidirectional universal shift/storage register, synchronous clear
 - Status: [ ]
