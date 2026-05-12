@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 384
+- complete: 385
 - digital_only_approximation: 17
-- not_started: 1154
+- not_started: 1153
 
 ## Chips
 
@@ -6455,7 +6455,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS424 - two-phase clock generator/driver for Intel 8080 (equivalent to Intel 8224)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls424
 - Aliases: none
 - Source section: Larger footprints
@@ -6468,7 +6468,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls424/tb_ttl_74ls424.sv
 - README: rtl/chips/ttl_74ls424/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x425 - quad bus buffers, active low enables
 - Status: [ ]
