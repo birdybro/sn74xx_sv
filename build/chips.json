@@ -1902,8 +1902,10 @@
     "pins": "16",
     "datasheet": "SN74LS85",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls85",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-bit comparator with cascade inputs for chaining; testbench covers standalone use and cascade passthrough on equality."
+    ],
     "rtl_path": "rtl/chips/ttl_74x85/ttl_74x85.sv",
     "testbench_path": "tb/chips/ttl_74x85/tb_ttl_74x85.sv",
     "readme_path": "rtl/chips/ttl_74x85/README.md"

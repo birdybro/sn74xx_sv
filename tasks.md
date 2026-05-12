@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 58
+- complete: 59
 - digital_only_approximation: 1
-- not_started: 1496
+- not_started: 1495
 
 ## Chips
 
@@ -1527,7 +1527,7 @@ For every chip:
   - (none)
 
 ### 74x85 - 4-bit magnitude comparator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x85
 - Aliases: none
 - Source section: Larger footprints
@@ -1540,7 +1540,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x85/tb_ttl_74x85.sv
 - README: rtl/chips/ttl_74x85/README.md
 - Notes:
-  - (none)
+  - 4-bit comparator with cascade inputs for chaining; testbench covers standalone use and cascade passthrough on equality.
 
 ### 74x86 - quad 2-input XOR gate
 - Status: [x]
