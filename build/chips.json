@@ -6659,8 +6659,10 @@
     "pins": "16",
     "datasheet": "SN74LS320",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1013",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x321/ttl_74x321.sv",
     "testbench_path": "tb/chips/ttl_74x321/tb_ttl_74x321.sv",
     "readme_path": "rtl/chips/ttl_74x321/README.md"

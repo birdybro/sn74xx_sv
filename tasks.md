@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 310
-- digital_only_approximation: 8
-- not_started: 1237
+- digital_only_approximation: 9
+- not_started: 1236
 
 ## Chips
 
@@ -5095,7 +5095,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x321 - crystal-controlled oscillators, F/2 and F/4 count-down outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x321
 - Aliases: none
 - Source section: Larger footprints
@@ -5108,7 +5108,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x321/tb_ttl_74x321.sv
 - README: rtl/chips/ttl_74x321/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x322 - 8-bit shift register, sign extend
 - Status: [ ]
