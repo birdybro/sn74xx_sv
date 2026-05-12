@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 153
+- complete: 154
 - digital_only_approximation: 6
-- not_started: 1396
+- not_started: 1395
 
 ## Chips
 
@@ -2375,7 +2375,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x136 - quad 2-input XOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x136
 - Aliases: none
 - Source section: Larger footprints
@@ -2388,7 +2388,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x136/tb_ttl_74x136.sv
 - README: rtl/chips/ttl_74x136/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x137 - 3-to-8 line decoder/demultiplexer, address latch, inverting outputs
 - Status: [ ]
