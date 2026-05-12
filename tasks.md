@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 535
+- complete: 536
 - digital_only_approximation: 21
-- not_started: 999
+- not_started: 998
 
 ## Chips
 
@@ -8935,7 +8935,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x615 - octal bus transceiver and register, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x615
 - Aliases: none
 - Source section: Larger footprints
@@ -8948,7 +8948,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x615/tb_ttl_74x615.sv
 - README: rtl/chips/ttl_74x615/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x616 - 16-bit parallel error detection and correction
 - Status: [ ]
