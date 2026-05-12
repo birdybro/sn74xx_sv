@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 421
+- complete: 422
 - digital_only_approximation: 17
-- not_started: 1117
+- not_started: 1116
 
 ## Chips
 
@@ -7047,7 +7047,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x461 - 8-bit presettable binary counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x461
 - Aliases: none
 - Source section: Larger footprints
@@ -7060,7 +7060,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x461/tb_ttl_74x461.sv
 - README: rtl/chips/ttl_74x461/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x462 - fiber-optic data-link transmitter
 - Status: [ ]
