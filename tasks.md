@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 511
+- complete: 512
 - digital_only_approximation: 21
-- not_started: 1023
+- not_started: 1022
 
 ## Chips
 
@@ -8551,7 +8551,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x590 - 8-bit binary counter, output registers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x590
 - Aliases: none
 - Source section: Larger footprints
@@ -8564,7 +8564,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x590/tb_ttl_74x590.sv
 - README: rtl/chips/ttl_74x590/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x591 - 8-bit binary counter, output registers
 - Status: [ ]
