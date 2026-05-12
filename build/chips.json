@@ -348,8 +348,10 @@
     "pins": "14",
     "datasheet": "SN7416",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn7416",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x04; OC 15V/40mA drive not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x16/ttl_74x16.sv",
     "testbench_path": "tb/chips/ttl_74x16/tb_ttl_74x16.sv",
     "readme_path": "rtl/chips/ttl_74x16/README.md"

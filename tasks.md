@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 18
-- not_started: 1537
+- complete: 19
+- not_started: 1536
 
 ## Chips
 
@@ -294,7 +294,7 @@ For every chip:
   - Same logic as 74x11; open-collector physical behavior not modeled.
 
 ### 74x16 - hex inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16
 - Aliases: none
 - Source section: Larger footprints
@@ -307,7 +307,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x16/tb_ttl_74x16.sv
 - README: rtl/chips/ttl_74x16/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x04; OC 15V/40mA drive not modeled.
 
 ### 74x17 - hex buffer gate
 - Status: [ ]
