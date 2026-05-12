@@ -1237,8 +1237,10 @@
     "pins": "14",
     "datasheet": "SN74LS54",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn5454",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3-3-2-2 AOI, low-power."
+    ],
     "rtl_path": "rtl/chips/ttl_74l54/ttl_74l54.sv",
     "testbench_path": "tb/chips/ttl_74l54/tb_ttl_74l54.sv",
     "readme_path": "rtl/chips/ttl_74l54/README.md"

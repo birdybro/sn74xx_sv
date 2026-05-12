@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 75
+- complete: 76
 - digital_only_approximation: 1
-- not_started: 1479
+- not_started: 1478
 
 ## Chips
 
@@ -967,7 +967,7 @@ For every chip:
   - Same logic as 74H53, no expander.
 
 ### 74L54 - 3-3-2-2-input AND-OR-Invert gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74l54
 - Aliases: 74LS54
 - Source section: Larger footprints
@@ -980,7 +980,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74l54/tb_ttl_74l54.sv
 - README: rtl/chips/ttl_74l54/README.md
 - Notes:
-  - (none)
+  - 3-3-2-2 AOI, low-power.
 
 ### 74x55 - 4-4-input AND-OR-Invert gate, 74H55 is expandable
 - Status: [x]
