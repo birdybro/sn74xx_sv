@@ -4433,8 +4433,10 @@
     "pins": "16",
     "datasheet": "DM74S200",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaTTLDatabook_42712617/page/n299",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x200/ttl_74x200.sv",
     "testbench_path": "tb/chips/ttl_74x200/tb_ttl_74x200.sv",
     "readme_path": "rtl/chips/ttl_74x200/README.md"
