@@ -1342,8 +1342,10 @@
     "pins": "14",
     "datasheet": "US7459A",
     "datasheet_url": "https://archive.org/stream/bitsavers_derivationates1974DigitalIntegratedCircuitDataBook_79049866#page/n103",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 3-2 AOI."
+    ],
     "rtl_path": "rtl/chips/ttl_74x59/ttl_74x59.sv",
     "testbench_path": "tb/chips/ttl_74x59/tb_ttl_74x59.sv",
     "readme_path": "rtl/chips/ttl_74x59/README.md"
