@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 32
-- not_started: 1523
+- complete: 33
+- not_started: 1522
 
 ## Chips
 
@@ -582,7 +582,7 @@ For every chip:
   - Same logic as 74x02; open-collector drive not modeled.
 
 ### 74x34 - hex buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x34
 - Aliases: none
 - Source section: Larger footprints
@@ -595,7 +595,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x34/tb_ttl_74x34.sv
 - README: rtl/chips/ttl_74x34/README.md
 - Notes:
-  - (none)
+  - Hex non-inverting buffer; exhaustive 64-vector testbench.
 
 ### 74x35 - hex buffer gate
 - Status: [ ]
