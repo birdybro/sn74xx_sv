@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 367
+- complete: 368
 - digital_only_approximation: 14
-- not_started: 1174
+- not_started: 1173
 
 ## Chips
 
@@ -6135,7 +6135,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x407 - data access register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x407
 - Aliases: none
 - Source section: Larger footprints
@@ -6148,7 +6148,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x407/tb_ttl_74x407.sv
 - README: rtl/chips/ttl_74x407/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74408 - 8-bit parity tree
 - Status: [ ]
