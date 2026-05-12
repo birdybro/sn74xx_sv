@@ -3068,8 +3068,10 @@
     "pins": "16",
     "datasheet": "SN74S135",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n567",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x135/ttl_74x135.sv",
     "testbench_path": "tb/chips/ttl_74x135/tb_ttl_74x135.sv",
     "readme_path": "rtl/chips/ttl_74x135/README.md"

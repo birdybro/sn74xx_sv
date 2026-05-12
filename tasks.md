@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 152
+- complete: 153
 - digital_only_approximation: 6
-- not_started: 1397
+- not_started: 1396
 
 ## Chips
 
@@ -2359,7 +2359,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x135 - quad XOR/XNOR gate, two inputs to select logic type
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x135
 - Aliases: none
 - Source section: Larger footprints
@@ -2372,7 +2372,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x135/tb_ttl_74x135.sv
 - README: rtl/chips/ttl_74x135/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x136 - quad 2-input XOR gate
 - Status: [ ]
