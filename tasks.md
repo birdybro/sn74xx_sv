@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 520
+- complete: 521
 - digital_only_approximation: 21
-- not_started: 1014
+- not_started: 1013
 
 ## Chips
 
@@ -8695,7 +8695,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x599 - 8-bit shift registers, serial-in, parallel-out, output latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x599
 - Aliases: none
 - Source section: Larger footprints
@@ -8708,7 +8708,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x599/tb_ttl_74x599.sv
 - README: rtl/chips/ttl_74x599/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x600 - dynamic memory refresh controller, transparent and burst modes, for 4K or 16K dRAM
 - Status: [ ]
