@@ -894,8 +894,10 @@
     "pins": "16",
     "datasheet": "SN74LS42",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls42",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Standard BCD-to-1-of-10 decoder; invalid BCD inputs (10-15) yield all-high outputs. Exhaustive testbench."
+    ],
     "rtl_path": "rtl/chips/ttl_74x42/ttl_74x42.sv",
     "testbench_path": "tb/chips/ttl_74x42/tb_ttl_74x42.sv",
     "readme_path": "rtl/chips/ttl_74x42/README.md"

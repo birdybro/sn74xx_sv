@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 42
+- complete: 43
 - digital_only_approximation: 1
-- not_started: 1512
+- not_started: 1511
 
 ## Chips
 
@@ -711,7 +711,7 @@ For every chip:
   - Same logic as 74x42; OC 70V Nixie driver characteristics not modeled.
 
 ### 74x42 - BCD to decimal decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x42
 - Aliases: none
 - Source section: Larger footprints
@@ -724,7 +724,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x42/tb_ttl_74x42.sv
 - README: rtl/chips/ttl_74x42/README.md
 - Notes:
-  - (none)
+  - Standard BCD-to-1-of-10 decoder; invalid BCD inputs (10-15) yield all-high outputs. Exhaustive testbench.
 
 ### 74x43 - excess-3 to decimal decoder
 - Status: [ ]
