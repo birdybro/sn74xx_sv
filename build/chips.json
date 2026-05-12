@@ -8213,8 +8213,10 @@
     "pins": "16",
     "datasheet": "author=Don Lancaster |title=TTL Cookbook |publisher=SAMS |date=1974 |isbn=0-672-2 1035-5 |url=https://www.tinaja.com/ebooks/TTLCB1.pdf|archive-url=https://web.archive.org/web/20190407130333/https://www.tinaja.com/ebooks/TTLCB1.pdf |archive-date=7 April 2019 }}</ref>",
     "datasheet_url": "https://www.tinaja.com/ebooks/TTLCB1.pdf|archive-url=https://web.archive.org/web/20190407130333/https://www.tinaja.com/ebooks/TTLCB1.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74416/ttl_74416.sv",
     "testbench_path": "tb/chips/ttl_74416/tb_ttl_74416.sv",
     "readme_path": "rtl/chips/ttl_74416/README.md"
