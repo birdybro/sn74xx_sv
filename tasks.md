@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 318
+- complete: 319
 - digital_only_approximation: 13
-- not_started: 1224
+- not_started: 1223
 
 ## Chips
 
@@ -5303,7 +5303,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x337 - clock driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x337
 - Aliases: none
 - Source section: Larger footprints
@@ -5316,7 +5316,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x337/tb_ttl_74x337.sv
 - README: rtl/chips/ttl_74x337/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x340 - octal buffer, inverting outputs
 - Status: [ ]
