@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 15
-- not_started: 1540
+- complete: 16
+- not_started: 1539
 
 ## Chips
 
@@ -246,7 +246,7 @@ For every chip:
   - Same logic as 74x10; open-collector physical behavior not modeled.
 
 ### 74x13 - dual 4-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x13
 - Aliases: none
 - Source section: Larger footprints
@@ -259,7 +259,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x13/tb_ttl_74x13.sv
 - README: rtl/chips/ttl_74x13/README.md
 - Notes:
-  - (none)
+  - Schmitt-trigger input hysteresis not modeled; exhaustive 256-vector testbench.
 
 ### 74x14 - hex inverter gate
 - Status: [ ]

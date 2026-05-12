@@ -285,8 +285,10 @@
     "pins": "14",
     "datasheet": "SN74LS13",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n125",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Schmitt-trigger input hysteresis not modeled; exhaustive 256-vector testbench."
+    ],
     "rtl_path": "rtl/chips/ttl_74x13/ttl_74x13.sv",
     "testbench_path": "tb/chips/ttl_74x13/tb_ttl_74x13.sv",
     "readme_path": "rtl/chips/ttl_74x13/README.md"
