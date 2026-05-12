@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 366
+- complete: 367
 - digital_only_approximation: 14
-- not_started: 1175
+- not_started: 1174
 
 ## Chips
 
@@ -6119,7 +6119,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74AVCA406 - ESD-protected voltage-translation transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74avca406
 - Aliases: none
 - Source section: Larger footprints
@@ -6132,7 +6132,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74avca406/tb_ttl_74avca406.sv
 - README: rtl/chips/ttl_74avca406/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x407 - data access register
 - Status: [ ]
