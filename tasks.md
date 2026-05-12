@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 397
+- complete: 398
 - digital_only_approximation: 17
-- not_started: 1141
+- not_started: 1140
 
 ## Chips
 
@@ -6663,7 +6663,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x442 - quad tridirectional bus transceiver, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x442
 - Aliases: none
 - Source section: Larger footprints
@@ -6676,7 +6676,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x442/tb_ttl_74x442.sv
 - README: rtl/chips/ttl_74x442/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x443 - quad tridirectional bus transceiver, inverting outputs
 - Status: [ ]
