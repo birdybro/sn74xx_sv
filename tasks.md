@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 409
+- complete: 410
 - digital_only_approximation: 17
-- not_started: 1129
+- not_started: 1128
 
 ## Chips
 
@@ -6855,7 +6855,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS451 - dual 8-to-1 multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls451
 - Aliases: none
 - Source section: Larger footprints
@@ -6868,7 +6868,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls451/tb_ttl_74ls451.sv
 - README: rtl/chips/ttl_74ls451/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x452 - dual decade counter, synchronous
 - Status: [ ]
