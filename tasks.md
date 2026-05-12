@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 176
+- complete: 177
 - digital_only_approximation: 6
-- not_started: 1373
+- not_started: 1372
 
 ## Chips
 
@@ -2839,7 +2839,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x165 - 8-bit parallel-in serial-out (PISO) shift register, parallel load, complementary outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x165
 - Aliases: none
 - Source section: Larger footprints
@@ -2852,7 +2852,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x165/tb_ttl_74x165.sv
 - README: rtl/chips/ttl_74x165/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x166 - parallel-load 8-bit shift register
 - Status: [ ]
