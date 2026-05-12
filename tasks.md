@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 41
+- complete: 42
 - digital_only_approximation: 1
-- not_started: 1513
+- not_started: 1512
 
 ## Chips
 
@@ -695,7 +695,7 @@ For every chip:
   - Same logic as 74x20; higher drive not modeled.
 
 ### 74x41 - BCD to decimal decoder / Nixie tube driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x41
 - Aliases: none
 - Source section: Larger footprints
@@ -708,7 +708,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x41/tb_ttl_74x41.sv
 - README: rtl/chips/ttl_74x41/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x42; OC 70V Nixie driver characteristics not modeled.
 
 ### 74x42 - BCD to decimal decoder
 - Status: [ ]

@@ -873,8 +873,10 @@
     "pins": "16",
     "datasheet": "DM7441A",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaTTLDatabook_42712617/page/n146",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x42; OC 70V Nixie driver characteristics not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x41/ttl_74x41.sv",
     "testbench_path": "tb/chips/ttl_74x41/tb_ttl_74x41.sv",
     "readme_path": "rtl/chips/ttl_74x41/README.md"
