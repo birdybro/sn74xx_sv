@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 264
+- complete: 265
 - digital_only_approximation: 7
-- not_started: 1284
+- not_started: 1283
 
 ## Chips
 
@@ -4327,7 +4327,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x266 - quad 2-input XNOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x266
 - Aliases: none
 - Source section: Larger footprints
@@ -4340,7 +4340,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x266/tb_ttl_74x266.sv
 - README: rtl/chips/ttl_74x266/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x268 - hex D-type latches, shared enable and output control
 - Status: [ ]
