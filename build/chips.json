@@ -369,8 +369,10 @@
     "pins": "14",
     "datasheet": "SN7417",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn7417",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Non-inverting buffer; OC 15V/40mA drive not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x17/ttl_74x17.sv",
     "testbench_path": "tb/chips/ttl_74x17/tb_ttl_74x17.sv",
     "readme_path": "rtl/chips/ttl_74x17/README.md"

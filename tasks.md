@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 19
-- not_started: 1536
+- complete: 20
+- not_started: 1535
 
 ## Chips
 
@@ -310,7 +310,7 @@ For every chip:
   - Same logic as 74x04; OC 15V/40mA drive not modeled.
 
 ### 74x17 - hex buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x17
 - Aliases: none
 - Source section: Larger footprints
@@ -323,7 +323,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x17/tb_ttl_74x17.sv
 - README: rtl/chips/ttl_74x17/README.md
 - Notes:
-  - (none)
+  - Non-inverting buffer; OC 15V/40mA drive not modeled.
 
 ### 74x18 - dual 4-input NAND gate
 - Status: [ ]
