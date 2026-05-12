@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 341
+- complete: 342
 - digital_only_approximation: 14
-- not_started: 1200
+- not_started: 1199
 
 ## Chips
 
@@ -5719,7 +5719,7 @@ For every chip:
   - Common octal D-FF with 3-state outputs; tri-state represented as muxed-zero.
 
 ### 74x375 - quad bistable latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x375
 - Aliases: none
 - Source section: Larger footprints
@@ -5732,7 +5732,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x375/tb_ttl_74x375.sv
 - README: rtl/chips/ttl_74x375/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x376 - quad J-NotK flip-flop, shared clock and clear
 - Status: [ ]
