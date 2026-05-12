@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 301
+- complete: 302
 - digital_only_approximation: 7
-- not_started: 1247
+- not_started: 1246
 
 ## Chips
 
@@ -5015,7 +5015,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x316 - 256-bit RAM (64x4), common I/O
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x316
 - Aliases: none
 - Source section: Larger footprints
@@ -5028,7 +5028,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x316/tb_ttl_74x316.sv
 - README: rtl/chips/ttl_74x316/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x317 - 256-bit RAM (64x4)
 - Status: [ ]
