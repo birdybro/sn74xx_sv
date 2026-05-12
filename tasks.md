@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 175
+- complete: 176
 - digital_only_approximation: 6
-- not_started: 1374
+- not_started: 1373
 
 ## Chips
 
@@ -2823,7 +2823,7 @@ For every chip:
   - Synchronous clear and load (vs. 74x161 async clear). Testbench covers sync clear, sync load, count up + rollover, hold, ripple-carry, priority of clear over load.
 
 ### 74x164 - 8-bit serial-in parallel-out (SIPO) shift register, asynchronous clear, not output latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x164
 - Aliases: none
 - Source section: Larger footprints
@@ -2836,7 +2836,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x164/tb_ttl_74x164.sv
 - README: rtl/chips/ttl_74x164/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x165 - 8-bit parallel-in serial-out (PISO) shift register, parallel load, complementary outputs
 - Status: [ ]
