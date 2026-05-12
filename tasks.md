@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 484
+- complete: 485
 - digital_only_approximation: 21
-- not_started: 1050
+- not_started: 1049
 
 ## Chips
 
@@ -8119,7 +8119,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x552 - octal registered transceiver with parity and flags
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x552
 - Aliases: none
 - Source section: Larger footprints
@@ -8132,7 +8132,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x552/tb_ttl_74x552.sv
 - README: rtl/chips/ttl_74x552/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x556 - 16x16-bit multiplier slice
 - Status: [ ]
