@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 230
+- complete: 231
 - digital_only_approximation: 7
-- not_started: 1318
+- not_started: 1317
 
 ## Chips
 
@@ -3735,7 +3735,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x226 - 4-bit parallel latched bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x226
 - Aliases: none
 - Source section: Larger footprints
@@ -3748,7 +3748,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x226/tb_ttl_74x226.sv
 - README: rtl/chips/ttl_74x226/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x227 - 64-bit FIFO memory (16x4), synchronous, input/output ready enable
 - Status: [ ]
