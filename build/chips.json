@@ -1279,8 +1279,10 @@
     "pins": "8",
     "datasheet": "SN74LS56",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n291",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Divide-by-50 counter; output toggles every 25 cycles for 50% duty."
+    ],
     "rtl_path": "rtl/chips/ttl_74x56/ttl_74x56.sv",
     "testbench_path": "tb/chips/ttl_74x56/tb_ttl_74x56.sv",
     "readme_path": "rtl/chips/ttl_74x56/README.md"

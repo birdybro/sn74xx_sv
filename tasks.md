@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 76
+- complete: 77
 - digital_only_approximation: 1
-- not_started: 1478
+- not_started: 1477
 
 ## Chips
 
@@ -999,7 +999,7 @@ For every chip:
   - 4-4 AOI. 74H55 expander variant: expander pin omitted.
 
 ### 74x56 - 50:1 frequency divider
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x56
 - Aliases: none
 - Source section: Larger footprints
@@ -1012,7 +1012,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x56/tb_ttl_74x56.sv
 - README: rtl/chips/ttl_74x56/README.md
 - Notes:
-  - (none)
+  - Divide-by-50 counter; output toggles every 25 cycles for 50% duty.
 
 ### 74x57 - 60:1 frequency divider
 - Status: [ ]
