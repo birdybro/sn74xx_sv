@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 464
+- complete: 465
 - digital_only_approximation: 21
-- not_started: 1070
+- not_started: 1069
 
 ## Chips
 
@@ -7799,7 +7799,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x533 - octal D-type transparent latch, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x533
 - Aliases: none
 - Source section: Larger footprints
@@ -7812,7 +7812,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x533/tb_ttl_74x533.sv
 - README: rtl/chips/ttl_74x533/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x534 - octal D-type edge-triggered flip-flop, inverting outputs, shared clock and output enable
 - Status: [ ]
