@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 417
+- complete: 418
 - digital_only_approximation: 17
-- not_started: 1121
+- not_started: 1120
 
 ## Chips
 
@@ -6983,7 +6983,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74F456 - octal buffer / line driver with parity, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74f456
 - Aliases: none
 - Source section: Larger footprints
@@ -6996,7 +6996,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74f456/tb_ttl_74f456.sv
 - README: rtl/chips/ttl_74f456/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x458 - nines complement / zero element
 - Status: [ ]
