@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 149
+- complete: 150
 - digital_only_approximation: 6
-- not_started: 1400
+- not_started: 1399
 
 ## Chips
 
@@ -2311,7 +2311,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x132 - quad 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x132
 - Aliases: none
 - Source section: Larger footprints
@@ -2324,7 +2324,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x132/tb_ttl_74x132.sv
 - README: rtl/chips/ttl_74x132/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x133 - single 13-input NAND gate
 - Status: [ ]
