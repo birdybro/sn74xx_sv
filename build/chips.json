@@ -1214,8 +1214,10 @@
     "pins": "14",
     "datasheet": "SN74H54",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n279",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74H53, no expander."
+    ],
     "rtl_path": "rtl/chips/ttl_74h54/ttl_74h54.sv",
     "testbench_path": "tb/chips/ttl_74h54/tb_ttl_74h54.sv",
     "readme_path": "rtl/chips/ttl_74h54/README.md"
