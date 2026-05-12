@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 542
-- digital_only_approximation: 21
-- not_started: 992
+- digital_only_approximation: 22
+- not_started: 991
 
 ## Chips
 
@@ -9047,7 +9047,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x624 - voltage-controlled oscillator, enable control, range control, two-phase outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x624
 - Aliases: none
 - Source section: Larger footprints
@@ -9060,7 +9060,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x624/tb_ttl_74x624.sv
 - README: rtl/chips/ttl_74x624/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x625 - dual voltage-controlled oscillator, two-phase outputs
 - Status: [ ]

@@ -11846,8 +11846,10 @@
     "pins": "14",
     "datasheet": "SN74LS624",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls624",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x624/ttl_74x624.sv",
     "testbench_path": "tb/chips/ttl_74x624/tb_ttl_74x624.sv",
     "readme_path": "rtl/chips/ttl_74x624/README.md"
