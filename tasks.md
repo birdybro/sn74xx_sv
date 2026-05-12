@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 533
+- complete: 534
 - digital_only_approximation: 21
-- not_started: 1001
+- not_started: 1000
 
 ## Chips
 
@@ -8903,7 +8903,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x613 - memory mapper
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x613
 - Aliases: none
 - Source section: Larger footprints
@@ -8916,7 +8916,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x613/tb_ttl_74x613.sv
 - README: rtl/chips/ttl_74x613/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x614 - octal bus transceiver and register, inverting
 - Status: [ ]
