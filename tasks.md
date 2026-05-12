@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 322
+- complete: 323
 - digital_only_approximation: 13
-- not_started: 1220
+- not_started: 1219
 
 ## Chips
 
@@ -5367,7 +5367,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x347 - BCD to 7-segment decoders/drivers, low voltage version of 7447
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x347
 - Aliases: none
 - Source section: Larger footprints
@@ -5380,7 +5380,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x347/tb_ttl_74x347.sv
 - README: rtl/chips/ttl_74x347/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x348 - 8 to 3-line priority encoder
 - Status: [ ]
