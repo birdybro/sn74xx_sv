@@ -327,8 +327,10 @@
     "pins": "14",
     "datasheet": "SN74LS15",
     "datasheet_url": "https://web.archive.org/web/20180720051907/http://pdf.datasheetcatalog.com/datasheet/motorola/74LS15.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x11; open-collector physical behavior not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x15/ttl_74x15.sv",
     "testbench_path": "tb/chips/ttl_74x15/tb_ttl_74x15.sv",
     "readme_path": "rtl/chips/ttl_74x15/README.md"
