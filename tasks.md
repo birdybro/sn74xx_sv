@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 530
+- complete: 531
 - digital_only_approximation: 21
-- not_started: 1004
+- not_started: 1003
 
 ## Chips
 
@@ -8855,7 +8855,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x610 - memory mapper, latched
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x610
 - Aliases: none
 - Source section: Larger footprints
@@ -8868,7 +8868,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x610/tb_ttl_74x610.sv
 - README: rtl/chips/ttl_74x610/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x611 - memory mapper, latched
 - Status: [ ]
