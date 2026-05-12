@@ -999,8 +999,10 @@
     "pins": "16",
     "datasheet": "SN74LS47",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls47",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Standard 7447-style decode table including 0xA-0xF partial patterns; full blanking/lamp-test priority resolved per datasheet. 128-vector testbench (32 for 74x49)."
+    ],
     "rtl_path": "rtl/chips/ttl_74x47/ttl_74x47.sv",
     "testbench_path": "tb/chips/ttl_74x47/tb_ttl_74x47.sv",
     "readme_path": "rtl/chips/ttl_74x47/README.md"
