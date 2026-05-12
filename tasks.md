@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 399
+- complete: 400
 - digital_only_approximation: 17
-- not_started: 1139
+- not_started: 1138
 
 ## Chips
 
@@ -6695,7 +6695,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x444 - quad tridirectional bus transceiver, inverting and non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x444
 - Aliases: none
 - Source section: Larger footprints
@@ -6708,7 +6708,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x444/tb_ttl_74x444.sv
 - README: rtl/chips/ttl_74x444/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x445 - BCD to decimal decoders/drivers
 - Status: [ ]
