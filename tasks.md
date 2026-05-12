@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 9
-- not_started: 1546
+- complete: 10
+- not_started: 1545
 
 ## Chips
 
@@ -134,7 +134,7 @@ For every chip:
   - Logic identical to push-pull variant; open-collector physical behavior not modeled (see docs/unsupported_physical_behavior.md). Exhaustive testbench passes; Verilator + Yosys clean.
 
 ### 74x06 - hex inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x06
 - Aliases: none
 - Source section: Larger footprints
@@ -147,7 +147,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x06/tb_ttl_74x06.sv
 - README: rtl/chips/ttl_74x06/README.md
 - Notes:
-  - (none)
+  - Logic identical to push-pull variant; open-collector physical behavior not modeled (see docs/unsupported_physical_behavior.md). Exhaustive testbench passes; Verilator + Yosys clean.
 
 ### 74x07 - hex buffer gate
 - Status: [ ]
