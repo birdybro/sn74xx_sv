@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 460
+- complete: 461
 - digital_only_approximation: 21
-- not_started: 1074
+- not_started: 1073
 
 ## Chips
 
@@ -7735,7 +7735,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x527 - fuse programmable identity comparator, 8-bit + 4-bit conventional Identity comparator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x527
 - Aliases: none
 - Source section: Larger footprints
@@ -7748,7 +7748,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x527/tb_ttl_74x527.sv
 - README: rtl/chips/ttl_74x527/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x528 - fuse programmable Identity comparator, 12-bit
 - Status: [ ]
