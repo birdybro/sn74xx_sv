@@ -2035,8 +2035,10 @@
     "pins": "16",
     "datasheet": "SN7488A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookcomputerComponentsDataBook_16851665/page/n181",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x88/ttl_74x88.sv",
     "testbench_path": "tb/chips/ttl_74x88/tb_ttl_74x88.sv",
     "readme_path": "rtl/chips/ttl_74x88/README.md"

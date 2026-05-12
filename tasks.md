@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 108
+- complete: 109
 - digital_only_approximation: 1
-- not_started: 1446
+- not_started: 1445
 
 ## Chips
 
@@ -1575,7 +1575,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x88 - 256-bit ROM (32x8)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x88
 - Aliases: none
 - Source section: Larger footprints
@@ -1588,7 +1588,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x88/tb_ttl_74x88.sv
 - README: rtl/chips/ttl_74x88/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x89 - 64-bit RAM (16x4), 4 data inputs, 4 inverted data outputs
 - Status: [ ]
