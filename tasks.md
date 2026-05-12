@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 394
+- complete: 395
 - digital_only_approximation: 17
-- not_started: 1144
+- not_started: 1143
 
 ## Chips
 
@@ -6615,7 +6615,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x438 - system controller for Intel 8080A (equivalent to Intel 8238)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x438
 - Aliases: none
 - Source section: Larger footprints
@@ -6628,7 +6628,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x438/tb_ttl_74x438.sv
 - README: rtl/chips/ttl_74x438/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x440 - quad tridirectional bus transceiver, non-inverting outputs
 - Status: [ ]
