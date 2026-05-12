@@ -1426,8 +1426,10 @@
     "pins": "14",
     "datasheet": "SN74LS63",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n303",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Current-sensing inputs not modeled; RTL is digital pass-through."
+    ],
     "rtl_path": "rtl/chips/ttl_74x63/ttl_74x63.sv",
     "testbench_path": "tb/chips/ttl_74x63/tb_ttl_74x63.sv",
     "readme_path": "rtl/chips/ttl_74x63/README.md"

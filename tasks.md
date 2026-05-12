@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 83
+- complete: 84
 - digital_only_approximation: 1
-- not_started: 1471
+- not_started: 1470
 
 ## Chips
 
@@ -1111,7 +1111,7 @@ For every chip:
   - 3-3-2-2 OR-expander; outputs OR of products for downstream AOI host.
 
 ### 74x63 - hex current sensing interface gates
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x63
 - Aliases: none
 - Source section: Larger footprints
@@ -1124,7 +1124,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x63/tb_ttl_74x63.sv
 - README: rtl/chips/ttl_74x63/README.md
 - Notes:
-  - (none)
+  - Current-sensing inputs not modeled; RTL is digital pass-through.
 
 ### 74x64 - 4-3-2-2-input AND-OR-Invert gate
 - Status: [ ]
