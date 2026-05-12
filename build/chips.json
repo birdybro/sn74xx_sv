@@ -11153,8 +11153,10 @@
     "pins": "20",
     "datasheet": "74F588",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n559",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x588/ttl_74x588.sv",
     "testbench_path": "tb/chips/ttl_74x588/tb_ttl_74x588.sv",
     "readme_path": "rtl/chips/ttl_74x588/README.md"

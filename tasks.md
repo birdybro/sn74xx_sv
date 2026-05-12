@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 509
+- complete: 510
 - digital_only_approximation: 21
-- not_started: 1025
+- not_started: 1024
 
 ## Chips
 
@@ -8519,7 +8519,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x588 - octal bidirectional transceiver with IEEE-488 termination resistors
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x588
 - Aliases: none
 - Source section: Larger footprints
@@ -8532,7 +8532,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x588/tb_ttl_74x588.sv
 - README: rtl/chips/ttl_74x588/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x589 - 8-bit shift register, input latch
 - Status: [ ]
