@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 30
-- not_started: 1525
+- complete: 31
+- not_started: 1524
 
 ## Chips
 
@@ -518,7 +518,7 @@ For every chip:
   - Dual 4-input NOR; exhaustive 256-vector testbench.
 
 ### 74x30 - single 8-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x30
 - Aliases: none
 - Source section: Larger footprints
@@ -531,7 +531,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x30/tb_ttl_74x30.sv
 - README: rtl/chips/ttl_74x30/README.md
 - Notes:
-  - (none)
+  - Single 8-input NAND; exhaustive 256-vector testbench.
 
 ### 74x31 - hex delay elements (two 6ns, two 23-32ns, two 45-48ns)
 - Status: [ ]
