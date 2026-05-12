@@ -92,8 +92,10 @@
     "pins": "14",
     "datasheet": "SN74LS04",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls04",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Exhaustive testbench passes; Verilator lint and Yosys synth check clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x04/ttl_74x04.sv",
     "testbench_path": "tb/chips/ttl_74x04/tb_ttl_74x04.sv",
     "readme_path": "rtl/chips/ttl_74x04/README.md"

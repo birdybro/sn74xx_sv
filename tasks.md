@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 2
-- not_started: 1553
+- complete: 3
+- not_started: 1552
 
 ## Chips
 
@@ -102,7 +102,7 @@ For every chip:
   - (none)
 
 ### 74x04 - hex inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x04
 - Aliases: none
 - Source section: Larger footprints
@@ -115,7 +115,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x04/tb_ttl_74x04.sv
 - README: rtl/chips/ttl_74x04/README.md
 - Notes:
-  - (none)
+  - Exhaustive testbench passes; Verilator lint and Yosys synth check clean.
 
 ### 74x05 - hex inverter gate
 - Status: [ ]
