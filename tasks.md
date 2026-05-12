@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 383
+- complete: 384
 - digital_only_approximation: 14
-- not_started: 1158
+- not_started: 1157
 
 ## Chips
 
@@ -6391,7 +6391,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x420 - 32-bit check bit / syndrome bit generator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x420
 - Aliases: none
 - Source section: Larger footprints
@@ -6404,7 +6404,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x420/tb_ttl_74x420.sv
 - README: rtl/chips/ttl_74x420/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x422 - retriggerable monostable multivibrators, two inputs
 - Status: [ ]
