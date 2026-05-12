@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 542
-- digital_only_approximation: 26
-- not_started: 987
+- digital_only_approximation: 27
+- not_started: 986
 
 ## Chips
 
@@ -9127,7 +9127,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x629 - dual voltage-controlled oscillator, enable control, range control
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x629
 - Aliases: none
 - Source section: Larger footprints
@@ -9140,7 +9140,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x629/tb_ttl_74x629.sv
 - README: rtl/chips/ttl_74x629/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x630 - 16-bit error detection and correction (EDAC)
 - Status: [ ]
