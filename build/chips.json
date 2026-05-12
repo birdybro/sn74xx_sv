@@ -1078,8 +1078,10 @@
     "pins": "14",
     "datasheet": "SN7451",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls51",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x50 without expander pins."
+    ],
     "rtl_path": "rtl/chips/ttl_7451/ttl_7451.sv",
     "testbench_path": "tb/chips/ttl_7451/tb_ttl_7451.sv",
     "readme_path": "rtl/chips/ttl_7451/README.md"

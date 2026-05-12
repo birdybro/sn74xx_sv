@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 47
+- complete: 48
 - digital_only_approximation: 1
-- not_started: 1507
+- not_started: 1506
 
 ## Chips
 
@@ -855,7 +855,7 @@ For every chip:
   - Dual 2-2 AOI. Expander pin on gate 0 omitted (cannot be synthesized internally).
 
 ### 7451 - dual 2-2-input AND-OR-Invert (AOI) gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_7451
 - Aliases: 74H51, 74S51
 - Source section: Larger footprints
@@ -868,7 +868,7 @@ For every chip:
 - Testbench: tb/chips/ttl_7451/tb_ttl_7451.sv
 - README: rtl/chips/ttl_7451/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x50 without expander pins.
 
 ### 74L51 - 3-3-input AND-OR-Invert gate and 2-2-input AND-OR-Invert gate
 - Status: [ ]
