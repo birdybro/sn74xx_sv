@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 312
-- digital_only_approximation: 12
-- not_started: 1231
+- digital_only_approximation: 13
+- not_started: 1230
 
 ## Chips
 
@@ -5191,7 +5191,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x327 - dual voltage-controlled oscillator (or crystal controlled)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x327
 - Aliases: none
 - Source section: Larger footprints
@@ -5204,7 +5204,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x327/tb_ttl_74x327.sv
 - README: rtl/chips/ttl_74x327/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x330 - PLA (12 inputs, 50 terms, 6 outputs)
 - Status: [ ]
