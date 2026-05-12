@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 89
+- complete: 90
 - digital_only_approximation: 1
-- not_started: 1465
+- not_started: 1464
 
 ## Chips
 
@@ -1207,7 +1207,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74L69 - dual J-K flip-flop, asynchronous preset, shared clock and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74l69
 - Aliases: none
 - Source section: Larger footprints
@@ -1220,7 +1220,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74l69/tb_ttl_74l69.sv
 - README: rtl/chips/ttl_74l69/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74LS69 - dual 4-bit binary counters
 - Status: [ ]
