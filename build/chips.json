@@ -453,8 +453,10 @@
     "pins": "14",
     "datasheet": "SN74LS21",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls21",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Exhaustive 256-vector testbench. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x21/ttl_74x21.sv",
     "testbench_path": "tb/chips/ttl_74x21/tb_ttl_74x21.sv",
     "readme_path": "rtl/chips/ttl_74x21/README.md"
