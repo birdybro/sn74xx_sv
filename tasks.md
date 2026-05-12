@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 550
+- complete: 551
 - digital_only_approximation: 27
-- not_started: 978
+- not_started: 977
 
 ## Chips
 
@@ -9271,7 +9271,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x638 - octal bus transceiver, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x638
 - Aliases: none
 - Source section: Larger footprints
@@ -9284,7 +9284,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x638/tb_ttl_74x638.sv
 - README: rtl/chips/ttl_74x638/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x639 - octal bus transceiver, non-inverting outputs
 - Status: [ ]
