@@ -2308,8 +2308,10 @@
     "pins": "14",
     "datasheet": "SN74H101",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n459",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74x101/ttl_74x101.sv",
     "testbench_path": "tb/chips/ttl_74x101/tb_ttl_74x101.sv",
     "readme_path": "rtl/chips/ttl_74x101/README.md"
