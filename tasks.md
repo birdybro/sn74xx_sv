@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 157
+- complete: 158
 - digital_only_approximation: 6
-- not_started: 1392
+- not_started: 1391
 
 ## Chips
 
@@ -2471,7 +2471,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x142 - decade counter/latch/decoder/driver for Nixie tubes
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x142
 - Aliases: none
 - Source section: Larger footprints
@@ -2484,7 +2484,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x142/tb_ttl_74x142.sv
 - README: rtl/chips/ttl_74x142/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x143 - decade counter/latch/decoder/7-segment driver
 - Status: [ ]
