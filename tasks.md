@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 60
+- complete: 61
 - digital_only_approximation: 1
-- not_started: 1494
+- not_started: 1493
 
 ## Chips
 
@@ -2807,7 +2807,7 @@ For every chip:
   - (none)
 
 ### 74x163 - synchronous presettable 4-bit binary counter, synchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x163
 - Aliases: none
 - Source section: Larger footprints
@@ -2820,7 +2820,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x163/tb_ttl_74x163.sv
 - README: rtl/chips/ttl_74x163/README.md
 - Notes:
-  - (none)
+  - Synchronous clear and load (vs. 74x161 async clear). Testbench covers sync clear, sync load, count up + rollover, hold, ripple-carry, priority of clear over load.
 
 ### 74x164 - 8-bit serial-in parallel-out (SIPO) shift register, asynchronous clear, not output latch
 - Status: [ ]

@@ -3432,8 +3432,10 @@
     "pins": "16",
     "datasheet": "SN74LS163A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls163a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Synchronous clear and load (vs. 74x161 async clear). Testbench covers sync clear, sync load, count up + rollover, hold, ripple-carry, priority of clear over load."
+    ],
     "rtl_path": "rtl/chips/ttl_74x163/ttl_74x163.sv",
     "testbench_path": "tb/chips/ttl_74x163/tb_ttl_74x163.sv",
     "readme_path": "rtl/chips/ttl_74x163/README.md"
