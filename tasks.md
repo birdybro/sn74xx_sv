@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 158
+- complete: 159
 - digital_only_approximation: 6
-- not_started: 1391
+- not_started: 1390
 
 ## Chips
 
@@ -2487,7 +2487,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x143 - decade counter/latch/decoder/7-segment driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x143
 - Aliases: none
 - Source section: Larger footprints
@@ -2500,7 +2500,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x143/tb_ttl_74x143.sv
 - README: rtl/chips/ttl_74x143/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x144 - decade counter/latch/decoder/7-segment driver
 - Status: [ ]
