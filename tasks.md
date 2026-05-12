@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 143
+- complete: 144
 - digital_only_approximation: 1
-- not_started: 1411
+- not_started: 1410
 
 ## Chips
 
@@ -2135,7 +2135,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74H120 - dual J-K flip-flop, separate clock inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74h120
 - Aliases: none
 - Source section: Larger footprints
@@ -2148,7 +2148,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74h120/tb_ttl_74h120.sv
 - README: rtl/chips/ttl_74h120/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x121 - monostable multivibrator
 - Status: [ ]
