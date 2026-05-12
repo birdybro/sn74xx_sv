@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 54
+- complete: 55
 - digital_only_approximation: 1
-- not_started: 1500
+- not_started: 1499
 
 ## Chips
 
@@ -807,7 +807,7 @@ For every chip:
   - Standard 7447-style decode table including 0xA-0xF partial patterns; full blanking/lamp-test priority resolved per datasheet. 128-vector testbench (32 for 74x49).
 
 ### 74x48 - BCD to 7-segment decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x48
 - Aliases: none
 - Source section: Larger footprints
@@ -820,7 +820,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x48/tb_ttl_74x48.sv
 - README: rtl/chips/ttl_74x48/README.md
 - Notes:
-  - (none)
+  - Standard 7447-style decode table including 0xA-0xF partial patterns; full blanking/lamp-test priority resolved per datasheet. 128-vector testbench (32 for 74x49).
 
 ### 74x49 - BCD to 7-segment decoder/driver
 - Status: [ ]
