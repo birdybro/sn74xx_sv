@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 51
+- complete: 52
 - digital_only_approximation: 1
-- not_started: 1503
+- not_started: 1502
 
 ## Chips
 
@@ -983,7 +983,7 @@ For every chip:
   - (none)
 
 ### 74x55 - 4-4-input AND-OR-Invert gate, 74H55 is expandable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x55
 - Aliases: none
 - Source section: Larger footprints
@@ -996,7 +996,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x55/tb_ttl_74x55.sv
 - README: rtl/chips/ttl_74x55/README.md
 - Notes:
-  - (none)
+  - 4-4 AOI. 74H55 expander variant: expander pin omitted.
 
 ### 74x56 - 50:1 frequency divider
 - Status: [ ]

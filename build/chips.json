@@ -1242,8 +1242,10 @@
     "pins": "14",
     "datasheet": "SN74LS55",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n287",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-4 AOI. 74H55 expander variant: expander pin omitted."
+    ],
     "rtl_path": "rtl/chips/ttl_74x55/ttl_74x55.sv",
     "testbench_path": "tb/chips/ttl_74x55/tb_ttl_74x55.sv",
     "readme_path": "rtl/chips/ttl_74x55/README.md"
