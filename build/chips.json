@@ -7541,8 +7541,10 @@
     "pins": "16",
     "datasheet": "SN74LS378",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls377",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x378/ttl_74x378.sv",
     "testbench_path": "tb/chips/ttl_74x378/tb_ttl_74x378.sv",
     "readme_path": "rtl/chips/ttl_74x378/README.md"

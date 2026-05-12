@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 344
+- complete: 345
 - digital_only_approximation: 14
-- not_started: 1197
+- not_started: 1196
 
 ## Chips
 
@@ -5767,7 +5767,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x378 - 6-bit register, clock enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x378
 - Aliases: none
 - Source section: Larger footprints
@@ -5780,7 +5780,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x378/tb_ttl_74x378.sv
 - README: rtl/chips/ttl_74x378/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x379 - 4-bit register, clock enable and complementary outputs
 - Status: [ ]
