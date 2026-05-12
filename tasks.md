@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 62
+- complete: 63
 - digital_only_approximation: 1
-- not_started: 1492
+- not_started: 1491
 
 ## Chips
 
@@ -4039,7 +4039,7 @@ For every chip:
   - Two banks of 4 buffers with separate active-low OE. Tri-state represented as muxed-zero per docs/conventions.md.
 
 ### 74x245 - octal bus transceiver, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x245
 - Aliases: none
 - Source section: Larger footprints
@@ -4052,7 +4052,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x245/tb_ttl_74x245.sv
 - README: rtl/chips/ttl_74x245/README.md
 - Notes:
-  - (none)
+  - Bidirectional transceiver split into a_in/a_out/a_oe_n and b_in/b_out/b_oe_n since FPGA internal logic cannot infer tri-state. README explains how to wrap with a tri-state pad.
 
 ### 74x246 - BCD to 7-segment decoder/driver
 - Status: [ ]

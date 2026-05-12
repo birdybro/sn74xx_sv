@@ -4899,8 +4899,10 @@
     "pins": "20",
     "datasheet": "SN74LS245",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls245",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Bidirectional transceiver split into a_in/a_out/a_oe_n and b_in/b_out/b_oe_n since FPGA internal logic cannot infer tri-state. README explains how to wrap with a tri-state pad."
+    ],
     "rtl_path": "rtl/chips/ttl_74x245/ttl_74x245.sv",
     "testbench_path": "tb/chips/ttl_74x245/tb_ttl_74x245.sv",
     "readme_path": "rtl/chips/ttl_74x245/README.md"
