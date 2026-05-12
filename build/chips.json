@@ -10019,8 +10019,10 @@
     "pins": "20",
     "datasheet": "SN74ALS521",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als521",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x521/ttl_74x521.sv",
     "testbench_path": "tb/chips/ttl_74x521/tb_ttl_74x521.sv",
     "readme_path": "rtl/chips/ttl_74x521/README.md"
