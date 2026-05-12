@@ -3206,8 +3206,10 @@
     "pins": "16",
     "datasheet": "SN74LS151",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls151",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-to-1 mux with complementary outputs (y and w=~y) and active-low enable."
+    ],
     "rtl_path": "rtl/chips/ttl_74x151/ttl_74x151.sv",
     "testbench_path": "tb/chips/ttl_74x151/tb_ttl_74x151.sv",
     "readme_path": "rtl/chips/ttl_74x151/README.md"

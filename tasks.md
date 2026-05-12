@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 66
+- complete: 67
 - digital_only_approximation: 1
-- not_started: 1488
+- not_started: 1487
 
 ## Chips
 
@@ -2615,7 +2615,7 @@ For every chip:
   - (none)
 
 ### 74x151 - 8-line to 1-line data selector/multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x151
 - Aliases: none
 - Source section: Larger footprints
@@ -2628,7 +2628,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x151/tb_ttl_74x151.sv
 - README: rtl/chips/ttl_74x151/README.md
 - Notes:
-  - (none)
+  - 8-to-1 mux with complementary outputs (y and w=~y) and active-low enable.
 
 ### 74x152 - 8-line to 1-line data selector/multiplexer, inverting output
 - Status: [ ]
