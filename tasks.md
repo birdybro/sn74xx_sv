@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 352
+- complete: 353
 - digital_only_approximation: 14
-- not_started: 1189
+- not_started: 1188
 
 ## Chips
 
@@ -5895,7 +5895,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x386 - quad 2-input XOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x386
 - Aliases: none
 - Source section: Larger footprints
@@ -5908,7 +5908,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x386/tb_ttl_74x386.sv
 - README: rtl/chips/ttl_74x386/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x387 - 1024-bit PROM (256x4)
 - Status: [ ]
