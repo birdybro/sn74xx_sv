@@ -1888,8 +1888,10 @@
     "pins": "14",
     "datasheet": "SN7481A",
     "datasheet_url": "http://datasheet.datasheetarchive.com/originals/distributors/Datasheets-111/DSAP0036758.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x81/ttl_74x81.sv",
     "testbench_path": "tb/chips/ttl_74x81/tb_ttl_74x81.sv",
     "readme_path": "rtl/chips/ttl_74x81/README.md"
