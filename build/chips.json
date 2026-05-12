@@ -10922,8 +10922,10 @@
     "pins": "16",
     "datasheet": "DM74S571",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldataBook_16727669/page/n315",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x571/ttl_74x571.sv",
     "testbench_path": "tb/chips/ttl_74x571/tb_ttl_74x571.sv",
     "readme_path": "rtl/chips/ttl_74x571/README.md"
