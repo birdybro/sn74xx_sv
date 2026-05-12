@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 20
-- not_started: 1535
+- complete: 21
+- not_started: 1534
 
 ## Chips
 
@@ -326,7 +326,7 @@ For every chip:
   - Non-inverting buffer; OC 15V/40mA drive not modeled.
 
 ### 74x18 - dual 4-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x18
 - Aliases: none
 - Source section: Larger footprints
@@ -339,7 +339,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x18/tb_ttl_74x18.sv
 - README: rtl/chips/ttl_74x18/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x20; Schmitt input hysteresis not modeled.
 
 ### 74x19 - hex inverter gate
 - Status: [ ]
