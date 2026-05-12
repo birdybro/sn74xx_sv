@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 13
-- not_started: 1542
+- complete: 14
+- not_started: 1541
 
 ## Chips
 
@@ -214,7 +214,7 @@ For every chip:
   - Exhaustive 512-vector testbench. Verilator + Yosys clean.
 
 ### 74x11 - triple 3-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x11
 - Aliases: none
 - Source section: Larger footprints
@@ -227,7 +227,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x11/tb_ttl_74x11.sv
 - README: rtl/chips/ttl_74x11/README.md
 - Notes:
-  - (none)
+  - Exhaustive 512-vector testbench. Verilator + Yosys clean.
 
 ### 74x12 - triple 3-input NAND gate
 - Status: [ ]
