@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 196
+- complete: 197
 - digital_only_approximation: 6
-- not_started: 1353
+- not_started: 1352
 
 ## Chips
 
@@ -3175,7 +3175,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x186 - 512-bit ROM (64x8)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x186
 - Aliases: none
 - Source section: Larger footprints
@@ -3188,7 +3188,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x186/tb_ttl_74x186.sv
 - README: rtl/chips/ttl_74x186/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x187 - 1024-bit ROM (256x4)
 - Status: [ ]
