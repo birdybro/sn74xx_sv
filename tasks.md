@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 310
-- digital_only_approximation: 7
-- not_started: 1238
+- digital_only_approximation: 8
+- not_started: 1237
 
 ## Chips
 
@@ -5079,7 +5079,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x320 - crystal-controlled oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x320
 - Aliases: none
 - Source section: Larger footprints
@@ -5092,7 +5092,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x320/tb_ttl_74x320.sv
 - README: rtl/chips/ttl_74x320/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x321 - crystal-controlled oscillators, F/2 and F/4 count-down outputs
 - Status: [ ]
