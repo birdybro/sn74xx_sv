@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 251
+- complete: 252
 - digital_only_approximation: 7
-- not_started: 1297
+- not_started: 1296
 
 ## Chips
 
@@ -4103,7 +4103,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x249 - BCD to 7-segment decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x249
 - Aliases: none
 - Source section: Larger footprints
@@ -4116,7 +4116,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x249/tb_ttl_74x249.sv
 - README: rtl/chips/ttl_74x249/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x250 - 1 of 16 data selector/multiplexer
 - Status: [ ]
