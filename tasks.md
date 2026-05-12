@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 466
+- complete: 467
 - digital_only_approximation: 21
-- not_started: 1068
+- not_started: 1067
 
 ## Chips
 
@@ -7831,7 +7831,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x535 - octal transparent latch, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x535
 - Aliases: none
 - Source section: Larger footprints
@@ -7844,7 +7844,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x535/tb_ttl_74x535.sv
 - README: rtl/chips/ttl_74x535/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x536 - octal register, inverting outputs
 - Status: [ ]
