@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 147
+- complete: 148
 - digital_only_approximation: 6
-- not_started: 1402
+- not_started: 1401
 
 ## Chips
 
@@ -2279,7 +2279,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74131 - quad 2-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74131
 - Aliases: none
 - Source section: Larger footprints
@@ -2292,7 +2292,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74131/tb_ttl_74131.sv
 - README: rtl/chips/ttl_74131/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74AS131 - 3-to-8 line decoder/demultiplexer, address register, inverting outputs
 - Status: [ ]
