@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 275
+- complete: 276
 - digital_only_approximation: 7
-- not_started: 1273
+- not_started: 1272
 
 ## Chips
 
@@ -4519,7 +4519,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x281 - 4-bit parallel binary accumulator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x281
 - Aliases: none
 - Source section: Larger footprints
@@ -4532,7 +4532,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x281/tb_ttl_74x281.sv
 - README: rtl/chips/ttl_74x281/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x282 - look-ahead carry generator, selectable carry inputs
 - Status: [ ]
