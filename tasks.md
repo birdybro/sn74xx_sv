@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 39
-- not_started: 1516
+- complete: 40
+- not_started: 1515
 
 ## Chips
 
@@ -406,7 +406,7 @@ For every chip:
   - Same logic as 74x20; open-collector physical behavior not modeled.
 
 ### 74x23 - dual 4-input NOR gate with strobe, one gate expandable with 74x60
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x23
 - Aliases: none
 - Source section: Larger footprints
@@ -419,7 +419,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x23/tb_ttl_74x23.sv
 - README: rtl/chips/ttl_74x23/README.md
 - Notes:
-  - (none)
+  - Strobed NOR with expander pin omitted (not synthesizable as internal wired-OR). 1024-vector exhaustive testbench.
 
 ### 74x24 - quad 2-input NAND gate
 - Status: [x]
