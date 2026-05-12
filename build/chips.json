@@ -762,8 +762,10 @@
     "pins": "14",
     "datasheet": "SN74HC36",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n81",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x02; differs only in physical pinout."
+    ],
     "rtl_path": "rtl/chips/ttl_74x36/ttl_74x36.sv",
     "testbench_path": "tb/chips/ttl_74x36/tb_ttl_74x36.sv",
     "readme_path": "rtl/chips/ttl_74x36/README.md"

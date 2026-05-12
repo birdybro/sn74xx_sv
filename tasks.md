@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 34
-- not_started: 1521
+- complete: 35
+- not_started: 1520
 
 ## Chips
 
@@ -614,7 +614,7 @@ For every chip:
   - Same logic as 74x34; OC drive not modeled.
 
 ### 74x36 - quad 2-input NOR gate (different pinout than 7402)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x36
 - Aliases: none
 - Source section: Larger footprints
@@ -627,7 +627,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x36/tb_ttl_74x36.sv
 - README: rtl/chips/ttl_74x36/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x02; differs only in physical pinout.
 
 ### 74x37 - quad 2-input NAND gate
 - Status: [ ]
