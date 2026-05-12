@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 148
+- complete: 149
 - digital_only_approximation: 6
-- not_started: 1401
+- not_started: 1400
 
 ## Chips
 
@@ -2295,7 +2295,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74AS131 - 3-to-8 line decoder/demultiplexer, address register, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74as131
 - Aliases: 74ALS131
 - Source section: Larger footprints
@@ -2308,7 +2308,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74as131/tb_ttl_74as131.sv
 - README: rtl/chips/ttl_74as131/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x132 - quad 2-input NAND gate
 - Status: [ ]
