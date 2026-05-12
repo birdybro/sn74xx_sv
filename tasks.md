@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 390
+- complete: 391
 - digital_only_approximation: 17
-- not_started: 1148
+- not_started: 1147
 
 ## Chips
 
@@ -6551,7 +6551,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x432 - 8-bit multi-mode buffered latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x432
 - Aliases: none
 - Source section: Larger footprints
@@ -6564,7 +6564,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x432/tb_ttl_74x432.sv
 - README: rtl/chips/ttl_74x432/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x433 - 256-bit FIFO memory (64x4)
 - Status: [ ]
