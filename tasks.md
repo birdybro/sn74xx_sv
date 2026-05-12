@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 405
+- complete: 406
 - digital_only_approximation: 17
-- not_started: 1133
+- not_started: 1132
 
 ## Chips
 
@@ -6791,7 +6791,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74450 - counter, latch, 7-segment decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74450
 - Aliases: none
 - Source section: Larger footprints
@@ -6804,7 +6804,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74450/tb_ttl_74450.sv
 - README: rtl/chips/ttl_74450/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74S450 - 8192-bit PROM (1024x8) with power-down
 - Status: [ ]
