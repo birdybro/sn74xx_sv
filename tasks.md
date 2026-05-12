@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 182
+- complete: 183
 - digital_only_approximation: 6
-- not_started: 1367
+- not_started: 1366
 
 ## Chips
 
@@ -2935,7 +2935,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x171 - quad D flip-flops, shared clock and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x171
 - Aliases: none
 - Source section: Larger footprints
@@ -2948,7 +2948,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x171/tb_ttl_74x171.sv
 - README: rtl/chips/ttl_74x171/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x172 - 16-bit multiple port register file (8x2)
 - Status: [ ]
