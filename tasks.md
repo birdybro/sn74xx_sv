@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 101
+- complete: 102
 - digital_only_approximation: 1
-- not_started: 1453
+- not_started: 1452
 
 ## Chips
 
@@ -1415,7 +1415,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74LS78 - dual negative-edge-triggered J-K flip-flop, preset, shared clock and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls78
 - Aliases: none
 - Source section: Larger footprints
@@ -1428,7 +1428,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls78/tb_ttl_74ls78.sv
 - README: rtl/chips/ttl_74ls78/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74x79 - dual D positive-edge-triggered flip-flop, asynchronous preset and clear
 - Status: [ ]
