@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 279
+- complete: 280
 - digital_only_approximation: 7
-- not_started: 1269
+- not_started: 1268
 
 ## Chips
 
@@ -4599,7 +4599,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x286 - 9-bit parity generator/checker, bus driver parity I/O port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x286
 - Aliases: none
 - Source section: Larger footprints
@@ -4612,7 +4612,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x286/tb_ttl_74x286.sv
 - README: rtl/chips/ttl_74x286/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x287 - 1024-bit PROM (256x4)
 - Status: [ ]
