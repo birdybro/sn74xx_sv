@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 321
+- complete: 322
 - digital_only_approximation: 13
-- not_started: 1221
+- not_started: 1220
 
 ## Chips
 
@@ -5351,7 +5351,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x344 - octal buffer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x344
 - Aliases: none
 - Source section: Larger footprints
@@ -5364,7 +5364,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x344/tb_ttl_74x344.sv
 - README: rtl/chips/ttl_74x344/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x347 - BCD to 7-segment decoders/drivers, low voltage version of 7447
 - Status: [ ]
