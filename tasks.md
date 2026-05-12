@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 260
+- complete: 261
 - digital_only_approximation: 7
-- not_started: 1288
+- not_started: 1287
 
 ## Chips
 
@@ -4247,7 +4247,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x260 - dual 5-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x260
 - Aliases: none
 - Source section: Larger footprints
@@ -4260,7 +4260,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x260/tb_ttl_74x260.sv
 - README: rtl/chips/ttl_74x260/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x261 - 2-bit by 4-bit parallel binary multiplier
 - Status: [ ]
