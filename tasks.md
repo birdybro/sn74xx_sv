@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 439
+- complete: 440
 - digital_only_approximation: 19
-- not_started: 1097
+- not_started: 1096
 
 ## Chips
 
@@ -7367,7 +7367,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x482 - 4-bit slice expandable control elements
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x482
 - Aliases: none
 - Source section: Larger footprints
@@ -7380,7 +7380,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x482/tb_ttl_74x482.sv
 - README: rtl/chips/ttl_74x482/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x484 - BCD-to-binary converter
 - Status: [ ]
