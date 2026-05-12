@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 27
-- not_started: 1528
+- complete: 28
+- not_started: 1527
 
 ## Chips
 
@@ -470,7 +470,7 @@ For every chip:
   - Same logic as 74x00; OC 15V HV drive not modeled.
 
 ### 74x27 - triple 3-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x27
 - Aliases: none
 - Source section: Larger footprints
@@ -483,7 +483,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x27/tb_ttl_74x27.sv
 - README: rtl/chips/ttl_74x27/README.md
 - Notes:
-  - (none)
+  - Triple 3-input NOR; exhaustive 512-vector testbench.
 
 ### 74x28 - quad 2-input NOR gate
 - Status: [ ]
