@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 364
+- complete: 365
 - digital_only_approximation: 14
-- not_started: 1177
+- not_started: 1176
 
 ## Chips
 
@@ -6087,7 +6087,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x405 - 3-to-8 line decoder (equivalent to Intel 8205)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x405
 - Aliases: none
 - Source section: Larger footprints
@@ -6100,7 +6100,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x405/tb_ttl_74x405.sv
 - README: rtl/chips/ttl_74x405/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74406 - 3-to-8 line decoder
 - Status: [ ]
