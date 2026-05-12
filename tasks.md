@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 271
+- complete: 272
 - digital_only_approximation: 7
-- not_started: 1277
+- not_started: 1276
 
 ## Chips
 
@@ -4455,7 +4455,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x276 - quad J-NotK edge-triggered flip-flops, separate clocks, shared preset and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x276
 - Aliases: none
 - Source section: Larger footprints
@@ -4468,7 +4468,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x276/tb_ttl_74x276.sv
 - README: rtl/chips/ttl_74x276/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x278 - 4-bit cascadeable priority registers, latched data inputs
 - Status: [ ]
