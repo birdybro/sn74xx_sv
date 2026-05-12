@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 263
+- complete: 264
 - digital_only_approximation: 7
-- not_started: 1285
+- not_started: 1284
 
 ## Chips
 
@@ -4311,7 +4311,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x265 - quad complementary output elements
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x265
 - Aliases: none
 - Source section: Larger footprints
@@ -4324,7 +4324,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x265/tb_ttl_74x265.sv
 - README: rtl/chips/ttl_74x265/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x266 - quad 2-input XNOR gate
 - Status: [ ]
