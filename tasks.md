@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 494
+- complete: 495
 - digital_only_approximation: 21
-- not_started: 1040
+- not_started: 1039
 
 ## Chips
 
@@ -8279,7 +8279,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x567 - 8-bit bidirectional latched transceiver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x567
 - Aliases: none
 - Source section: Larger footprints
@@ -8292,7 +8292,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x567/tb_ttl_74x567.sv
 - README: rtl/chips/ttl_74x567/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x568 - decade up/down counter
 - Status: [ ]

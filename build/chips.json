@@ -10838,8 +10838,10 @@
     "pins": "24",
     "datasheet": "SN74LS567",
     "datasheet_url": "https://archive.org/details/bitsavers_mmidataBook6ed_79579213/page/n589",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x567/ttl_74x567.sv",
     "testbench_path": "tb/chips/ttl_74x567/tb_ttl_74x567.sv",
     "readme_path": "rtl/chips/ttl_74x567/README.md"
