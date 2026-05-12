@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 549
+- complete: 550
 - digital_only_approximation: 27
-- not_started: 979
+- not_started: 978
 
 ## Chips
 
@@ -9255,7 +9255,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x637 - 8-bit parallel error detection and correction
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x637
 - Aliases: none
 - Source section: Larger footprints
@@ -9268,7 +9268,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x637/tb_ttl_74x637.sv
 - README: rtl/chips/ttl_74x637/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x638 - octal bus transceiver, inverting outputs
 - Status: [ ]
