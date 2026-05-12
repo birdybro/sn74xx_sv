@@ -7226,8 +7226,10 @@
     "pins": "22",
     "datasheet": "SN74LS361",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-X2/DSA848000-290.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x361/ttl_74x361.sv",
     "testbench_path": "tb/chips/ttl_74x361/tb_ttl_74x361.sv",
     "readme_path": "rtl/chips/ttl_74x361/README.md"

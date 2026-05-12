@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 332
-- digital_only_approximation: 13
-- not_started: 1210
+- digital_only_approximation: 14
+- not_started: 1209
 
 ## Chips
 
@@ -5527,7 +5527,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x361 - bubble memory function timing generator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x361
 - Aliases: none
 - Source section: Larger footprints
@@ -5540,7 +5540,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x361/tb_ttl_74x361.sv
 - README: rtl/chips/ttl_74x361/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x362 - four-phase clock generator/driver for Texas Instruments TMS9900
 - Status: [ ]
