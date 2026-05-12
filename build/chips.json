@@ -1862,8 +1862,10 @@
     "pins": "16",
     "datasheet": "SN74LS83A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n383",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Combinational 4-bit adder; 512-vector exhaustive testbench covering all a,b,carry-in."
+    ],
     "rtl_path": "rtl/chips/ttl_74x83/ttl_74x83.sv",
     "testbench_path": "tb/chips/ttl_74x83/tb_ttl_74x83.sv",
     "readme_path": "rtl/chips/ttl_74x83/README.md"
