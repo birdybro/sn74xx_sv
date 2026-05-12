@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 45
+- complete: 46
 - digital_only_approximation: 1
-- not_started: 1509
+- not_started: 1508
 
 ## Chips
 
@@ -759,7 +759,7 @@ For every chip:
   - Excess-3 Gray code to decimal decoder. Datasheet truth table reproduced as case statement.
 
 ### 74x45 - BCD to decimal decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x45
 - Aliases: none
 - Source section: Larger footprints
@@ -772,7 +772,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x45/tb_ttl_74x45.sv
 - README: rtl/chips/ttl_74x45/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x42; OC 30V drive not modeled.
 
 ### 74x46 - BCD to 7-segment display decoder/driver
 - Status: [ ]
