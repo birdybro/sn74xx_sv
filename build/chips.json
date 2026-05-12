@@ -9347,8 +9347,10 @@
     "pins": "20",
     "datasheet": "SN74LS468",
     "datasheet_url": "https://web.archive.org/web/20070101063029/http://focus.ti.com/lit/ds/symlink/sn74ls465.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x468/ttl_74x468.sv",
     "testbench_path": "tb/chips/ttl_74x468/tb_ttl_74x468.sv",
     "readme_path": "rtl/chips/ttl_74x468/README.md"

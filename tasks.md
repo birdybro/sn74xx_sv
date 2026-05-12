@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 425
+- complete: 426
 - digital_only_approximation: 19
-- not_started: 1111
+- not_started: 1110
 
 ## Chips
 
@@ -7143,7 +7143,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x468 - octal buffers, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x468
 - Aliases: none
 - Source section: Larger footprints
@@ -7156,7 +7156,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x468/tb_ttl_74x468.sv
 - README: rtl/chips/ttl_74x468/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x469 - 8-bit synchronous up/down counter, parallel load and hold capability
 - Status: [ ]
