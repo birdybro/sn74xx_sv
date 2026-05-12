@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 6
-- not_started: 1549
+- complete: 7
+- not_started: 1548
 
 ## Chips
 
@@ -54,7 +54,7 @@ For every chip:
   - Exhaustive 256-vector testbench passes; Verilator lint and Yosys synth check both clean.
 
 ### 74x01 - quad 2-input NAND gate; different pinout for 74H01
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x01
 - Aliases: none
 - Source section: Larger footprints
@@ -67,7 +67,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x01/tb_ttl_74x01.sv
 - README: rtl/chips/ttl_74x01/README.md
 - Notes:
-  - (none)
+  - Logic identical to push-pull variant; open-collector physical behavior not modeled (see docs/unsupported_physical_behavior.md). Exhaustive testbench passes; Verilator + Yosys clean.
 
 ### 74x02 - quad 2-input NOR gate
 - Status: [x]
