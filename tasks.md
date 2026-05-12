@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 412
+- complete: 413
 - digital_only_approximation: 17
-- not_started: 1126
+- not_started: 1125
 
 ## Chips
 
@@ -6903,7 +6903,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS453 - quad 4-to-1 multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls453
 - Aliases: none
 - Source section: Larger footprints
@@ -6916,7 +6916,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls453/tb_ttl_74ls453.sv
 - README: rtl/chips/ttl_74ls453/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x454 - dual decade up/down counter, synchronous, preset input
 - Status: [ ]
