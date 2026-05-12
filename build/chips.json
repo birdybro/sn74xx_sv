@@ -1054,8 +1054,10 @@
     "pins": "14",
     "datasheet": "SN7450",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn5450",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 2-2 AOI. Expander pin on gate 0 omitted (cannot be synthesized internally)."
+    ],
     "rtl_path": "rtl/chips/ttl_74x50/ttl_74x50.sv",
     "testbench_path": "tb/chips/ttl_74x50/tb_ttl_74x50.sv",
     "readme_path": "rtl/chips/ttl_74x50/README.md"
