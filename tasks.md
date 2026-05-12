@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 209
+- complete: 210
 - digital_only_approximation: 6
-- not_started: 1340
+- not_started: 1339
 
 ## Chips
 
@@ -3383,7 +3383,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x199 - 8-bit universal shift register, J-NotK serial inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x199
 - Aliases: none
 - Source section: Larger footprints
@@ -3396,7 +3396,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x199/tb_ttl_74x199.sv
 - README: rtl/chips/ttl_74x199/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x200 - 256-bit RAM (256x1)
 - Status: [ ]
