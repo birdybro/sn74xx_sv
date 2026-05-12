@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 451
+- complete: 452
 - digital_only_approximation: 21
-- not_started: 1083
+- not_started: 1082
 
 ## Chips
 
@@ -7591,7 +7591,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x516 - 16-bit multiplier/divider
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x516
 - Aliases: none
 - Source section: Larger footprints
@@ -7604,7 +7604,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x516/tb_ttl_74x516.sv
 - README: rtl/chips/ttl_74x516/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x518 - 8-bit comparator
 - Status: [ ]
