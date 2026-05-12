@@ -11720,8 +11720,10 @@
     "pins": "40",
     "datasheet": "SN74ALS616",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n101",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x616/ttl_74x616.sv",
     "testbench_path": "tb/chips/ttl_74x616/tb_ttl_74x616.sv",
     "readme_path": "rtl/chips/ttl_74x616/README.md"
