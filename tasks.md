@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 50
+- complete: 51
 - digital_only_approximation: 1
-- not_started: 1504
+- not_started: 1503
 
 ## Chips
 
@@ -903,7 +903,7 @@ For every chip:
   - 3-2-2-2 AND-OR (non-inverting). 74x61 expander interface omitted.
 
 ### 7453 - 2-2-2-2-input AND-OR-Invert gate, expandable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_7453
 - Aliases: none
 - Source section: Larger footprints
@@ -916,7 +916,7 @@ For every chip:
 - Testbench: tb/chips/ttl_7453/tb_ttl_7453.sv
 - README: rtl/chips/ttl_7453/README.md
 - Notes:
-  - (none)
+  - 2-2-2-2 AOI. Expander pin omitted.
 
 ### 74H53 - 3-2-2-2-input AND-OR-Invert gate, expandable
 - Status: [ ]
