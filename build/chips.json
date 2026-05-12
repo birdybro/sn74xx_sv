@@ -9788,8 +9788,10 @@
     "pins": "24",
     "datasheet": "74F500",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFASTDataBook_29981933/page/n409",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x500/ttl_74x500.sv",
     "testbench_path": "tb/chips/ttl_74x500/tb_ttl_74x500.sv",
     "readme_path": "rtl/chips/ttl_74x500/README.md"

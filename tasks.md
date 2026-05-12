@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 446
-- digital_only_approximation: 19
-- not_started: 1090
+- digital_only_approximation: 20
+- not_started: 1089
 
 ## Chips
 
@@ -7479,7 +7479,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x500 - 6-bit flash analog-to-digital converter (ADC)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x500
 - Aliases: none
 - Source section: Larger footprints
@@ -7492,7 +7492,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x500/tb_ttl_74x500.sv
 - README: rtl/chips/ttl_74x500/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x502 - 8-bit successive approximation register
 - Status: [ ]
