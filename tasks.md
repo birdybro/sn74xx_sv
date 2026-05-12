@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 290
+- complete: 291
 - digital_only_approximation: 7
-- not_started: 1258
+- not_started: 1257
 
 ## Chips
 
@@ -4839,7 +4839,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x303 - octal divide-by-2 clock driver, 2 outputs inverted
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x303
 - Aliases: none
 - Source section: Larger footprints
@@ -4852,7 +4852,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x303/tb_ttl_74x303.sv
 - README: rtl/chips/ttl_74x303/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x304 - octal divide-by-2 clock driver
 - Status: [ ]

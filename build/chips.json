@@ -6313,8 +6313,10 @@
     "pins": "16",
     "datasheet": "SN74AS303",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n515",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x303/ttl_74x303.sv",
     "testbench_path": "tb/chips/ttl_74x303/tb_ttl_74x303.sv",
     "readme_path": "rtl/chips/ttl_74x303/README.md"
