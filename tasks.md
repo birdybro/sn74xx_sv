@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 401
+- complete: 402
 - digital_only_approximation: 17
-- not_started: 1137
+- not_started: 1136
 
 ## Chips
 
@@ -6727,7 +6727,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x446 - quad bus transceivers, direction controls, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x446
 - Aliases: none
 - Source section: Larger footprints
@@ -6740,7 +6740,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x446/tb_ttl_74x446.sv
 - README: rtl/chips/ttl_74x446/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x447 - BCD to 7-segment decoders/drivers, low voltage version of 74247
 - Status: [ ]
