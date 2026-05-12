@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 33
-- not_started: 1522
+- complete: 34
+- not_started: 1521
 
 ## Chips
 
@@ -598,7 +598,7 @@ For every chip:
   - Hex non-inverting buffer; exhaustive 64-vector testbench.
 
 ### 74x35 - hex buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x35
 - Aliases: none
 - Source section: Larger footprints
@@ -611,7 +611,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x35/tb_ttl_74x35.sv
 - README: rtl/chips/ttl_74x35/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x34; OC drive not modeled.
 
 ### 74x36 - quad 2-input NOR gate (different pinout than 7402)
 - Status: [ ]
