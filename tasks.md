@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 131
+- complete: 132
 - digital_only_approximation: 1
-- not_started: 1423
+- not_started: 1422
 
 ## Chips
 
@@ -1943,7 +1943,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md.
 
 ### 74x111 - dual J-K master-slave flip-flop, data lockout, reset, set
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x111
 - Aliases: none
 - Source section: Larger footprints
@@ -1956,7 +1956,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x111/tb_ttl_74x111.sv
 - README: rtl/chips/ttl_74x111/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md.
 
 ### 74x112 - dual J-K negative-edge-triggered flip-flop, clear & preset, Q & /Q outputs
 - Status: [ ]

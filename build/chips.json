@@ -2518,8 +2518,10 @@
     "pins": "16",
     "datasheet": "SN74111",
     "datasheet_url": "https://web.archive.org/web/20240713140622/https://www.unicornelectronics.com/ftp/Data%20Sheets/74111.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74x111/ttl_74x111.sv",
     "testbench_path": "tb/chips/ttl_74x111/tb_ttl_74x111.sv",
     "readme_path": "rtl/chips/ttl_74x111/README.md"
