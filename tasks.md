@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 146
+- complete: 147
 - digital_only_approximation: 5
-- not_started: 1404
+- not_started: 1403
 
 ## Chips
 
@@ -2247,7 +2247,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x128 - quad 2-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x128
 - Aliases: none
 - Source section: Larger footprints
@@ -2260,7 +2260,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x128/tb_ttl_74x128.sv
 - README: rtl/chips/ttl_74x128/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x130 - retriggerable monostable multivibrator
 - Status: [ ]
