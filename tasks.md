@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 124
+- complete: 125
 - digital_only_approximation: 1
-- not_started: 1430
+- not_started: 1429
 
 ## Chips
 
@@ -1831,7 +1831,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md.
 
 ### 74x104 - J-K master-slave flip-flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x104
 - Aliases: none
 - Source section: Larger footprints
@@ -1844,7 +1844,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x104/tb_ttl_74x104.sv
 - README: rtl/chips/ttl_74x104/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave/data-lockout details rendered as posedge per docs/conventions.md.
 
 ### 74x105 - J-K master-slave flip-flop, J2 and K2 inverted
 - Status: [ ]
