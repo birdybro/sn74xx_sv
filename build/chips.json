@@ -4223,8 +4223,10 @@
     "pins": "16",
     "datasheet": "SN74LS190",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls191",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x190/ttl_74x190.sv",
     "testbench_path": "tb/chips/ttl_74x190/tb_ttl_74x190.sv",
     "readme_path": "rtl/chips/ttl_74x190/README.md"
