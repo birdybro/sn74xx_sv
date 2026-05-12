@@ -4706,8 +4706,10 @@
     "pins": "16",
     "datasheet": "SN74LS216",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0044696.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x216/ttl_74x216.sv",
     "testbench_path": "tb/chips/ttl_74x216/tb_ttl_74x216.sv",
     "readme_path": "rtl/chips/ttl_74x216/README.md"
