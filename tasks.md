@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 14
-- not_started: 1541
+- complete: 15
+- not_started: 1540
 
 ## Chips
 
@@ -230,7 +230,7 @@ For every chip:
   - Exhaustive 512-vector testbench. Verilator + Yosys clean.
 
 ### 74x12 - triple 3-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x12
 - Aliases: none
 - Source section: Larger footprints
@@ -243,7 +243,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x12/tb_ttl_74x12.sv
 - README: rtl/chips/ttl_74x12/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x10; open-collector physical behavior not modeled.
 
 ### 74x13 - dual 4-input NAND gate
 - Status: [ ]

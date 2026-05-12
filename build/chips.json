@@ -264,8 +264,10 @@
     "pins": "14",
     "datasheet": "SN74LS12",
     "datasheet_url": "https://web.archive.org/web/20180720022520/http://pdf.datasheetcatalog.com/datasheet/motorola/SN54LS12J.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x10; open-collector physical behavior not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x12/ttl_74x12.sv",
     "testbench_path": "tb/chips/ttl_74x12/tb_ttl_74x12.sv",
     "readme_path": "rtl/chips/ttl_74x12/README.md"
