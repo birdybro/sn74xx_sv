@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 142
+- complete: 143
 - digital_only_approximation: 1
-- not_started: 1412
+- not_started: 1411
 
 ## Chips
 
@@ -2119,7 +2119,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74120 - dual pulse synchronizer/drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74120
 - Aliases: none
 - Source section: Larger footprints
@@ -2132,7 +2132,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74120/tb_ttl_74120.sv
 - README: rtl/chips/ttl_74120/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74H120 - dual J-K flip-flop, separate clock inputs
 - Status: [ ]
