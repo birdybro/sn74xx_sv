@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 506
+- complete: 507
 - digital_only_approximation: 21
-- not_started: 1028
+- not_started: 1027
 
 ## Chips
 
@@ -8471,7 +8471,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x580 - octal D-type transparent latch, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x580
 - Aliases: none
 - Source section: Larger footprints
@@ -8484,7 +8484,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x580/tb_ttl_74x580.sv
 - README: rtl/chips/ttl_74x580/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x582 - 4-bit BCD arithmetic logic unit
 - Status: [ ]
