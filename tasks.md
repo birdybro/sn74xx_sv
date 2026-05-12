@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 489
+- complete: 490
 - digital_only_approximation: 21
-- not_started: 1045
+- not_started: 1044
 
 ## Chips
 
@@ -8199,7 +8199,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x560 - 4-bit decade counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x560
 - Aliases: none
 - Source section: Larger footprints
@@ -8212,7 +8212,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x560/tb_ttl_74x560.sv
 - README: rtl/chips/ttl_74x560/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x561 - synchronous 4-bit binary counter
 - Status: [ ]
