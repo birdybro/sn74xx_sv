@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 407
+- complete: 408
 - digital_only_approximation: 17
-- not_started: 1131
+- not_started: 1130
 
 ## Chips
 
@@ -6823,7 +6823,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS450 - 16-to-1 multiplexer, complementary outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls450
 - Aliases: none
 - Source section: Larger footprints
@@ -6836,7 +6836,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls450/tb_ttl_74ls450.sv
 - README: rtl/chips/ttl_74ls450/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74S451 - 8192-bit PROM (1024x8) with power-down
 - Status: [ ]
