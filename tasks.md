@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 265
+- complete: 266
 - digital_only_approximation: 7
-- not_started: 1283
+- not_started: 1282
 
 ## Chips
 
@@ -4343,7 +4343,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x268 - hex D-type latches, shared enable and output control
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x268
 - Aliases: none
 - Source section: Larger footprints
@@ -4356,7 +4356,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x268/tb_ttl_74x268.sv
 - README: rtl/chips/ttl_74x268/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x269 - 8-bit bidirectional binary counter
 - Status: [ ]
