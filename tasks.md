@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 139
+- complete: 140
 - digital_only_approximation: 1
-- not_started: 1415
+- not_started: 1414
 
 ## Chips
 
@@ -2071,7 +2071,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x118 - hex set/reset latch, shared reset
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x118
 - Aliases: none
 - Source section: Larger footprints
@@ -2084,7 +2084,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x118/tb_ttl_74x118.sv
 - README: rtl/chips/ttl_74x118/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74119 - hex set/reset latch
 - Status: [ ]
