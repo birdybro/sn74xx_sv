@@ -783,8 +783,10 @@
     "pins": "14",
     "datasheet": "SN74LS37",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls37",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x00; higher drive (N=30) not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x37/ttl_74x37.sv",
     "testbench_path": "tb/chips/ttl_74x37/tb_ttl_74x37.sv",
     "readme_path": "rtl/chips/ttl_74x37/README.md"
