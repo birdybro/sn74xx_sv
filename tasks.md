@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 354
+- complete: 355
 - digital_only_approximation: 14
-- not_started: 1187
+- not_started: 1186
 
 ## Chips
 
@@ -5927,7 +5927,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x388 - 4-bit D-type register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x388
 - Aliases: none
 - Source section: Larger footprints
@@ -5940,7 +5940,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x388/tb_ttl_74x388.sv
 - README: rtl/chips/ttl_74x388/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x390 - dual 4-bit decade counter, asynchronous clear
 - Status: [ ]
