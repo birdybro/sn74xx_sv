@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 296
+- complete: 297
 - digital_only_approximation: 7
-- not_started: 1252
+- not_started: 1251
 
 ## Chips
 
@@ -4935,7 +4935,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x311 - 144-bit RAM (16x9) with output latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x311
 - Aliases: none
 - Source section: Larger footprints
@@ -4948,7 +4948,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x311/tb_ttl_74x311.sv
 - README: rtl/chips/ttl_74x311/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x312 - 144-bit RAM (16x9)
 - Status: [ ]
