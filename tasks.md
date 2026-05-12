@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 381
+- complete: 382
 - digital_only_approximation: 14
-- not_started: 1160
+- not_started: 1159
 
 ## Chips
 
@@ -6359,7 +6359,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74419 - dual modulo 4 counters, shared preload and clear inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74419
 - Aliases: none
 - Source section: Larger footprints
@@ -6372,7 +6372,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74419/tb_ttl_74419.sv
 - README: rtl/chips/ttl_74419/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74S419 - FIFO RAM controller
 - Status: [ ]

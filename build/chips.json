@@ -8318,8 +8318,10 @@
     "pins": "16",
     "datasheet": "MC74419",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladauctorDataLibraryVol8Chips_17508458/page/n411",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74419/ttl_74419.sv",
     "testbench_path": "tb/chips/ttl_74419/tb_ttl_74419.sv",
     "readme_path": "rtl/chips/ttl_74419/README.md"
