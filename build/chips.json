@@ -6586,8 +6586,10 @@
     "pins": "20",
     "datasheet": "SN74ALS318",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookuitsDataBook_32771470/page/n221",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x318/ttl_74x318.sv",
     "testbench_path": "tb/chips/ttl_74x318/tb_ttl_74x318.sv",
     "readme_path": "rtl/chips/ttl_74x318/README.md"
