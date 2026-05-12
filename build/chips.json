@@ -1531,8 +1531,10 @@
     "pins": "16",
     "datasheet": "SN74LS68",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n311",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74ls68/ttl_74ls68.sv",
     "testbench_path": "tb/chips/ttl_74ls68/tb_ttl_74ls68.sv",
     "readme_path": "rtl/chips/ttl_74ls68/README.md"
