@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 178
+- complete: 179
 - digital_only_approximation: 6
-- not_started: 1371
+- not_started: 1370
 
 ## Chips
 
@@ -2871,7 +2871,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x167 - synchronous decade rate multiplier
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x167
 - Aliases: none
 - Source section: Larger footprints
@@ -2884,7 +2884,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x167/tb_ttl_74x167.sv
 - README: rtl/chips/ttl_74x167/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x168 - synchronous presettable 4-bit up/down decade counter
 - Status: [ ]
