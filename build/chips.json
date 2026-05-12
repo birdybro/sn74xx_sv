@@ -411,8 +411,10 @@
     "pins": "14",
     "datasheet": "SN74LS19",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n149",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x14; Schmitt hysteresis not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x19/ttl_74x19.sv",
     "testbench_path": "tb/chips/ttl_74x19/tb_ttl_74x19.sv",
     "readme_path": "rtl/chips/ttl_74x19/README.md"

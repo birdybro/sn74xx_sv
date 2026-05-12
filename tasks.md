@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 21
-- not_started: 1534
+- complete: 22
+- not_started: 1533
 
 ## Chips
 
@@ -342,7 +342,7 @@ For every chip:
   - Same logic as 74x20; Schmitt input hysteresis not modeled.
 
 ### 74x19 - hex inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x19
 - Aliases: none
 - Source section: Larger footprints
@@ -355,7 +355,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x19/tb_ttl_74x19.sv
 - README: rtl/chips/ttl_74x19/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x14; Schmitt hysteresis not modeled.
 
 ### 74x20 - dual 4-input NAND gate
 - Status: [ ]
