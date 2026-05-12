@@ -7982,8 +7982,10 @@
     "pins": "14",
     "datasheet": "MC74406P",
     "datasheet_url": "https://archive.org/details/Digital_IC_Equivalents/page/n113",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74406/ttl_74406.sv",
     "testbench_path": "tb/chips/ttl_74406/tb_ttl_74406.sv",
     "readme_path": "rtl/chips/ttl_74406/README.md"
