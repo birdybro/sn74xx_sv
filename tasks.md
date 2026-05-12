@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 64
+- complete: 65
 - digital_only_approximation: 1
-- not_started: 1490
+- not_started: 1489
 
 ## Chips
 
@@ -5703,7 +5703,7 @@ For every chip:
   - One of the few chips that uses always_latch (transparent latch is the actual function). 3-state output gated by oe_n.
 
 ### 74x374 - octal register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x374
 - Aliases: none
 - Source section: Larger footprints
@@ -5716,7 +5716,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x374/tb_ttl_74x374.sv
 - README: rtl/chips/ttl_74x374/README.md
 - Notes:
-  - (none)
+  - Common octal D-FF with 3-state outputs; tri-state represented as muxed-zero.
 
 ### 74x375 - quad bistable latch
 - Status: [ ]
