@@ -1,0 +1,20 @@
+* text=auto
+
+# Shell scripts must use LF (they're invoked from WSL/Linux).
+*.sh text eol=lf
+
+# SystemVerilog and Verilog are simulation tooling input; LF is safer.
+*.sv text eol=lf
+*.v  text eol=lf
+*.svh text eol=lf
+
+# Python: LF.
+*.py text eol=lf
+
+# Markdown: leave to platform-default.
+*.md text
+
+# Binary: never normalize.
+*.png binary
+*.jpg binary
+*.pdf binary
