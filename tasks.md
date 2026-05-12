@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 160
+- complete: 161
 - digital_only_approximation: 6
-- not_started: 1389
+- not_started: 1388
 
 ## Chips
 
@@ -2519,7 +2519,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x145 - BCD to decimal decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x145
 - Aliases: none
 - Source section: Larger footprints
@@ -2532,7 +2532,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x145/tb_ttl_74x145.sv
 - README: rtl/chips/ttl_74x145/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x146 - 3-to-8 line decoder
 - Status: [ ]
