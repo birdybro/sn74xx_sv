@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1
-- not_started: 1554
+- complete: 2
+- not_started: 1553
 
 ## Chips
 
@@ -70,7 +70,7 @@ For every chip:
   - (none)
 
 ### 74x02 - quad 2-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x02
 - Aliases: none
 - Source section: Larger footprints
@@ -83,7 +83,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x02/tb_ttl_74x02.sv
 - README: rtl/chips/ttl_74x02/README.md
 - Notes:
-  - (none)
+  - Exhaustive testbench passes; Verilator lint and Yosys synth check clean.
 
 ### 74x03 - quad 2-input NAND gate
 - Status: [ ]
