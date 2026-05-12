@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 276
+- complete: 277
 - digital_only_approximation: 7
-- not_started: 1272
+- not_started: 1271
 
 ## Chips
 
@@ -4535,7 +4535,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x282 - look-ahead carry generator, selectable carry inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x282
 - Aliases: none
 - Source section: Larger footprints
@@ -4548,7 +4548,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x282/tb_ttl_74x282.sv
 - README: rtl/chips/ttl_74x282/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x283 - 4-bit binary full adder (has carry in function)
 - Status: [x]
