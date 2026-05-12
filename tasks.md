@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 98
+- complete: 99
 - digital_only_approximation: 1
-- not_started: 1456
+- not_started: 1455
 
 ## Chips
 
@@ -1367,7 +1367,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74x77 - 4-bit bistable latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x77
 - Aliases: none
 - Source section: Larger footprints
@@ -1380,7 +1380,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x77/tb_ttl_74x77.sv
 - README: rtl/chips/ttl_74x77/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74H78 - dual positive-pulse-triggered J-K flip-flop, preset, shared clock and clear
 - Status: [ ]
