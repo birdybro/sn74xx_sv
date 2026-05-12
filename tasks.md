@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 188
+- complete: 189
 - digital_only_approximation: 6
-- not_started: 1361
+- not_started: 1360
 
 ## Chips
 
@@ -3047,7 +3047,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x178 - 4-bit parallel-access shift register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x178
 - Aliases: none
 - Source section: Larger footprints
@@ -3060,7 +3060,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x178/tb_ttl_74x178.sv
 - README: rtl/chips/ttl_74x178/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x179 - 4-bit parallel-access shift register, asynchronous clear input, complementary Q output
 - Status: [ ]
