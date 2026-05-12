@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 447
+- complete: 448
 - digital_only_approximation: 20
-- not_started: 1088
+- not_started: 1087
 
 ## Chips
 
@@ -7511,7 +7511,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x503 - 8-bit successive approximation register with expansion control
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x503
 - Aliases: none
 - Source section: Larger footprints
@@ -7524,7 +7524,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x503/tb_ttl_74x503.sv
 - README: rtl/chips/ttl_74x503/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x504 - 12-bit successive approximation register with expansion control
 - Status: [ ]
