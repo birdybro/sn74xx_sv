@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 503
+- complete: 504
 - digital_only_approximation: 21
-- not_started: 1031
+- not_started: 1030
 
 ## Chips
 
@@ -8423,7 +8423,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x576 - octal D-type edge-triggered flip-flop, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x576
 - Aliases: none
 - Source section: Larger footprints
@@ -8436,7 +8436,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x576/tb_ttl_74x576.sv
 - README: rtl/chips/ttl_74x576/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x577 - octal D-type edge-triggered flip-flop, synchronous clear, inverting outputs
 - Status: [ ]
