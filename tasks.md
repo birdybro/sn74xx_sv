@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 331
+- complete: 332
 - digital_only_approximation: 13
-- not_started: 1211
+- not_started: 1210
 
 ## Chips
 
@@ -5511,7 +5511,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x357 - 8-line to 1-line data selector/multiplexer, edge-triggered registers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x357
 - Aliases: none
 - Source section: Larger footprints
@@ -5524,7 +5524,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x357/tb_ttl_74x357.sv
 - README: rtl/chips/ttl_74x357/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x361 - bubble memory function timing generator
 - Status: [ ]
