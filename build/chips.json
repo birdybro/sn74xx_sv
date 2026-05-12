@@ -825,8 +825,10 @@
     "pins": "14",
     "datasheet": "SN7439",
     "datasheet_url": "https://web.archive.org/web/20180720022545/http://pdf.datasheetcatalog.com/datasheets/90/338005_DS.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same logic as 74x00; OC 60mA drive not modeled."
+    ],
     "rtl_path": "rtl/chips/ttl_74x39/ttl_74x39.sv",
     "testbench_path": "tb/chips/ttl_74x39/tb_ttl_74x39.sv",
     "readme_path": "rtl/chips/ttl_74x39/README.md"

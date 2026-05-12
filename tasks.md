@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 37
-- not_started: 1518
+- complete: 38
+- not_started: 1517
 
 ## Chips
 
@@ -662,7 +662,7 @@ For every chip:
   - Same logic as 74x00; OC drive not modeled.
 
 ### 74x39 - quad 2-input NAND gate (different pinout than 7438)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x39
 - Aliases: none
 - Source section: Larger footprints
@@ -675,7 +675,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x39/tb_ttl_74x39.sv
 - README: rtl/chips/ttl_74x39/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x00; OC 60mA drive not modeled.
 
 ### 74x40 - dual 4-input NAND gate
 - Status: [ ]
