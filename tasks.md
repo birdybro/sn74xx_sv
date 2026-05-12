@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 445
+- complete: 446
 - digital_only_approximation: 19
-- not_started: 1091
+- not_started: 1090
 
 ## Chips
 
@@ -7463,7 +7463,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x498 - 8-bit bidirectional shift register, parallel inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x498
 - Aliases: none
 - Source section: Larger footprints
@@ -7476,7 +7476,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x498/tb_ttl_74x498.sv
 - README: rtl/chips/ttl_74x498/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x500 - 6-bit flash analog-to-digital converter (ADC)
 - Status: [ ]
