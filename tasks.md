@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 420
+- complete: 421
 - digital_only_approximation: 17
-- not_started: 1118
+- not_started: 1117
 
 ## Chips
 
@@ -7031,7 +7031,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS460 - 10-bit comparator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls460
 - Aliases: none
 - Source section: Larger footprints
@@ -7044,7 +7044,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls460/tb_ttl_74ls460.sv
 - README: rtl/chips/ttl_74ls460/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x461 - 8-bit presettable binary counter
 - Status: [ ]
