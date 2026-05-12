@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 415
+- complete: 416
 - digital_only_approximation: 17
-- not_started: 1123
+- not_started: 1122
 
 ## Chips
 
@@ -6951,7 +6951,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74F455 - octal buffer / line driver with parity, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74f455
 - Aliases: none
 - Source section: Larger footprints
@@ -6964,7 +6964,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74f455/tb_ttl_74f455.sv
 - README: rtl/chips/ttl_74f455/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74456 - 4-bit NBCD full adder
 - Status: [ ]
