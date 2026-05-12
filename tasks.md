@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 477
+- complete: 478
 - digital_only_approximation: 21
-- not_started: 1057
+- not_started: 1056
 
 ## Chips
 
@@ -8007,7 +8007,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74LS547 - 8-bit bidirectional latched transceiver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ls547
 - Aliases: none
 - Source section: Larger footprints
@@ -8020,7 +8020,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ls547/tb_ttl_74ls547.sv
 - README: rtl/chips/ttl_74ls547/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74F547 - 3-to-8 line decoder/demultiplexer with address latches and acknowledge output
 - Status: [ ]
