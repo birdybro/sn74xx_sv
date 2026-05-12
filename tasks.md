@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 110
+- complete: 111
 - digital_only_approximation: 1
-- not_started: 1444
+- not_started: 1443
 
 ## Chips
 
@@ -1607,7 +1607,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x90 - decade counter (separate divide-by-2 and divide-by-5 sections)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x90
 - Aliases: none
 - Source section: Larger footprints
@@ -1620,7 +1620,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x90/tb_ttl_74x90.sv
 - README: rtl/chips/ttl_74x90/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x91 - 8-bit shift register, serial in, serial out, gated input
 - Status: [ ]
