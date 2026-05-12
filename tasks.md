@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 358
+- complete: 359
 - digital_only_approximation: 14
-- not_started: 1183
+- not_started: 1182
 
 ## Chips
 
@@ -5991,7 +5991,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x396 - octal storage registers, parallel access
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x396
 - Aliases: none
 - Source section: Larger footprints
@@ -6004,7 +6004,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x396/tb_ttl_74x396.sv
 - README: rtl/chips/ttl_74x396/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x398 - quad 2-input multiplexers, storage and complementary outputs
 - Status: [ ]
