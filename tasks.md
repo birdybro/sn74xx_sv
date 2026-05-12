@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 156
+- complete: 157
 - digital_only_approximation: 6
-- not_started: 1393
+- not_started: 1392
 
 ## Chips
 
@@ -2455,7 +2455,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x141 - BCD to decimal decoder/driver for cold-cathode indicator / Nixie tube
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x141
 - Aliases: none
 - Source section: Larger footprints
@@ -2468,7 +2468,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x141/tb_ttl_74x141.sv
 - README: rtl/chips/ttl_74x141/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x142 - decade counter/latch/decoder/driver for Nixie tubes
 - Status: [ ]
