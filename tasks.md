@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 161
+- complete: 162
 - digital_only_approximation: 6
-- not_started: 1388
+- not_started: 1387
 
 ## Chips
 
@@ -2535,7 +2535,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x146 - 3-to-8 line decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x146
 - Aliases: none
 - Source section: Larger footprints
@@ -2548,7 +2548,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x146/tb_ttl_74x146.sv
 - README: rtl/chips/ttl_74x146/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x147 - 10-line to 4-line priority encoder
 - Status: [ ]

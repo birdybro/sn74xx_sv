@@ -3299,8 +3299,10 @@
     "pins": "",
     "datasheet": "MCE74H146",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaTTLIntegratedCircuitsDataBook_38442857/page/n77",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x146/ttl_74x146.sv",
     "testbench_path": "tb/chips/ttl_74x146/tb_ttl_74x146.sv",
     "readme_path": "rtl/chips/ttl_74x146/README.md"
