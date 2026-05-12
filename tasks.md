@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 22
-- not_started: 1533
+- complete: 23
+- not_started: 1532
 
 ## Chips
 
@@ -358,7 +358,7 @@ For every chip:
   - Same logic as 74x14; Schmitt hysteresis not modeled.
 
 ### 74x20 - dual 4-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x20
 - Aliases: none
 - Source section: Larger footprints
@@ -371,7 +371,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x20/tb_ttl_74x20.sv
 - README: rtl/chips/ttl_74x20/README.md
 - Notes:
-  - (none)
+  - Exhaustive 256-vector testbench. Verilator + Yosys clean.
 
 ### 74x21 - dual 4-input AND gate
 - Status: [ ]
