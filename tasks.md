@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 419
+- complete: 420
 - digital_only_approximation: 17
-- not_started: 1119
+- not_started: 1118
 
 ## Chips
 
@@ -7015,7 +7015,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74460 - 4-bit bus transfer switch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74460
 - Aliases: none
 - Source section: Larger footprints
@@ -7028,7 +7028,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74460/tb_ttl_74460.sv
 - README: rtl/chips/ttl_74460/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74LS460 - 10-bit comparator
 - Status: [ ]
