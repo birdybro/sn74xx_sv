@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 359
+- complete: 360
 - digital_only_approximation: 14
-- not_started: 1182
+- not_started: 1181
 
 ## Chips
 
@@ -6007,7 +6007,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x398 - quad 2-input multiplexers, storage and complementary outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x398
 - Aliases: none
 - Source section: Larger footprints
@@ -6020,7 +6020,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x398/tb_ttl_74x398.sv
 - README: rtl/chips/ttl_74x398/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x399 - quad 2-input multiplexer, storage
 - Status: [ ]

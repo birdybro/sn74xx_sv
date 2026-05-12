@@ -7856,8 +7856,10 @@
     "pins": "20",
     "datasheet": "SN74LS398",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1123",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x398/ttl_74x398.sv",
     "testbench_path": "tb/chips/ttl_74x398/tb_ttl_74x398.sv",
     "readme_path": "rtl/chips/ttl_74x398/README.md"
