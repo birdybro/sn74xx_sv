@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 478
+- complete: 479
 - digital_only_approximation: 21
-- not_started: 1056
+- not_started: 1055
 
 ## Chips
 
@@ -8023,7 +8023,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74F547 - 3-to-8 line decoder/demultiplexer with address latches and acknowledge output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74f547
 - Aliases: none
 - Source section: Larger footprints
@@ -8036,7 +8036,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74f547/tb_ttl_74f547.sv
 - README: rtl/chips/ttl_74f547/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74LS548 - 8-bit two-stage pipelined register
 - Status: [ ]
