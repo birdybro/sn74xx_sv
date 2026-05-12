@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 340
+- complete: 341
 - digital_only_approximation: 14
-- not_started: 1201
+- not_started: 1200
 
 ## Chips
 
@@ -5671,7 +5671,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x371 - 2048-bit ROM (256x8)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x371
 - Aliases: none
 - Source section: Larger footprints
@@ -5684,7 +5684,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x371/tb_ttl_74x371.sv
 - README: rtl/chips/ttl_74x371/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x373 - octal transparent latch
 - Status: [x]
