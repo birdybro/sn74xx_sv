@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 44
+- complete: 45
 - digital_only_approximation: 1
-- not_started: 1510
+- not_started: 1509
 
 ## Chips
 
@@ -743,7 +743,7 @@ For every chip:
   - Excess-3-to-decimal decoder. Invalid codes (0-2, 13-15) yield all-high outputs.
 
 ### 74x44 - Gray code to decimal decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x44
 - Aliases: none
 - Source section: Larger footprints
@@ -756,7 +756,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x44/tb_ttl_74x44.sv
 - README: rtl/chips/ttl_74x44/README.md
 - Notes:
-  - (none)
+  - Excess-3 Gray code to decimal decoder. Datasheet truth table reproduced as case statement.
 
 ### 74x45 - BCD to decimal decoder/driver
 - Status: [ ]

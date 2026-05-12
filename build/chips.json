@@ -936,8 +936,10 @@
     "pins": "16",
     "datasheet": "SN7444A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n231",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Excess-3 Gray code to decimal decoder. Datasheet truth table reproduced as case statement."
+    ],
     "rtl_path": "rtl/chips/ttl_74x44/ttl_74x44.sv",
     "testbench_path": "tb/chips/ttl_74x44/tb_ttl_74x44.sv",
     "readme_path": "rtl/chips/ttl_74x44/README.md"
