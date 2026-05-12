@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 469
+- complete: 470
 - digital_only_approximation: 21
-- not_started: 1065
+- not_started: 1064
 
 ## Chips
 
@@ -7879,7 +7879,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x538 - 3-to-8 line decoder/demultiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x538
 - Aliases: none
 - Source section: Larger footprints
@@ -7892,7 +7892,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x538/tb_ttl_74x538.sv
 - README: rtl/chips/ttl_74x538/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x539 - dual 2-to-4 line decoder/demultiplexer
 - Status: [ ]
