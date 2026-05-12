@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 191
+- complete: 192
 - digital_only_approximation: 6
-- not_started: 1358
+- not_started: 1357
 
 ## Chips
 
@@ -3095,7 +3095,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x181 - 4-bit arithmetic logic unit and function generator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x181
 - Aliases: none
 - Source section: Larger footprints
@@ -3108,7 +3108,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x181/tb_ttl_74x181.sv
 - README: rtl/chips/ttl_74x181/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x182 - lookahead carry generator
 - Status: [ ]

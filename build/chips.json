@@ -4034,8 +4034,10 @@
     "pins": "24",
     "datasheet": "SN74LS181",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54ls181",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x181/ttl_74x181.sv",
     "testbench_path": "tb/chips/ttl_74x181/tb_ttl_74x181.sv",
     "readme_path": "rtl/chips/ttl_74x181/README.md"
