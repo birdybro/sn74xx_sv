@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 408
+- complete: 409
 - digital_only_approximation: 17
-- not_started: 1130
+- not_started: 1129
 
 ## Chips
 
@@ -6839,7 +6839,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74S451 - 8192-bit PROM (1024x8) with power-down
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74s451
 - Aliases: none
 - Source section: Larger footprints
@@ -6852,7 +6852,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74s451/tb_ttl_74s451.sv
 - README: rtl/chips/ttl_74s451/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74LS451 - dual 8-to-1 multiplexer
 - Status: [ ]
