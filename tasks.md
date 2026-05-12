@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 519
+- complete: 520
 - digital_only_approximation: 21
-- not_started: 1015
+- not_started: 1014
 
 ## Chips
 
@@ -8679,7 +8679,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x598 - 8-bit shift register, selectable parallel-in/out input latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x598
 - Aliases: none
 - Source section: Larger footprints
@@ -8692,7 +8692,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x598/tb_ttl_74x598.sv
 - README: rtl/chips/ttl_74x598/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x599 - 8-bit shift registers, serial-in, parallel-out, output latches
 - Status: [ ]
