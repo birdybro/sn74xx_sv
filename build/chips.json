@@ -9263,8 +9263,10 @@
     "pins": "20",
     "datasheet": "SN74LS463",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-067/DSA2IH00215108.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "digital_only_approximation",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x463/ttl_74x463.sv",
     "testbench_path": "tb/chips/ttl_74x463/tb_ttl_74x463.sv",
     "readme_path": "rtl/chips/ttl_74x463/README.md"

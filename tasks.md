@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 422
-- digital_only_approximation: 18
-- not_started: 1115
+- digital_only_approximation: 19
+- not_started: 1114
 
 ## Chips
 
@@ -7079,7 +7079,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x463 - fiber-optic data-link receiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x463
 - Aliases: none
 - Source section: Larger footprints
@@ -7092,7 +7092,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x463/tb_ttl_74x463.sv
 - README: rtl/chips/ttl_74x463/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x465 - octal buffer, non-inverting outputs
 - Status: [ ]
