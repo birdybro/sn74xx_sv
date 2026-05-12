@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 82
+- complete: 83
 - digital_only_approximation: 1
-- not_started: 1472
+- not_started: 1471
 
 ## Chips
 
@@ -1095,7 +1095,7 @@ For every chip:
   - Triple 3-input expander; same approximation rationale as 74x60.
 
 ### 74x62 - 3-3-2-2-input AND-OR expander for 74x50, 74x53, 74x55
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x62
 - Aliases: none
 - Source section: Larger footprints
@@ -1108,7 +1108,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x62/tb_ttl_74x62.sv
 - README: rtl/chips/ttl_74x62/README.md
 - Notes:
-  - (none)
+  - 3-3-2-2 OR-expander; outputs OR of products for downstream AOI host.
 
 ### 74x63 - hex current sensing interface gates
 - Status: [ ]

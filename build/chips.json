@@ -1405,8 +1405,10 @@
     "pins": "14",
     "datasheet": "SN74H62",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n301",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3-3-2-2 OR-expander; outputs OR of products for downstream AOI host."
+    ],
     "rtl_path": "rtl/chips/ttl_74x62/ttl_74x62.sv",
     "testbench_path": "tb/chips/ttl_74x62/tb_ttl_74x62.sv",
     "readme_path": "rtl/chips/ttl_74x62/README.md"
