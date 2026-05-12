@@ -9116,8 +9116,10 @@
     "pins": "16",
     "datasheet": "MC74456",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladauctorDataLibraryVol8Chips_17508458/page/n421",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74456/ttl_74456.sv",
     "testbench_path": "tb/chips/ttl_74456/tb_ttl_74456.sv",
     "readme_path": "rtl/chips/ttl_74456/README.md"
