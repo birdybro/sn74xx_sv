@@ -8738,8 +8738,10 @@
     "pins": "20",
     "datasheet": "SN74LS443",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1147",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x443/ttl_74x443.sv",
     "testbench_path": "tb/chips/ttl_74x443/tb_ttl_74x443.sv",
     "readme_path": "rtl/chips/ttl_74x443/README.md"
