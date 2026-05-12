@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 29
-- not_started: 1526
+- complete: 30
+- not_started: 1525
 
 ## Chips
 
@@ -502,7 +502,7 @@ For every chip:
   - Same logic as 74x02; higher drive (N=30) not modeled.
 
 ### 74x29 - dual 4-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x29
 - Aliases: none
 - Source section: Larger footprints
@@ -515,7 +515,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x29/tb_ttl_74x29.sv
 - README: rtl/chips/ttl_74x29/README.md
 - Notes:
-  - (none)
+  - Dual 4-input NOR; exhaustive 256-vector testbench.
 
 ### 74x30 - single 8-input NAND gate
 - Status: [ ]
