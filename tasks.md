@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 185
+- complete: 186
 - digital_only_approximation: 6
-- not_started: 1364
+- not_started: 1363
 
 ## Chips
 
@@ -2999,7 +2999,7 @@ For every chip:
   - 6 D flip-flops, common posedge clock, common async clear. No /Q outputs.
 
 ### 74x175 - quad D edge-triggered flip-flop, shared clock and asynchronous clear, Q & /Q outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x175
 - Aliases: none
 - Source section: Larger footprints
@@ -3012,7 +3012,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x175/tb_ttl_74x175.sv
 - README: rtl/chips/ttl_74x175/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x176 - presettable decade (bi-quinary) counter/latch
 - Status: [ ]
