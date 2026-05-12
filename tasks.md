@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 278
+- complete: 279
 - digital_only_approximation: 7
-- not_started: 1270
+- not_started: 1269
 
 ## Chips
 
@@ -4583,7 +4583,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x285 - 4-bit by 4-bit parallel binary multiplier (low order 4 bits of product)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x285
 - Aliases: none
 - Source section: Larger footprints
@@ -4596,7 +4596,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x285/tb_ttl_74x285.sv
 - README: rtl/chips/ttl_74x285/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x286 - 9-bit parity generator/checker, bus driver parity I/O port
 - Status: [ ]

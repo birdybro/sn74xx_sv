@@ -5985,8 +5985,10 @@
     "pins": "16",
     "datasheet": "SN74285",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n971",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x285/ttl_74x285.sv",
     "testbench_path": "tb/chips/ttl_74x285/tb_ttl_74x285.sv",
     "readme_path": "rtl/chips/ttl_74x285/README.md"
