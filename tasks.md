@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 147
-- digital_only_approximation: 5
-- not_started: 1403
+- digital_only_approximation: 6
+- not_started: 1402
 
 ## Chips
 
@@ -2263,7 +2263,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x130 - retriggerable monostable multivibrator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x130
 - Aliases: none
 - Source section: Larger footprints
@@ -2276,7 +2276,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x130/tb_ttl_74x130.sv
 - README: rtl/chips/ttl_74x130/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74131 - quad 2-input AND gate
 - Status: [ ]
