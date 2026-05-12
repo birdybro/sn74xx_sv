@@ -10082,8 +10082,10 @@
     "pins": "28",
     "datasheet": "74F525",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n457",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x525/ttl_74x525.sv",
     "testbench_path": "tb/chips/ttl_74x525/tb_ttl_74x525.sv",
     "readme_path": "rtl/chips/ttl_74x525/README.md"
