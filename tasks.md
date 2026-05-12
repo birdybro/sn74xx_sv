@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 335
+- complete: 336
 - digital_only_approximation: 14
-- not_started: 1206
+- not_started: 1205
 
 ## Chips
 
@@ -5591,7 +5591,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x365 - hex buffer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x365
 - Aliases: none
 - Source section: Larger footprints
@@ -5604,7 +5604,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x365/tb_ttl_74x365.sv
 - README: rtl/chips/ttl_74x365/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x366 - hex buffer, inverting outputs
 - Status: [ ]
