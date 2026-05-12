@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 106
+- complete: 107
 - digital_only_approximation: 1
-- not_started: 1448
+- not_started: 1447
 
 ## Chips
 
@@ -1511,7 +1511,7 @@ For every chip:
   - Combinational 4-bit adder; 512-vector exhaustive testbench covering all a,b,carry-in.
 
 ### 74x84 - 16-bit RAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x84
 - Aliases: none
 - Source section: Larger footprints
@@ -1524,7 +1524,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x84/tb_ttl_74x84.sv
 - README: rtl/chips/ttl_74x84/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x85 - 4-bit magnitude comparator
 - Status: [x]
