@@ -1321,8 +1321,10 @@
     "pins": "14",
     "datasheet": "74HC58",
     "datasheet_url": "https://media.digikey.com/pdf/Data%20Sheets/NXP%20PDFs/74HC58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Non-inverting AND-OR (no Invert). Different widths per gate."
+    ],
     "rtl_path": "rtl/chips/ttl_74x58/ttl_74x58.sv",
     "testbench_path": "tb/chips/ttl_74x58/tb_ttl_74x58.sv",
     "readme_path": "rtl/chips/ttl_74x58/README.md"
