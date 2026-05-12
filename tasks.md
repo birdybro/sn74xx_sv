@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 59
+- complete: 60
 - digital_only_approximation: 1
-- not_started: 1495
+- not_started: 1494
 
 ## Chips
 
@@ -2407,7 +2407,7 @@ For every chip:
   - (none)
 
 ### 74x138 - 3-to-8 line decoder/demultiplexer, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x138
 - Aliases: none
 - Source section: Larger footprints
@@ -2420,7 +2420,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x138/tb_ttl_74x138.sv
 - README: rtl/chips/ttl_74x138/README.md
 - Notes:
-  - (none)
+  - 3-to-8 active-low decoder with 3 enable inputs (one active-high, two active-low); 64-vector exhaustive testbench.
 
 ### 74x139 - dual 2-to-4 line decoder/demultiplexer, inverting outputs
 - Status: [ ]

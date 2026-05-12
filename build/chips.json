@@ -2955,8 +2955,10 @@
     "pins": "16",
     "datasheet": "SN74LS138",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls138",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3-to-8 active-low decoder with 3 enable inputs (one active-high, two active-low); 64-vector exhaustive testbench."
+    ],
     "rtl_path": "rtl/chips/ttl_74x138/ttl_74x138.sv",
     "testbench_path": "tb/chips/ttl_74x138/tb_ttl_74x138.sv",
     "readme_path": "rtl/chips/ttl_74x138/README.md"
