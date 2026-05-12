@@ -915,8 +915,10 @@
     "pins": "16",
     "datasheet": "SN7443A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n231",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Excess-3-to-decimal decoder. Invalid codes (0-2, 13-15) yield all-high outputs."
+    ],
     "rtl_path": "rtl/chips/ttl_74x43/ttl_74x43.sv",
     "testbench_path": "tb/chips/ttl_74x43/tb_ttl_74x43.sv",
     "readme_path": "rtl/chips/ttl_74x43/README.md"
