@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 52
+- complete: 53
 - digital_only_approximation: 1
-- not_started: 1502
+- not_started: 1501
 
 ## Chips
 
@@ -775,7 +775,7 @@ For every chip:
   - Same logic as 74x42; OC 30V drive not modeled.
 
 ### 74x46 - BCD to 7-segment display decoder/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x46
 - Aliases: none
 - Source section: Larger footprints
@@ -788,7 +788,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x46/tb_ttl_74x46.sv
 - README: rtl/chips/ttl_74x46/README.md
 - Notes:
-  - (none)
+  - Standard 7447-style decode table including 0xA-0xF partial patterns; full blanking/lamp-test priority resolved per datasheet. 128-vector testbench (32 for 74x49).
 
 ### 74x47 - BCD to 7-segment decoder/driver
 - Status: [ ]
