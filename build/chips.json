@@ -7142,8 +7142,10 @@
     "pins": "20",
     "datasheet": "CD74HC354",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc354",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x354/ttl_74x354.sv",
     "testbench_path": "tb/chips/ttl_74x354/tb_ttl_74x354.sv",
     "readme_path": "rtl/chips/ttl_74x354/README.md"
