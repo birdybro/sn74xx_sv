@@ -3651,8 +3651,10 @@
     "pins": "16",
     "datasheet": "SN74LS174",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls174",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "6 D flip-flops, common posedge clock, common async clear. No /Q outputs."
+    ],
     "rtl_path": "rtl/chips/ttl_74x174/ttl_74x174.sv",
     "testbench_path": "tb/chips/ttl_74x174/tb_ttl_74x174.sv",
     "readme_path": "rtl/chips/ttl_74x174/README.md"
