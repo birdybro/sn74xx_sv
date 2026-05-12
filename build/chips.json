@@ -8066,8 +8066,10 @@
     "pins": "48",
     "datasheet": "SN74S408",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1984DatabookOCR#page/n273",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74s408/ttl_74s408.sv",
     "testbench_path": "tb/chips/ttl_74s408/tb_ttl_74s408.sv",
     "readme_path": "rtl/chips/ttl_74s408/README.md"

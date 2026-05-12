@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 369
+- complete: 370
 - digital_only_approximation: 14
-- not_started: 1172
+- not_started: 1171
 
 ## Chips
 
@@ -6167,7 +6167,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74S408 - controller/driver for 16k/64k/256k dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74s408
 - Aliases: none
 - Source section: Larger footprints
@@ -6180,7 +6180,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74s408/tb_ttl_74s408.sv
 - README: rtl/chips/ttl_74s408/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x409 - controller/driver for 16k/64k/256k dRAM
 - Status: [ ]
