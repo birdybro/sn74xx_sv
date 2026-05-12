@@ -10271,8 +10271,10 @@
     "pins": "20",
     "datasheet": "SN74S536",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1982DatabookOCR#page/n331",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x536/ttl_74x536.sv",
     "testbench_path": "tb/chips/ttl_74x536/tb_ttl_74x536.sv",
     "readme_path": "rtl/chips/ttl_74x536/README.md"
