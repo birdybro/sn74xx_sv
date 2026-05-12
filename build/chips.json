@@ -6048,8 +6048,10 @@
     "pins": "16",
     "datasheet": "SN74S288",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookcomputerComponentsDataBook_16851665/page/n173",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x288/ttl_74x288.sv",
     "testbench_path": "tb/chips/ttl_74x288/tb_ttl_74x288.sv",
     "readme_path": "rtl/chips/ttl_74x288/README.md"
