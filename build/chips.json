@@ -8234,8 +8234,10 @@
     "pins": "16",
     "datasheet": "UCY74S416",
     "datasheet_url": "https://web.archive.org/web/20180905022944/http://pdf.datasheetcatalog.com/datasheet/CEMI/mXyztyxq.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74s416/ttl_74s416.sv",
     "testbench_path": "tb/chips/ttl_74s416/tb_ttl_74s416.sv",
     "readme_path": "rtl/chips/ttl_74s416/README.md"

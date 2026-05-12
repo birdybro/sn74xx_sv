@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 377
+- complete: 378
 - digital_only_approximation: 14
-- not_started: 1164
+- not_started: 1163
 
 ## Chips
 
@@ -6295,7 +6295,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74S416 - 4-bit bidirectional bus transceiver, non-inverting (equivalent to Intel 8216)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74s416
 - Aliases: none
 - Source section: Larger footprints
@@ -6308,7 +6308,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74s416/tb_ttl_74s416.sv
 - README: rtl/chips/ttl_74s416/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x417 - modulo 2 and modulo 5 counters, shared preload and clear inputs
 - Status: [ ]
