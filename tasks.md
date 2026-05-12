@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 234
+- complete: 235
 - digital_only_approximation: 7
-- not_started: 1314
+- not_started: 1313
 
 ## Chips
 
@@ -3799,7 +3799,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x230 - dual 4-bit buffer/driver, one inverted, one non-inverted; negative enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x230
 - Aliases: none
 - Source section: Larger footprints
@@ -3812,7 +3812,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x230/tb_ttl_74x230.sv
 - README: rtl/chips/ttl_74x230/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x231 - dual 4-bit buffer/driver, both inverted; one positive and one negative enable
 - Status: [ ]

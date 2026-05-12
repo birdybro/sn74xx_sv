@@ -4958,8 +4958,10 @@
     "pins": "20",
     "datasheet": "SN74AS230",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n245",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x230/ttl_74x230.sv",
     "testbench_path": "tb/chips/ttl_74x230/tb_ttl_74x230.sv",
     "readme_path": "rtl/chips/ttl_74x230/README.md"
