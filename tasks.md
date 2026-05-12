@@ -30,8 +30,8 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 312
-- digital_only_approximation: 10
-- not_started: 1233
+- digital_only_approximation: 11
+- not_started: 1232
 
 ## Chips
 
@@ -5159,7 +5159,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x325 - dual voltage-controlled oscillator (or crystal controlled), complementary outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x325
 - Aliases: none
 - Source section: Larger footprints
@@ -5172,7 +5172,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x325/tb_ttl_74x325.sv
 - README: rtl/chips/ttl_74x325/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x326 - dual voltage-controlled oscillator (or crystal controlled), enable input, complementary outputs
 - Status: [ ]
