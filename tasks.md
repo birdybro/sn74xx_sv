@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 486
+- complete: 487
 - digital_only_approximation: 21
-- not_started: 1048
+- not_started: 1047
 
 ## Chips
 
@@ -8151,7 +8151,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x557 - 8-bit by 8-bit multiplier
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x557
 - Aliases: none
 - Source section: Larger footprints
@@ -8164,7 +8164,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x557/tb_ttl_74x557.sv
 - README: rtl/chips/ttl_74x557/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x558 - 8-bit by 8-bit multiplier
 - Status: [ ]
