@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 386
+- complete: 387
 - digital_only_approximation: 17
-- not_started: 1152
+- not_started: 1151
 
 ## Chips
 
@@ -6487,7 +6487,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x426 - quad bus buffers, active high enables
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x426
 - Aliases: none
 - Source section: Larger footprints
@@ -6500,7 +6500,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x426/tb_ttl_74x426.sv
 - README: rtl/chips/ttl_74x426/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x428 - system controller for Intel 8080A (equivalent to Intel 8228)
 - Status: [ ]

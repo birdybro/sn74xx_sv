@@ -8486,8 +8486,10 @@
     "pins": "14",
     "datasheet": "SN74426",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1139",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x426/ttl_74x426.sv",
     "testbench_path": "tb/chips/ttl_74x426/tb_ttl_74x426.sv",
     "readme_path": "rtl/chips/ttl_74x426/README.md"
