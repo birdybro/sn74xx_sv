@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 256
+- complete: 257
 - digital_only_approximation: 7
-- not_started: 1292
+- not_started: 1291
 
 ## Chips
 
@@ -4183,7 +4183,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x256 - dual 4-bit addressable latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x256
 - Aliases: none
 - Source section: Larger footprints
@@ -4196,7 +4196,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x256/tb_ttl_74x256.sv
 - README: rtl/chips/ttl_74x256/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x257 - quad 2-line to 1-line data selector/multiplexer, non-inverting outputs
 - Status: [ ]
