@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 28
-- not_started: 1527
+- complete: 29
+- not_started: 1526
 
 ## Chips
 
@@ -486,7 +486,7 @@ For every chip:
   - Triple 3-input NOR; exhaustive 512-vector testbench.
 
 ### 74x28 - quad 2-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x28
 - Aliases: none
 - Source section: Larger footprints
@@ -499,7 +499,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x28/tb_ttl_74x28.sv
 - README: rtl/chips/ttl_74x28/README.md
 - Notes:
-  - (none)
+  - Same logic as 74x02; higher drive (N=30) not modeled.
 
 ### 74x29 - dual 4-input NOR gate
 - Status: [ ]
