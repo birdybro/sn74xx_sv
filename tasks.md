@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 3
-- not_started: 1552
+- complete: 4
+- not_started: 1551
 
 ## Chips
 
@@ -166,7 +166,7 @@ For every chip:
   - (none)
 
 ### 74x08 - quad 2-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x08
 - Aliases: none
 - Source section: Larger footprints
@@ -179,7 +179,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x08/tb_ttl_74x08.sv
 - README: rtl/chips/ttl_74x08/README.md
 - Notes:
-  - (none)
+  - Exhaustive testbench passes; Verilator lint and Yosys synth check clean.
 
 ### 74x09 - quad 2-input AND gate
 - Status: [ ]
