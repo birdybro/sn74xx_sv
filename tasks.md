@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 361
+- complete: 362
 - digital_only_approximation: 14
-- not_started: 1180
+- not_started: 1179
 
 ## Chips
 
@@ -6039,7 +6039,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x401 - CRC generator/checker
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x401
 - Aliases: none
 - Source section: Larger footprints
@@ -6052,7 +6052,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x401/tb_ttl_74x401.sv
 - README: rtl/chips/ttl_74x401/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x402 - serial data polynomial generator/checker
 - Status: [ ]
