@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 292
+- complete: 293
 - digital_only_approximation: 7
-- not_started: 1256
+- not_started: 1255
 
 ## Chips
 
@@ -4871,7 +4871,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x305 - octal divide-by-2 clock driver, 4 outputs inverted
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x305
 - Aliases: none
 - Source section: Larger footprints
@@ -4884,7 +4884,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x305/tb_ttl_74x305.sv
 - README: rtl/chips/ttl_74x305/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x306 - 8-bit LV-TTL to GTL+ bus transceiver
 - Status: [ ]

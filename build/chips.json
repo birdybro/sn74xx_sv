@@ -6355,8 +6355,10 @@
     "pins": "16",
     "datasheet": "SN74AS305",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n521",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x305/ttl_74x305.sv",
     "testbench_path": "tb/chips/ttl_74x305/tb_ttl_74x305.sv",
     "readme_path": "rtl/chips/ttl_74x305/README.md"
