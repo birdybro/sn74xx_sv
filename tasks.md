@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 203
+- complete: 204
 - digital_only_approximation: 6
-- not_started: 1346
+- not_started: 1345
 
 ## Chips
 
@@ -3287,7 +3287,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x193 - synchronous presettable up/down 4-bit binary counter, clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x193
 - Aliases: none
 - Source section: Larger footprints
@@ -3300,7 +3300,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x193/tb_ttl_74x193.sv
 - README: rtl/chips/ttl_74x193/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x194 - 4-bit bidirectional universal shift register
 - Status: [ ]
