@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 488
+- complete: 489
 - digital_only_approximation: 21
-- not_started: 1046
+- not_started: 1045
 
 ## Chips
 
@@ -8183,7 +8183,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x559 - 8-bit expandable two's complement multiplier/divider
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x559
 - Aliases: none
 - Source section: Larger footprints
@@ -8196,7 +8196,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x559/tb_ttl_74x559.sv
 - README: rtl/chips/ttl_74x559/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x560 - 4-bit decade counter
 - Status: [ ]
