@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 91
+- complete: 92
 - digital_only_approximation: 1
-- not_started: 1463
+- not_started: 1462
 
 ## Chips
 
@@ -1239,7 +1239,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74x70 - AND-gated positive-edge-triggered J-K flip-flop, asynchronous preset and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x70
 - Aliases: none
 - Source section: Larger footprints
@@ -1252,7 +1252,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x70/tb_ttl_74x70.sv
 - README: rtl/chips/ttl_74x70/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74H71 - AND-OR-gated J-K master-slave flip-flop, preset
 - Status: [ ]
