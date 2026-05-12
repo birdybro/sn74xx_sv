@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 348
+- complete: 349
 - digital_only_approximation: 14
-- not_started: 1193
+- not_started: 1192
 
 ## Chips
 
@@ -5831,7 +5831,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x382 - 4-bit arithmetic logic unit/function generator, ripple carry and overflow outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x382
 - Aliases: none
 - Source section: Larger footprints
@@ -5844,7 +5844,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x382/tb_ttl_74x382.sv
 - README: rtl/chips/ttl_74x382/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x383 - 8-bit register
 - Status: [ ]
