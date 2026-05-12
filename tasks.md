@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 155
+- complete: 156
 - digital_only_approximation: 6
-- not_started: 1394
+- not_started: 1393
 
 ## Chips
 
@@ -2439,7 +2439,7 @@ For every chip:
   - Two independent 2-to-4 active-low decoders, each with active-low enable. 64-vector exhaustive testbench.
 
 ### 74x140 - dual 4-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x140
 - Aliases: none
 - Source section: Larger footprints
@@ -2452,7 +2452,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x140/tb_ttl_74x140.sv
 - README: rtl/chips/ttl_74x140/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x141 - BCD to decimal decoder/driver for cold-cathode indicator / Nixie tube
 - Status: [ ]
