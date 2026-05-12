@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 527
+- complete: 528
 - digital_only_approximation: 21
-- not_started: 1007
+- not_started: 1006
 
 ## Chips
 
@@ -8807,7 +8807,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x606 - octal 2-input multiplexer, latch, glitch-free
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x606
 - Aliases: none
 - Source section: Larger footprints
@@ -8820,7 +8820,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x606/tb_ttl_74x606.sv
 - README: rtl/chips/ttl_74x606/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x607 - octal 2-input multiplexer, latch, glitch-free
 - Status: [ ]
