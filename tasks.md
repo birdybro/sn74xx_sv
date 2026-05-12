@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 492
+- complete: 493
 - digital_only_approximation: 21
-- not_started: 1042
+- not_started: 1041
 
 ## Chips
 
@@ -8247,7 +8247,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x564 - octal D-type edge-triggered flip-flop, inverting outputs, shared clock and output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x564
 - Aliases: none
 - Source section: Larger footprints
@@ -8260,7 +8260,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x564/tb_ttl_74x564.sv
 - README: rtl/chips/ttl_74x564/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x566 - 8-bit bidirectional registered transceiver, inverting
 - Status: [ ]
