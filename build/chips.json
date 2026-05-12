@@ -1122,8 +1122,10 @@
     "pins": "14",
     "datasheet": "SN74H52",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n271",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3-2-2-2 AND-OR (non-inverting). 74x61 expander interface omitted."
+    ],
     "rtl_path": "rtl/chips/ttl_74x52/ttl_74x52.sv",
     "testbench_path": "tb/chips/ttl_74x52/tb_ttl_74x52.sv",
     "readme_path": "rtl/chips/ttl_74x52/README.md"

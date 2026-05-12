@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 49
+- complete: 50
 - digital_only_approximation: 1
-- not_started: 1505
+- not_started: 1504
 
 ## Chips
 
@@ -887,7 +887,7 @@ For every chip:
   - Distinct gate widths: 3-3 AOI + 2-2 AOI. 1024-vector exhaustive testbench.
 
 ### 74x52 - 3-2-2-2-input AND-OR gate, expandable with 74x61
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x52
 - Aliases: none
 - Source section: Larger footprints
@@ -900,7 +900,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x52/tb_ttl_74x52.sv
 - README: rtl/chips/ttl_74x52/README.md
 - Notes:
-  - (none)
+  - 3-2-2-2 AND-OR (non-inverting). 74x61 expander interface omitted.
 
 ### 7453 - 2-2-2-2-input AND-OR-Invert gate, expandable
 - Status: [ ]
