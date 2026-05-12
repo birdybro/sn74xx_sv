@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 289
+- complete: 290
 - digital_only_approximation: 7
-- not_started: 1259
+- not_started: 1258
 
 ## Chips
 
@@ -4823,7 +4823,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x302 - 256-bit RAM (256x1)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x302
 - Aliases: none
 - Source section: Larger footprints
@@ -4836,7 +4836,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x302/tb_ttl_74x302.sv
 - README: rtl/chips/ttl_74x302/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x303 - octal divide-by-2 clock driver, 2 outputs inverted
 - Status: [ ]
