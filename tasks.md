@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 418
+- complete: 419
 - digital_only_approximation: 17
-- not_started: 1120
+- not_started: 1119
 
 ## Chips
 
@@ -6999,7 +6999,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x458 - nines complement / zero element
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x458
 - Aliases: none
 - Source section: Larger footprints
@@ -7012,7 +7012,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x458/tb_ttl_74x458.sv
 - README: rtl/chips/ttl_74x458/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74460 - 4-bit bus transfer switch
 - Status: [ ]
