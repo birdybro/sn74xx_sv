@@ -1907,8 +1907,10 @@
     "pins": "14",
     "datasheet": "SN7482",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n379",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74x82/ttl_74x82.sv",
     "testbench_path": "tb/chips/ttl_74x82/tb_ttl_74x82.sv",
     "readme_path": "rtl/chips/ttl_74x82/README.md"

@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 104
+- complete: 105
 - digital_only_approximation: 1
-- not_started: 1450
+- not_started: 1449
 
 ## Chips
 
@@ -1479,7 +1479,7 @@ For every chip:
   - (none)
 
 ### 74x82 - 2-bit binary full adder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x82
 - Aliases: none
 - Source section: Larger footprints
@@ -1492,7 +1492,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x82/tb_ttl_74x82.sv
 - README: rtl/chips/ttl_74x82/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md.
 
 ### 74x83 - 4-bit binary full adder
 - Status: [x]
