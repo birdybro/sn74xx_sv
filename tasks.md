@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 490
+- complete: 491
 - digital_only_approximation: 21
-- not_started: 1044
+- not_started: 1043
 
 ## Chips
 
@@ -8215,7 +8215,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x561 - synchronous 4-bit binary counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x561
 - Aliases: none
 - Source section: Larger footprints
@@ -8228,7 +8228,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x561/tb_ttl_74x561.sv
 - README: rtl/chips/ttl_74x561/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x563 - octal D-type transparent latch, inverting outputs
 - Status: [ ]
