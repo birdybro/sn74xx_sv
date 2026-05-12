@@ -12077,8 +12077,10 @@
     "pins": "48",
     "datasheet": "SN74ALS635",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n457",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x635/ttl_74x635.sv",
     "testbench_path": "tb/chips/ttl_74x635/tb_ttl_74x635.sv",
     "readme_path": "rtl/chips/ttl_74x635/README.md"
