@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 16
-- not_started: 1539
+- complete: 17
+- not_started: 1538
 
 ## Chips
 
@@ -262,7 +262,7 @@ For every chip:
   - Schmitt-trigger input hysteresis not modeled; exhaustive 256-vector testbench.
 
 ### 74x14 - hex inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x14
 - Aliases: none
 - Source section: Larger footprints
@@ -275,7 +275,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x14/tb_ttl_74x14.sv
 - README: rtl/chips/ttl_74x14/README.md
 - Notes:
-  - (none)
+  - Schmitt hysteresis and oscillator use not modeled; exhaustive 64-vector testbench.
 
 ### 74x15 - triple 3-input AND gate
 - Status: [ ]
