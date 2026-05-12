@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 472
+- complete: 473
 - digital_only_approximation: 21
-- not_started: 1062
+- not_started: 1061
 
 ## Chips
 
@@ -7927,7 +7927,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x541 - octal buffer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x541
 - Aliases: none
 - Source section: Larger footprints
@@ -7940,7 +7940,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x541/tb_ttl_74x541.sv
 - README: rtl/chips/ttl_74x541/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x543 - octal registered transceiver, non-inverting
 - Status: [ ]
