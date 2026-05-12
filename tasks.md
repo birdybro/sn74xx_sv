@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 306
+- complete: 307
 - digital_only_approximation: 7
-- not_started: 1242
+- not_started: 1241
 
 ## Chips
 
@@ -4727,7 +4727,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x295 - 4-bit bidirectional shift register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x295
 - Aliases: none
 - Source section: Larger footprints
@@ -4740,7 +4740,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x295/tb_ttl_74x295.sv
 - README: rtl/chips/ttl_74x295/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x297 - digital phase-locked loop filter
 - Status: [ ]
