@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 138
+- complete: 139
 - digital_only_approximation: 1
-- not_started: 1416
+- not_started: 1415
 
 ## Chips
 
@@ -2055,7 +2055,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x117 - AND-gated J-K flip flop, one J and K input inverted
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x117
 - Aliases: none
 - Source section: Larger footprints
@@ -2068,7 +2068,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x117/tb_ttl_74x117.sv
 - README: rtl/chips/ttl_74x117/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x118 - hex set/reset latch, shared reset
 - Status: [ ]
