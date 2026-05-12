@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 380
+- complete: 381
 - digital_only_approximation: 14
-- not_started: 1161
+- not_started: 1160
 
 ## Chips
 
@@ -6343,7 +6343,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74F418 - 32-bit error detection and correction circuit
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74f418
 - Aliases: none
 - Source section: Larger footprints
@@ -6356,7 +6356,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74f418/tb_ttl_74f418.sv
 - README: rtl/chips/ttl_74f418/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74419 - dual modulo 4 counters, shared preload and clear inputs
 - Status: [ ]
