@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 84
+- complete: 85
 - digital_only_approximation: 1
-- not_started: 1470
+- not_started: 1469
 
 ## Chips
 
@@ -1127,7 +1127,7 @@ For every chip:
   - Current-sensing inputs not modeled; RTL is digital pass-through.
 
 ### 74x64 - 4-3-2-2-input AND-OR-Invert gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x64
 - Aliases: none
 - Source section: Larger footprints
@@ -1140,7 +1140,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x64/tb_ttl_74x64.sv
 - README: rtl/chips/ttl_74x64/README.md
 - Notes:
-  - (none)
+  - 4-3-2-2 AOI.
 
 ### 74x65 - 4-3-2-2 input AND-OR-Invert gate
 - Status: [ ]
