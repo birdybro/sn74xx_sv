@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 273
+- complete: 274
 - digital_only_approximation: 7
-- not_started: 1275
+- not_started: 1274
 
 ## Chips
 
@@ -4487,7 +4487,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x279 - quad set-reset latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x279
 - Aliases: none
 - Source section: Larger footprints
@@ -4500,7 +4500,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x279/tb_ttl_74x279.sv
 - README: rtl/chips/ttl_74x279/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x280 - 9-bit odd/even parity bit generator/checker
 - Status: [ ]
