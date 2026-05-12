@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 374
+- complete: 375
 - digital_only_approximation: 14
-- not_started: 1167
+- not_started: 1166
 
 ## Chips
 
@@ -6247,7 +6247,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x413 - 256-bit FIFO memory (64x4)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x413
 - Aliases: none
 - Source section: Larger footprints
@@ -6260,7 +6260,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x413/tb_ttl_74x413.sv
 - README: rtl/chips/ttl_74x413/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x414 - interrupt priority controller for Intel 8080 (equivalent to Intel 8214)
 - Status: [ ]
