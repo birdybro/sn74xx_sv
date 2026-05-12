@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 195
+- complete: 196
 - digital_only_approximation: 6
-- not_started: 1354
+- not_started: 1353
 
 ## Chips
 
@@ -3159,7 +3159,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x185 - 6-bit binary to BCD converter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x185
 - Aliases: none
 - Source section: Larger footprints
@@ -3172,7 +3172,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x185/tb_ttl_74x185.sv
 - README: rtl/chips/ttl_74x185/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x186 - 512-bit ROM (64x8)
 - Status: [ ]
