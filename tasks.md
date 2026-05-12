@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 113
+- complete: 114
 - digital_only_approximation: 1
-- not_started: 1441
+- not_started: 1440
 
 ## Chips
 
@@ -1655,7 +1655,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x93 - 4-bit binary counter (separate divide-by-2 and divide-by-8 sections); different pinout for 74L93
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x93
 - Aliases: none
 - Source section: Larger footprints
@@ -1668,7 +1668,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x93/tb_ttl_74x93.sv
 - README: rtl/chips/ttl_74x93/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x94 - 4-bit shift register, dual asynchronous presets
 - Status: [ ]
