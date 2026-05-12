@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 363
+- complete: 364
 - digital_only_approximation: 14
-- not_started: 1178
+- not_started: 1177
 
 ## Chips
 
@@ -6071,7 +6071,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x403 - 64-bit FIFO memory (16x4)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x403
 - Aliases: none
 - Source section: Larger footprints
@@ -6084,7 +6084,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x403/tb_ttl_74x403.sv
 - README: rtl/chips/ttl_74x403/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x405 - 3-to-8 line decoder (equivalent to Intel 8205)
 - Status: [ ]
