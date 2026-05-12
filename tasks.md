@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 81
+- complete: 82
 - digital_only_approximation: 1
-- not_started: 1473
+- not_started: 1472
 
 ## Chips
 
@@ -1079,7 +1079,7 @@ For every chip:
   - Expander chips cannot be synthesized as internal-node interfaces. Provides digital approximation of the AND of inputs.
 
 ### 74x61 - triple 3-input expander for 74x52
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x61
 - Aliases: none
 - Source section: Larger footprints
@@ -1092,7 +1092,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x61/tb_ttl_74x61.sv
 - README: rtl/chips/ttl_74x61/README.md
 - Notes:
-  - (none)
+  - Triple 3-input expander; same approximation rationale as 74x60.
 
 ### 74x62 - 3-3-2-2-input AND-OR expander for 74x50, 74x53, 74x55
 - Status: [ ]

@@ -1384,8 +1384,10 @@
     "pins": "14",
     "datasheet": "SN74H61",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n299",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Triple 3-input expander; same approximation rationale as 74x60."
+    ],
     "rtl_path": "rtl/chips/ttl_74x61/ttl_74x61.sv",
     "testbench_path": "tb/chips/ttl_74x61/tb_ttl_74x61.sv",
     "readme_path": "rtl/chips/ttl_74x61/README.md"
