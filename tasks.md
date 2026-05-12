@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 346
+- complete: 347
 - digital_only_approximation: 14
-- not_started: 1195
+- not_started: 1194
 
 ## Chips
 
@@ -5799,7 +5799,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x380 - 8-bit multifunction register (combines features of x374, x377, x273, x534 ICs)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x380
 - Aliases: none
 - Source section: Larger footprints
@@ -5812,7 +5812,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x380/tb_ttl_74x380.sv
 - README: rtl/chips/ttl_74x380/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x381 - 4-bit arithmetic logic unit/function generator, generate and propagate outputs
 - Status: [ ]
