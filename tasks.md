@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 293
+- complete: 294
 - digital_only_approximation: 7
-- not_started: 1255
+- not_started: 1254
 
 ## Chips
 
@@ -4887,7 +4887,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x306 - 8-bit LV-TTL to GTL+ bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x306
 - Aliases: none
 - Source section: Larger footprints
@@ -4900,7 +4900,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x306/tb_ttl_74x306.sv
 - README: rtl/chips/ttl_74x306/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x309 - 1024-bit RAM (1024x1)
 - Status: [ ]
