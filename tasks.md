@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 186
+- complete: 187
 - digital_only_approximation: 6
-- not_started: 1363
+- not_started: 1362
 
 ## Chips
 
@@ -3015,7 +3015,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x176 - presettable decade (bi-quinary) counter/latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x176
 - Aliases: none
 - Source section: Larger footprints
@@ -3028,7 +3028,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x176/tb_ttl_74x176.sv
 - README: rtl/chips/ttl_74x176/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x177 - presettable binary counter/latch
 - Status: [ ]
