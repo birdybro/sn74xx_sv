@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 80
+- complete: 81
 - digital_only_approximation: 1
-- not_started: 1474
+- not_started: 1473
 
 ## Chips
 
@@ -1063,7 +1063,7 @@ For every chip:
   - Dual 3-2 AOI.
 
 ### 74x60 - dual 4-input expander for 74x23, 74x50, 74x53, 74x55
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x60
 - Aliases: none
 - Source section: Larger footprints
@@ -1076,7 +1076,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x60/tb_ttl_74x60.sv
 - README: rtl/chips/ttl_74x60/README.md
 - Notes:
-  - (none)
+  - Expander chips cannot be synthesized as internal-node interfaces. Provides digital approximation of the AND of inputs.
 
 ### 74x61 - triple 3-input expander for 74x52
 - Status: [ ]

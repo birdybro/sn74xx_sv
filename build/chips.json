@@ -1363,8 +1363,10 @@
     "pins": "14",
     "datasheet": "SN7460",
     "datasheet_url": "https://web.archive.org/web/20180722070120/http://pdf.datasheetcatalog.com/datasheets/166/501736_DS.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Expander chips cannot be synthesized as internal-node interfaces. Provides digital approximation of the AND of inputs."
+    ],
     "rtl_path": "rtl/chips/ttl_74x60/ttl_74x60.sv",
     "testbench_path": "tb/chips/ttl_74x60/tb_ttl_74x60.sv",
     "readme_path": "rtl/chips/ttl_74x60/README.md"
