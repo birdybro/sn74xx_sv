@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 63
+- complete: 64
 - digital_only_approximation: 1
-- not_started: 1491
+- not_started: 1490
 
 ## Chips
 
@@ -5687,7 +5687,7 @@ For every chip:
   - (none)
 
 ### 74x373 - octal transparent latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x373
 - Aliases: none
 - Source section: Larger footprints
@@ -5700,7 +5700,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x373/tb_ttl_74x373.sv
 - README: rtl/chips/ttl_74x373/README.md
 - Notes:
-  - (none)
+  - One of the few chips that uses always_latch (transparent latch is the actual function). 3-state output gated by oe_n.
 
 ### 74x374 - octal register
 - Status: [ ]

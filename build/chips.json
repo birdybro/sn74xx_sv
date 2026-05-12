@@ -6858,8 +6858,10 @@
     "pins": "20",
     "datasheet": "SN74LS373",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls373",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "One of the few chips that uses always_latch (transparent latch is the actual function). 3-state output gated by oe_n."
+    ],
     "rtl_path": "rtl/chips/ttl_74x373/ttl_74x373.sv",
     "testbench_path": "tb/chips/ttl_74x373/tb_ttl_74x373.sv",
     "readme_path": "rtl/chips/ttl_74x373/README.md"
