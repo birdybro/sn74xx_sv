@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 269
+- complete: 270
 - digital_only_approximation: 7
-- not_started: 1279
+- not_started: 1278
 
 ## Chips
 
@@ -4423,7 +4423,7 @@ For every chip:
   - 8 D flip-flops, common posedge clock, common async clear. No output enable.
 
 ### 74x274 - 4-bit by 4-bit binary multiplier
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x274
 - Aliases: none
 - Source section: Larger footprints
@@ -4436,7 +4436,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x274/tb_ttl_74x274.sv
 - README: rtl/chips/ttl_74x274/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x275 - 7-bit slice Wallace tree
 - Status: [ ]
