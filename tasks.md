@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 324
+- complete: 325
 - digital_only_approximation: 13
-- not_started: 1218
+- not_started: 1217
 
 ## Chips
 
@@ -5399,7 +5399,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x350 - 4-bit shifter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x350
 - Aliases: none
 - Source section: Larger footprints
@@ -5412,7 +5412,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x350/tb_ttl_74x350.sv
 - README: rtl/chips/ttl_74x350/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x351 - dual 8-line to 1-line data selectors/multiplexers, 4 common data inputs
 - Status: [ ]
