@@ -8822,8 +8822,10 @@
     "pins": "16",
     "datasheet": "SN74LS447",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1159",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x447/ttl_74x447.sv",
     "testbench_path": "tb/chips/ttl_74x447/tb_ttl_74x447.sv",
     "readme_path": "rtl/chips/ttl_74x447/README.md"

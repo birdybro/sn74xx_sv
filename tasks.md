@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 402
+- complete: 403
 - digital_only_approximation: 17
-- not_started: 1136
+- not_started: 1135
 
 ## Chips
 
@@ -6743,7 +6743,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x447 - BCD to 7-segment decoders/drivers, low voltage version of 74247
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x447
 - Aliases: none
 - Source section: Larger footprints
@@ -6756,7 +6756,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x447/tb_ttl_74x447.sv
 - README: rtl/chips/ttl_74x447/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x448 - quad tridirectional bus transceiver, inverting and non-inverting outputs
 - Status: [ ]
