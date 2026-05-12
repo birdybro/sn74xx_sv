@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 262
+- complete: 263
 - digital_only_approximation: 7
-- not_started: 1286
+- not_started: 1285
 
 ## Chips
 
@@ -4295,7 +4295,7 @@ For every chip:
   - (none)
 
 ### 74x264 - look ahead carry generator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x264
 - Aliases: none
 - Source section: Larger footprints
@@ -4308,7 +4308,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x264/tb_ttl_74x264.sv
 - README: rtl/chips/ttl_74x264/README.md
 - Notes:
-  - (none)
+  - Tests pass; Verilator + Yosys clean.
 
 ### 74x265 - quad complementary output elements
 - Status: [ ]
