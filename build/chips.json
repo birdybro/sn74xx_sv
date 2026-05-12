@@ -1657,8 +1657,10 @@
     "pins": "14",
     "datasheet": "SN7472",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn5472",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Tests pass; Verilator + Yosys clean. Master-slave parts implemented as posedge per docs/conventions.md."
+    ],
     "rtl_path": "rtl/chips/ttl_74x72/ttl_74x72.sv",
     "testbench_path": "tb/chips/ttl_74x72/tb_ttl_74x72.sv",
     "readme_path": "rtl/chips/ttl_74x72/README.md"
