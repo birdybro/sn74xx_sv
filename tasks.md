@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 71
+- complete: 72
 - digital_only_approximation: 1
-- not_started: 1483
+- not_started: 1482
 
 ## Chips
 
@@ -4551,7 +4551,7 @@ For every chip:
   - (none)
 
 ### 74x283 - 4-bit binary full adder (has carry in function)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x283
 - Aliases: none
 - Source section: Larger footprints
@@ -4564,7 +4564,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x283/tb_ttl_74x283.sv
 - README: rtl/chips/ttl_74x283/README.md
 - Notes:
-  - (none)
+  - Same adder function as 74x83; differs only in DIP pin assignment.
 
 ### 74x284 - 4-bit by 4-bit parallel binary multiplier (high order 4 bits of product)
 - Status: [ ]

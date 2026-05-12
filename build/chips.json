@@ -5521,8 +5521,10 @@
     "pins": "16",
     "datasheet": "SN74LS283",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls283",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same adder function as 74x83; differs only in DIP pin assignment."
+    ],
     "rtl_path": "rtl/chips/ttl_74x283/ttl_74x283.sv",
     "testbench_path": "tb/chips/ttl_74x283/tb_ttl_74x283.sv",
     "readme_path": "rtl/chips/ttl_74x283/README.md"
