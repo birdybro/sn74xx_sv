@@ -17227,8 +17227,10 @@
     "pins": "14",
     "datasheet": "SN74ALS1005",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als1005",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "High-drive variant of standard gate; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1005/ttl_74x1005.sv",
     "testbench_path": "tb/chips/ttl_74x1005/tb_ttl_74x1005.sv",
     "readme_path": "rtl/chips/ttl_74x1005/README.md"
