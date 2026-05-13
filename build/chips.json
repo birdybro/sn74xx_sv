@@ -21749,8 +21749,10 @@
     "pins": "(100)",
     "datasheet": "74ABT3284",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/library/Datasheet-019/DSA00332573.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "18-bit 2:1 mux with synchronous output register and 3-state OE. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3284/ttl_74x3284.sv",
     "testbench_path": "tb/chips/ttl_74x3284/tb_ttl_74x3284.sv",
     "readme_path": "rtl/chips/ttl_74x3284/README.md"

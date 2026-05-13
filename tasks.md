@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 819
+- complete: 820
 - blocked: 313
 - digital_only_approximation: 27
-- not_started: 396
+- not_started: 395
 
 ## Chips
 
@@ -16588,7 +16588,7 @@ IDT74FST3245
   - 32-bit latchable transceiver with odd parity gen/check, sticky error FF. Verilator + Yosys clean.
 
 ### 74x3284 - 18-bit synchronous datapath multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3284
 - Aliases: none
 - Source section: Larger footprints
@@ -16601,7 +16601,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3284/tb_ttl_74x3284.sv
 - README: rtl/chips/ttl_74x3284/README.md
 - Notes:
-  - (none)
+  - 18-bit 2:1 mux with synchronous output register and 3-state OE. Verilator + Yosys clean.
 
 ### 74x3305 - dual FET bus switch with extended voltage range
 - Status: [!]
