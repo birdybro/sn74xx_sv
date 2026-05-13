@@ -30882,8 +30882,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/ds/symlink/sn74lvc1g175.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "D-FF with async clear. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g175/ttl_74x1g175.sv",
     "testbench_path": "tb/chips/ttl_74x1g175/tb_ttl_74x1g175.sv",
     "readme_path": "rtl/chips/ttl_74x1g175/README.md"

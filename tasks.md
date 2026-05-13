@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1018
+- complete: 1019
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 106
+- not_started: 105
 
 ## Chips
 
@@ -23586,7 +23586,7 @@ IDT74FST3245
   - 2-to-1 mux with inverted output. Verilator + Yosys clean.
 
 ### 74x1G175 - single positive-edge D flip-flop, asynchronous clear, Q output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g175
 - Aliases: none
 - Source section: Smaller footprints
@@ -23599,7 +23599,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g175/tb_ttl_74x1g175.sv
 - README: rtl/chips/ttl_74x1g175/README.md
 - Notes:
-  - (none)
+  - D-FF with async clear. Verilator + Yosys clean.
 
 ### 74x1G240 - single bus buffer gate, active-low enable
 - Status: [ ]
