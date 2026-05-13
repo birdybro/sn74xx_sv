@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 973
+- complete: 974
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 170
+- not_started: 169
 
 ## Chips
 
@@ -20268,7 +20268,7 @@ IDT74FST3245
   - 9-bit inverting line driver. Verilator + Yosys clean.
 
 ### 74x9244 - 9-bit buffer / line driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9244
 - Aliases: none
 - Source section: Larger footprints
@@ -20281,7 +20281,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9244/tb_ttl_74x9244.sv
 - README: rtl/chips/ttl_74x9244/README.md
 - Notes:
-  - (none)
+  - 9-bit non-inverting line driver. Verilator + Yosys clean.
 
 ### 74x9245 - 9-bit bidirectional transceiver, non-inverting
 - Status: [ ]
