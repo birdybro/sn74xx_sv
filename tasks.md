@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 743
+- complete: 744
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 555
+- not_started: 554
 
 ## Chips
 
@@ -14938,7 +14938,7 @@ For every chip:
   - (none)
 
 ### 74FCT2163 - synchronous presettable 4-bit binary counter, synchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74fct2163
 - Aliases: none
 - Source section: Larger footprints
@@ -14951,7 +14951,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74fct2163/tb_ttl_74fct2163.sv
 - README: rtl/chips/ttl_74fct2163/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2164 - 16k x 5 cache address comparator
 - Status: [ ]
