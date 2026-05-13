@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1001
+- complete: 1002
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 123
+- not_started: 122
 
 ## Chips
 
@@ -23202,7 +23202,7 @@ IDT74FST3245
   - Single buffer with 3-state output. Verilator + Yosys clean.
 
 ### 74x1G18 - single 1-of-2 demultiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g18
 - Aliases: none
 - Source section: Smaller footprints
@@ -23215,7 +23215,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g18/tb_ttl_74x1g18.sv
 - README: rtl/chips/ttl_74x1g18/README.md
 - Notes:
-  - (none)
+  - Single 1-of-2 demux. Verilator + Yosys clean.
 
 ### 74x1G19 - single 1-to-2 line decoder, active-low outputs
 - Status: [ ]
