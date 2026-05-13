@@ -26138,8 +26138,10 @@
     "pins": "(44)",
     "datasheet": "74F8965",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F8965_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit latched bidir transceiver with latch-select. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8965/ttl_74x8965.sv",
     "testbench_path": "tb/chips/ttl_74x8965/tb_ttl_74x8965.sv",
     "readme_path": "rtl/chips/ttl_74x8965/README.md"
