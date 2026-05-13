@@ -12413,8 +12413,10 @@
     "pins": "24",
     "datasheet": "SN74ALS652A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als652a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Non-inverting registered transceiver; gab + gba_n dual-enable; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x652/ttl_74x652.sv",
     "testbench_path": "tb/chips/ttl_74x652/tb_ttl_74x652.sv",
     "readme_path": "rtl/chips/ttl_74x652/README.md"

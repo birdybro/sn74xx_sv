@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 563
+- complete: 564
 - digital_only_approximation: 27
-- not_started: 965
+- not_started: 964
 
 ## Chips
 
@@ -9479,7 +9479,7 @@ For every chip:
   - Inverting registered transceiver; gab + gba_n dual-enable; Verilator lint+sim clean
 
 ### 74x652 - octal bus transceiver/register, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x652
 - Aliases: none
 - Source section: Larger footprints
@@ -9492,7 +9492,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x652/tb_ttl_74x652.sv
 - README: rtl/chips/ttl_74x652/README.md
 - Notes:
-  - (none)
+  - Non-inverting registered transceiver; gab + gba_n dual-enable; Verilator lint+sim clean
 
 ### 74x653 - octal bus transceiver/register, inverting outputs
 - Status: [ ]
