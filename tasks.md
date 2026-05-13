@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 776
+- complete: 777
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 466
+- not_started: 465
 
 ## Chips
 
@@ -14202,7 +14202,7 @@ For every chip:
   - (none)
 
 ### 74x1779 - 8-bit bidirectional binary counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1779
 - Aliases: none
 - Source section: Larger footprints
@@ -14215,7 +14215,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1779/tb_ttl_74x1779.sv
 - README: rtl/chips/ttl_74x1779/README.md
 - Notes:
-  - (none)
+  - Synchronous 8-bit up/down counter with load + async clear + ripple-carry. Verilator + Yosys clean.
 
 ### 74x1801 - FM, MFM, and DM encoder / decoder, data rates up to 10 MHz
 - Status: [ ]

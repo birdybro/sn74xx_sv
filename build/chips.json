@@ -18582,8 +18582,10 @@
     "pins": "16",
     "datasheet": "74F1779",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F1779_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Synchronous 8-bit up/down counter with load + async clear + ripple-carry. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1779/ttl_74x1779.sv",
     "testbench_path": "tb/chips/ttl_74x1779/tb_ttl_74x1779.sv",
     "readme_path": "rtl/chips/ttl_74x1779/README.md"
