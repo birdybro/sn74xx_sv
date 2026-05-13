@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 820
+- complete: 821
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 379
+- not_started: 378
 
 ## Chips
 
@@ -16780,7 +16780,7 @@ IDT74FST3245
   - Dual 5-bit FET bus switch; analog FET switch
 
 ### 74x3611 - 2304-bit FIFO memory (64x36)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3611
 - Aliases: none
 - Source section: Larger footprints
@@ -16793,7 +16793,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3611/tb_ttl_74x3611.sv
 - README: rtl/chips/ttl_74x3611/README.md
 - Notes:
-  - (none)
+  - Generated via scripts/gen_fifo.py (64x36). Verilator + Yosys clean.
 
 ### 74x3612 - 4608-bit bidirectional FIFO memory (2x64x36)
 - Status: [ ]
