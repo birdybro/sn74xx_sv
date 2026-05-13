@@ -18776,8 +18776,10 @@
     "pins": "24",
     "datasheet": "SN74AS1841",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-067/DSA2IH00218036.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Low-power twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1841/ttl_74x1841.sv",
     "testbench_path": "tb/chips/ttl_74x1841/tb_ttl_74x1841.sv",
     "readme_path": "rtl/chips/ttl_74x1841/README.md"
