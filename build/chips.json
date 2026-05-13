@@ -22610,8 +22610,10 @@
     "pins": "16",
     "datasheet": "CD74HC4049",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4049",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex inverter; level-translator behavior not modeled. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4049/ttl_74x4049.sv",
     "testbench_path": "tb/chips/ttl_74x4049/tb_ttl_74x4049.sv",
     "readme_path": "rtl/chips/ttl_74x4049/README.md"

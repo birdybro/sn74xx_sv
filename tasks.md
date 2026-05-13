@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 841
+- complete: 842
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 358
+- not_started: 357
 
 ## Chips
 
@@ -17244,7 +17244,7 @@ IDT74FST3245
   - PLL + VCO; analog phase detector and voltage-controlled oscillator
 
 ### 74x4049 - hex inverting buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4049
 - Aliases: none
 - Source section: Larger footprints
@@ -17257,7 +17257,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4049/tb_ttl_74x4049.sv
 - README: rtl/chips/ttl_74x4049/README.md
 - Notes:
-  - (none)
+  - Hex inverter; level-translator behavior not modeled. Verilator + Yosys clean.
 
 ### 74x4050 - hex buffer/converter (non-inverting)
 - Status: [ ]
