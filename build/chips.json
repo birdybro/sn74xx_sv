@@ -26747,8 +26747,10 @@
     "pins": "16",
     "datasheet": "CD74HC40104",
     "datasheet_url": "https://archive.org/details/bitsavers_rcadataBooMOS_35821859/page/n613",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-bit universal shift register. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x40104/ttl_74x40104.sv",
     "testbench_path": "tb/chips/ttl_74x40104/tb_ttl_74x40104.sv",
     "readme_path": "rtl/chips/ttl_74x40104/README.md"

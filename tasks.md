@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 979
+- complete: 980
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 164
+- not_started: 163
 
 ## Chips
 
@@ -20396,7 +20396,7 @@ IDT74FST3245
   - = 74x4103. Verilator + Yosys clean.
 
 ### 74x40104 - 4-bit bidirectional universal shift register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x40104
 - Aliases: none
 - Source section: Larger footprints
@@ -20409,7 +20409,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x40104/tb_ttl_74x40104.sv
 - README: rtl/chips/ttl_74x40104/README.md
 - Notes:
-  - (none)
+  - 4-bit universal shift register. Verilator + Yosys clean.
 
 ### 74x40105 - 64-bit FIFO memory (16x4)
 - Status: [ ]
