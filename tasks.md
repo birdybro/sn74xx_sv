@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1035
+- complete: 1036
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 87
+- not_started: 86
 
 ## Chips
 
@@ -22735,7 +22735,7 @@ IDT74FST3245
   - = 74x833. Verilator + Yosys clean.
 
 ### 74x29863 - 9-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x29863
 - Aliases: none
 - Source section: Widebus devices
@@ -22748,7 +22748,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x29863/tb_ttl_74x29863.sv
 - README: rtl/chips/ttl_74x29863/README.md
 - Notes:
-  - (none)
+  - = 74x2863. Verilator + Yosys clean.
 
 ### 74x29864 - 9-bit bus transceiver
 - Status: [ ]
