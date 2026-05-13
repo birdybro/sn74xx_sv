@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1090
+- complete: 1091
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 18
+- not_started: 17
 
 ## Chips
 
@@ -24581,7 +24581,7 @@ IDT74FST3245
   - Single-supply 2-input OR. Verilator + Yosys clean.
 
 ### 74x1T34 - dual-supply unidirectional buffer/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t34
 - Aliases: none
 - Source section: Voltage translation
@@ -24594,7 +24594,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t34/tb_ttl_74x1t34.sv
 - README: rtl/chips/ttl_74x1t34/README.md
 - Notes:
-  - (none)
+  - Dual-supply unidir buffer. Verilator + Yosys clean.
 
 ### 74x1T45 - dual-supply 1-bit bus transceiver
 - Status: [ ]
