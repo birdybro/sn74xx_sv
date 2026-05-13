@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 619
+- complete: 620
 - blocked: 62
 - digital_only_approximation: 27
-- not_started: 847
+- not_started: 846
 
 ## Chips
 
@@ -11418,7 +11418,7 @@ For every chip:
   - (none)
 
 ### 74x841 - 10-bit D-type flip-flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x841
 - Aliases: none
 - Source section: Larger footprints
@@ -11431,7 +11431,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x841/tb_ttl_74x841.sv
 - README: rtl/chips/ttl_74x841/README.md
 - Notes:
-  - (none)
+  - 10-bit transparent latch per SN74ALS841/AS841A datasheet (SDAS059C); /OE doesn't affect storage; Verilator lint+sim clean
 
 ### 74x842 - 10-bit D-type flip-flop, inverting inputs
 - Status: [ ]

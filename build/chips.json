@@ -14950,8 +14950,10 @@
     "pins": "24",
     "datasheet": "SN74ALS841",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als841",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit transparent latch per SN74ALS841/AS841A datasheet (SDAS059C); /OE doesn't affect storage; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x841/ttl_74x841.sv",
     "testbench_path": "tb/chips/ttl_74x841/tb_ttl_74x841.sv",
     "readme_path": "rtl/chips/ttl_74x841/README.md"
