@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1068
+- complete: 1069
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 42
+- not_started: 41
 
 ## Chips
 
@@ -24485,7 +24485,7 @@ IDT74FST3245
   - Single-supply 2-input NAND. Verilator + Yosys clean.
 
 ### 74x1T02 - single-supply 2-input NOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t02
 - Aliases: none
 - Source section: Voltage translation
@@ -24498,7 +24498,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t02/tb_ttl_74x1t02.sv
 - README: rtl/chips/ttl_74x1t02/README.md
 - Notes:
-  - (none)
+  - Single-supply 2-input NOR. Verilator + Yosys clean.
 
 ### 74x1T04 - single-supply inverter
 - Status: [ ]
