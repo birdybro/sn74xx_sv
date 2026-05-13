@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 869
+- complete: 870
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 317
+- not_started: 316
 
 ## Chips
 
@@ -17964,7 +17964,7 @@ IDT74FST3245
   - Dual D-FF with dual-rank synchronizer to mitigate metastability. Verilator + Yosys clean.
 
 ### 74x5245 - octal bidirectional transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x5245
 - Aliases: none
 - Source section: Larger footprints
@@ -17977,7 +17977,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5245/tb_ttl_74x5245.sv
 - README: rtl/chips/ttl_74x5245/README.md
 - Notes:
-  - (none)
+  - Identical to 74x245. Verilator + Yosys clean.
 
 ### 74x5300 - fiber optic LED driver
 - Status: [!]
