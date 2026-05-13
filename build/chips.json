@@ -26705,8 +26705,10 @@
     "pins": "16",
     "datasheet": "CD74HC40102",
     "datasheet_url": "https://archive.org/details/bitsavers_rcadataBooMOS_35821859/page/n603",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x4102. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x40102/ttl_74x40102.sv",
     "testbench_path": "tb/chips/ttl_74x40102/tb_ttl_74x40102.sv",
     "readme_path": "rtl/chips/ttl_74x40102/README.md"
