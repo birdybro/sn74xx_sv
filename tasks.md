@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 995
+- complete: 996
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 129
+- not_started: 128
 
 ## Chips
 
@@ -23106,7 +23106,7 @@ IDT74FST3245
   - Single 2-input AND. Verilator + Yosys clean.
 
 ### 74x1G09 - single 2-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g09
 - Aliases: none
 - Source section: Smaller footprints
@@ -23119,7 +23119,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g09/tb_ttl_74x1g09.sv
 - README: rtl/chips/ttl_74x1g09/README.md
 - Notes:
-  - (none)
+  - Single 2-input AND (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x1G10 - single 3-input NAND gate
 - Status: [ ]
