@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 621
-- blocked: 62
+- blocked: 65
 - digital_only_approximation: 27
-- not_started: 845
+- not_started: 842
 
 ## Chips
 
@@ -11370,7 +11370,7 @@ For every chip:
   - Inverting twin of 74x833; bus outputs inverted, parity logic identical; Verilator lint+sim clean
 
 ### 74x835 - 8-bit shift register with 2:1 input multiplexers, one input latched, serial output
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x835
 - Aliases: none
 - Source section: Larger footprints
@@ -11383,10 +11383,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x835/tb_ttl_74x835.sv
 - README: rtl/chips/ttl_74x835/README.md
 - Notes:
-  - (none)
+  - Shift-register variant datasheet not accessible from current sources
 
 ### 74x839 - field-programmable logic array 14x32x6
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x839
 - Aliases: none
 - Source section: Larger footprints
@@ -11399,10 +11399,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x839/tb_ttl_74x839.sv
 - README: rtl/chips/ttl_74x839/README.md
 - Notes:
-  - (none)
+  - FPLA (field-programmable logic array) is inherently programmable; no fixed function to model in synthesizable RTL
 
 ### 74x840 - field-programmable logic array 14x32x6
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x840
 - Aliases: none
 - Source section: Larger footprints
@@ -11415,7 +11415,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x840/tb_ttl_74x840.sv
 - README: rtl/chips/ttl_74x840/README.md
 - Notes:
-  - (none)
+  - FPLA (field-programmable logic array) is inherently programmable; no fixed function to model in synthesizable RTL
 
 ### 74x841 - 10-bit D-type flip-flop
 - Status: [x]

@@ -14893,8 +14893,10 @@
     "pins": "24",
     "datasheet": "74F835",
     "datasheet_url": "https://web.archive.org/web/20220331111840/https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F835_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Shift-register variant datasheet not accessible from current sources"
+    ],
     "rtl_path": "rtl/chips/ttl_74x835/ttl_74x835.sv",
     "testbench_path": "tb/chips/ttl_74x835/tb_ttl_74x835.sv",
     "readme_path": "rtl/chips/ttl_74x835/README.md"
@@ -14912,8 +14914,10 @@
     "pins": "24",
     "datasheet": "SN74PL839",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-TtlDataBookVol1_1984-DL/page/n259",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FPLA (field-programmable logic array) is inherently programmable; no fixed function to model in synthesizable RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x839/ttl_74x839.sv",
     "testbench_path": "tb/chips/ttl_74x839/tb_ttl_74x839.sv",
     "readme_path": "rtl/chips/ttl_74x839/README.md"
@@ -14931,8 +14935,10 @@
     "pins": "24",
     "datasheet": "SN74PL840",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-TtlDataBookVol1_1984-DL/page/n259",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FPLA (field-programmable logic array) is inherently programmable; no fixed function to model in synthesizable RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x840/ttl_74x840.sv",
     "testbench_path": "tb/chips/ttl_74x840/tb_ttl_74x840.sv",
     "readme_path": "rtl/chips/ttl_74x840/README.md"
