@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 842
+- complete: 843
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 357
+- not_started: 356
 
 ## Chips
 
@@ -17260,7 +17260,7 @@ IDT74FST3245
   - Hex inverter; level-translator behavior not modeled. Verilator + Yosys clean.
 
 ### 74x4050 - hex buffer/converter (non-inverting)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4050
 - Aliases: none
 - Source section: Larger footprints
@@ -17273,7 +17273,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4050/tb_ttl_74x4050.sv
 - README: rtl/chips/ttl_74x4050/README.md
 - Notes:
-  - (none)
+  - Hex non-inverting buffer. Verilator + Yosys clean.
 
 ### 74x4051 - high-speed 8-channel analog multiplexer/demultiplexer
 - Status: [!]
