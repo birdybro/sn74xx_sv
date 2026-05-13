@@ -12266,8 +12266,10 @@
     "pins": "20",
     "datasheet": "SN74LS644",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "OC variant of 74x643; A->B non-inverting, B->A inverting; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x644/ttl_74x644.sv",
     "testbench_path": "tb/chips/ttl_74x644/tb_ttl_74x644.sv",
     "readme_path": "rtl/chips/ttl_74x644/README.md"
