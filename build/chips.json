@@ -31115,8 +31115,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc1g3208",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "OR-AND combo. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g3208/ttl_74x1g3208.sv",
     "testbench_path": "tb/chips/ttl_74x1g3208/tb_ttl_74x1g3208.sv",
     "readme_path": "rtl/chips/ttl_74x1g3208/README.md"

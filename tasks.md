@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1047
+- complete: 1048
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 63
+- not_started: 62
 
 ## Chips
 
@@ -23730,7 +23730,7 @@ IDT74FST3245
   - Single SPDT analog switch; CMOS transmission gate
 
 ### 74x1G3208 - single 3-input OR-AND combo gate (2-input OR into 2-input AND)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g3208
 - Aliases: none
 - Source section: Smaller footprints
@@ -23743,7 +23743,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g3208/tb_ttl_74x1g3208.sv
 - README: rtl/chips/ttl_74x1g3208/README.md
 - Notes:
-  - (none)
+  - OR-AND combo. Verilator + Yosys clean.
 
 ### 74x2G00 - dual 2-input NAND gate
 - Status: [ ]
