@@ -20989,8 +20989,10 @@
     "pins": "24",
     "datasheet": "SN74BCT2827A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookerfaceLogicDataBook_4501982/page/n93",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit non-inverting buffer with 3-state. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2827/ttl_74x2827.sv",
     "testbench_path": "tb/chips/ttl_74x2827/tb_ttl_74x2827.sv",
     "readme_path": "rtl/chips/ttl_74x2827/README.md"

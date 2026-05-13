@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 800
+- complete: 801
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 431
+- not_started: 430
 
 ## Chips
 
@@ -16010,7 +16010,7 @@ For every chip:
   - 8-bit D-FF with async clear, clock enable, and 3-state output. Verilator + Yosys clean.
 
 ### 74x2827 - 10-bit buffer, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2827
 - Aliases: none
 - Source section: Larger footprints
@@ -16023,7 +16023,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2827/tb_ttl_74x2827.sv
 - README: rtl/chips/ttl_74x2827/README.md
 - Notes:
-  - (none)
+  - 10-bit non-inverting buffer with 3-state. Verilator + Yosys clean.
 
 ### 74x2828 - 10-bit buffer, inverting
 - Status: [ ]
