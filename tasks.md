@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 904
+- complete: 905
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 265
+- not_started: 264
 
 ## Chips
 
@@ -18812,7 +18812,7 @@ IDT74FST3245
   - Quad 2-input XNOR, = 74x266. Verilator + Yosys clean.
 
 ### 74x7273 - octal positive edge-triggered D-type flip-flop with reset
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7273
 - Aliases: none
 - Source section: Larger footprints
@@ -18825,7 +18825,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7273/tb_ttl_74x7273.sv
 - README: rtl/chips/ttl_74x7273/README.md
 - Notes:
-  - (none)
+  - Octal D-FF with async reset, = 74x273. Verilator + Yosys clean.
 
 ### 74x7292 - programmable divider/timer
 - Status: [ ]
