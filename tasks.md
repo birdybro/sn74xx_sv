@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 881
+- complete: 882
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 288
+- not_started: 287
 
 ## Chips
 
@@ -18364,7 +18364,7 @@ IDT74FST3245
   - Quad 2-input NAND, = 74x00. Verilator + Yosys clean.
 
 ### 74x7006 - two inverters, one 3-input NAND, one 4-input NAND, one 3-input NOR, one 4-input NOR
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7006
 - Aliases: none
 - Source section: Larger footprints
@@ -18377,7 +18377,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7006/tb_ttl_74x7006.sv
 - README: rtl/chips/ttl_74x7006/README.md
 - Notes:
-  - (none)
+  - Mixed gate package: 2 inverters + various NAND/NOR. Verilator + Yosys clean.
 
 ### 74x7007 - hex buffer gate
 - Status: [x]

@@ -24080,8 +24080,10 @@
     "pins": "24",
     "datasheet": "SN74HC7006",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookSLogicDataBook_45157566/page/n773",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Mixed gate package: 2 inverters + various NAND/NOR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7006/ttl_74x7006.sv",
     "testbench_path": "tb/chips/ttl_74x7006/tb_ttl_74x7006.sv",
     "readme_path": "rtl/chips/ttl_74x7006/README.md"
