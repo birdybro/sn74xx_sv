@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 748
+- complete: 749
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 550
+- not_started: 549
 
 ## Chips
 
@@ -15338,7 +15338,7 @@ For every chip:
   - (none)
 
 ### 74x2373 - 8-bit transparent latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2373
 - Aliases: none
 - Source section: Larger footprints
@@ -15351,7 +15351,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2373/tb_ttl_74x2373.sv
 - README: rtl/chips/ttl_74x2373/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2374 - octal D-type flip-flop, shared clock
 - Status: [ ]
