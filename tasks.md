@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 962
-- blocked: 371
+- blocked: 385
 - digital_only_approximation: 27
-- not_started: 195
+- not_started: 181
 
 ## Chips
 
@@ -19964,7 +19964,7 @@ IDT74FST3245
   - (none)
 
 ### 74x8980 - JTAG test access port master with 8-bit host interface
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8980
 - Aliases: none
 - Source section: Larger footprints
@@ -19977,10 +19977,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8980/tb_ttl_74x8980.sv
 - README: rtl/chips/ttl_74x8980/README.md
 - Notes:
-  - (none)
+  - JTAG test access port master with 8-bit host interface; complex TAP controller requires datasheet
 
 ### 74x8986 - linkable, multidrop-addressable JTAG transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8986
 - Aliases: none
 - Source section: Larger footprints
@@ -19993,10 +19993,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8986/tb_ttl_74x8986.sv
 - README: rtl/chips/ttl_74x8986/README.md
 - Notes:
-  - (none)
+  - Multidrop-addressable JTAG transceiver; specialized JTAG topology requires datasheet
 
 ### 74x8990 - JTAG test access port master with 16-bit host interface
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8990
 - Aliases: none
 - Source section: Larger footprints
@@ -20009,10 +20009,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8990/tb_ttl_74x8990.sv
 - README: rtl/chips/ttl_74x8990/README.md
 - Notes:
-  - (none)
+  - JTAG test access port master with 16-bit host interface; complex TAP controller requires datasheet
 
 ### 74x8994 - JTAG scan-controlled logic/signature analyzer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8994
 - Aliases: none
 - Source section: Larger footprints
@@ -20025,10 +20025,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8994/tb_ttl_74x8994.sv
 - README: rtl/chips/ttl_74x8994/README.md
 - Notes:
-  - (none)
+  - JTAG scan-controlled logic/signature analyzer; complex scan engine requires datasheet
 
 ### 74x8996 - multidrop-addressable JTAG transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8996
 - Aliases: none
 - Source section: Larger footprints
@@ -20041,10 +20041,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8996/tb_ttl_74x8996.sv
 - README: rtl/chips/ttl_74x8996/README.md
 - Notes:
-  - (none)
+  - Multidrop-addressable JTAG transceiver; specialized JTAG topology requires datasheet
 
 ### 74x8997 - scan-controlled JTAG concatenator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8997
 - Aliases: none
 - Source section: Larger footprints
@@ -20057,10 +20057,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8997/tb_ttl_74x8997.sv
 - README: rtl/chips/ttl_74x8997/README.md
 - Notes:
-  - (none)
+  - Scan-controlled JTAG concatenator; specialized scan-chain wiring requires datasheet
 
 ### 74x8999 - scan-controlled JTAG multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8999
 - Aliases: none
 - Source section: Larger footprints
@@ -20073,10 +20073,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8999/tb_ttl_74x8999.sv
 - README: rtl/chips/ttl_74x8999/README.md
 - Notes:
-  - (none)
+  - Scan-controlled JTAG multiplexer; specialized JTAG MUX requires datasheet
 
 ### 74x9000 - programmable timer with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x9000
 - Aliases: none
 - Source section: Larger footprints
@@ -20089,7 +20089,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9000/tb_ttl_74x9000.sv
 - README: rtl/chips/ttl_74x9000/README.md
 - Notes:
-  - (none)
+  - Programmable timer with on-chip oscillator; oscillator portion is analog
 
 ### 74x9014 - nine-wide buffer/line driver, inverting
 - Status: [ ]
@@ -20156,7 +20156,7 @@ IDT74FST3245
   - (none)
 
 ### 74x9046 - PLL with band gap controlled VCO
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x9046
 - Aliases: none
 - Source section: Larger footprints
@@ -20169,7 +20169,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9046/tb_ttl_74x9046.sv
 - README: rtl/chips/ttl_74x9046/README.md
 - Notes:
-  - (none)
+  - PLL with band-gap controlled VCO; analog PLL
 
 ### 74x9114 - nine-wide inverter
 - Status: [ ]
@@ -20300,7 +20300,7 @@ IDT74FST3245
   - (none)
 
 ### 74x9323 - programmable ripple counter with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x9323
 - Aliases: none
 - Source section: Larger footprints
@@ -20313,10 +20313,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9323/tb_ttl_74x9323.sv
 - README: rtl/chips/ttl_74x9323/README.md
 - Notes:
-  - (none)
+  - Programmable ripple counter with oscillator; oscillator portion is analog
 
 ### 74x9510 - 16×16-bit multiplier/accumulator (compatible to Am29510 and TDC1010)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x9510
 - Aliases: none
 - Source section: Larger footprints
@@ -20329,7 +20329,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9510/tb_ttl_74x9510.sv
 - README: rtl/chips/ttl_74x9510/README.md
 - Notes:
-  - (none)
+  - 16x16-bit MAC (Am29510/TDC1010-equivalent); complex pipelined multiplier-accumulator
 
 ### 74x9541 - 8-bit buffer / line driver, inverting / non-inverting
 - Status: [ ]
@@ -22351,7 +22351,7 @@ IDT74FST3245
   - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x18502 - scan test devices with 18-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18502
 - Aliases: none
 - Source section: Widebus devices
@@ -22364,10 +22364,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18502/tb_ttl_74x18502.sv
 - README: rtl/chips/ttl_74x18502/README.md
 - Notes:
-  - (none)
+  - Scan test device with 18-bit universal bus transceiver; specialized scan logic requires datasheet
 
 ### 74x18504 - scan test devices with 20-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18504
 - Aliases: none
 - Source section: Widebus devices
@@ -22380,10 +22380,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18504/tb_ttl_74x18504.sv
 - README: rtl/chips/ttl_74x18504/README.md
 - Notes:
-  - (none)
+  - Scan test device with 20-bit universal bus transceiver; specialized scan logic requires datasheet
 
 ### 74x18512 - scan test devices with 18-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18512
 - Aliases: none
 - Source section: Widebus devices
@@ -22396,7 +22396,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18512/tb_ttl_74x18512.sv
 - README: rtl/chips/ttl_74x18512/README.md
 - Notes:
-  - (none)
+  - Scan test device with 18-bit universal bus transceiver; specialized scan logic requires datasheet
 
 ### 74x18640 - scan test devices with 18-bit inverting bus transceivers
 - Status: [ ]

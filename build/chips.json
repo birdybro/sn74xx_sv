@@ -26178,8 +26178,10 @@
     "pins": "24",
     "datasheet": "SN74LVT8980",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n795",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "JTAG test access port master with 8-bit host interface; complex TAP controller requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8980/ttl_74x8980.sv",
     "testbench_path": "tb/chips/ttl_74x8980/tb_ttl_74x8980.sv",
     "readme_path": "rtl/chips/ttl_74x8980/README.md"
@@ -26197,8 +26199,10 @@
     "pins": "(64)",
     "datasheet": "SN74LVT8986",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74lvt8986",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Multidrop-addressable JTAG transceiver; specialized JTAG topology requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8986/ttl_74x8986.sv",
     "testbench_path": "tb/chips/ttl_74x8986/tb_ttl_74x8986.sv",
     "readme_path": "rtl/chips/ttl_74x8986/README.md"
@@ -26216,8 +26220,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT8990",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n825",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "JTAG test access port master with 16-bit host interface; complex TAP controller requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8990/ttl_74x8990.sv",
     "testbench_path": "tb/chips/ttl_74x8990/tb_ttl_74x8990.sv",
     "readme_path": "rtl/chips/ttl_74x8990/README.md"
@@ -26235,8 +26241,10 @@
     "pins": "(28)",
     "datasheet": "SN74ACT8994",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n837",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "JTAG scan-controlled logic/signature analyzer; complex scan engine requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8994/ttl_74x8994.sv",
     "testbench_path": "tb/chips/ttl_74x8994/tb_ttl_74x8994.sv",
     "readme_path": "rtl/chips/ttl_74x8994/README.md"
@@ -26254,8 +26262,10 @@
     "pins": "24",
     "datasheet": "SN74ABT8996",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n847",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Multidrop-addressable JTAG transceiver; specialized JTAG topology requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8996/ttl_74x8996.sv",
     "testbench_path": "tb/chips/ttl_74x8996/tb_ttl_74x8996.sv",
     "readme_path": "rtl/chips/ttl_74x8996/README.md"
@@ -26273,8 +26283,10 @@
     "pins": "28",
     "datasheet": "SN74ACT8997",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n887",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan-controlled JTAG concatenator; specialized scan-chain wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8997/ttl_74x8997.sv",
     "testbench_path": "tb/chips/ttl_74x8997/tb_ttl_74x8997.sv",
     "readme_path": "rtl/chips/ttl_74x8997/README.md"
@@ -26292,8 +26304,10 @@
     "pins": "28",
     "datasheet": "SN74ACT8999",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n911",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan-controlled JTAG multiplexer; specialized JTAG MUX requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8999/ttl_74x8999.sv",
     "testbench_path": "tb/chips/ttl_74x8999/tb_ttl_74x8999.sv",
     "readme_path": "rtl/chips/ttl_74x8999/README.md"
@@ -26311,8 +26325,10 @@
     "pins": "20",
     "datasheet": "MC74HC9000",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0048905.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable timer with on-chip oscillator; oscillator portion is analog"
+    ],
     "rtl_path": "rtl/chips/ttl_74x9000/ttl_74x9000.sv",
     "testbench_path": "tb/chips/ttl_74x9000/tb_ttl_74x9000.sv",
     "readme_path": "rtl/chips/ttl_74x9000/README.md"
@@ -26406,8 +26422,10 @@
     "pins": "16",
     "datasheet": "74HCT9046",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74HCT9046A.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "PLL with band-gap controlled VCO; analog PLL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x9046/ttl_74x9046.sv",
     "testbench_path": "tb/chips/ttl_74x9046/tb_ttl_74x9046.sv",
     "readme_path": "rtl/chips/ttl_74x9046/README.md"
@@ -26577,8 +26595,10 @@
     "pins": "(8)",
     "datasheet": "74HC9323A",
     "datasheet_url": "https://web.archive.org/web/20181011013635/http://pdf.datasheetcatalog.com/datasheet/philips/74HCT7731.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable ripple counter with oscillator; oscillator portion is analog"
+    ],
     "rtl_path": "rtl/chips/ttl_74x9323/ttl_74x9323.sv",
     "testbench_path": "tb/chips/ttl_74x9323/tb_ttl_74x9323.sv",
     "readme_path": "rtl/chips/ttl_74x9323/README.md"
@@ -26596,8 +26616,10 @@
     "pins": "(68)",
     "datasheet": "534}}",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "16x16-bit MAC (Am29510/TDC1010-equivalent); complex pipelined multiplier-accumulator"
+    ],
     "rtl_path": "rtl/chips/ttl_74x9510/ttl_74x9510.sv",
     "testbench_path": "tb/chips/ttl_74x9510/tb_ttl_74x9510.sv",
     "readme_path": "rtl/chips/ttl_74x9510/README.md"
@@ -29235,8 +29257,10 @@
     "pins": "(64)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avca164245.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device with 18-bit universal bus transceiver; specialized scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18502/ttl_74x18502.sv",
     "testbench_path": "tb/chips/ttl_74x18502/tb_ttl_74x18502.sv",
     "readme_path": "rtl/chips/ttl_74x18502/README.md"
@@ -29254,8 +29278,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avca164245.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device with 20-bit universal bus transceiver; specialized scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18504/ttl_74x18504.sv",
     "testbench_path": "tb/chips/ttl_74x18504/tb_ttl_74x18504.sv",
     "readme_path": "rtl/chips/ttl_74x18504/README.md"
@@ -29273,8 +29299,10 @@
     "pins": "64",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18512.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device with 18-bit universal bus transceiver; specialized scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18512/ttl_74x18512.sv",
     "testbench_path": "tb/chips/ttl_74x18512/tb_ttl_74x18512.sv",
     "readme_path": "rtl/chips/ttl_74x18512/README.md"
