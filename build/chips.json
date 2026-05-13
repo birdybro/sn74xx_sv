@@ -22862,8 +22862,10 @@
     "pins": "14",
     "datasheet": "MM74HC4078",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n701",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-input OR with both OR and NOR outputs. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4078/ttl_74x4078.sv",
     "testbench_path": "tb/chips/ttl_74x4078/tb_ttl_74x4078.sv",
     "readme_path": "rtl/chips/ttl_74x4078/README.md"
