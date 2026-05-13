@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 611
+- complete: 612
 - blocked: 62
 - digital_only_approximation: 27
-- not_started: 855
+- not_started: 854
 
 ## Chips
 
@@ -11242,7 +11242,7 @@ For every chip:
   - Per SN74AS823A/AS824A datasheet (SDAS231A); /OE doesn't gate storage; Verilator lint+sim clean
 
 ### 74x824 - 9-bit D-type flip-flops, clear and clock enable inputs, inverting inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x824
 - Aliases: none
 - Source section: Larger footprints
@@ -11255,7 +11255,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x824/tb_ttl_74x824.sv
 - README: rtl/chips/ttl_74x824/README.md
 - Notes:
-  - (none)
+  - Per SN74AS823A/AS824A datasheet (SDAS231A); /OE doesn't gate storage; Verilator lint+sim clean
 
 ### 74x825 - 8-bit D-type flip-flop, clear and clock enable inputs
 - Status: [ ]
