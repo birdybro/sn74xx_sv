@@ -13862,8 +13862,10 @@
     "pins": "20",
     "datasheet": "SN74ALS746",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBooktaBook_60160366/page/n623",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Functional twin of 74x240; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x746/ttl_74x746.sv",
     "testbench_path": "tb/chips/ttl_74x746/tb_ttl_74x746.sv",
     "readme_path": "rtl/chips/ttl_74x746/README.md"
