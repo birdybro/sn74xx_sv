@@ -12308,8 +12308,10 @@
     "pins": "24",
     "datasheet": "SN74ALS646A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als646a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "transceiver/register/mux with posedge cab/cba storage and sab/sba real-time-vs-stored select; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x646/ttl_74x646.sv",
     "testbench_path": "tb/chips/ttl_74x646/tb_ttl_74x646.sv",
     "readme_path": "rtl/chips/ttl_74x646/README.md"
