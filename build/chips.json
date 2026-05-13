@@ -19801,8 +19801,10 @@
     "pins": "20",
     "datasheet": "SN74ABT2245",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n599",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base 240/244/245 family; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2245/ttl_74x2245.sv",
     "testbench_path": "tb/chips/ttl_74x2245/tb_ttl_74x2245.sv",
     "readme_path": "rtl/chips/ttl_74x2245/README.md"
