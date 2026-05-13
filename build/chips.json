@@ -18503,8 +18503,10 @@
     "pins": "40",
     "datasheet": "74F1762",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n913",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Address-only DRAM controller, same model as 74x968. Refresh logic external. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1762/ttl_74x1762.sv",
     "testbench_path": "tb/chips/ttl_74x1762/tb_ttl_74x1762.sv",
     "readme_path": "rtl/chips/ttl_74x1762/README.md"

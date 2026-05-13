@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 785
+- complete: 786
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 457
+- not_started: 456
 
 ## Chips
 
@@ -14122,7 +14122,7 @@ For every chip:
   - (none)
 
 ### 74x1762 - dRAM address controller
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1762
 - Aliases: none
 - Source section: Larger footprints
@@ -14135,7 +14135,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1762/tb_ttl_74x1762.sv
 - README: rtl/chips/ttl_74x1762/README.md
 - Notes:
-  - (none)
+  - Address-only DRAM controller, same model as 74x968. Refresh logic external. Verilator + Yosys clean.
 
 ### 74x1763 - single-port dRAM controller
 - Status: [ ]
