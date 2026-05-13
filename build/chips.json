@@ -28766,8 +28766,10 @@
     "pins": "(96)",
     "datasheet": "LVT",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=729",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base 240/244/245 family; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x32244/ttl_74x32244.sv",
     "testbench_path": "tb/chips/ttl_74x32244/tb_ttl_74x32244.sv",
     "readme_path": "rtl/chips/ttl_74x32244/README.md"
