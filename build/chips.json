@@ -27055,8 +27055,10 @@
     "pins": "64",
     "datasheet": "AVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avc16722.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus flop variant; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16722/ttl_74x16722.sv",
     "testbench_path": "tb/chips/ttl_74x16722/tb_ttl_74x16722.sv",
     "readme_path": "rtl/chips/ttl_74x16722/README.md"

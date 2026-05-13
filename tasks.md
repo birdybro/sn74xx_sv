@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 722
+- complete: 723
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 626
+- not_started: 625
 
 ## Chips
 
@@ -21263,7 +21263,7 @@ IDT74FST3245
   - Widebus flop variant; Verilator lint+sim clean
 
 ### 74x16722 - 22-bit flip-flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16722
 - Aliases: none
 - Source section: Widebus devices
@@ -21276,7 +21276,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16722/tb_ttl_74x16722.sv
 - README: rtl/chips/ttl_74x16722/README.md
 - Notes:
-  - (none)
+  - Widebus flop variant; Verilator lint+sim clean
 
 ### 74x16800 - 20-bit FET bus switch
 - Status: [ ]
