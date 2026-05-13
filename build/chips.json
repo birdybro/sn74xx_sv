@@ -29603,8 +29603,10 @@
     "pins": "24",
     "datasheet": "BCT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74bct25244.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x244. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x25244/ttl_74x25244.sv",
     "testbench_path": "tb/chips/ttl_74x25244/tb_ttl_74x25244.sv",
     "readme_path": "rtl/chips/ttl_74x25244/README.md"
