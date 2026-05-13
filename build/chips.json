@@ -24962,8 +24962,10 @@
     "pins": "20",
     "datasheet": "MC74HC7793",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0048904.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit transparent latch with always-on readback bus + 3-state main output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7793/ttl_74x7793.sv",
     "testbench_path": "tb/chips/ttl_74x7793/tb_ttl_74x7793.sv",
     "readme_path": "rtl/chips/ttl_74x7793/README.md"
