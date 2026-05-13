@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1052
+- complete: 1053
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 58
+- not_started: 57
 
 ## Chips
 
@@ -23810,7 +23810,7 @@ IDT74FST3245
   - Dual unbuffered inverter. Verilator + Yosys clean.
 
 ### 74x2G06 - dual inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g06
 - Aliases: none
 - Source section: Smaller footprints
@@ -23823,7 +23823,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g06/tb_ttl_74x2g06.sv
 - README: rtl/chips/ttl_74x2g06/README.md
 - Notes:
-  - (none)
+  - Dual inverter (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x2G07 - dual buffer gate
 - Status: [ ]
