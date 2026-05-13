@@ -20926,8 +20926,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2821T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n435",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit D-FF with 3-state output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2821/ttl_74x2821.sv",
     "testbench_path": "tb/chips/ttl_74x2821/tb_ttl_74x2821.sv",
     "readme_path": "rtl/chips/ttl_74x2821/README.md"
