@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 575
+- complete: 576
 - blocked: 17
 - digital_only_approximation: 27
-- not_started: 936
+- not_started: 935
 
 ## Chips
 
@@ -9944,7 +9944,7 @@ For every chip:
   - Totem-pole, no Q pullups; same logic as 74x682; Verilator lint+sim clean
 
 ### 74x685 - 8-bit magnitude comparator, P>Q output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x685
 - Aliases: none
 - Source section: Larger footprints
@@ -9957,7 +9957,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x685/tb_ttl_74x685.sv
 - README: rtl/chips/ttl_74x685/README.md
 - Notes:
-  - (none)
+  - OC twin of 74x684; Verilator lint+sim clean
 
 ### 74x686 - 8-bit magnitude comparator, P>Q output, enable
 - Status: [ ]
