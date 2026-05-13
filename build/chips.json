@@ -30861,8 +30861,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G158.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "2-to-1 mux with inverted output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g158/ttl_74x1g158.sv",
     "testbench_path": "tb/chips/ttl_74x1g158/tb_ttl_74x1g158.sv",
     "readme_path": "rtl/chips/ttl_74x1g158/README.md"
