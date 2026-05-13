@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 644
+- complete: 645
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 796
+- not_started: 795
 
 ## Chips
 
@@ -12202,7 +12202,7 @@ For every chip:
   - (none)
 
 ### 74x906 - hex open drain n-channel buffers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x906
 - Aliases: none
 - Source section: Larger footprints
@@ -12215,7 +12215,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x906/tb_ttl_74x906.sv
 - README: rtl/chips/ttl_74x906/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x907 - hex open drain p-channel buffers
 - Status: [ ]
