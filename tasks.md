@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 951
+- complete: 952
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 206
+- not_started: 205
 
 ## Chips
 
@@ -19628,7 +19628,7 @@ IDT74FST3245
   - = 74x543 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8646 - octal bus transceiver and register with JTAG port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8646
 - Aliases: none
 - Source section: Larger footprints
@@ -19641,7 +19641,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8646/tb_ttl_74x8646.sv
 - README: rtl/chips/ttl_74x8646/README.md
 - Notes:
-  - (none)
+  - = 74x646 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8652 - octal bus transceiver and register with JTAG port
 - Status: [ ]
