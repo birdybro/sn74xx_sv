@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1074
+- complete: 1075
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 34
+- not_started: 33
 
 ## Chips
 
@@ -23874,7 +23874,7 @@ IDT74FST3245
   - Dual Schmitt inverter (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x2G17 - dual buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g17
 - Aliases: none
 - Source section: Smaller footprints
@@ -23887,7 +23887,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g17/tb_ttl_74x2g17.sv
 - README: rtl/chips/ttl_74x2g17/README.md
 - Notes:
-  - (none)
+  - Dual 3-state buffer. Verilator + Yosys clean.
 
 ### 74x2G32 - dual 2-input OR gate
 - Status: [x]
