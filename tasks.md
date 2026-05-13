@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 735
+- complete: 736
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 563
+- not_started: 562
 
 ## Chips
 
@@ -14250,7 +14250,7 @@ For every chip:
   - (none)
 
 ### 74x1803 - quad clock driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1803
 - Aliases: none
 - Source section: Larger footprints
@@ -14263,7 +14263,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1803/tb_ttl_74x1803.sv
 - README: rtl/chips/ttl_74x1803/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x1804 - hex 2-input NAND
 - Status: [ ]

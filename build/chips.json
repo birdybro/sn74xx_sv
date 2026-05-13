@@ -18635,8 +18635,10 @@
     "pins": "14",
     "datasheet": "MC74F1803",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaFASTandLSTTLData_35934218/page/n309",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1803/ttl_74x1803.sv",
     "testbench_path": "tb/chips/ttl_74x1803/tb_ttl_74x1803.sv",
     "readme_path": "rtl/chips/ttl_74x1803/README.md"
