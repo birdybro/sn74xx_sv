@@ -18757,8 +18757,10 @@
     "pins": "24",
     "datasheet": "SN74AS1821",
     "datasheet_url": "http://www.elektronikjk.pl/elementy_czynne/IC/SN74AS1821.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1821/ttl_74x1821.sv",
     "testbench_path": "tb/chips/ttl_74x1821/tb_ttl_74x1821.sv",
     "readme_path": "rtl/chips/ttl_74x1821/README.md"
