@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 1045
-- blocked: 406
+- blocked: 418
 - digital_only_approximation: 27
-- not_started: 77
+- not_started: 65
 
 ## Chips
 
@@ -23938,7 +23938,7 @@ IDT74FST3245
   - (none)
 
 ### 74x2G53 - single SPDT analog switch, 2:1 analog multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g53
 - Aliases: none
 - Source section: Smaller footprints
@@ -23951,10 +23951,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g53/tb_ttl_74x2g53.sv
 - README: rtl/chips/ttl_74x2g53/README.md
 - Notes:
-  - (none)
+  - Single SPDT analog switch / mux; CMOS transmission gate
 
 ### 74x2G57 - dual configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -23967,10 +23967,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g57/tb_ttl_74x2g57.sv
 - README: rtl/chips/ttl_74x2g57/README.md
 - Notes:
-  - (none)
+  - Dual configurable 7-function gate; requires datasheet
 
 ### 74x2G58 - dual configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -23983,10 +23983,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g58/tb_ttl_74x2g58.sv
 - README: rtl/chips/ttl_74x2g58/README.md
 - Notes:
-  - (none)
+  - Dual configurable 7-function gate; requires datasheet
 
 ### 74x2G66 - dual SPST analog switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g66
 - Aliases: none
 - Source section: Smaller footprints
@@ -23999,7 +23999,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g66/tb_ttl_74x2g66.sv
 - README: rtl/chips/ttl_74x2g66/README.md
 - Notes:
-  - (none)
+  - Dual SPST analog switch; CMOS transmission gate
 
 ### 74x2G74 - single positive-edge D flip-flop, asynchronous preset & clear, Q & /Q outputs
 - Status: [ ]
@@ -24066,7 +24066,7 @@ IDT74FST3245
   - (none)
 
 ### 74x2G97 - dual configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -24079,10 +24079,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g97/tb_ttl_74x2g97.sv
 - README: rtl/chips/ttl_74x2g97/README.md
 - Notes:
-  - (none)
+  - Dual configurable 7-function gate; requires datasheet
 
 ### 74x2G98 - dual configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -24095,7 +24095,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g98/tb_ttl_74x2g98.sv
 - README: rtl/chips/ttl_74x2g98/README.md
 - Notes:
-  - (none)
+  - Dual configurable 7-function gate; requires datasheet
 
 ### 74x2G125 - dual bus buffer, active-low enable
 - Status: [ ]
@@ -24370,7 +24370,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3G57 - triple configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -24383,10 +24383,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g57/tb_ttl_74x3g57.sv
 - README: rtl/chips/ttl_74x3g57/README.md
 - Notes:
-  - (none)
+  - Triple configurable 7-function gate; requires datasheet
 
 ### 74x3G58 - triple configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -24399,10 +24399,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g58/tb_ttl_74x3g58.sv
 - README: rtl/chips/ttl_74x3g58/README.md
 - Notes:
-  - (none)
+  - Triple configurable 7-function gate; requires datasheet
 
 ### 74x3G97 - triple configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -24415,10 +24415,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g97/tb_ttl_74x3g97.sv
 - README: rtl/chips/ttl_74x3g97/README.md
 - Notes:
-  - (none)
+  - Triple configurable 7-function gate; requires datasheet
 
 ### 74x3G98 - triple configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -24431,7 +24431,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g98/tb_ttl_74x3g98.sv
 - README: rtl/chips/ttl_74x3g98/README.md
 - Notes:
-  - (none)
+  - Triple configurable 7-function gate; requires datasheet
 
 ### 74x3G0434 - dual inverter and single buffer
 - Status: [ ]
@@ -24629,7 +24629,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1T57 - single-supply configurable 9-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1t57
 - Aliases: none
 - Source section: Voltage translation
@@ -24642,10 +24642,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t57/tb_ttl_74x1t57.sv
 - README: rtl/chips/ttl_74x1t57/README.md
 - Notes:
-  - (none)
+  - Configurable 9-function gate; requires datasheet
 
 ### 74x1T58 - single-supply configurable 9-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1t58
 - Aliases: none
 - Source section: Voltage translation
@@ -24658,7 +24658,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t58/tb_ttl_74x1t58.sv
 - README: rtl/chips/ttl_74x1t58/README.md
 - Notes:
-  - (none)
+  - Configurable 9-function gate; requires datasheet
 
 ### 74x1T86 - single-supply 2-input XOR gate
 - Status: [ ]

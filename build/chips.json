@@ -31358,8 +31358,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc2g53.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Single SPDT analog switch / mux; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g53/ttl_74x2g53.sv",
     "testbench_path": "tb/chips/ttl_74x2g53/tb_ttl_74x2g53.sv",
     "readme_path": "rtl/chips/ttl_74x2g53/README.md"
@@ -31377,8 +31379,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G57.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g57/ttl_74x2g57.sv",
     "testbench_path": "tb/chips/ttl_74x2g57/tb_ttl_74x2g57.sv",
     "readme_path": "rtl/chips/ttl_74x2g57/README.md"
@@ -31396,8 +31400,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g58/ttl_74x2g58.sv",
     "testbench_path": "tb/chips/ttl_74x2g58/tb_ttl_74x2g58.sv",
     "readme_path": "rtl/chips/ttl_74x2g58/README.md"
@@ -31415,8 +31421,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC2G66.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual SPST analog switch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g66/ttl_74x2g66.sv",
     "testbench_path": "tb/chips/ttl_74x2g66/tb_ttl_74x2g66.sv",
     "readme_path": "rtl/chips/ttl_74x2g66/README.md"
@@ -31510,8 +31518,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G97.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g97/ttl_74x2g97.sv",
     "testbench_path": "tb/chips/ttl_74x2g97/tb_ttl_74x2g97.sv",
     "readme_path": "rtl/chips/ttl_74x2g97/README.md"
@@ -31529,8 +31539,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G98.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g98/ttl_74x2g98.sv",
     "testbench_path": "tb/chips/ttl_74x2g98/tb_ttl_74x2g98.sv",
     "readme_path": "rtl/chips/ttl_74x2g98/README.md"
@@ -31871,8 +31883,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g57.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3g57/ttl_74x3g57.sv",
     "testbench_path": "tb/chips/ttl_74x3g57/tb_ttl_74x3g57.sv",
     "readme_path": "rtl/chips/ttl_74x3g57/README.md"
@@ -31890,8 +31904,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3g58/ttl_74x3g58.sv",
     "testbench_path": "tb/chips/ttl_74x3g58/tb_ttl_74x3g58.sv",
     "readme_path": "rtl/chips/ttl_74x3g58/README.md"
@@ -31909,8 +31925,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g97.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3g97/ttl_74x3g97.sv",
     "testbench_path": "tb/chips/ttl_74x3g97/tb_ttl_74x3g97.sv",
     "readme_path": "rtl/chips/ttl_74x3g97/README.md"
@@ -31928,8 +31946,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g98.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple configurable 7-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3g98/ttl_74x3g98.sv",
     "testbench_path": "tb/chips/ttl_74x3g98/tb_ttl_74x3g98.sv",
     "readme_path": "rtl/chips/ttl_74x3g98/README.md"
@@ -32175,8 +32195,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t57.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 9-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t57/ttl_74x1t57.sv",
     "testbench_path": "tb/chips/ttl_74x1t57/tb_ttl_74x1t57.sv",
     "readme_path": "rtl/chips/ttl_74x1t57/README.md"
@@ -32194,8 +32216,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 9-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t58/ttl_74x1t58.sv",
     "testbench_path": "tb/chips/ttl_74x1t58/tb_ttl_74x1t58.sv",
     "readme_path": "rtl/chips/ttl_74x1t58/README.md"
