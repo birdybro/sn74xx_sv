@@ -21728,8 +21728,10 @@
     "pins": "(120)",
     "datasheet": "74ACTQ3283",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-22/DSA-420818.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "32-bit latchable transceiver with odd parity gen/check, sticky error FF. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3283/ttl_74x3283.sv",
     "testbench_path": "tb/chips/ttl_74x3283/tb_ttl_74x3283.sv",
     "readme_path": "rtl/chips/ttl_74x3283/README.md"

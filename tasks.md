@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 818
+- complete: 819
 - blocked: 313
 - digital_only_approximation: 27
-- not_started: 397
+- not_started: 396
 
 ## Chips
 
@@ -16572,7 +16572,7 @@ IDT74FST3245
   - Quad 2-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled
 
 ### 74x3283 - 32-bit latchable transceiver with parity checker / generator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3283
 - Aliases: none
 - Source section: Larger footprints
@@ -16585,7 +16585,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3283/tb_ttl_74x3283.sv
 - README: rtl/chips/ttl_74x3283/README.md
 - Notes:
-  - (none)
+  - 32-bit latchable transceiver with odd parity gen/check, sticky error FF. Verilator + Yosys clean.
 
 ### 74x3284 - 18-bit synchronous datapath multiplexer
 - Status: [ ]
