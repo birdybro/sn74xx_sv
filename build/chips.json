@@ -30819,8 +30819,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc1g139",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "2-to-4 decoder active-low. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g139/ttl_74x1g139.sv",
     "testbench_path": "tb/chips/ttl_74x1g139/tb_ttl_74x1g139.sv",
     "readme_path": "rtl/chips/ttl_74x1g139/README.md"

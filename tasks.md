@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1015
+- complete: 1016
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 109
+- not_started: 108
 
 ## Chips
 
@@ -23538,7 +23538,7 @@ IDT74FST3245
   - 2-input NAND (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x1G139 - single 2-to-4 line decoder, active-low outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g139
 - Aliases: none
 - Source section: Smaller footprints
@@ -23551,7 +23551,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g139/tb_ttl_74x1g139.sv
 - README: rtl/chips/ttl_74x1g139/README.md
 - Notes:
-  - (none)
+  - 2-to-4 decoder active-low. Verilator + Yosys clean.
 
 ### 74x1G157 - single 2-to-1 data selector/multiplexer
 - Status: [ ]
