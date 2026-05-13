@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 966
+- complete: 967
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 177
+- not_started: 176
 
 ## Chips
 
@@ -20172,7 +20172,7 @@ IDT74FST3245
   - PLL with band-gap controlled VCO; analog PLL
 
 ### 74x9114 - nine-wide inverter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9114
 - Aliases: none
 - Source section: Larger footprints
@@ -20185,7 +20185,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9114/tb_ttl_74x9114.sv
 - README: rtl/chips/ttl_74x9114/README.md
 - Notes:
-  - (none)
+  - 9-bit inverter. Verilator + Yosys clean.
 
 ### 74x9115 - nine-wide buffer
 - Status: [ ]
