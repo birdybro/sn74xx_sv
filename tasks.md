@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 643
+- complete: 644
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 797
+- not_started: 796
 
 ## Chips
 
@@ -12170,7 +12170,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x904 - hex non-inverting PMOS buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x904
 - Aliases: none
 - Source section: Larger footprints
@@ -12183,7 +12183,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x904/tb_ttl_74x904.sv
 - README: rtl/chips/ttl_74x904/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x905 - 12-bit successive approximation register
 - Status: [ ]
