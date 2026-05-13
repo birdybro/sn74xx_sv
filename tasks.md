@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1089
+- complete: 1090
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 19
+- not_started: 18
 
 ## Chips
 
@@ -24450,7 +24450,7 @@ IDT74FST3245
   - Dual inverter + single buffer. Verilator + Yosys clean.
 
 ### 74x3G3404 - dual buffer and single inverter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3g3404
 - Aliases: none
 - Source section: Smaller footprints
@@ -24463,7 +24463,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g3404/tb_ttl_74x3g3404.sv
 - README: rtl/chips/ttl_74x3g3404/README.md
 - Notes:
-  - (none)
+  - Dual buffer + single inverter. Verilator + Yosys clean.
 
 
 ## Section: Voltage translation
