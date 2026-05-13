@@ -22988,8 +22988,10 @@
     "pins": "20",
     "datasheet": "MN74HC4302",
     "datasheet_url": "https://archive.org/details/bitsavers_panasonicdicHighSpeedCMOS_23161100/page/n417",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Non-inverting 8-bit transparent latch. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4302/ttl_74x4302.sv",
     "testbench_path": "tb/chips/ttl_74x4302/tb_ttl_74x4302.sv",
     "readme_path": "rtl/chips/ttl_74x4302/README.md"
