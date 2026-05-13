@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 978
+- complete: 979
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 165
+- not_started: 164
 
 ## Chips
 
@@ -20380,7 +20380,7 @@ IDT74FST3245
   - = 74x4102. Verilator + Yosys clean.
 
 ### 74x40103 - presettable 8-bit synchronous down counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x40103
 - Aliases: none
 - Source section: Larger footprints
@@ -20393,7 +20393,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x40103/tb_ttl_74x40103.sv
 - README: rtl/chips/ttl_74x40103/README.md
 - Notes:
-  - (none)
+  - = 74x4103. Verilator + Yosys clean.
 
 ### 74x40104 - 4-bit bidirectional universal shift register
 - Status: [ ]
