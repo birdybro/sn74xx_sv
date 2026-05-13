@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 994
-- blocked: 395
+- blocked: 404
 - digital_only_approximation: 27
-- not_started: 139
+- not_started: 130
 
 ## Chips
 
@@ -22815,7 +22815,7 @@ IDT74FST3245
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x32316 - 16-bit tri-port universal bus exchangers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x32316
 - Aliases: none
 - Source section: Widebus devices
@@ -22828,10 +22828,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x32316/tb_ttl_74x32316.sv
 - README: rtl/chips/ttl_74x32316/README.md
 - Notes:
-  - (none)
+  - 16-bit tri-port universal bus exchanger; specialized 3-way exchange requires datasheet
 
 ### 74x32318 - 18-bit tri-port universal bus exchangers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x32318
 - Aliases: none
 - Source section: Widebus devices
@@ -22844,7 +22844,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x32318/tb_ttl_74x32318.sv
 - README: rtl/chips/ttl_74x32318/README.md
 - Notes:
-  - (none)
+  - 18-bit tri-port universal bus exchanger; specialized 3-way exchange requires datasheet
 
 ### 74x32373 - 32-bit D-type latches
 - Status: [ ]
@@ -23314,7 +23314,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1G57 - single configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -23327,10 +23327,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g57/tb_ttl_74x1g57.sv
 - README: rtl/chips/ttl_74x1g57/README.md
 - Notes:
-  - (none)
+  - Configurable 7-function gate; function selection by input wiring requires datasheet
 
 ### 74x1G58 - single configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -23343,10 +23343,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g58/tb_ttl_74x1g58.sv
 - README: rtl/chips/ttl_74x1g58/README.md
 - Notes:
-  - (none)
+  - Configurable 7-function gate; function selection by input wiring requires datasheet
 
 ### 74x1G66 - single SPST analog switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g66
 - Aliases: none
 - Source section: Smaller footprints
@@ -23359,7 +23359,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g66/tb_ttl_74x1g66.sv
 - README: rtl/chips/ttl_74x1g66/README.md
 - Notes:
-  - (none)
+  - SPST analog switch (CMOS transmission gate); not modeled digitally
 
 ### 74x1G74 - single positive-edge D flip-flop, asynchronous preset & clear, Q & /Q outputs
 - Status: [ ]
@@ -23426,7 +23426,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1G97 - single configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -23439,10 +23439,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g97/tb_ttl_74x1g97.sv
 - README: rtl/chips/ttl_74x1g97/README.md
 - Notes:
-  - (none)
+  - Configurable 7-function gate; function selection by input wiring requires datasheet
 
 ### 74x1G98 - single configurable 7-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -23455,10 +23455,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g98/tb_ttl_74x1g98.sv
 - README: rtl/chips/ttl_74x1g98/README.md
 - Notes:
-  - (none)
+  - Configurable 7-function gate; function selection by input wiring requires datasheet
 
 ### 74x1G99 - single configurable 15-function gate, active-low enable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g99
 - Aliases: none
 - Source section: Smaller footprints
@@ -23471,10 +23471,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g99/tb_ttl_74x1g99.sv
 - README: rtl/chips/ttl_74x1g99/README.md
 - Notes:
-  - (none)
+  - Configurable 15-function gate with active-low enable; function selection by wiring requires datasheet
 
 ### 74x1G123 - single retriggerable monostable multivibrator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g123
 - Aliases: none
 - Source section: Smaller footprints
@@ -23487,7 +23487,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g123/tb_ttl_74x1g123.sv
 - README: rtl/chips/ttl_74x1g123/README.md
 - Notes:
-  - (none)
+  - Retriggerable monostable multivibrator; analog RC-based pulse width
 
 ### 74x1G125 - single bus buffer gate, active-low enable
 - Status: [ ]

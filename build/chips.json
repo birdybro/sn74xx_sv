@@ -29890,8 +29890,10 @@
     "pins": "(80)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abth32316.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "16-bit tri-port universal bus exchanger; specialized 3-way exchange requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x32316/ttl_74x32316.sv",
     "testbench_path": "tb/chips/ttl_74x32316/tb_ttl_74x32316.sv",
     "readme_path": "rtl/chips/ttl_74x32316/README.md"
@@ -29909,8 +29911,10 @@
     "pins": "(80)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abth32318.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "18-bit tri-port universal bus exchanger; specialized 3-way exchange requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x32318/ttl_74x32318.sv",
     "testbench_path": "tb/chips/ttl_74x32318/tb_ttl_74x32318.sv",
     "readme_path": "rtl/chips/ttl_74x32318/README.md"
@@ -30493,8 +30497,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g57/ttl_74x1g57.sv",
     "testbench_path": "tb/chips/ttl_74x1g57/tb_ttl_74x1g57.sv",
     "readme_path": "rtl/chips/ttl_74x1g57/README.md"
@@ -30512,8 +30518,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g58/ttl_74x1g58.sv",
     "testbench_path": "tb/chips/ttl_74x1g58/tb_ttl_74x1g58.sv",
     "readme_path": "rtl/chips/ttl_74x1g58/README.md"
@@ -30531,8 +30539,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G66.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "SPST analog switch (CMOS transmission gate); not modeled digitally"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g66/ttl_74x1g66.sv",
     "testbench_path": "tb/chips/ttl_74x1g66/tb_ttl_74x1g66.sv",
     "readme_path": "rtl/chips/ttl_74x1g66/README.md"
@@ -30626,8 +30636,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G97.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g97/ttl_74x1g97.sv",
     "testbench_path": "tb/chips/ttl_74x1g97/tb_ttl_74x1g97.sv",
     "readme_path": "rtl/chips/ttl_74x1g97/README.md"
@@ -30645,8 +30657,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G98.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g98/ttl_74x1g98.sv",
     "testbench_path": "tb/chips/ttl_74x1g98/tb_ttl_74x1g98.sv",
     "readme_path": "rtl/chips/ttl_74x1g98/README.md"
@@ -30664,8 +30678,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 15-function gate with active-low enable; function selection by wiring requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g99/ttl_74x1g99.sv",
     "testbench_path": "tb/chips/ttl_74x1g99/tb_ttl_74x1g99.sv",
     "readme_path": "rtl/chips/ttl_74x1g99/README.md"
@@ -30683,8 +30699,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G123.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Retriggerable monostable multivibrator; analog RC-based pulse width"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g123/ttl_74x1g123.sv",
     "testbench_path": "tb/chips/ttl_74x1g123/tb_ttl_74x1g123.sv",
     "readme_path": "rtl/chips/ttl_74x1g123/README.md"
