@@ -24941,8 +24941,10 @@
     "pins": "16",
     "datasheet": "74HC7731",
     "datasheet_url": "https://web.archive.org/web/20181011013635/http://pdf.datasheetcatalog.com/datasheet/philips/74HCT7731.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 64-bit SIPO shift register. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7731/ttl_74x7731.sv",
     "testbench_path": "tb/chips/ttl_74x7731/tb_ttl_74x7731.sv",
     "readme_path": "rtl/chips/ttl_74x7731/README.md"

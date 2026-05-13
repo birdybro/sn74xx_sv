@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 916
+- complete: 917
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 253
+- not_started: 252
 
 ## Chips
 
@@ -19020,7 +19020,7 @@ IDT74FST3245
   - = 74x645. Verilator + Yosys clean.
 
 ### 74x7731 - quad 64-bit static shift register
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7731
 - Aliases: none
 - Source section: Larger footprints
@@ -19033,7 +19033,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7731/tb_ttl_74x7731.sv
 - README: rtl/chips/ttl_74x7731/README.md
 - Notes:
-  - (none)
+  - Quad 64-bit SIPO shift register. Verilator + Yosys clean.
 
 ### 74x7793 - 8-bit noninverting transparent latch with readback
 - Status: [ ]
