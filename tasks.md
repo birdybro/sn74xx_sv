@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 625
+- complete: 626
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 829
+- not_started: 828
 
 ## Chips
 
@@ -11626,7 +11626,7 @@ For every chip:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x857 - hex 2-line to 1-line multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x857
 - Aliases: none
 - Source section: Larger footprints
@@ -11639,7 +11639,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x857/tb_ttl_74x857.sv
 - README: rtl/chips/ttl_74x857/README.md
 - Notes:
-  - (none)
+  - Hex 2-to-1 universal mux with AND/NAND mask, force-low, and inversion modes per SN74ALS857 (SDAS170A); separate y_oe_n and oper_oe_n; Verilator lint+sim clean
 
 ### 74x861 - 10-bit bus transceiver, non-inverting
 - Status: [ ]

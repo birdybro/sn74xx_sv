@@ -15229,8 +15229,10 @@
     "pins": "24",
     "datasheet": "SN74ALS857",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54als857",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex 2-to-1 universal mux with AND/NAND mask, force-low, and inversion modes per SN74ALS857 (SDAS170A); separate y_oe_n and oper_oe_n; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x857/ttl_74x857.sv",
     "testbench_path": "tb/chips/ttl_74x857/tb_ttl_74x857.sv",
     "readme_path": "rtl/chips/ttl_74x857/README.md"
