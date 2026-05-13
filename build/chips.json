@@ -30086,8 +30086,10 @@
     "pins": "(96)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=792",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "32-bit version of 74x374. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x322374/ttl_74x322374.sv",
     "testbench_path": "tb/chips/ttl_74x322374/tb_ttl_74x322374.sv",
     "readme_path": "rtl/chips/ttl_74x322374/README.md"
