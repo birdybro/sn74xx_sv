@@ -13043,8 +13043,10 @@
     "pins": "24",
     "datasheet": "SN74LS686",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls688",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Separate G1 (P=Q) and G2 (P>Q) active-low enables; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x686/ttl_74x686.sv",
     "testbench_path": "tb/chips/ttl_74x686/tb_ttl_74x686.sv",
     "readme_path": "rtl/chips/ttl_74x686/README.md"
