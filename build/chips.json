@@ -21174,8 +21174,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2863T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n463",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit non-inverting bus transceiver with independent A/B output enables. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2863/ttl_74x2863.sv",
     "testbench_path": "tb/chips/ttl_74x2863/tb_ttl_74x2863.sv",
     "readme_path": "rtl/chips/ttl_74x2863/README.md"
