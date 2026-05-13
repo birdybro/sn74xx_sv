@@ -27798,8 +27798,10 @@
     "pins": "48",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth162374.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus extension of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162374/ttl_74x162374.sv",
     "testbench_path": "tb/chips/ttl_74x162374/tb_ttl_74x162374.sv",
     "readme_path": "rtl/chips/ttl_74x162374/README.md"

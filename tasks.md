@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 714
+- complete: 715
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 676
+- not_started: 675
 
 ## Chips
 
@@ -21951,7 +21951,7 @@ IDT74FST3245
   - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x162374 - 3.3-V ABT 16-bit edge triggered D-type flip-flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162374
 - Aliases: none
 - Source section: Widebus devices
@@ -21964,7 +21964,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162374/tb_ttl_74x162374.sv
 - README: rtl/chips/ttl_74x162374/README.md
 - Notes:
-  - (none)
+  - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x162460 - 4-to-1 multiplexed/demultiplexed registered transceiver
 - Status: [ ]
