@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1094
+- complete: 1095
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 14
+- not_started: 13
 
 ## Chips
 
@@ -24677,7 +24677,7 @@ IDT74FST3245
   - Single XOR. Verilator + Yosys clean.
 
 ### 74x1T87 - single-supply 2-input XNOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t87
 - Aliases: none
 - Source section: Voltage translation
@@ -24690,7 +24690,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t87/tb_ttl_74x1t87.sv
 - README: rtl/chips/ttl_74x1t87/README.md
 - Notes:
-  - (none)
+  - Single XNOR. Verilator + Yosys clean.
 
 ### 74x1T97 - single-supply configurable 9-function gate
 - Status: [!]

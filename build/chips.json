@@ -32354,8 +32354,10 @@
     "pins": "5",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t87.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single XNOR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t87/ttl_74x1t87.sv",
     "testbench_path": "tb/chips/ttl_74x1t87/tb_ttl_74x1t87.sv",
     "readme_path": "rtl/chips/ttl_74x1t87/README.md"
