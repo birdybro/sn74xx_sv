@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1060
+- complete: 1061
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 50
+- not_started: 49
 
 ## Chips
 
@@ -24130,7 +24130,7 @@ IDT74FST3245
   - (none)
 
 ### 74x2G132 - dual 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g132
 - Aliases: none
 - Source section: Smaller footprints
@@ -24143,7 +24143,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g132/tb_ttl_74x2g132.sv
 - README: rtl/chips/ttl_74x2g132/README.md
 - Notes:
-  - (none)
+  - Dual 2-input NAND (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x2G157 - single 2-to-1 data selector/multiplexer
 - Status: [ ]
