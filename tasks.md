@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 845
+- complete: 846
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 341
+- not_started: 340
 
 ## Chips
 
@@ -17420,7 +17420,7 @@ IDT74FST3245
   - Dual 4-input OR. Verilator + Yosys clean.
 
 ### 74x4075 - triple 3-input OR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4075
 - Aliases: none
 - Source section: Larger footprints
@@ -17433,7 +17433,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4075/tb_ttl_74x4075.sv
 - README: rtl/chips/ttl_74x4075/README.md
 - Notes:
-  - (none)
+  - Triple 3-input OR. Verilator + Yosys clean.
 
 ### 74x4078 - single 8-input OR/NOR gate
 - Status: [ ]

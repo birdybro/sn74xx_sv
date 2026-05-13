@@ -22841,8 +22841,10 @@
     "pins": "14",
     "datasheet": "CD74HC4075",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4075",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Triple 3-input OR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4075/ttl_74x4075.sv",
     "testbench_path": "tb/chips/ttl_74x4075/tb_ttl_74x4075.sv",
     "readme_path": "rtl/chips/ttl_74x4075/README.md"
