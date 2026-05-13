@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 720
+- complete: 721
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 628
+- not_started: 627
 
 ## Chips
 
@@ -21519,7 +21519,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16843 - 18-bit bus interface D-type latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16843
 - Aliases: none
 - Source section: Widebus devices
@@ -21532,7 +21532,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16843/tb_ttl_74x16843.sv
 - README: rtl/chips/ttl_74x16843/README.md
 - Notes:
-  - (none)
+  - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16853 - dual 8-bit to 9-bit parity bus transceiver
 - Status: [ ]
