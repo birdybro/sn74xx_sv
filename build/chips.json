@@ -22421,8 +22421,10 @@
     "pins": "16",
     "datasheet": "CD74HC4015",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4015",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 4-bit SIPO shift register with async clear. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4015/ttl_74x4015.sv",
     "testbench_path": "tb/chips/ttl_74x4015/tb_ttl_74x4015.sv",
     "readme_path": "rtl/chips/ttl_74x4015/README.md"

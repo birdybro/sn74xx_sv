@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 834
+- complete: 835
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 365
+- not_started: 364
 
 ## Chips
 
@@ -17100,7 +17100,7 @@ IDT74FST3245
   - Dual 4-input NOR, CMOS 4002. Verilator + Yosys clean.
 
 ### 74x4015 - dual 4-bit shift registers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4015
 - Aliases: none
 - Source section: Larger footprints
@@ -17113,7 +17113,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4015/tb_ttl_74x4015.sv
 - README: rtl/chips/ttl_74x4015/README.md
 - Notes:
-  - (none)
+  - Dual 4-bit SIPO shift register with async clear. Verilator + Yosys clean.
 
 ### 74x4016 - quad bilateral switch
 - Status: [!]
