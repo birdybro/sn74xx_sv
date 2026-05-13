@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 871
+- complete: 872
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 298
+- not_started: 297
 
 ## Chips
 
@@ -18028,7 +18028,7 @@ IDT74FST3245
   - 11-bit non-inverting line/memory driver with 3-state. Verilator + Yosys clean.
 
 ### 74x5401 - 11-bit line/memory driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x5401
 - Aliases: none
 - Source section: Larger footprints
@@ -18041,7 +18041,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5401/tb_ttl_74x5401.sv
 - README: rtl/chips/ttl_74x5401/README.md
 - Notes:
-  - (none)
+  - 11-bit inverting driver. Verilator + Yosys clean.
 
 ### 74x5402 - 12-bit line/memory driver, non-inverting
 - Status: [ ]
