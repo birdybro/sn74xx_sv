@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 956
+- complete: 957
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 201
+- not_started: 200
 
 ## Chips
 
@@ -19756,7 +19756,7 @@ IDT74FST3245
   - 64-bit FPU; complex IEEE 754 unit, needs datasheet
 
 ### 74x8838 - 64-bit barrel shifter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8838
 - Aliases: none
 - Source section: Larger footprints
@@ -19769,7 +19769,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8838/tb_ttl_74x8838.sv
 - README: rtl/chips/ttl_74x8838/README.md
 - Notes:
-  - (none)
+  - Combinational 64-bit rotating barrel shifter (left or right). Verilator + Yosys clean.
 
 ### 74x8839 - 32-bit shuffle/exchange network
 - Status: [!]
