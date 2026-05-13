@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 572
+- complete: 573
 - blocked: 17
 - digital_only_approximation: 27
-- not_started: 939
+- not_started: 938
 
 ## Chips
 
@@ -9896,7 +9896,7 @@ For every chip:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x682 - 8-bit magnitude comparator, P>Q output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x682
 - Aliases: none
 - Source section: Larger footprints
@@ -9909,7 +9909,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x682/tb_ttl_74x682.sv
 - README: rtl/chips/ttl_74x682/README.md
 - Notes:
-  - (none)
+  - 8-bit magnitude/identity comparator (no enable, totem-pole, Q-pullups noted); Verilator lint+sim clean
 
 ### 74x683 - 8-bit magnitude comparator, P>Q output
 - Status: [ ]
