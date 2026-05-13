@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 817
+- complete: 818
 - blocked: 313
 - digital_only_approximation: 27
-- not_started: 398
+- not_started: 397
 
 ## Chips
 
@@ -16426,7 +16426,7 @@ For every chip:
   - Quad FET bus switch, OE active high; physical switch with no logical model
 
 ### 74FCT3244 - dual 4-bit buffer / line driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74fct3244
 - Aliases: none
 - Source section: Larger footprints
@@ -16439,7 +16439,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74fct3244/tb_ttl_74fct3244.sv
 - README: rtl/chips/ttl_74fct3244/README.md
 - Notes:
-  - (none)
+  - Dual 4-bit non-inverting line driver. Verilator + Yosys clean.
 
 ### 74CBT3244 - dual 4-bit FET bus switch
 - Status: [!]
