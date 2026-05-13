@@ -13127,8 +13127,10 @@
     "pins": "20",
     "datasheet": "SN74LS690",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1353",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x690/ttl_74x690.sv",
     "testbench_path": "tb/chips/ttl_74x690/tb_ttl_74x690.sv",
     "readme_path": "rtl/chips/ttl_74x690/README.md"
@@ -13146,8 +13148,10 @@
     "pins": "20",
     "datasheet": "SN74LS691",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1353",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x691/ttl_74x691.sv",
     "testbench_path": "tb/chips/ttl_74x691/tb_ttl_74x691.sv",
     "readme_path": "rtl/chips/ttl_74x691/README.md"
@@ -13165,8 +13169,10 @@
     "pins": "20",
     "datasheet": "SN74LS692",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1353",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x692/ttl_74x692.sv",
     "testbench_path": "tb/chips/ttl_74x692/tb_ttl_74x692.sv",
     "readme_path": "rtl/chips/ttl_74x692/README.md"
@@ -13184,8 +13190,10 @@
     "pins": "20",
     "datasheet": "SN74LS693",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1353",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x693/ttl_74x693.sv",
     "testbench_path": "tb/chips/ttl_74x693/tb_ttl_74x693.sv",
     "readme_path": "rtl/chips/ttl_74x693/README.md"
@@ -13203,8 +13211,10 @@
     "pins": "20",
     "datasheet": "SN74ALS694",
     "datasheet_url": "https://archive.org/details/bitsavers_icMaster19_159569496/page/n619",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x694/ttl_74x694.sv",
     "testbench_path": "tb/chips/ttl_74x694/tb_ttl_74x694.sv",
     "readme_path": "rtl/chips/ttl_74x694/README.md"
@@ -13222,8 +13232,10 @@
     "pins": "20",
     "datasheet": "SN74ALS695",
     "datasheet_url": "https://archive.org/details/bitsavers_icMaster19_159569496/page/n619",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x695/ttl_74x695.sv",
     "testbench_path": "tb/chips/ttl_74x695/tb_ttl_74x695.sv",
     "readme_path": "rtl/chips/ttl_74x695/README.md"
@@ -13241,8 +13253,10 @@
     "pins": "20",
     "datasheet": "SN74LS696",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls697",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x696/ttl_74x696.sv",
     "testbench_path": "tb/chips/ttl_74x696/tb_ttl_74x696.sv",
     "readme_path": "rtl/chips/ttl_74x696/README.md"
@@ -13260,8 +13274,10 @@
     "pins": "20",
     "datasheet": "SN74LS697",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls697",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x697/ttl_74x697.sv",
     "testbench_path": "tb/chips/ttl_74x697/tb_ttl_74x697.sv",
     "readme_path": "rtl/chips/ttl_74x697/README.md"
@@ -13279,8 +13295,10 @@
     "pins": "20",
     "datasheet": "SN74LS698",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1365",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x698/ttl_74x698.sv",
     "testbench_path": "tb/chips/ttl_74x698/tb_ttl_74x698.sv",
     "readme_path": "rtl/chips/ttl_74x698/README.md"
@@ -13298,8 +13316,10 @@
     "pins": "20",
     "datasheet": "SN74LS699",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls697",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x699/ttl_74x699.sv",
     "testbench_path": "tb/chips/ttl_74x699/tb_ttl_74x699.sv",
     "readme_path": "rtl/chips/ttl_74x699/README.md"

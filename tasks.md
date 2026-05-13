@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 580
-- blocked: 17
+- blocked: 27
 - digital_only_approximation: 27
-- not_started: 931
+- not_started: 921
 
 ## Chips
 
@@ -10024,7 +10024,7 @@ For every chip:
   - OC twin of 74x688; Verilator lint+sim clean
 
 ### 74x690 - 4-bit decimal counter/latch/multiplexer, asynchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x690
 - Aliases: none
 - Source section: Larger footprints
@@ -10037,10 +10037,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x690/tb_ttl_74x690.sv
 - README: rtl/chips/ttl_74x690/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x691 - 4-bit binary counter/latch/multiplexer, asynchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x691
 - Aliases: none
 - Source section: Larger footprints
@@ -10053,10 +10053,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x691/tb_ttl_74x691.sv
 - README: rtl/chips/ttl_74x691/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x692 - 4-bit decimal counter/latch/multiplexer, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x692
 - Aliases: none
 - Source section: Larger footprints
@@ -10069,10 +10069,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x692/tb_ttl_74x692.sv
 - README: rtl/chips/ttl_74x692/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x693 - 4-bit binary counter/latch/multiplexer, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x693
 - Aliases: none
 - Source section: Larger footprints
@@ -10085,10 +10085,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x693/tb_ttl_74x693.sv
 - README: rtl/chips/ttl_74x693/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x694 - 4-bit decimal counter/latch/multiplexer, synchronous and asynchronous clears
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x694
 - Aliases: none
 - Source section: Larger footprints
@@ -10101,10 +10101,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x694/tb_ttl_74x694.sv
 - README: rtl/chips/ttl_74x694/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x695 - 4-bit binary counter/latch/multiplexer, synchronous and asynchronous clears
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x695
 - Aliases: none
 - Source section: Larger footprints
@@ -10117,10 +10117,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x695/tb_ttl_74x695.sv
 - README: rtl/chips/ttl_74x695/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x696 - 4-bit decimal counter/register/multiplexer, asynchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x696
 - Aliases: none
 - Source section: Larger footprints
@@ -10133,10 +10133,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x696/tb_ttl_74x696.sv
 - README: rtl/chips/ttl_74x696/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x697 - 4-bit binary counter/register/multiplexer, asynchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x697
 - Aliases: none
 - Source section: Larger footprints
@@ -10149,10 +10149,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x697/tb_ttl_74x697.sv
 - README: rtl/chips/ttl_74x697/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x698 - 4-bit decimal counter/register/multiplexer, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x698
 - Aliases: none
 - Source section: Larger footprints
@@ -10165,10 +10165,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x698/tb_ttl_74x698.sv
 - README: rtl/chips/ttl_74x698/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x699 - 4-bit binary counter/register/multiplexer, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x699
 - Aliases: none
 - Source section: Larger footprints
@@ -10181,7 +10181,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x699/tb_ttl_74x699.sv
 - README: rtl/chips/ttl_74x699/README.md
 - Notes:
-  - (none)
+  - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x700 - octal dRAM driver, inverting
 - Status: [ ]
