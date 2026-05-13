@@ -23681,8 +23681,10 @@
     "pins": "28",
     "datasheet": "SN74ABT5403",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n617",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "12-bit inverting driver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x5403/ttl_74x5403.sv",
     "testbench_path": "tb/chips/ttl_74x5403/tb_ttl_74x5403.sv",
     "readme_path": "rtl/chips/ttl_74x5403/README.md"
