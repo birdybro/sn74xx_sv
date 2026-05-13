@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 777
+- complete: 778
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 465
+- not_started: 464
 
 ## Chips
 
@@ -14090,7 +14090,7 @@ For every chip:
   - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1760 - 10-bit 4-way latched address multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1760
 - Aliases: none
 - Source section: Larger footprints
@@ -14103,7 +14103,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1760/tb_ttl_74x1760.sv
 - README: rtl/chips/ttl_74x1760/README.md
 - Notes:
-  - (none)
+  - Behavioral 4:1 mux per bit (10 bits) with transparent latch and 3-state output. Verilator + Yosys clean.
 
 ### 74x1761 - dRAM and interrupt vector controller
 - Status: [ ]

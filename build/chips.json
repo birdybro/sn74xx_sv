@@ -18449,8 +18449,10 @@
     "pins": "64",
     "datasheet": "74F1760",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-111/DSAP0034403.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Behavioral 4:1 mux per bit (10 bits) with transparent latch and 3-state output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1760/ttl_74x1760.sv",
     "testbench_path": "tb/chips/ttl_74x1760/tb_ttl_74x1760.sv",
     "readme_path": "rtl/chips/ttl_74x1760/README.md"
