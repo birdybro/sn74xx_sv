@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 786
-- blocked: 286
+- blocked: 291
 - digital_only_approximation: 27
-- not_started: 456
+- not_started: 451
 
 ## Chips
 
@@ -14106,7 +14106,7 @@ For every chip:
   - Behavioral 4:1 mux per bit (10 bits) with transparent latch and 3-state output. Verilator + Yosys clean.
 
 ### 74x1761 - dRAM and interrupt vector controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1761
 - Aliases: none
 - Source section: Larger footprints
@@ -14119,7 +14119,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1761/tb_ttl_74x1761.sv
 - README: rtl/chips/ttl_74x1761/README.md
 - Notes:
-  - (none)
+  - Combined DRAM + interrupt vector controller; complex state machine + interrupt protocol requires SN74F1761 datasheet
 
 ### 74x1762 - dRAM address controller
 - Status: [x]
@@ -14138,7 +14138,7 @@ For every chip:
   - Address-only DRAM controller, same model as 74x968. Refresh logic external. Verilator + Yosys clean.
 
 ### 74x1763 - single-port dRAM controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1763
 - Aliases: none
 - Source section: Larger footprints
@@ -14151,10 +14151,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1763/tb_ttl_74x1763.sv
 - README: rtl/chips/ttl_74x1763/README.md
 - Notes:
-  - (none)
+  - Single-port DRAM controller; refresh state machine + arbitration requires SN74F1763 datasheet
 
 ### 74x1764 - dual-port dRAM controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1764
 - Aliases: none
 - Source section: Larger footprints
@@ -14167,10 +14167,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1764/tb_ttl_74x1764.sv
 - README: rtl/chips/ttl_74x1764/README.md
 - Notes:
-  - (none)
+  - Dual-port DRAM controller; port arbitration requires SN74F1764 datasheet
 
 ### 74x1765 - dual-port dRAM controller with address latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1765
 - Aliases: none
 - Source section: Larger footprints
@@ -14183,10 +14183,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1765/tb_ttl_74x1765.sv
 - README: rtl/chips/ttl_74x1765/README.md
 - Notes:
-  - (none)
+  - Dual-port DRAM controller with address latch; requires SN74F1765 datasheet
 
 ### 74x1766 - burst mode dRAM controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1766
 - Aliases: none
 - Source section: Larger footprints
@@ -14199,7 +14199,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1766/tb_ttl_74x1766.sv
 - README: rtl/chips/ttl_74x1766/README.md
 - Notes:
-  - (none)
+  - Burst-mode DRAM controller; burst state machine requires SN74F1766 datasheet
 
 ### 74x1779 - 8-bit bidirectional binary counter
 - Status: [x]

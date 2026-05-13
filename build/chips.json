@@ -18484,8 +18484,10 @@
     "pins": "48",
     "datasheet": "74F1761",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n911",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Combined DRAM + interrupt vector controller; complex state machine + interrupt protocol requires SN74F1761 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1761/ttl_74x1761.sv",
     "testbench_path": "tb/chips/ttl_74x1761/tb_ttl_74x1761.sv",
     "readme_path": "rtl/chips/ttl_74x1761/README.md"
@@ -18524,8 +18526,10 @@
     "pins": "48",
     "datasheet": "74F1763",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n915",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Single-port DRAM controller; refresh state machine + arbitration requires SN74F1763 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1763/ttl_74x1763.sv",
     "testbench_path": "tb/chips/ttl_74x1763/tb_ttl_74x1763.sv",
     "readme_path": "rtl/chips/ttl_74x1763/README.md"
@@ -18543,8 +18547,10 @@
     "pins": "48",
     "datasheet": "74F1764",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n917",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual-port DRAM controller; port arbitration requires SN74F1764 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1764/ttl_74x1764.sv",
     "testbench_path": "tb/chips/ttl_74x1764/tb_ttl_74x1764.sv",
     "readme_path": "rtl/chips/ttl_74x1764/README.md"
@@ -18562,8 +18568,10 @@
     "pins": "48",
     "datasheet": "74F1765",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n917",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual-port DRAM controller with address latch; requires SN74F1765 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1765/ttl_74x1765.sv",
     "testbench_path": "tb/chips/ttl_74x1765/tb_ttl_74x1765.sv",
     "readme_path": "rtl/chips/ttl_74x1765/README.md"
@@ -18581,8 +18589,10 @@
     "pins": "48",
     "datasheet": "74F1766",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-054/DSAIH00097122.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Burst-mode DRAM controller; burst state machine requires SN74F1766 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1766/ttl_74x1766.sv",
     "testbench_path": "tb/chips/ttl_74x1766/tb_ttl_74x1766.sv",
     "readme_path": "rtl/chips/ttl_74x1766/README.md"
