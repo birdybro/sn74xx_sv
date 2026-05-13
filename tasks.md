@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 887
+- complete: 888
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 282
+- not_started: 281
 
 ## Chips
 
@@ -18476,7 +18476,7 @@ IDT74FST3245
   - Quad 2-input OR, = 74x32. Verilator + Yosys clean.
 
 ### 74x7038 - 9-bit bus transceiver with latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7038
 - Aliases: none
 - Source section: Larger footprints
@@ -18489,7 +18489,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7038/tb_ttl_74x7038.sv
 - README: rtl/chips/ttl_74x7038/README.md
 - Notes:
-  - (none)
+  - 9-bit transceiver with latch and OE per direction. Verilator + Yosys clean.
 
 ### 74x7046 - phase-locked loop with voltage-controlled oscillator and lock detector
 - Status: [!]

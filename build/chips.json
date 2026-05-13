@@ -24225,8 +24225,10 @@
     "pins": "24",
     "datasheet": "CD74HC7038",
     "datasheet_url": "https://archive.org/details/bitsavers_rcadataBooMOS_35821859/page/n641",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit transceiver with latch and OE per direction. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7038/ttl_74x7038.sv",
     "testbench_path": "tb/chips/ttl_74x7038/tb_ttl_74x7038.sv",
     "readme_path": "rtl/chips/ttl_74x7038/README.md"
