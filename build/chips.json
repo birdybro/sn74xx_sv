@@ -25529,8 +25529,10 @@
     "pins": "20",
     "datasheet": "SN74LV8154",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74lv8154",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 16-bit counters with output registers. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8154/ttl_74x8154.sv",
     "testbench_path": "tb/chips/ttl_74x8154/tb_ttl_74x8154.sv",
     "readme_path": "rtl/chips/ttl_74x8154/README.md"

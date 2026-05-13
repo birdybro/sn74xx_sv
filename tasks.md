@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 955
+- complete: 956
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 202
+- not_started: 201
 
 ## Chips
 
@@ -19468,7 +19468,7 @@ IDT74FST3245
   - Basic 8-bit SIPO. Verilator + Yosys clean.
 
 ### 74x8154 - dual 16-bit counters with output registers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8154
 - Aliases: none
 - Source section: Larger footprints
@@ -19481,7 +19481,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8154/tb_ttl_74x8154.sv
 - README: rtl/chips/ttl_74x8154/README.md
 - Notes:
-  - (none)
+  - Dual 16-bit counters with output registers. Verilator + Yosys clean.
 
 ### 74x8161 - 8-bit synchronous binary counter
 - Status: [x]
