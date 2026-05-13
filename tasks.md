@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 639
+- complete: 640
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 801
+- not_started: 800
 
 ## Chips
 
@@ -12106,7 +12106,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74C902 - hex non-inverting TTL buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74c902
 - Aliases: none
 - Source section: Larger footprints
@@ -12119,7 +12119,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74c902/tb_ttl_74c902.sv
 - README: rtl/chips/ttl_74c902/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74ALS902 - quad 2-input NOR gate
 - Status: [ ]
