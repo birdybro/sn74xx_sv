@@ -30023,8 +30023,10 @@
     "pins": "(100)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abth32543.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "36-bit version of 74x543. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x32543/ttl_74x32543.sv",
     "testbench_path": "tb/chips/ttl_74x32543/tb_ttl_74x32543.sv",
     "readme_path": "rtl/chips/ttl_74x32543/README.md"
