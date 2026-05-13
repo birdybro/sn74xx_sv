@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 699
+- complete: 700
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 691
+- not_started: 690
 
 ## Chips
 
@@ -21807,7 +21807,7 @@ IDT74FST3245
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x162245 - 16-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162245
 - Aliases: none
 - Source section: Widebus devices
@@ -21820,7 +21820,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162245/tb_ttl_74x162245.sv
 - README: rtl/chips/ttl_74x162245/README.md
 - Notes:
-  - (none)
+  - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x162260 - 12-bit to 24-bit multiplexed D-type latch
 - Status: [ ]
