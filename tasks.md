@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 875
+- complete: 876
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 294
+- not_started: 293
 
 ## Chips
 
@@ -18316,7 +18316,7 @@ IDT74FST3245
   - 8-bit FET bus switch with precharge; analog FET switch
 
 ### 74x7001 - quad 2-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7001
 - Aliases: none
 - Source section: Larger footprints
@@ -18329,7 +18329,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7001/tb_ttl_74x7001.sv
 - README: rtl/chips/ttl_74x7001/README.md
 - Notes:
-  - (none)
+  - Quad 2-input AND, = 74x08. Verilator + Yosys clean.
 
 ### 74x7002 - quad 2-input NOR gate
 - Status: [ ]
