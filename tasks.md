@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 728
+- complete: 729
 - blocked: 208
 - digital_only_approximation: 27
-- not_started: 592
+- not_started: 591
 
 ## Chips
 
@@ -22127,7 +22127,7 @@ IDT74FST3245
   - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162820 - 3.3-V 10-bit flip-flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162820
 - Aliases: none
 - Source section: Widebus devices
@@ -22140,7 +22140,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162820/tb_ttl_74x162820.sv
 - README: rtl/chips/ttl_74x162820/README.md
 - Notes:
-  - (none)
+  - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162821 - 20-bit bus interface flip-flops
 - Status: [ ]
