@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 803
+- complete: 804
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 428
+- not_started: 427
 
 ## Chips
 
@@ -16074,7 +16074,7 @@ For every chip:
   - 10-bit transparent D latch with 3-state. Verilator + Yosys clean.
 
 ### 74x2843 - 9-bit transparent latch with asynchronous reset
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2843
 - Aliases: none
 - Source section: Larger footprints
@@ -16087,7 +16087,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2843/tb_ttl_74x2843.sv
 - README: rtl/chips/ttl_74x2843/README.md
 - Notes:
-  - (none)
+  - 9-bit transparent latch with async reset. Verilator + Yosys clean.
 
 ### 74x2845 - 8-bit transparent latch with asynchronous reset and multiple output enable
 - Status: [ ]

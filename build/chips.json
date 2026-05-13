@@ -21071,8 +21071,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2843T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n453",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit transparent latch with async reset. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2843/ttl_74x2843.sv",
     "testbench_path": "tb/chips/ttl_74x2843/tb_ttl_74x2843.sv",
     "readme_path": "rtl/chips/ttl_74x2843/README.md"
