@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 949
+- complete: 950
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 208
+- not_started: 207
 
 ## Chips
 
@@ -19564,7 +19564,7 @@ IDT74FST3245
   - = 74x373 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8374 - octal D-type edge-triggered flip-flop with JTAG port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8374
 - Aliases: none
 - Source section: Larger footprints
@@ -19577,7 +19577,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8374/tb_ttl_74x8374.sv
 - README: rtl/chips/ttl_74x8374/README.md
 - Notes:
-  - (none)
+  - = 74x374 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8400 - expandable error checker / corrector
 - Status: [!]
