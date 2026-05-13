@@ -17143,8 +17143,10 @@
     "pins": "14",
     "datasheet": "SN74AS1000A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74as1000a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "High-drive variant of standard gate; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1000/ttl_74x1000.sv",
     "testbench_path": "tb/chips/ttl_74x1000/tb_ttl_74x1000.sv",
     "readme_path": "rtl/chips/ttl_74x1000/README.md"
