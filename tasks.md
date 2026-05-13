@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1046
+- complete: 1047
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 64
+- not_started: 63
 
 ## Chips
 
@@ -23698,7 +23698,7 @@ IDT74FST3245
   - 3-input XOR. Verilator + Yosys clean.
 
 ### 74x1G0832 - single 3-input AND-OR combo gate (2-input AND into 2-input OR)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g0832
 - Aliases: none
 - Source section: Smaller footprints
@@ -23711,7 +23711,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g0832/tb_ttl_74x1g0832.sv
 - README: rtl/chips/ttl_74x1g0832/README.md
 - Notes:
-  - (none)
+  - AND-OR combo. Verilator + Yosys clean.
 
 ### 74x1G3157 - single SPDT analog switch
 - Status: [!]
