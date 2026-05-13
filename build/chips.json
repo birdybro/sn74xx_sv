@@ -31766,8 +31766,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G3407.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual buffer (one OD). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g3407/ttl_74x2g3407.sv",
     "testbench_path": "tb/chips/ttl_74x2g3407/tb_ttl_74x2g3407.sv",
     "readme_path": "rtl/chips/ttl_74x2g3407/README.md"
