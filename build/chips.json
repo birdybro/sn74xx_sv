@@ -13904,8 +13904,10 @@
     "pins": "16",
     "datasheet": "SN74LS748",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n151",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Functional twin of 74x148; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x748/ttl_74x748.sv",
     "testbench_path": "tb/chips/ttl_74x748/tb_ttl_74x748.sv",
     "readme_path": "rtl/chips/ttl_74x748/README.md"
