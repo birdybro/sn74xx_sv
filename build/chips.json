@@ -12455,8 +12455,10 @@
     "pins": "24",
     "datasheet": "SN74ALS654",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als653",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Non-inverting registered transceiver, A=3-state/B=OC; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x654/ttl_74x654.sv",
     "testbench_path": "tb/chips/ttl_74x654/tb_ttl_74x654.sv",
     "readme_path": "rtl/chips/ttl_74x654/README.md"
