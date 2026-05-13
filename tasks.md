@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 779
+- complete: 780
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 463
+- not_started: 462
 
 ## Chips
 
@@ -12954,7 +12954,7 @@ For every chip:
   - (none)
 
 ### 74x979 - 9-bit registered transceiver with parity generator/checker for FutureBus
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x979
 - Aliases: none
 - Source section: Larger footprints
@@ -12967,7 +12967,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x979/tb_ttl_74x979.sv
 - README: rtl/chips/ttl_74x979/README.md
 - Notes:
-  - (none)
+  - 9-bit registered transceiver with odd-parity gen/check and sticky error flag (analogous to 74x833). Verilator + Yosys clean.
 
 ### 74x989 - 64-bit RAM (16x4), inverting output
 - Status: [x]
