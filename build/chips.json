@@ -28289,8 +28289,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74abt162827a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus twin; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162827/ttl_74x162827.sv",
     "testbench_path": "tb/chips/ttl_74x162827/tb_ttl_74x162827.sv",
     "readme_path": "rtl/chips/ttl_74x162827/README.md"
