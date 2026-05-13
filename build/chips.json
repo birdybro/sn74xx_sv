@@ -12371,8 +12371,10 @@
     "pins": "24",
     "datasheet": "SN74LS649",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1291",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "OC twin of 74x648; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x649/ttl_74x649.sv",
     "testbench_path": "tb/chips/ttl_74x649/tb_ttl_74x649.sv",
     "readme_path": "rtl/chips/ttl_74x649/README.md"
