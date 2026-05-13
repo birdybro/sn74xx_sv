@@ -26537,8 +26537,10 @@
     "pins": "(16)",
     "datasheet": "TC74VHC9164",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-SFU3/DSASFU100040800.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit universal shift register (hold/SR/SL/load). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x9164/ttl_74x9164.sv",
     "testbench_path": "tb/chips/ttl_74x9164/tb_ttl_74x9164.sv",
     "readme_path": "rtl/chips/ttl_74x9164/README.md"
