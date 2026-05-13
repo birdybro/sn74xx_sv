@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 911
+- complete: 912
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 258
+- not_started: 257
 
 ## Chips
 
@@ -18972,7 +18972,7 @@ IDT74FST3245
   - = 74x623. Verilator + Yosys clean.
 
 ### 74x7640 - octal bus transceiver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7640
 - Aliases: none
 - Source section: Larger footprints
@@ -18985,7 +18985,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7640/tb_ttl_74x7640.sv
 - README: rtl/chips/ttl_74x7640/README.md
 - Notes:
-  - (none)
+  - = 74x640. Verilator + Yosys clean.
 
 ### 74x7643 - octal bus transceiver, non-inverting/inverting
 - Status: [ ]
