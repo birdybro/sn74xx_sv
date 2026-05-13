@@ -14767,8 +14767,10 @@
     "pins": "24",
     "datasheet": "SN74AS826",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n569",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74AS823A/AS824A datasheet (SDAS231A); /OE doesn't gate storage; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x826/ttl_74x826.sv",
     "testbench_path": "tb/chips/ttl_74x826/tb_ttl_74x826.sv",
     "readme_path": "rtl/chips/ttl_74x826/README.md"
