@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1024
+- complete: 1025
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 98
+- not_started: 97
 
 ## Chips
 
@@ -22559,7 +22559,7 @@ IDT74FST3245
   - LVTTL-to-GTLP adjustable edge rate transceiver; physical signaling-level translation
 
 ### 74x22501 - 8-bit universal bus transceiver and two 1-bit bus transceivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x22501
 - Aliases: none
 - Source section: Widebus devices
@@ -22572,7 +22572,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x22501/tb_ttl_74x22501.sv
 - README: rtl/chips/ttl_74x22501/README.md
 - Notes:
-  - (none)
+  - 8-bit transceiver + 2x 1-bit transceivers. Verilator + Yosys clean.
 
 ### 74x25244 - 25-Ω octal bus transceiver
 - Status: [ ]
