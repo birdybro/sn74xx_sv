@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 985
+- complete: 986
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 158
+- not_started: 157
 
 ## Chips
 
@@ -21135,7 +21135,7 @@ IDT74FST3245
   - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16623 - 16-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16623
 - Aliases: none
 - Source section: Widebus devices
@@ -21148,7 +21148,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16623/tb_ttl_74x16623.sv
 - README: rtl/chips/ttl_74x16623/README.md
 - Notes:
-  - (none)
+  - Same as 74x16620. Verilator + Yosys clean.
 
 ### 74x16640 - 16-bit bus transceiver
 - Status: [x]
