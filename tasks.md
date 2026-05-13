@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 944
+- complete: 945
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 213
+- not_started: 212
 
 ## Chips
 
@@ -19596,7 +19596,7 @@ IDT74FST3245
   - Expandable error checker/corrector; complex EDAC with cascade, needs datasheet
 
 ### 74x8541 - 8-bit buffer, selectable inverting/non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8541
 - Aliases: none
 - Source section: Larger footprints
@@ -19609,7 +19609,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8541/tb_ttl_74x8541.sv
 - README: rtl/chips/ttl_74x8541/README.md
 - Notes:
-  - (none)
+  - 8-bit selectable invert/non-invert buffer. Verilator + Yosys clean.
 
 ### 74x8543 - octal registered bus transceiver with JTAG port
 - Status: [ ]
