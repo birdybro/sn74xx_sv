@@ -20674,8 +20674,10 @@
     "pins": "20",
     "datasheet": "74F2643",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-22/DSA-425742.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logically identical to 74x643; MOS drive strength not modeled. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2643/ttl_74x2643.sv",
     "testbench_path": "tb/chips/ttl_74x2643/tb_ttl_74x2643.sv",
     "readme_path": "rtl/chips/ttl_74x2643/README.md"
