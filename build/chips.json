@@ -18862,8 +18862,10 @@
     "pins": "28",
     "datasheet": "SN74LS2000",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-110/22.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2000/ttl_74x2000.sv",
     "testbench_path": "tb/chips/ttl_74x2000/tb_ttl_74x2000.sv",
     "readme_path": "rtl/chips/ttl_74x2000/README.md"
@@ -18881,8 +18883,10 @@
     "pins": "(20)",
     "datasheet": "SN74GTL2003",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2003",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2003/ttl_74x2003.sv",
     "testbench_path": "tb/chips/ttl_74x2003/tb_ttl_74x2003.sv",
     "readme_path": "rtl/chips/ttl_74x2003/README.md"
@@ -18900,8 +18904,10 @@
     "pins": "(28)",
     "datasheet": "SN74GTL2006",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2006",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2006/ttl_74x2006.sv",
     "testbench_path": "tb/chips/ttl_74x2006/tb_ttl_74x2006.sv",
     "readme_path": "rtl/chips/ttl_74x2006/README.md"
@@ -18919,8 +18925,10 @@
     "pins": "(28)",
     "datasheet": "SN74GTL2007",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2007",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2007/ttl_74x2007.sv",
     "testbench_path": "tb/chips/ttl_74x2007/tb_ttl_74x2007.sv",
     "readme_path": "rtl/chips/ttl_74x2007/README.md"
@@ -18938,8 +18946,10 @@
     "pins": "(24)",
     "datasheet": "SN74GTL2010",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2010",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2010/ttl_74x2010.sv",
     "testbench_path": "tb/chips/ttl_74x2010/tb_ttl_74x2010.sv",
     "readme_path": "rtl/chips/ttl_74x2010/README.md"
@@ -18957,8 +18967,10 @@
     "pins": "(14)",
     "datasheet": "SN74GTL2014",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2014",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2014/ttl_74x2014.sv",
     "testbench_path": "tb/chips/ttl_74x2014/tb_ttl_74x2014.sv",
     "readme_path": "rtl/chips/ttl_74x2014/README.md"
@@ -18976,8 +18988,10 @@
     "pins": "(48)",
     "datasheet": "SN74FB2031",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n695",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2031/ttl_74x2031.sv",
     "testbench_path": "tb/chips/ttl_74x2031/tb_ttl_74x2031.sv",
     "readme_path": "rtl/chips/ttl_74x2031/README.md"
@@ -18995,8 +19009,10 @@
     "pins": "(48)",
     "datasheet": "SN74FB2032",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n701",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2032/ttl_74x2032.sv",
     "testbench_path": "tb/chips/ttl_74x2032/tb_ttl_74x2032.sv",
     "readme_path": "rtl/chips/ttl_74x2032/README.md"
@@ -19014,8 +19030,10 @@
     "pins": "(52)",
     "datasheet": "SN74FB2033",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n709",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74fb2033/ttl_74fb2033.sv",
     "testbench_path": "tb/chips/ttl_74fb2033/tb_ttl_74fb2033.sv",
     "readme_path": "rtl/chips/ttl_74fb2033/README.md"
@@ -19033,8 +19051,10 @@
     "pins": "(48)",
     "datasheet": "SN74GTLP2033",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtlp2033",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74gtlp2033/ttl_74gtlp2033.sv",
     "testbench_path": "tb/chips/ttl_74gtlp2033/tb_ttl_74gtlp2033.sv",
     "readme_path": "rtl/chips/ttl_74gtlp2033/README.md"
@@ -19052,8 +19072,10 @@
     "pins": "(48)",
     "datasheet": "SN74GTLP2034",
     "datasheet_url": "https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/sn74gtlp2034%5b1%5d.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2034/ttl_74x2034.sv",
     "testbench_path": "tb/chips/ttl_74x2034/tb_ttl_74x2034.sv",
     "readme_path": "rtl/chips/ttl_74x2034/README.md"
@@ -19071,8 +19093,10 @@
     "pins": "(48)",
     "datasheet": "SN74FB2040",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n719",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2040/ttl_74x2040.sv",
     "testbench_path": "tb/chips/ttl_74x2040/tb_ttl_74x2040.sv",
     "readme_path": "rtl/chips/ttl_74x2040/README.md"
@@ -19090,8 +19114,10 @@
     "pins": "(52)",
     "datasheet": "SN74FB2041",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n725",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2041/ttl_74x2041.sv",
     "testbench_path": "tb/chips/ttl_74x2041/tb_ttl_74x2041.sv",
     "readme_path": "rtl/chips/ttl_74x2041/README.md"
@@ -19109,8 +19135,10 @@
     "pins": "(28)",
     "datasheet": "SN74GTL2107",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl2107",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2107/ttl_74x2107.sv",
     "testbench_path": "tb/chips/ttl_74x2107/tb_ttl_74x2107.sv",
     "readme_path": "rtl/chips/ttl_74x2107/README.md"
@@ -19149,8 +19177,10 @@
     "pins": "(52)",
     "datasheet": "SN74ACT2140A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2140/ttl_74x2140.sv",
     "testbench_path": "tb/chips/ttl_74x2140/tb_ttl_74x2140.sv",
     "readme_path": "rtl/chips/ttl_74x2140/README.md"
@@ -19168,8 +19198,10 @@
     "pins": "24",
     "datasheet": "SN74ACT2150A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2150/ttl_74x2150.sv",
     "testbench_path": "tb/chips/ttl_74x2150/tb_ttl_74x2150.sv",
     "readme_path": "rtl/chips/ttl_74x2150/README.md"
@@ -19187,8 +19219,10 @@
     "pins": "28",
     "datasheet": "SN74ACT2151",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74act2151/ttl_74act2151.sv",
     "testbench_path": "tb/chips/ttl_74act2151/tb_ttl_74act2151.sv",
     "readme_path": "rtl/chips/ttl_74act2151/README.md"
@@ -19227,8 +19261,10 @@
     "pins": "28",
     "datasheet": "SN74ACT2152A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2152/ttl_74x2152.sv",
     "testbench_path": "tb/chips/ttl_74x2152/tb_ttl_74x2152.sv",
     "readme_path": "rtl/chips/ttl_74x2152/README.md"
@@ -19246,8 +19282,10 @@
     "pins": "28",
     "datasheet": "SN74ACT2153",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74act2153/ttl_74act2153.sv",
     "testbench_path": "tb/chips/ttl_74act2153/tb_ttl_74act2153.sv",
     "readme_path": "rtl/chips/ttl_74act2153/README.md"
@@ -19286,8 +19324,10 @@
     "pins": "28",
     "datasheet": "SN74ACT2154A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2154/ttl_74x2154.sv",
     "testbench_path": "tb/chips/ttl_74x2154/tb_ttl_74x2154.sv",
     "readme_path": "rtl/chips/ttl_74x2154/README.md"
@@ -19305,8 +19345,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2155",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2155/ttl_74x2155.sv",
     "testbench_path": "tb/chips/ttl_74x2155/tb_ttl_74x2155.sv",
     "readme_path": "rtl/chips/ttl_74x2155/README.md"
@@ -19324,8 +19366,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2156",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2156/ttl_74x2156.sv",
     "testbench_path": "tb/chips/ttl_74x2156/tb_ttl_74x2156.sv",
     "readme_path": "rtl/chips/ttl_74x2156/README.md"
@@ -19343,8 +19387,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2157",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74act2157/ttl_74act2157.sv",
     "testbench_path": "tb/chips/ttl_74act2157/tb_ttl_74act2157.sv",
     "readme_path": "rtl/chips/ttl_74act2157/README.md"
@@ -19383,8 +19429,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2158",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2158/ttl_74x2158.sv",
     "testbench_path": "tb/chips/ttl_74x2158/tb_ttl_74x2158.sv",
     "readme_path": "rtl/chips/ttl_74x2158/README.md"
@@ -19402,8 +19450,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2159",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2159/ttl_74x2159.sv",
     "testbench_path": "tb/chips/ttl_74x2159/tb_ttl_74x2159.sv",
     "readme_path": "rtl/chips/ttl_74x2159/README.md"
@@ -19421,8 +19471,10 @@
     "pins": "(32)",
     "datasheet": "SN74ACT2160",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2160/ttl_74x2160.sv",
     "testbench_path": "tb/chips/ttl_74x2160/tb_ttl_74x2160.sv",
     "readme_path": "rtl/chips/ttl_74x2160/README.md"
@@ -19463,8 +19515,10 @@
     "pins": "(32)",
     "datasheet": "SN74ACT2163",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74act2163/ttl_74act2163.sv",
     "testbench_path": "tb/chips/ttl_74act2163/tb_ttl_74act2163.sv",
     "readme_path": "rtl/chips/ttl_74act2163/README.md"
@@ -19503,8 +19557,10 @@
     "pins": "(32)",
     "datasheet": "SN74ACT2164",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2164/ttl_74x2164.sv",
     "testbench_path": "tb/chips/ttl_74x2164/tb_ttl_74x2164.sv",
     "readme_path": "rtl/chips/ttl_74x2164/README.md"
@@ -19522,8 +19578,10 @@
     "pins": "(32)",
     "datasheet": "SN74BCT2166",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2166/ttl_74x2166.sv",
     "testbench_path": "tb/chips/ttl_74x2166/tb_ttl_74x2166.sv",
     "readme_path": "rtl/chips/ttl_74x2166/README.md"
@@ -19583,8 +19641,10 @@
     "pins": "(24)",
     "datasheet": "SN74ACT2226",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act2226",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2226/ttl_74x2226.sv",
     "testbench_path": "tb/chips/ttl_74x2226/tb_ttl_74x2226.sv",
     "readme_path": "rtl/chips/ttl_74x2226/README.md"
@@ -19602,8 +19662,10 @@
     "pins": "(28)",
     "datasheet": "SN74ACT2227",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act2229",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2227/ttl_74x2227.sv",
     "testbench_path": "tb/chips/ttl_74x2227/tb_ttl_74x2227.sv",
     "readme_path": "rtl/chips/ttl_74x2227/README.md"
@@ -19621,8 +19683,10 @@
     "pins": "(24)",
     "datasheet": "SN74ACT2228",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act2228",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2228/ttl_74x2228.sv",
     "testbench_path": "tb/chips/ttl_74x2228/tb_ttl_74x2228.sv",
     "readme_path": "rtl/chips/ttl_74x2228/README.md"
@@ -19640,8 +19704,10 @@
     "pins": "(28)",
     "datasheet": "SN74ACT2229",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act2229",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2229/ttl_74x2229.sv",
     "testbench_path": "tb/chips/ttl_74x2229/tb_ttl_74x2229.sv",
     "readme_path": "rtl/chips/ttl_74x2229/README.md"
@@ -19659,8 +19725,10 @@
     "pins": "24",
     "datasheet": "SN74ALS2232A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDatabook_63352841/page/n167",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2232/ttl_74x2232.sv",
     "testbench_path": "tb/chips/ttl_74x2232/tb_ttl_74x2232.sv",
     "readme_path": "rtl/chips/ttl_74x2232/README.md"
@@ -19678,8 +19746,10 @@
     "pins": "28",
     "datasheet": "SN74ALS2233A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDatabook_63352841/page/n175",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2233/ttl_74x2233.sv",
     "testbench_path": "tb/chips/ttl_74x2233/tb_ttl_74x2233.sv",
     "readme_path": "rtl/chips/ttl_74x2233/README.md"
@@ -19880,8 +19950,10 @@
     "pins": "(16)",
     "datasheet": "CD74FCT2253",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n191",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2253/ttl_74x2253.sv",
     "testbench_path": "tb/chips/ttl_74x2253/tb_ttl_74x2253.sv",
     "readme_path": "rtl/chips/ttl_74x2253/README.md"
@@ -19899,8 +19971,10 @@
     "pins": "(16)",
     "datasheet": "CD74FCT2257",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n197",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2257/ttl_74x2257.sv",
     "testbench_path": "tb/chips/ttl_74x2257/tb_ttl_74x2257.sv",
     "readme_path": "rtl/chips/ttl_74x2257/README.md"
@@ -19960,8 +20034,10 @@
     "pins": "(8)",
     "datasheet": "SN74LS2323",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74ls2323",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2323/ttl_74x2323.sv",
     "testbench_path": "tb/chips/ttl_74x2323/tb_ttl_74x2323.sv",
     "readme_path": "rtl/chips/ttl_74x2323/README.md"
@@ -20042,8 +20118,10 @@
     "pins": "20",
     "datasheet": "74THC2400",
     "datasheet_url": "http://www.ic72.com/pdf_file/i/189451.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2400/ttl_74x2400.sv",
     "testbench_path": "tb/chips/ttl_74x2400/tb_ttl_74x2400.sv",
     "readme_path": "rtl/chips/ttl_74x2400/README.md"
@@ -20061,8 +20139,10 @@
     "pins": "28",
     "datasheet": "SN74BCT2410",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n747",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2410/ttl_74x2410.sv",
     "testbench_path": "tb/chips/ttl_74x2410/tb_ttl_74x2410.sv",
     "readme_path": "rtl/chips/ttl_74x2410/README.md"
@@ -20080,8 +20160,10 @@
     "pins": "28",
     "datasheet": "SN74BCT2411",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n749",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2411/ttl_74x2411.sv",
     "testbench_path": "tb/chips/ttl_74x2411/tb_ttl_74x2411.sv",
     "readme_path": "rtl/chips/ttl_74x2411/README.md"
@@ -20099,8 +20181,10 @@
     "pins": "20",
     "datasheet": "SN74BCT2414",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-17/DSA-337707.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2414/ttl_74x2414.sv",
     "testbench_path": "tb/chips/ttl_74x2414/tb_ttl_74x2414.sv",
     "readme_path": "rtl/chips/ttl_74x2414/README.md"
@@ -20118,8 +20202,10 @@
     "pins": "(68)",
     "datasheet": "SN74BCT2420",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n29",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2420/ttl_74x2420.sv",
     "testbench_path": "tb/chips/ttl_74x2420/tb_ttl_74x2420.sv",
     "readme_path": "rtl/chips/ttl_74x2420/README.md"
@@ -20137,8 +20223,10 @@
     "pins": "(68)",
     "datasheet": "SN74BCT2423",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n39",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2423/ttl_74x2423.sv",
     "testbench_path": "tb/chips/ttl_74x2423/tb_ttl_74x2423.sv",
     "readme_path": "rtl/chips/ttl_74x2423/README.md"
@@ -20156,8 +20244,10 @@
     "pins": "(68)",
     "datasheet": "SN74BCT2424",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n39",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2424/ttl_74x2424.sv",
     "testbench_path": "tb/chips/ttl_74x2424/tb_ttl_74x2424.sv",
     "readme_path": "rtl/chips/ttl_74x2424/README.md"
@@ -20175,8 +20265,10 @@
     "pins": "(100)",
     "datasheet": "SN74BCT2425",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n49",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2425/ttl_74x2425.sv",
     "testbench_path": "tb/chips/ttl_74x2425/tb_ttl_74x2425.sv",
     "readme_path": "rtl/chips/ttl_74x2425/README.md"
@@ -20194,8 +20286,10 @@
     "pins": "(68)",
     "datasheet": "SN74ACT2440",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n61",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2440/ttl_74x2440.sv",
     "testbench_path": "tb/chips/ttl_74x2440/tb_ttl_74x2440.sv",
     "readme_path": "rtl/chips/ttl_74x2440/README.md"
@@ -20213,8 +20307,10 @@
     "pins": "(100)",
     "datasheet": "SN74ACT2441",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n93",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2441/ttl_74x2441.sv",
     "testbench_path": "tb/chips/ttl_74x2441/tb_ttl_74x2441.sv",
     "readme_path": "rtl/chips/ttl_74x2441/README.md"
@@ -20232,8 +20328,10 @@
     "pins": "(20)",
     "datasheet": "SN74ALS2442",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookProducts_10042209/page/n145",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2442/ttl_74x2442.sv",
     "testbench_path": "tb/chips/ttl_74x2442/tb_ttl_74x2442.sv",
     "readme_path": "rtl/chips/ttl_74x2442/README.md"
@@ -20251,8 +20349,10 @@
     "pins": "(24)",
     "datasheet": "HD74CDC2509",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-13/DSA-248016.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2509/ttl_74x2509.sv",
     "testbench_path": "tb/chips/ttl_74x2509/tb_ttl_74x2509.sv",
     "readme_path": "rtl/chips/ttl_74x2509/README.md"
@@ -20270,8 +20370,10 @@
     "pins": "(24)",
     "datasheet": "HD74CDC2510",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-13/DSA-248017.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2510/ttl_74x2510.sv",
     "testbench_path": "tb/chips/ttl_74x2510/tb_ttl_74x2510.sv",
     "readme_path": "rtl/chips/ttl_74x2510/README.md"
@@ -20289,8 +20391,10 @@
     "pins": "14",
     "datasheet": "74AC2525",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaFACTDatabook_39311242/page/n443",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2525/ttl_74x2525.sv",
     "testbench_path": "tb/chips/ttl_74x2525/tb_ttl_74x2525.sv",
     "readme_path": "rtl/chips/ttl_74x2525/README.md"
@@ -20308,8 +20412,10 @@
     "pins": "16",
     "datasheet": "74AC2526",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaFACTDatabook_39311242/page/n443",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2526/ttl_74x2526.sv",
     "testbench_path": "tb/chips/ttl_74x2526/tb_ttl_74x2526.sv",
     "readme_path": "rtl/chips/ttl_74x2526/README.md"
@@ -20495,8 +20601,10 @@
     "pins": "20",
     "datasheet": "SN74AS2620",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n763",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2620/ttl_74x2620.sv",
     "testbench_path": "tb/chips/ttl_74x2620/tb_ttl_74x2620.sv",
     "readme_path": "rtl/chips/ttl_74x2620/README.md"

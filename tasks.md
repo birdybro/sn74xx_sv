@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 762
-- blocked: 230
+- blocked: 284
 - digital_only_approximation: 27
-- not_started: 536
+- not_started: 482
 
 ## Chips
 
@@ -14426,7 +14426,7 @@ For every chip:
   - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74x2000 - direction discriminator with microprocessor interface
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2000
 - Aliases: none
 - Source section: Larger footprints
@@ -14439,10 +14439,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2000/tb_ttl_74x2000.sv
 - README: rtl/chips/ttl_74x2000/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2003 - 8-bit level translator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2003
 - Aliases: none
 - Source section: Larger footprints
@@ -14455,10 +14455,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2003/tb_ttl_74x2003.sv
 - README: rtl/chips/ttl_74x2003/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2006 - 13-bit GTL to 3.3V TTL level translator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2006
 - Aliases: none
 - Source section: Larger footprints
@@ -14471,10 +14471,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2006/tb_ttl_74x2006.sv
 - README: rtl/chips/ttl_74x2006/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2007 - 12-bit GTL to 3.3V TTL level translator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2007
 - Aliases: none
 - Source section: Larger footprints
@@ -14487,10 +14487,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2007/tb_ttl_74x2007.sv
 - README: rtl/chips/ttl_74x2007/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2010 - 10-bit level translator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2010
 - Aliases: none
 - Source section: Larger footprints
@@ -14503,10 +14503,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2010/tb_ttl_74x2010.sv
 - README: rtl/chips/ttl_74x2010/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2014 - 4-bit GTL to TTL transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2014
 - Aliases: none
 - Source section: Larger footprints
@@ -14519,10 +14519,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2014/tb_ttl_74x2014.sv
 - README: rtl/chips/ttl_74x2014/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2031 - 9-bit Futurebus address/data transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2031
 - Aliases: none
 - Source section: Larger footprints
@@ -14535,10 +14535,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2031/tb_ttl_74x2031.sv
 - README: rtl/chips/ttl_74x2031/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2032 - 9-bit Futurebus competition transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2032
 - Aliases: none
 - Source section: Larger footprints
@@ -14551,10 +14551,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2032/tb_ttl_74x2032.sv
 - README: rtl/chips/ttl_74x2032/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74FB2033 - 8-bit Futurebus registered transceiver with split TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74fb2033
 - Aliases: none
 - Source section: Larger footprints
@@ -14567,10 +14567,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74fb2033/tb_ttl_74fb2033.sv
 - README: rtl/chips/ttl_74fb2033/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74GTLP2033 - 8-bit GTLP registered transceiver with split LV-TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74gtlp2033
 - Aliases: none
 - Source section: Larger footprints
@@ -14583,10 +14583,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74gtlp2033/tb_ttl_74gtlp2033.sv
 - README: rtl/chips/ttl_74gtlp2033/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2034 - 8-bit GTLP adjustable-edge-rate registered transceiver with split LV-TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2034
 - Aliases: none
 - Source section: Larger footprints
@@ -14599,10 +14599,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2034/tb_ttl_74x2034.sv
 - README: rtl/chips/ttl_74x2034/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2040 - 8-bit Futurebus transceiver with split TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2040
 - Aliases: none
 - Source section: Larger footprints
@@ -14615,10 +14615,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2040/tb_ttl_74x2040.sv
 - README: rtl/chips/ttl_74x2040/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2041 - 7-bit Futurebus transceiver with split TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2041
 - Aliases: none
 - Source section: Larger footprints
@@ -14631,10 +14631,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2041/tb_ttl_74x2041.sv
 - README: rtl/chips/ttl_74x2041/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2107 - 12-bit GTL to 3.3V TTL level translator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2107
 - Aliases: none
 - Source section: Larger footprints
@@ -14647,7 +14647,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2107/tb_ttl_74x2107.sv
 - README: rtl/chips/ttl_74x2107/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2125 - quad bus buffer
 - Status: [x]
@@ -14666,7 +14666,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2140 - 8k x 18 cache data RAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2140
 - Aliases: none
 - Source section: Larger footprints
@@ -14679,10 +14679,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2140/tb_ttl_74x2140.sv
 - README: rtl/chips/ttl_74x2140/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2150 - 512 x 8 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2150
 - Aliases: none
 - Source section: Larger footprints
@@ -14695,10 +14695,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2150/tb_ttl_74x2150.sv
 - README: rtl/chips/ttl_74x2150/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74ACT2151 - 1k x 11 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74act2151
 - Aliases: none
 - Source section: Larger footprints
@@ -14711,7 +14711,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74act2151/tb_ttl_74act2151.sv
 - README: rtl/chips/ttl_74act2151/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74FCT2151 - 8-line to 1-line multiplexer
 - Status: [x]
@@ -14730,7 +14730,7 @@ For every chip:
   - FCT mux twin of 74x15x; Verilator lint+sim clean
 
 ### 74x2152 - 2k x 8 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2152
 - Aliases: none
 - Source section: Larger footprints
@@ -14743,10 +14743,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2152/tb_ttl_74x2152.sv
 - README: rtl/chips/ttl_74x2152/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74ACT2153 - 1k x 11 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74act2153
 - Aliases: none
 - Source section: Larger footprints
@@ -14759,7 +14759,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74act2153/tb_ttl_74act2153.sv
 - README: rtl/chips/ttl_74act2153/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74FCT2153 - dual 4-line to 1-line multiplexer
 - Status: [x]
@@ -14778,7 +14778,7 @@ For every chip:
   - FCT mux twin of 74x15x; Verilator lint+sim clean
 
 ### 74x2154 - 2k x 8 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2154
 - Aliases: none
 - Source section: Larger footprints
@@ -14791,10 +14791,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2154/tb_ttl_74x2154.sv
 - README: rtl/chips/ttl_74x2154/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2155 - 2k x 8 burst cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2155
 - Aliases: none
 - Source section: Larger footprints
@@ -14807,10 +14807,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2155/tb_ttl_74x2155.sv
 - README: rtl/chips/ttl_74x2155/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2156 - 16k x 4 burst cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2156
 - Aliases: none
 - Source section: Larger footprints
@@ -14823,10 +14823,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2156/tb_ttl_74x2156.sv
 - README: rtl/chips/ttl_74x2156/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74ACT2157 - 2k x 16 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74act2157
 - Aliases: none
 - Source section: Larger footprints
@@ -14839,7 +14839,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74act2157/tb_ttl_74act2157.sv
 - README: rtl/chips/ttl_74act2157/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74FCT2157 - quad 2-line to 1-line multiplexer
 - Status: [x]
@@ -14858,7 +14858,7 @@ For every chip:
   - FCT mux twin of 74x15x; Verilator lint+sim clean
 
 ### 74x2158 - 8k x 9 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2158
 - Aliases: none
 - Source section: Larger footprints
@@ -14871,10 +14871,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2158/tb_ttl_74x2158.sv
 - README: rtl/chips/ttl_74x2158/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2159 - 8k x 9 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2159
 - Aliases: none
 - Source section: Larger footprints
@@ -14887,10 +14887,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2159/tb_ttl_74x2159.sv
 - README: rtl/chips/ttl_74x2159/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2160 - 8k x 4 2-way cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2160
 - Aliases: none
 - Source section: Larger footprints
@@ -14903,7 +14903,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2160/tb_ttl_74x2160.sv
 - README: rtl/chips/ttl_74x2160/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2161 - synchronous presettable 4-bit binary counter, asynchronous clear
 - Status: [x]
@@ -14922,7 +14922,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74ACT2163 - 16k x 5 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74act2163
 - Aliases: 74BCT2163
 - Source section: Larger footprints
@@ -14935,7 +14935,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74act2163/tb_ttl_74act2163.sv
 - README: rtl/chips/ttl_74act2163/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74FCT2163 - synchronous presettable 4-bit binary counter, synchronous clear
 - Status: [x]
@@ -14954,7 +14954,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2164 - 16k x 5 cache address comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2164
 - Aliases: none
 - Source section: Larger footprints
@@ -14967,10 +14967,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2164/tb_ttl_74x2164.sv
 - README: rtl/chips/ttl_74x2164/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2166 - 16k x 5 cache address comparator with input latches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2166
 - Aliases: none
 - Source section: Larger footprints
@@ -14983,7 +14983,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2166/tb_ttl_74x2166.sv
 - README: rtl/chips/ttl_74x2166/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2191 - synchronous presettable 4-bit binary up/down counter, up/down direction pin
 - Status: [x]
@@ -15018,7 +15018,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2226 - dual 64-bit FIFO memories (64x1)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2226
 - Aliases: none
 - Source section: Larger footprints
@@ -15031,10 +15031,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2226/tb_ttl_74x2226.sv
 - README: rtl/chips/ttl_74x2226/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2227 - dual 64-bit FIFO memories (64x1)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2227
 - Aliases: none
 - Source section: Larger footprints
@@ -15047,10 +15047,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2227/tb_ttl_74x2227.sv
 - README: rtl/chips/ttl_74x2227/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2228 - dual 256-bit FIFO memories (256x1)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2228
 - Aliases: none
 - Source section: Larger footprints
@@ -15063,10 +15063,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2228/tb_ttl_74x2228.sv
 - README: rtl/chips/ttl_74x2228/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2229 - dual 256-bit FIFO memories (256x1)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2229
 - Aliases: none
 - Source section: Larger footprints
@@ -15079,10 +15079,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2229/tb_ttl_74x2229.sv
 - README: rtl/chips/ttl_74x2229/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2232 - 512-bit FIFO memory (64x8)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2232
 - Aliases: none
 - Source section: Larger footprints
@@ -15095,10 +15095,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2232/tb_ttl_74x2232.sv
 - README: rtl/chips/ttl_74x2232/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2233 - 576-bit FIFO memory (64x9)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2233
 - Aliases: none
 - Source section: Larger footprints
@@ -15111,7 +15111,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2233/tb_ttl_74x2233.sv
 - README: rtl/chips/ttl_74x2233/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2235 - 18432-bit bidirectional FIFO memory (2x1024x9)
 - Status: [ ]
@@ -15258,7 +15258,7 @@ For every chip:
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x2253 - dual 4-line to 1-line multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2253
 - Aliases: none
 - Source section: Larger footprints
@@ -15271,10 +15271,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2253/tb_ttl_74x2253.sv
 - README: rtl/chips/ttl_74x2253/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2257 - quad 2-line to 1-line multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2257
 - Aliases: none
 - Source section: Larger footprints
@@ -15287,7 +15287,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2257/tb_ttl_74x2257.sv
 - README: rtl/chips/ttl_74x2257/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2273 - octal D-type flip-flop, shared clock and clear
 - Status: [x]
@@ -15322,7 +15322,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2323 - dual line receiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2323
 - Aliases: none
 - Source section: Larger footprints
@@ -15335,7 +15335,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2323/tb_ttl_74x2323.sv
 - README: rtl/chips/ttl_74x2323/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2373 - 8-bit transparent latch
 - Status: [x]
@@ -15386,7 +15386,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2400 - dual 4-bit buffer, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2400
 - Aliases: none
 - Source section: Larger footprints
@@ -15399,10 +15399,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2400/tb_ttl_74x2400.sv
 - README: rtl/chips/ttl_74x2400/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2410 - 11-bit MOS memory driver, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2410
 - Aliases: none
 - Source section: Larger footprints
@@ -15415,10 +15415,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2410/tb_ttl_74x2410.sv
 - README: rtl/chips/ttl_74x2410/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2411 - 11-bit MOS memory driver, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2411
 - Aliases: none
 - Source section: Larger footprints
@@ -15431,10 +15431,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2411/tb_ttl_74x2411.sv
 - README: rtl/chips/ttl_74x2411/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2414 - dual 2-to-4 line decoder with supply voltage monitor
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2414
 - Aliases: none
 - Source section: Larger footprints
@@ -15447,10 +15447,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2414/tb_ttl_74x2414.sv
 - README: rtl/chips/ttl_74x2414/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2420 - 16-bit NuBus address/data transceiver and register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2420
 - Aliases: none
 - Source section: Larger footprints
@@ -15463,10 +15463,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2420/tb_ttl_74x2420.sv
 - README: rtl/chips/ttl_74x2420/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2423 - 16-bit latched multiplexer/demultiplexer NuBus transceiver, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2423
 - Aliases: none
 - Source section: Larger footprints
@@ -15479,10 +15479,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2423/tb_ttl_74x2423.sv
 - README: rtl/chips/ttl_74x2423/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2424 - 16-bit latched multiplexer/demultiplexer NuBus transceiver, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2424
 - Aliases: none
 - Source section: Larger footprints
@@ -15495,10 +15495,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2424/tb_ttl_74x2424.sv
 - README: rtl/chips/ttl_74x2424/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2425 - Macintosh Coprocessor Platform NuBus address/data registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2425
 - Aliases: none
 - Source section: Larger footprints
@@ -15511,10 +15511,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2425/tb_ttl_74x2425.sv
 - README: rtl/chips/ttl_74x2425/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2440 - NuBus interface controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2440
 - Aliases: none
 - Source section: Larger footprints
@@ -15527,10 +15527,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2440/tb_ttl_74x2440.sv
 - README: rtl/chips/ttl_74x2440/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2441 - NuBus interface controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2441
 - Aliases: none
 - Source section: Larger footprints
@@ -15543,10 +15543,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2441/tb_ttl_74x2441.sv
 - README: rtl/chips/ttl_74x2441/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2442 - NuBus block slave address generator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2442
 - Aliases: none
 - Source section: Larger footprints
@@ -15559,10 +15559,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2442/tb_ttl_74x2442.sv
 - README: rtl/chips/ttl_74x2442/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2509 - 9-output clock driver with PLL
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2509
 - Aliases: none
 - Source section: Larger footprints
@@ -15575,10 +15575,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2509/tb_ttl_74x2509.sv
 - README: rtl/chips/ttl_74x2509/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2510 - 10-output clock driver with PLL
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2510
 - Aliases: none
 - Source section: Larger footprints
@@ -15591,10 +15591,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2510/tb_ttl_74x2510.sv
 - README: rtl/chips/ttl_74x2510/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2525 - 8-output clock driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2525
 - Aliases: none
 - Source section: Larger footprints
@@ -15607,10 +15607,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2525/tb_ttl_74x2525.sv
 - README: rtl/chips/ttl_74x2525/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2526 - 8-output clock driver with input multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2526
 - Aliases: none
 - Source section: Larger footprints
@@ -15623,7 +15623,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2526/tb_ttl_74x2526.sv
 - README: rtl/chips/ttl_74x2526/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2533 - 8-bit bus interface latch, inverting
 - Status: [x]
@@ -15754,7 +15754,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2620 - octal bus transceiver / MOS driver, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2620
 - Aliases: none
 - Source section: Larger footprints
@@ -15767,7 +15767,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2620/tb_ttl_74x2620.sv
 - README: rtl/chips/ttl_74x2620/README.md
 - Notes:
-  - (none)
+  - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2623 - octal bus transceiver / MOS driver, non-inverting
 - Status: [ ]
