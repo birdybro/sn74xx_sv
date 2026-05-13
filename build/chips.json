@@ -26768,8 +26768,10 @@
     "pins": "16",
     "datasheet": "CD74HC40105",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc40105",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "16x4 FIFO via gen_fifo.py. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x40105/ttl_74x40105.sv",
     "testbench_path": "tb/chips/ttl_74x40105/tb_ttl_74x40105.sv",
     "readme_path": "rtl/chips/ttl_74x40105/README.md"
