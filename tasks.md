@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 918
+- complete: 919
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 251
+- not_started: 250
 
 ## Chips
 
@@ -19052,7 +19052,7 @@ IDT74FST3245
   - 8-bit transparent latch with always-on readback bus + 3-state main output. Verilator + Yosys clean.
 
 ### 74x7801 - 18432-bit FIFO memory (1024x18), clocked
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7801
 - Aliases: none
 - Source section: Larger footprints
@@ -19065,7 +19065,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7801/tb_ttl_74x7801.sv
 - README: rtl/chips/ttl_74x7801/README.md
 - Notes:
-  - (none)
+  - 1024x18 FIFO. Verilator + Yosys clean.
 
 ### 74x7802 - 18432-bit FIFO memory (1024x18)
 - Status: [ ]
