@@ -21132,8 +21132,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2861T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n463",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit non-inverting bus transceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2861/ttl_74x2861.sv",
     "testbench_path": "tb/chips/ttl_74x2861/tb_ttl_74x2861.sv",
     "readme_path": "rtl/chips/ttl_74x2861/README.md"
