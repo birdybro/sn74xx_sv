@@ -20821,8 +20821,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2652T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n427",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Identical to 74x652. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2652/ttl_74x2652.sv",
     "testbench_path": "tb/chips/ttl_74x2652/tb_ttl_74x2652.sv",
     "readme_path": "rtl/chips/ttl_74x2652/README.md"
