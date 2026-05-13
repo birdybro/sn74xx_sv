@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 596
-- blocked: 46
+- blocked: 57
 - digital_only_approximation: 27
-- not_started: 886
+- not_started: 875
 
 ## Chips
 
@@ -10744,7 +10744,7 @@ For every chip:
   - Inverting variant of 74x741; one bank active-low OE, other active-high; Verilator lint+sim clean
 
 ### 74x764 - dual-port dRAM controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x764
 - Aliases: none
 - Source section: Larger footprints
@@ -10757,10 +10757,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x764/tb_ttl_74x764.sv
 - README: rtl/chips/ttl_74x764/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x765 - dual-port dRAM controller with address latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x765
 - Aliases: none
 - Source section: Larger footprints
@@ -10773,10 +10773,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x765/tb_ttl_74x765.sv
 - README: rtl/chips/ttl_74x765/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x776 - 8-bit latched transceiver for FutureBus
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x776
 - Aliases: none
 - Source section: Larger footprints
@@ -10789,10 +10789,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x776/tb_ttl_74x776.sv
 - README: rtl/chips/ttl_74x776/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x777 - triple latched transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x777
 - Aliases: none
 - Source section: Larger footprints
@@ -10805,10 +10805,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x777/tb_ttl_74x777.sv
 - README: rtl/chips/ttl_74x777/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x779 - 8-bit bidirectional binary counter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x779
 - Aliases: none
 - Source section: Larger footprints
@@ -10821,10 +10821,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x779/tb_ttl_74x779.sv
 - README: rtl/chips/ttl_74x779/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x783 - synchronous address multiplexer for display systems
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x783
 - Aliases: none
 - Source section: Larger footprints
@@ -10837,10 +10837,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x783/tb_ttl_74x783.sv
 - README: rtl/chips/ttl_74x783/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x784 - 8-bit serial/parallel multiplier with adder/subtractor
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x784
 - Aliases: none
 - Source section: Larger footprints
@@ -10853,10 +10853,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x784/tb_ttl_74x784.sv
 - README: rtl/chips/ttl_74x784/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x785 - synchronous address multiplexer for display systems with 256-column refresh
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x785
 - Aliases: none
 - Source section: Larger footprints
@@ -10869,10 +10869,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x785/tb_ttl_74x785.sv
 - README: rtl/chips/ttl_74x785/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x786 - 4-input asynchronous bus arbiter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x786
 - Aliases: none
 - Source section: Larger footprints
@@ -10885,10 +10885,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x786/tb_ttl_74x786.sv
 - README: rtl/chips/ttl_74x786/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x790 - error detection and correction (EDAC)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x790
 - Aliases: none
 - Source section: Larger footprints
@@ -10901,10 +10901,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x790/tb_ttl_74x790.sv
 - README: rtl/chips/ttl_74x790/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x793 - 8-bit latch, readback
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x793
 - Aliases: none
 - Source section: Larger footprints
@@ -10917,7 +10917,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x793/tb_ttl_74x793.sv
 - README: rtl/chips/ttl_74x793/README.md
 - Notes:
-  - (none)
+  - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x794 - 8-bit register, readback
 - Status: [ ]

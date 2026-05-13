@@ -14072,8 +14072,10 @@
     "pins": "40",
     "datasheet": "74F764",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n795",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x764/ttl_74x764.sv",
     "testbench_path": "tb/chips/ttl_74x764/tb_ttl_74x764.sv",
     "readme_path": "rtl/chips/ttl_74x764/README.md"
@@ -14091,8 +14093,10 @@
     "pins": "40",
     "datasheet": "74F765",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n795",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x765/ttl_74x765.sv",
     "testbench_path": "tb/chips/ttl_74x765/tb_ttl_74x765.sv",
     "readme_path": "rtl/chips/ttl_74x765/README.md"
@@ -14110,8 +14114,10 @@
     "pins": "28",
     "datasheet": "SN74F776",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n453",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x776/ttl_74x776.sv",
     "testbench_path": "tb/chips/ttl_74x776/tb_ttl_74x776.sv",
     "readme_path": "rtl/chips/ttl_74x776/README.md"
@@ -14129,8 +14135,10 @@
     "pins": "20",
     "datasheet": "74F777",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F777_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x777/ttl_74x777.sv",
     "testbench_path": "tb/chips/ttl_74x777/tb_ttl_74x777.sv",
     "readme_path": "rtl/chips/ttl_74x777/README.md"
@@ -14148,8 +14156,10 @@
     "pins": "16",
     "datasheet": "MC74F779",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaFASTandLSTTLData_35934218/page/n297",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x779/ttl_74x779.sv",
     "testbench_path": "tb/chips/ttl_74x779/tb_ttl_74x779.sv",
     "readme_path": "rtl/chips/ttl_74x779/README.md"
@@ -14167,8 +14177,10 @@
     "pins": "40",
     "datasheet": "SN74LS783",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n411",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x783/ttl_74x783.sv",
     "testbench_path": "tb/chips/ttl_74x783/tb_ttl_74x783.sv",
     "readme_path": "rtl/chips/ttl_74x783/README.md"
@@ -14186,8 +14198,10 @@
     "pins": "20",
     "datasheet": "74F784",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFASTDataBook_29981933/page/n583",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x784/ttl_74x784.sv",
     "testbench_path": "tb/chips/ttl_74x784/tb_ttl_74x784.sv",
     "readme_path": "rtl/chips/ttl_74x784/README.md"
@@ -14205,8 +14219,10 @@
     "pins": "40",
     "datasheet": "SN74LS785",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/S/N/7/SN74LS783_MotorolaSemiconductor.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x785/ttl_74x785.sv",
     "testbench_path": "tb/chips/ttl_74x785/tb_ttl_74x785.sv",
     "readme_path": "rtl/chips/ttl_74x785/README.md"
@@ -14224,8 +14240,10 @@
     "pins": "16",
     "datasheet": "74F786",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n835",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x786/ttl_74x786.sv",
     "testbench_path": "tb/chips/ttl_74x786/tb_ttl_74x786.sv",
     "readme_path": "rtl/chips/ttl_74x786/README.md"
@@ -14243,8 +14261,10 @@
     "pins": "48",
     "datasheet": "SN74ALS790",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n629",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x790/ttl_74x790.sv",
     "testbench_path": "tb/chips/ttl_74x790/tb_ttl_74x790.sv",
     "readme_path": "rtl/chips/ttl_74x790/README.md"
@@ -14262,8 +14282,10 @@
     "pins": "20",
     "datasheet": "SN74LS793",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1984DatabookOCR#page/n433",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x793/ttl_74x793.sv",
     "testbench_path": "tb/chips/ttl_74x793/tb_ttl_74x793.sv",
     "readme_path": "rtl/chips/ttl_74x793/README.md"
