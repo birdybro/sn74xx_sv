@@ -32501,8 +32501,10 @@
     "pins": "8",
     "datasheet": "AXCAXPLVC",
     "datasheet_url": "https://www.ti.com/lit/gpn/SN74AXC2T45",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual-supply 2-bit bus xceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2t45/ttl_74x2t45.sv",
     "testbench_path": "tb/chips/ttl_74x2t45/tb_ttl_74x2t45.sv",
     "readme_path": "rtl/chips/ttl_74x2t45/README.md"

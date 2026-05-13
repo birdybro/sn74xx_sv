@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1099
+- complete: 1100
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 9
+- not_started: 8
 
 ## Chips
 
@@ -24789,7 +24789,7 @@ IDT74FST3245
   - Single Schmitt 2:1 mux, inverted. Verilator + Yosys clean.
 
 ### 74x2T45 - dual-supply 2-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2t45
 - Aliases: none
 - Source section: Voltage translation
@@ -24802,7 +24802,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2t45/tb_ttl_74x2t45.sv
 - README: rtl/chips/ttl_74x2t45/README.md
 - Notes:
-  - (none)
+  - Dual-supply 2-bit bus xceiver. Verilator + Yosys clean.
 
 ### 74x4T234 - dual-supply 4-bit bus transceiver
 - Status: [ ]
