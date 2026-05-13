@@ -32417,8 +32417,10 @@
     "pins": "5",
     "datasheet": "LV",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lv1t125.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Bus buffer/driver OE_n. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t125/ttl_74x1t125.sv",
     "testbench_path": "tb/chips/ttl_74x1t125/tb_ttl_74x1t125.sv",
     "readme_path": "rtl/chips/ttl_74x1t125/README.md"
