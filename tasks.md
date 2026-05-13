@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 837
+- complete: 838
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 362
+- not_started: 361
 
 ## Chips
 
@@ -17164,7 +17164,7 @@ IDT74FST3245
   - 14-bit binary counter with async reset. Verilator + Yosys clean.
 
 ### 74x4022 - 4-stage ÷8 Johnson counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4022
 - Aliases: none
 - Source section: Larger footprints
@@ -17177,7 +17177,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4022/tb_ttl_74x4022.sv
 - README: rtl/chips/ttl_74x4022/README.md
 - Notes:
-  - (none)
+  - Octal counter with 8 decoded one-hot outputs. Verilator + Yosys clean.
 
 ### 74x4024 - 7-stage ripple carry binary counter
 - Status: [ ]

@@ -22505,8 +22505,10 @@
     "pins": "14",
     "datasheet": "SN74HC4022",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n611",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Octal counter with 8 decoded one-hot outputs. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4022/ttl_74x4022.sv",
     "testbench_path": "tb/chips/ttl_74x4022/tb_ttl_74x4022.sv",
     "readme_path": "rtl/chips/ttl_74x4022/README.md"
