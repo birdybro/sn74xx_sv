@@ -29960,8 +29960,10 @@
     "pins": "(96)",
     "datasheet": "LVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvch32373a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "32-bit version of 74x373. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x32373/ttl_74x32373.sv",
     "testbench_path": "tb/chips/ttl_74x32373/tb_ttl_74x32373.sv",
     "readme_path": "rtl/chips/ttl_74x32373/README.md"
