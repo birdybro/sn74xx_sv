@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 811
+- complete: 812
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 420
+- not_started: 419
 
 ## Chips
 
@@ -16186,7 +16186,7 @@ For every chip:
   - 9-bit inverting bus transceiver with independent A/B output enables. Verilator + Yosys clean.
 
 ### 74x2952 - octal bus transceiver and register, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2952
 - Aliases: none
 - Source section: Larger footprints
@@ -16199,7 +16199,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2952/tb_ttl_74x2952.sv
 - README: rtl/chips/ttl_74x2952/README.md
 - Notes:
-  - (none)
+  - Identical to 74x652 (transceiver/register, non-inverting). Verilator + Yosys clean.
 
 ### 74x2953 - octal bus transceiver and register, inverting
 - Status: [ ]

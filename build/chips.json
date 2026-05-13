@@ -21220,8 +21220,10 @@
     "pins": "24",
     "datasheet": "SN74LVC2952A",
     "datasheet_url": "https://archive.org/stream/TexasInstrumentsLVCAndLVDataBook1998/Texas_Instruments_LVC_and_LV_Data_Book_1998#page/n391",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Identical to 74x652 (transceiver/register, non-inverting). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2952/ttl_74x2952.sv",
     "testbench_path": "tb/chips/ttl_74x2952/tb_ttl_74x2952.sv",
     "readme_path": "rtl/chips/ttl_74x2952/README.md"
