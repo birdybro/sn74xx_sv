@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1075
+- complete: 1076
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 33
+- not_started: 32
 
 ## Chips
 
@@ -24002,7 +24002,7 @@ IDT74FST3245
   - Dual SPST analog switch; CMOS transmission gate
 
 ### 74x2G74 - single positive-edge D flip-flop, asynchronous preset & clear, Q & /Q outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g74
 - Aliases: none
 - Source section: Smaller footprints
@@ -24015,7 +24015,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g74/tb_ttl_74x2g74.sv
 - README: rtl/chips/ttl_74x2g74/README.md
 - Notes:
-  - (none)
+  - Single D-FF with preset+clear (Wikipedia lists as single in 2G package). Verilator + Yosys clean.
 
 ### 74x2G79 - dual positive-edge D flip-flop, Q output
 - Status: [ ]

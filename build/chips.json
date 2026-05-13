@@ -31472,8 +31472,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc2g74.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single D-FF with preset+clear (Wikipedia lists as single in 2G package). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g74/ttl_74x2g74.sv",
     "testbench_path": "tb/chips/ttl_74x2g74/tb_ttl_74x2g74.sv",
     "readme_path": "rtl/chips/ttl_74x2g74/README.md"
