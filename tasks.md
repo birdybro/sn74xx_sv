@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 661
+- complete: 662
 - blocked: 121
 - digital_only_approximation: 27
-- not_started: 746
+- not_started: 745
 
 ## Chips
 
@@ -13130,7 +13130,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74x1003 - quad 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1003
 - Aliases: none
 - Source section: Larger footprints
@@ -13143,7 +13143,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1003/tb_ttl_74x1003.sv
 - README: rtl/chips/ttl_74x1003/README.md
 - Notes:
-  - (none)
+  - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74x1004 - hex inverting buffer
 - Status: [ ]
