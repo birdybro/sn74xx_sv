@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 867
+- complete: 868
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 319
+- not_started: 318
 
 ## Chips
 
@@ -17868,7 +17868,7 @@ IDT74FST3245
   - NBCD adder; emits BCD sum + carry. Verilator + Yosys clean.
 
 ### 74x4724 - 8-bit addressable latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4724
 - Aliases: none
 - Source section: Larger footprints
@@ -17881,7 +17881,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4724/tb_ttl_74x4724.sv
 - README: rtl/chips/ttl_74x4724/README.md
 - Notes:
-  - (none)
+  - 8-bit addressable latch (74x259-class). Verilator + Yosys clean.
 
 ### 74x4764 - programmable dRAM controller
 - Status: [!]
