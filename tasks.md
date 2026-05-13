@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 810
+- complete: 811
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 421
+- not_started: 420
 
 ## Chips
 
@@ -16106,7 +16106,7 @@ For every chip:
   - 8-bit latch with async reset and dual output enable (both OE_n must be low). Verilator + Yosys clean.
 
 ### 74x2853 - 8-bit bus transceiver with parity error latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2853
 - Aliases: none
 - Source section: Larger footprints
@@ -16119,7 +16119,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2853/tb_ttl_74x2853.sv
 - README: rtl/chips/ttl_74x2853/README.md
 - Notes:
-  - (none)
+  - Same as 74x833 but error indicator is a transparent latch (le_err). Verilator + Yosys clean.
 
 ### 74x2861 - 10-bit non-inverting bus transceiver
 - Status: [x]
