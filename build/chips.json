@@ -24725,8 +24725,10 @@
     "pins": "24",
     "datasheet": "SN74HC7340",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n625",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit bus driver with bidirectional registers. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7340/ttl_74x7340.sv",
     "testbench_path": "tb/chips/ttl_74x7340/tb_ttl_74x7340.sv",
     "readme_path": "rtl/chips/ttl_74x7340/README.md"

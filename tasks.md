@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 905
+- complete: 906
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 264
+- not_started: 263
 
 ## Chips
 
@@ -18860,7 +18860,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7340 - 8-bit bus driver with bidirectional registers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7340
 - Aliases: none
 - Source section: Larger footprints
@@ -18873,7 +18873,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7340/tb_ttl_74x7340.sv
 - README: rtl/chips/ttl_74x7340/README.md
 - Notes:
-  - (none)
+  - 8-bit bus driver with bidirectional registers. Verilator + Yosys clean.
 
 ### 74x7403 - 256-bit FIFO memory (64x4)
 - Status: [x]
