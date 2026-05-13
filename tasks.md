@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 652
-- blocked: 93
+- blocked: 121
 - digital_only_approximation: 27
-- not_started: 783
+- not_started: 755
 
 ## Chips
 
@@ -12314,7 +12314,7 @@ For every chip:
   - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x913 - 6-digit BCD display controller and driver, no decimal point
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x913
 - Aliases: none
 - Source section: Larger footprints
@@ -12327,7 +12327,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x913/tb_ttl_74x913.sv
 - README: rtl/chips/ttl_74x913/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x914 - hex inverter gate, extended input voltage
 - Status: [x]
@@ -12346,7 +12346,7 @@ For every chip:
   - Hex inverter with Schmitt input; Verilator lint+sim clean
 
 ### 74x915 - 7-segment to BCD converter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x915
 - Aliases: none
 - Source section: Larger footprints
@@ -12359,10 +12359,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x915/tb_ttl_74x915.sv
 - README: rtl/chips/ttl_74x915/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x917 - 6-digit hex display controller and driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x917
 - Aliases: none
 - Source section: Larger footprints
@@ -12375,7 +12375,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x917/tb_ttl_74x917.sv
 - README: rtl/chips/ttl_74x917/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x918 - dual 2-input NAND 30 V / 250 mA relay driver
 - Status: [x]
@@ -12394,7 +12394,7 @@ For every chip:
   - 14-pin sibling of 74x908; Verilator lint+sim clean
 
 ### 74x920 - 1024-bit RAM (256x4), separate data inputs and outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x920
 - Aliases: none
 - Source section: Larger footprints
@@ -12407,10 +12407,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x920/tb_ttl_74x920.sv
 - README: rtl/chips/ttl_74x920/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x921 - 1024-bit RAM (256x4)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x921
 - Aliases: none
 - Source section: Larger footprints
@@ -12423,10 +12423,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x921/tb_ttl_74x921.sv
 - README: rtl/chips/ttl_74x921/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x922 - 16-key encoder
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x922
 - Aliases: none
 - Source section: Larger footprints
@@ -12439,10 +12439,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x922/tb_ttl_74x922.sv
 - README: rtl/chips/ttl_74x922/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x923 - 20-key encoder
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x923
 - Aliases: none
 - Source section: Larger footprints
@@ -12455,10 +12455,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x923/tb_ttl_74x923.sv
 - README: rtl/chips/ttl_74x923/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x925 - 4-digit counter/display driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x925
 - Aliases: none
 - Source section: Larger footprints
@@ -12471,10 +12471,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x925/tb_ttl_74x925.sv
 - README: rtl/chips/ttl_74x925/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x926 - 4-digit decade counter/display driver, carry out and latch (up to 9999)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x926
 - Aliases: none
 - Source section: Larger footprints
@@ -12487,10 +12487,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x926/tb_ttl_74x926.sv
 - README: rtl/chips/ttl_74x926/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x927 - 4-digit timer counter/display driver (up to 9599, intended as time elapsed, i.e. 9:59.9 min)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x927
 - Aliases: none
 - Source section: Larger footprints
@@ -12503,10 +12503,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x927/tb_ttl_74x927.sv
 - README: rtl/chips/ttl_74x927/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x928 - 4-digit counter/display driver (up to 1999)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x928
 - Aliases: none
 - Source section: Larger footprints
@@ -12519,10 +12519,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x928/tb_ttl_74x928.sv
 - README: rtl/chips/ttl_74x928/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x929 - 1024-bit RAM (1024x1), single chip select
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x929
 - Aliases: none
 - Source section: Larger footprints
@@ -12535,10 +12535,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x929/tb_ttl_74x929.sv
 - README: rtl/chips/ttl_74x929/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x930 - 1024-bit RAM (1024x1), three chip selects
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x930
 - Aliases: none
 - Source section: Larger footprints
@@ -12551,10 +12551,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x930/tb_ttl_74x930.sv
 - README: rtl/chips/ttl_74x930/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x932 - phase comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x932
 - Aliases: none
 - Source section: Larger footprints
@@ -12567,7 +12567,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x932/tb_ttl_74x932.sv
 - README: rtl/chips/ttl_74x932/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x933 - 7-bit address bus comparator
 - Status: [x]
@@ -12586,7 +12586,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74934 - ADC similar to ADC0829, see corresponding NSC datasheet
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74934
 - Aliases: none
 - Source section: Larger footprints
@@ -12599,10 +12599,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74934/tb_ttl_74934.sv
 - README: rtl/chips/ttl_74934/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x935 - ADC for 3.5-digit digital voltmeters, multiplexed 7-segment display outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x935
 - Aliases: none
 - Source section: Larger footprints
@@ -12615,10 +12615,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x935/tb_ttl_74x935.sv
 - README: rtl/chips/ttl_74x935/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x936 - ADC for 3.75-digit digital voltmeters, multiplexed 7-segment display outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x936
 - Aliases: none
 - Source section: Larger footprints
@@ -12631,10 +12631,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x936/tb_ttl_74x936.sv
 - README: rtl/chips/ttl_74x936/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x937 - ADC for 3.5-digit digital voltmeters, multiplexed BCD outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x937
 - Aliases: none
 - Source section: Larger footprints
@@ -12647,10 +12647,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x937/tb_ttl_74x937.sv
 - README: rtl/chips/ttl_74x937/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x938 - ADC for 3.75-digit digital voltmeters, multiplexed BCD outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x938
 - Aliases: none
 - Source section: Larger footprints
@@ -12663,7 +12663,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x938/tb_ttl_74x938.sv
 - README: rtl/chips/ttl_74x938/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x940 - octal bus/line drivers/line receivers
 - Status: [x]
@@ -12698,7 +12698,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x942 - 300 baud Bell 103 modem (+/- 5 V supply)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x942
 - Aliases: none
 - Source section: Larger footprints
@@ -12711,10 +12711,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x942/tb_ttl_74x942.sv
 - README: rtl/chips/ttl_74x942/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x943 - 300 baud Bell 103 modem (single 5 V supply)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x943
 - Aliases: none
 - Source section: Larger footprints
@@ -12727,10 +12727,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x943/tb_ttl_74x943.sv
 - README: rtl/chips/ttl_74x943/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x945 - 4-digit up/down counter, decoder and LCD driver, output latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x945
 - Aliases: none
 - Source section: Larger footprints
@@ -12743,10 +12743,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x945/tb_ttl_74x945.sv
 - README: rtl/chips/ttl_74x945/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x946 - 4.5-digit counter, decoder and LCD driver, leading zero blanking
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x946
 - Aliases: none
 - Source section: Larger footprints
@@ -12759,10 +12759,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x946/tb_ttl_74x946.sv
 - README: rtl/chips/ttl_74x946/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x947 - 4-digit up/down counter, decoder and LCD driver, leading zero blanking
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x947
 - Aliases: none
 - Source section: Larger footprints
@@ -12775,10 +12775,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x947/tb_ttl_74x947.sv
 - README: rtl/chips/ttl_74x947/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x948 - 8-bit ADC with 16-channel analog multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x948
 - Aliases: none
 - Source section: Larger footprints
@@ -12791,10 +12791,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x948/tb_ttl_74x948.sv
 - README: rtl/chips/ttl_74x948/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x949 - 8-bit ADC with 8-channel analog multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x949
 - Aliases: none
 - Source section: Larger footprints
@@ -12807,10 +12807,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x949/tb_ttl_74x949.sv
 - README: rtl/chips/ttl_74x949/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x950 - 8-bit ADC with 8-channel analog multiplexer and sample and hold
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x950
 - Aliases: none
 - Source section: Larger footprints
@@ -12823,10 +12823,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x950/tb_ttl_74x950.sv
 - README: rtl/chips/ttl_74x950/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x952 - dual rank 8-bit shift register, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x952
 - Aliases: none
 - Source section: Larger footprints
@@ -12839,7 +12839,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x952/tb_ttl_74x952.sv
 - README: rtl/chips/ttl_74x952/README.md
 - Notes:
-  - (none)
+  - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74C956 - 4-digit, 17-segment alpha-numeric LED display driver with memory and decoder
 - Status: [ ]

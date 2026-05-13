@@ -16132,8 +16132,10 @@
     "pins": "24",
     "datasheet": "MM74C913",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n135",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x913/ttl_74x913.sv",
     "testbench_path": "tb/chips/ttl_74x913/tb_ttl_74x913.sv",
     "readme_path": "rtl/chips/ttl_74x913/README.md"
@@ -16172,8 +16174,10 @@
     "pins": "18",
     "datasheet": "MM74C915",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n141",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x915/ttl_74x915.sv",
     "testbench_path": "tb/chips/ttl_74x915/tb_ttl_74x915.sv",
     "readme_path": "rtl/chips/ttl_74x915/README.md"
@@ -16191,8 +16195,10 @@
     "pins": "28",
     "datasheet": "MM74C917",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1333",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x917/ttl_74x917.sv",
     "testbench_path": "tb/chips/ttl_74x917/tb_ttl_74x917.sv",
     "readme_path": "rtl/chips/ttl_74x917/README.md"
@@ -16231,8 +16237,10 @@
     "pins": "22",
     "datasheet": "MM74C920",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n145",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x920/ttl_74x920.sv",
     "testbench_path": "tb/chips/ttl_74x920/tb_ttl_74x920.sv",
     "readme_path": "rtl/chips/ttl_74x920/README.md"
@@ -16250,8 +16258,10 @@
     "pins": "18",
     "datasheet": "MM74C921",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n145",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x921/ttl_74x921.sv",
     "testbench_path": "tb/chips/ttl_74x921/tb_ttl_74x921.sv",
     "readme_path": "rtl/chips/ttl_74x921/README.md"
@@ -16269,8 +16279,10 @@
     "pins": "18",
     "datasheet": "MM74C922",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n149",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x922/ttl_74x922.sv",
     "testbench_path": "tb/chips/ttl_74x922/tb_ttl_74x922.sv",
     "readme_path": "rtl/chips/ttl_74x922/README.md"
@@ -16288,8 +16300,10 @@
     "pins": "20",
     "datasheet": "MM74C923",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n149",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x923/ttl_74x923.sv",
     "testbench_path": "tb/chips/ttl_74x923/tb_ttl_74x923.sv",
     "readme_path": "rtl/chips/ttl_74x923/README.md"
@@ -16307,8 +16321,10 @@
     "pins": "16",
     "datasheet": "MM74C925",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x925/ttl_74x925.sv",
     "testbench_path": "tb/chips/ttl_74x925/tb_ttl_74x925.sv",
     "readme_path": "rtl/chips/ttl_74x925/README.md"
@@ -16326,8 +16342,10 @@
     "pins": "16",
     "datasheet": "MM74C926",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x926/ttl_74x926.sv",
     "testbench_path": "tb/chips/ttl_74x926/tb_ttl_74x926.sv",
     "readme_path": "rtl/chips/ttl_74x926/README.md"
@@ -16345,8 +16363,10 @@
     "pins": "16",
     "datasheet": "MM74C927",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x927/ttl_74x927.sv",
     "testbench_path": "tb/chips/ttl_74x927/tb_ttl_74x927.sv",
     "readme_path": "rtl/chips/ttl_74x927/README.md"
@@ -16364,8 +16384,10 @@
     "pins": "16",
     "datasheet": "MM74C928",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x928/ttl_74x928.sv",
     "testbench_path": "tb/chips/ttl_74x928/tb_ttl_74x928.sv",
     "readme_path": "rtl/chips/ttl_74x928/README.md"
@@ -16383,8 +16405,10 @@
     "pins": "16",
     "datasheet": "MM74C929",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x929/ttl_74x929.sv",
     "testbench_path": "tb/chips/ttl_74x929/tb_ttl_74x929.sv",
     "readme_path": "rtl/chips/ttl_74x929/README.md"
@@ -16402,8 +16426,10 @@
     "pins": "18",
     "datasheet": "MM74C930",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x930/ttl_74x930.sv",
     "testbench_path": "tb/chips/ttl_74x930/tb_ttl_74x930.sv",
     "readme_path": "rtl/chips/ttl_74x930/README.md"
@@ -16421,8 +16447,10 @@
     "pins": "8",
     "datasheet": "MM74C932",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1305",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x932/ttl_74x932.sv",
     "testbench_path": "tb/chips/ttl_74x932/tb_ttl_74x932.sv",
     "readme_path": "rtl/chips/ttl_74x932/README.md"
@@ -16461,8 +16489,10 @@
     "pins": "",
     "datasheet": "",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74934/ttl_74934.sv",
     "testbench_path": "tb/chips/ttl_74934/tb_ttl_74934.sv",
     "readme_path": "rtl/chips/ttl_74934/README.md"
@@ -16480,8 +16510,10 @@
     "pins": "28",
     "datasheet": "MM74C935",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n163",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x935/ttl_74x935.sv",
     "testbench_path": "tb/chips/ttl_74x935/tb_ttl_74x935.sv",
     "readme_path": "rtl/chips/ttl_74x935/README.md"
@@ -16499,8 +16531,10 @@
     "pins": "",
     "datasheet": "MM74C936",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n171",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x936/ttl_74x936.sv",
     "testbench_path": "tb/chips/ttl_74x936/tb_ttl_74x936.sv",
     "readme_path": "rtl/chips/ttl_74x936/README.md"
@@ -16518,8 +16552,10 @@
     "pins": "24",
     "datasheet": "MM74C937",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaDataAcquisitionHandbook_38492992/page/n83",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x937/ttl_74x937.sv",
     "testbench_path": "tb/chips/ttl_74x937/tb_ttl_74x937.sv",
     "readme_path": "rtl/chips/ttl_74x937/README.md"
@@ -16537,8 +16573,10 @@
     "pins": "24",
     "datasheet": "MM74C938",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaDataAcquisitionHandbook_38492992/page/n83",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x938/ttl_74x938.sv",
     "testbench_path": "tb/chips/ttl_74x938/tb_ttl_74x938.sv",
     "readme_path": "rtl/chips/ttl_74x938/README.md"
@@ -16598,8 +16636,10 @@
     "pins": "20",
     "datasheet": "MM74HC942",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n639",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x942/ttl_74x942.sv",
     "testbench_path": "tb/chips/ttl_74x942/tb_ttl_74x942.sv",
     "readme_path": "rtl/chips/ttl_74x942/README.md"
@@ -16617,8 +16657,10 @@
     "pins": "20",
     "datasheet": "MM74HC943",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x943/ttl_74x943.sv",
     "testbench_path": "tb/chips/ttl_74x943/tb_ttl_74x943.sv",
     "readme_path": "rtl/chips/ttl_74x943/README.md"
@@ -16636,8 +16678,10 @@
     "pins": "40",
     "datasheet": "MM74C945",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1343",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x945/ttl_74x945.sv",
     "testbench_path": "tb/chips/ttl_74x945/tb_ttl_74x945.sv",
     "readme_path": "rtl/chips/ttl_74x945/README.md"
@@ -16655,8 +16699,10 @@
     "pins": "40",
     "datasheet": "MM74C946",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1351",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x946/ttl_74x946.sv",
     "testbench_path": "tb/chips/ttl_74x946/tb_ttl_74x946.sv",
     "readme_path": "rtl/chips/ttl_74x946/README.md"
@@ -16674,8 +16720,10 @@
     "pins": "40",
     "datasheet": "MM74C947",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1343",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x947/ttl_74x947.sv",
     "testbench_path": "tb/chips/ttl_74x947/tb_ttl_74x947.sv",
     "readme_path": "rtl/chips/ttl_74x947/README.md"
@@ -16693,8 +16741,10 @@
     "pins": "40",
     "datasheet": "MM74C948",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaDataAcquisitionHandbook_38492992/page/n63",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x948/ttl_74x948.sv",
     "testbench_path": "tb/chips/ttl_74x948/tb_ttl_74x948.sv",
     "readme_path": "rtl/chips/ttl_74x948/README.md"
@@ -16712,8 +16762,10 @@
     "pins": "28",
     "datasheet": "MM74C949",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n173",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x949/ttl_74x949.sv",
     "testbench_path": "tb/chips/ttl_74x949/tb_ttl_74x949.sv",
     "readme_path": "rtl/chips/ttl_74x949/README.md"
@@ -16731,8 +16783,10 @@
     "pins": "28",
     "datasheet": "MM74C950",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n173",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x950/ttl_74x950.sv",
     "testbench_path": "tb/chips/ttl_74x950/tb_ttl_74x950.sv",
     "readme_path": "rtl/chips/ttl_74x950/README.md"
@@ -16750,8 +16804,10 @@
     "pins": "18",
     "datasheet": "DM74LS952",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductorLogicDatabook1981/National%20Semiconductor%20Logic%20Databook%201981#page/n417",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x952/ttl_74x952.sv",
     "testbench_path": "tb/chips/ttl_74x952/tb_ttl_74x952.sv",
     "readme_path": "rtl/chips/ttl_74x952/README.md"
