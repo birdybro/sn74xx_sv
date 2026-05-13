@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 601
+- complete: 602
 - blocked: 57
 - digital_only_approximation: 27
-- not_started: 870
+- not_started: 869
 
 ## Chips
 
@@ -11016,7 +11016,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x802 - triple 4-input OR/NOR drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x802
 - Aliases: none
 - Source section: Larger footprints
@@ -11029,7 +11029,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x802/tb_ttl_74x802.sv
 - README: rtl/chips/ttl_74x802/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x803 - quad D flip flops with matched propagation delays
 - Status: [ ]
