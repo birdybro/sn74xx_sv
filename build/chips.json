@@ -32133,8 +32133,10 @@
     "pins": "5",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t14.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single-supply Schmitt inverter (Schmitt not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t14/ttl_74x1t14.sv",
     "testbench_path": "tb/chips/ttl_74x1t14/tb_ttl_74x1t14.sv",
     "readme_path": "rtl/chips/ttl_74x1t14/README.md"
