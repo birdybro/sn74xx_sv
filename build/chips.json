@@ -13736,8 +13736,10 @@
     "pins": "20",
     "datasheet": "SN74S734",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1984DatabookOCR#page/n315",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Functional twin of 74x731; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x734/ttl_74x734.sv",
     "testbench_path": "tb/chips/ttl_74x734/tb_ttl_74x734.sv",
     "readme_path": "rtl/chips/ttl_74x734/README.md"

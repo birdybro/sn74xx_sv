@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 583
+- complete: 584
 - blocked: 43
 - digital_only_approximation: 27
-- not_started: 902
+- not_started: 901
 
 ## Chips
 
@@ -10488,7 +10488,7 @@ For every chip:
   - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
 
 ### 74x734 - octal dRAM driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x734
 - Aliases: none
 - Source section: Larger footprints
@@ -10501,7 +10501,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x734/tb_ttl_74x734.sv
 - README: rtl/chips/ttl_74x734/README.md
 - Notes:
-  - (none)
+  - Functional twin of 74x731; Verilator lint+sim clean
 
 ### 74x740 - dual 4-bit line driver, inverting
 - Status: [ ]
