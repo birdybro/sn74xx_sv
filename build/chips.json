@@ -23345,8 +23345,10 @@
     "pins": "16",
     "datasheet": "CD74HC4520",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4520",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 4-bit binary up counter. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4520/ttl_74x4520.sv",
     "testbench_path": "tb/chips/ttl_74x4520/tb_ttl_74x4520.sv",
     "readme_path": "rtl/chips/ttl_74x4520/README.md"
