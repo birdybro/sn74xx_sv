@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1041
+- complete: 1042
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 81
+- not_started: 80
 
 ## Chips
 
@@ -22911,7 +22911,7 @@ IDT74FST3245
   - 36-bit version of 74x543. Verilator + Yosys clean.
 
 ### 74x32973 - 16-bit bus transceiver and transparent D-type latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x32973
 - Aliases: none
 - Source section: Widebus devices
@@ -22924,7 +22924,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x32973/tb_ttl_74x32973.sv
 - README: rtl/chips/ttl_74x32973/README.md
 - Notes:
-  - (none)
+  - 16-bit transceiver + 16-bit latch (= 16973 widened). Verilator + Yosys clean.
 
 ### 74x322244 - 32-bit buffer/driver
 - Status: [ ]
