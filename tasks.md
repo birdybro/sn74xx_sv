@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 832
+- complete: 833
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 367
+- not_started: 366
 
 ## Chips
 
@@ -16988,7 +16988,7 @@ IDT74FST3245
   - 1-to-10 clock driver/buffer; physical clock fanout buffer, electrical not logical
 
 ### 74x3827 - 10-bit buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3827
 - Aliases: none
 - Source section: Larger footprints
@@ -17001,7 +17001,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3827/tb_ttl_74x3827.sv
 - README: rtl/chips/ttl_74x3827/README.md
 - Notes:
-  - (none)
+  - 10-bit non-inverting buffer with 3-state output. Verilator + Yosys clean.
 
 ### 74x3861 - 10-bit FET bus switch
 - Status: [!]

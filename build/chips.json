@@ -22274,8 +22274,10 @@
     "pins": "24",
     "datasheet": "IDT74FCT3827",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n535",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit non-inverting buffer with 3-state output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3827/ttl_74x3827.sv",
     "testbench_path": "tb/chips/ttl_74x3827/tb_ttl_74x3827.sv",
     "readme_path": "rtl/chips/ttl_74x3827/README.md"
