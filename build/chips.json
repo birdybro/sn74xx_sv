@@ -22400,8 +22400,10 @@
     "pins": "14",
     "datasheet": "CD74HC4002",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4002",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 4-input NOR, CMOS 4002. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4002/ttl_74x4002.sv",
     "testbench_path": "tb/chips/ttl_74x4002/tb_ttl_74x4002.sv",
     "readme_path": "rtl/chips/ttl_74x4002/README.md"
