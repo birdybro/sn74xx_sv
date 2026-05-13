@@ -31805,8 +31805,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC3G06.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Triple inverter (open-drain). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3g06/ttl_74x3g06.sv",
     "testbench_path": "tb/chips/ttl_74x3g06/tb_ttl_74x3g06.sv",
     "readme_path": "rtl/chips/ttl_74x3g06/README.md"
