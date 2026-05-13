@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 707
+- complete: 708
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 683
+- not_started: 682
 
 ## Chips
 
@@ -20847,7 +20847,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16377 - 16-bit edge-triggered D-type flip-flops
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16377
 - Aliases: none
 - Source section: Widebus devices
@@ -20860,7 +20860,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16377/tb_ttl_74x16377.sv
 - README: rtl/chips/ttl_74x16377/README.md
 - Notes:
-  - (none)
+  - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16390 - 16-bit to 32-bit FET multiplexer/demultiplexer bus switch
 - Status: [ ]
