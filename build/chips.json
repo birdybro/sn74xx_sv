@@ -16556,8 +16556,10 @@
     "pins": "20",
     "datasheet": "DM74S940",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductorLogicDatabook1981/National%20Semiconductor%20Logic%20Databook%201981#page/n161",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x940/ttl_74x940.sv",
     "testbench_path": "tb/chips/ttl_74x940/tb_ttl_74x940.sv",
     "readme_path": "rtl/chips/ttl_74x940/README.md"

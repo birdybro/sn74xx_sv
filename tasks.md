@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 650
+- complete: 651
 - blocked: 93
 - digital_only_approximation: 27
-- not_started: 785
+- not_started: 784
 
 ## Chips
 
@@ -12666,7 +12666,7 @@ For every chip:
   - (none)
 
 ### 74x940 - octal bus/line drivers/line receivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x940
 - Aliases: none
 - Source section: Larger footprints
@@ -12679,7 +12679,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x940/tb_ttl_74x940.sv
 - README: rtl/chips/ttl_74x940/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x941 - octal bus/line drivers/line receivers
 - Status: [ ]
