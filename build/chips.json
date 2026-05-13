@@ -12644,8 +12644,10 @@
     "pins": "24",
     "datasheet": "SN74ALS667",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als667",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting-Q twin of 74x666 per SN74ALS667; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x667/ttl_74x667.sv",
     "testbench_path": "tb/chips/ttl_74x667/tb_ttl_74x667.sv",
     "readme_path": "rtl/chips/ttl_74x667/README.md"

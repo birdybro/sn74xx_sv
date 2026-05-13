@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 568
+- complete: 569
 - blocked: 6
 - digital_only_approximation: 27
-- not_started: 954
+- not_started: 953
 
 ## Chips
 
@@ -9656,7 +9656,7 @@ For every chip:
   - 8-bit transparent latch with /OE1+/OE2 AND-enable on Q and /OERB read-back onto D, per SN74ALS666 datasheet; Verilator lint+sim clean
 
 ### 74x667 - 8-bit D-type transparent read-back latch, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x667
 - Aliases: none
 - Source section: Larger footprints
@@ -9669,7 +9669,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x667/tb_ttl_74x667.sv
 - README: rtl/chips/ttl_74x667/README.md
 - Notes:
-  - (none)
+  - Inverting-Q twin of 74x666 per SN74ALS667; Verilator lint+sim clean
 
 ### 74x668 - synchronous 4-bit decade up/down counter
 - Status: [ ]
