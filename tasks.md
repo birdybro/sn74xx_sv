@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 860
+- complete: 861
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 326
+- not_started: 325
 
 ## Chips
 
@@ -17740,7 +17740,7 @@ IDT74FST3245
   - BCD to 7-segment latch/decoder with blank and lamp-test. Verilator + Yosys clean.
 
 ### 74x4514 - 4-to-16 line decoder/demultiplexer, input latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4514
 - Aliases: none
 - Source section: Larger footprints
@@ -17753,7 +17753,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4514/tb_ttl_74x4514.sv
 - README: rtl/chips/ttl_74x4514/README.md
 - Notes:
-  - (none)
+  - 4-to-16 decoder with latched input. Verilator + Yosys clean.
 
 ### 74x4515 - 4-to-16 line decoder/demultiplexer with input latches; inverting
 - Status: [ ]
