@@ -23408,8 +23408,10 @@
     "pins": "16",
     "datasheet": "MM74HC4560",
     "datasheet_url": "https://archive.org/details/bitsavers_nationalda74HCDatabook_36362852/page/n531",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "NBCD adder; emits BCD sum + carry. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4560/ttl_74x4560.sv",
     "testbench_path": "tb/chips/ttl_74x4560/tb_ttl_74x4560.sv",
     "readme_path": "rtl/chips/ttl_74x4560/README.md"
