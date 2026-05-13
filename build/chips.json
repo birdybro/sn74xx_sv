@@ -21483,8 +21483,10 @@
     "pins": "(24)",
     "datasheet": "74LVX3245",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCROSSVOLTLowVoltageLogicSeriesDatabook_18426235/page/n129",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74lvx3245/ttl_74lvx3245.sv",
     "testbench_path": "tb/chips/ttl_74lvx3245/tb_ttl_74lvx3245.sv",
     "readme_path": "rtl/chips/ttl_74lvx3245/README.md"

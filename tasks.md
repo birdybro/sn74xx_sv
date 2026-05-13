@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 763
+- complete: 764
 - blocked: 284
 - digital_only_approximation: 27
-- not_started: 481
+- not_started: 480
 
 ## Chips
 
@@ -16492,7 +16492,7 @@ IDT74FST3245
   - (none)
 
 ### 74LVX3245 - octal bidirectional voltage-translating transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74lvx3245
 - Aliases: none
 - Source section: Larger footprints
@@ -16505,7 +16505,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74lvx3245/tb_ttl_74lvx3245.sv
 - README: rtl/chips/ttl_74lvx3245/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74GTLPH3245 - 32-bit LV-TTL-to-GTLP adjustable-edge-rate bus transceiver
 - Status: [ ]
