@@ -14788,8 +14788,10 @@
     "pins": "24",
     "datasheet": "MC74F827",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaFASTandLSTTLData_35934218/page/n303",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per 74F827/828 datasheet (DS009598); dual /OE NOR-style; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x827/ttl_74x827.sv",
     "testbench_path": "tb/chips/ttl_74x827/tb_ttl_74x827.sv",
     "readme_path": "rtl/chips/ttl_74x827/README.md"

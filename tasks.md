@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 614
+- complete: 615
 - blocked: 62
 - digital_only_approximation: 27
-- not_started: 852
+- not_started: 851
 
 ## Chips
 
@@ -11290,7 +11290,7 @@ For every chip:
   - Per SN74AS823A/AS824A datasheet (SDAS231A); /OE doesn't gate storage; Verilator lint+sim clean
 
 ### 74x827 - 10-bit buffer, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x827
 - Aliases: none
 - Source section: Larger footprints
@@ -11303,7 +11303,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x827/tb_ttl_74x827.sv
 - README: rtl/chips/ttl_74x827/README.md
 - Notes:
-  - (none)
+  - Per 74F827/828 datasheet (DS009598); dual /OE NOR-style; Verilator lint+sim clean
 
 ### 74x828 - 10-bit buffer, inverting
 - Status: [ ]
