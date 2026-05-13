@@ -28217,8 +28217,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abt162823a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "3.3-V twin of 16xxx; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162823/ttl_74x162823.sv",
     "testbench_path": "tb/chips/ttl_74x162823/tb_ttl_74x162823.sv",
     "readme_path": "rtl/chips/ttl_74x162823/README.md"
