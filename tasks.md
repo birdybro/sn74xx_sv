@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 906
+- complete: 907
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 263
+- not_started: 262
 
 ## Chips
 
@@ -18908,7 +18908,7 @@ IDT74FST3245
   - 64x5 FIFO via gen_fifo.py. Verilator + Yosys clean.
 
 ### 74x7540 - octal buffer/line driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7540
 - Aliases: none
 - Source section: Larger footprints
@@ -18921,7 +18921,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7540/tb_ttl_74x7540.sv
 - README: rtl/chips/ttl_74x7540/README.md
 - Notes:
-  - (none)
+  - Octal inverting buffer/driver, = 74x540. Verilator + Yosys clean.
 
 ### 74x7541 - octal buffer/line driver, non-inverting
 - Status: [ ]
