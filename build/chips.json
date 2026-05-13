@@ -32606,8 +32606,10 @@
     "pins": "48",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/gpn/SN74LVC16T245",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual-supply 16-bit bus xceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x16t245/ttl_74x16t245.sv",
     "testbench_path": "tb/chips/ttl_74x16t245/tb_ttl_74x16t245.sv",
     "readme_path": "rtl/chips/ttl_74x16t245/README.md"
