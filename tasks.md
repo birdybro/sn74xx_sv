@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 647
+- complete: 649
 - blocked: 93
 - digital_only_approximation: 27
-- not_started: 788
+- not_started: 786
 
 ## Chips
 
@@ -12330,7 +12330,7 @@ For every chip:
   - (none)
 
 ### 74x914 - hex inverter gate, extended input voltage
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x914
 - Aliases: none
 - Source section: Larger footprints
@@ -12343,7 +12343,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x914/tb_ttl_74x914.sv
 - README: rtl/chips/ttl_74x914/README.md
 - Notes:
-  - (none)
+  - Hex inverter with Schmitt input; Verilator lint+sim clean
 
 ### 74x915 - 7-segment to BCD converter
 - Status: [ ]
@@ -12378,7 +12378,7 @@ For every chip:
   - (none)
 
 ### 74x918 - dual 2-input NAND 30 V / 250 mA relay driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x918
 - Aliases: none
 - Source section: Larger footprints
@@ -12391,7 +12391,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x918/tb_ttl_74x918.sv
 - README: rtl/chips/ttl_74x918/README.md
 - Notes:
-  - (none)
+  - 14-pin sibling of 74x908; Verilator lint+sim clean
 
 ### 74x920 - 1024-bit RAM (256x4), separate data inputs and outputs
 - Status: [ ]

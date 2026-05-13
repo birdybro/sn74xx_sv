@@ -16151,8 +16151,10 @@
     "pins": "14",
     "datasheet": "MM74C914",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n117",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex inverter with Schmitt input; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x914/ttl_74x914.sv",
     "testbench_path": "tb/chips/ttl_74x914/tb_ttl_74x914.sv",
     "readme_path": "rtl/chips/ttl_74x914/README.md"
@@ -16208,8 +16210,10 @@
     "pins": "14",
     "datasheet": "MM74C918",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n105",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "14-pin sibling of 74x908; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x918/ttl_74x918.sv",
     "testbench_path": "tb/chips/ttl_74x918/tb_ttl_74x918.sv",
     "readme_path": "rtl/chips/ttl_74x918/README.md"
