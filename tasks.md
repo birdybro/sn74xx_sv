@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 962
+- complete: 963
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 181
+- not_started: 180
 
 ## Chips
 
@@ -20092,7 +20092,7 @@ IDT74FST3245
   - Programmable timer with on-chip oscillator; oscillator portion is analog
 
 ### 74x9014 - nine-wide buffer/line driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9014
 - Aliases: none
 - Source section: Larger footprints
@@ -20105,7 +20105,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9014/tb_ttl_74x9014.sv
 - README: rtl/chips/ttl_74x9014/README.md
 - Notes:
-  - (none)
+  - 9-bit inverting line driver. Verilator + Yosys clean.
 
 ### 74x9015 - nine-wide buffer/line driver, non-inverting
 - Status: [ ]
