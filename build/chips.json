@@ -22568,8 +22568,10 @@
     "pins": "16",
     "datasheet": "SN74HC4040",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc4040",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "12-bit ripple binary counter. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4040/ttl_74x4040.sv",
     "testbench_path": "tb/chips/ttl_74x4040/tb_ttl_74x4040.sv",
     "readme_path": "rtl/chips/ttl_74x4040/README.md"
