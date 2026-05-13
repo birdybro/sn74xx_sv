@@ -12728,8 +12728,10 @@
     "pins": "20",
     "datasheet": "SN74LS671",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1327",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x671/ttl_74x671.sv",
     "testbench_path": "tb/chips/ttl_74x671/tb_ttl_74x671.sv",
     "readme_path": "rtl/chips/ttl_74x671/README.md"
@@ -12747,8 +12749,10 @@
     "pins": "20",
     "datasheet": "SN74LS672",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1327",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x672/ttl_74x672.sv",
     "testbench_path": "tb/chips/ttl_74x672/tb_ttl_74x672.sv",
     "readme_path": "rtl/chips/ttl_74x672/README.md"
@@ -12766,8 +12770,10 @@
     "pins": "24",
     "datasheet": "SN74LS673",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls673",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x673/ttl_74x673.sv",
     "testbench_path": "tb/chips/ttl_74x673/tb_ttl_74x673.sv",
     "readme_path": "rtl/chips/ttl_74x673/README.md"
@@ -12785,8 +12791,10 @@
     "pins": "24",
     "datasheet": "SN74LS674",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls674",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x674/ttl_74x674.sv",
     "testbench_path": "tb/chips/ttl_74x674/tb_ttl_74x674.sv",
     "readme_path": "rtl/chips/ttl_74x674/README.md"
@@ -12804,8 +12812,10 @@
     "pins": "24",
     "datasheet": "74F675A",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n607",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x675/ttl_74x675.sv",
     "testbench_path": "tb/chips/ttl_74x675/tb_ttl_74x675.sv",
     "readme_path": "rtl/chips/ttl_74x675/README.md"
@@ -12823,8 +12833,10 @@
     "pins": "24",
     "datasheet": "74F676",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n611",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x676/ttl_74x676.sv",
     "testbench_path": "tb/chips/ttl_74x676/tb_ttl_74x676.sv",
     "readme_path": "rtl/chips/ttl_74x676/README.md"
@@ -12842,8 +12854,10 @@
     "pins": "24",
     "datasheet": "SN74ALS677",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n507",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x677/ttl_74x677.sv",
     "testbench_path": "tb/chips/ttl_74x677/tb_ttl_74x677.sv",
     "readme_path": "rtl/chips/ttl_74x677/README.md"
@@ -12861,8 +12875,10 @@
     "pins": "24",
     "datasheet": "SN74ALS678",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n507",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x678/ttl_74x678.sv",
     "testbench_path": "tb/chips/ttl_74x678/tb_ttl_74x678.sv",
     "readme_path": "rtl/chips/ttl_74x678/README.md"
@@ -12880,8 +12896,10 @@
     "pins": "20",
     "datasheet": "SN74ALS679",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n513",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x679/ttl_74x679.sv",
     "testbench_path": "tb/chips/ttl_74x679/tb_ttl_74x679.sv",
     "readme_path": "rtl/chips/ttl_74x679/README.md"
@@ -12899,8 +12917,10 @@
     "pins": "20",
     "datasheet": "SN74ALS680",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n513",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x680/ttl_74x680.sv",
     "testbench_path": "tb/chips/ttl_74x680/tb_ttl_74x680.sv",
     "readme_path": "rtl/chips/ttl_74x680/README.md"
@@ -12918,8 +12938,10 @@
     "pins": "20",
     "datasheet": "SN74LS681",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1339",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x681/ttl_74x681.sv",
     "testbench_path": "tb/chips/ttl_74x681/tb_ttl_74x681.sv",
     "readme_path": "rtl/chips/ttl_74x681/README.md"

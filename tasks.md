@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 572
-- blocked: 6
+- blocked: 17
 - digital_only_approximation: 27
-- not_started: 950
+- not_started: 939
 
 ## Chips
 
@@ -9720,7 +9720,7 @@ For every chip:
   - 4x4 register file with independent read/write ports; level-sensitive (transparent) write; Verilator lint+sim clean
 
 ### 74x671 - 4-bit bidirectional shift register/latch/multiplexer, direct clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x671
 - Aliases: none
 - Source section: Larger footprints
@@ -9733,10 +9733,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x671/tb_ttl_74x671.sv
 - README: rtl/chips/ttl_74x671/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x672 - 4-bit bidirectional shift register/latch/multiplexer, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x672
 - Aliases: none
 - Source section: Larger footprints
@@ -9749,10 +9749,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x672/tb_ttl_74x672.sv
 - README: rtl/chips/ttl_74x672/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x673 - 16-bit serial-in, serial/parallel-out shift register, output storage registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x673
 - Aliases: none
 - Source section: Larger footprints
@@ -9765,10 +9765,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x673/tb_ttl_74x673.sv
 - README: rtl/chips/ttl_74x673/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x674 - 16-bit parallel-in, serial-out shift register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x674
 - Aliases: none
 - Source section: Larger footprints
@@ -9781,10 +9781,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x674/tb_ttl_74x674.sv
 - README: rtl/chips/ttl_74x674/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x675 - 16-bit serial-in, serial/parallel-out shift register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x675
 - Aliases: none
 - Source section: Larger footprints
@@ -9797,10 +9797,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x675/tb_ttl_74x675.sv
 - README: rtl/chips/ttl_74x675/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x676 - 16-bit serial/parallel-in, serial-out shift register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x676
 - Aliases: none
 - Source section: Larger footprints
@@ -9813,10 +9813,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x676/tb_ttl_74x676.sv
 - README: rtl/chips/ttl_74x676/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x677 - 16-bit address comparator, enable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x677
 - Aliases: none
 - Source section: Larger footprints
@@ -9829,10 +9829,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x677/tb_ttl_74x677.sv
 - README: rtl/chips/ttl_74x677/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x678 - 16-bit address comparator, latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x678
 - Aliases: none
 - Source section: Larger footprints
@@ -9845,10 +9845,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x678/tb_ttl_74x678.sv
 - README: rtl/chips/ttl_74x678/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x679 - 12-bit address comparator, latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x679
 - Aliases: none
 - Source section: Larger footprints
@@ -9861,10 +9861,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x679/tb_ttl_74x679.sv
 - README: rtl/chips/ttl_74x679/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x680 - 12-bit address comparator, enable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x680
 - Aliases: none
 - Source section: Larger footprints
@@ -9877,10 +9877,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x680/tb_ttl_74x680.sv
 - README: rtl/chips/ttl_74x680/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x681 - 4-bit parallel binary accumulator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x681
 - Aliases: none
 - Source section: Larger footprints
@@ -9893,7 +9893,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x681/tb_ttl_74x681.sv
 - README: rtl/chips/ttl_74x681/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x682 - 8-bit magnitude comparator, P>Q output
 - Status: [ ]
