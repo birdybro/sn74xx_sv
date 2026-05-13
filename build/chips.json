@@ -26600,8 +26600,10 @@
     "pins": "24",
     "datasheet": "74FR9245",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-11/DSA-203499.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit non-inverting bidir transceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x9245/ttl_74x9245.sv",
     "testbench_path": "tb/chips/ttl_74x9245/tb_ttl_74x9245.sv",
     "readme_path": "rtl/chips/ttl_74x9245/README.md"
