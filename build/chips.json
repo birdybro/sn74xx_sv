@@ -18656,8 +18656,10 @@
     "pins": "20",
     "datasheet": "DM74AS1804",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaicDatabook_22808448/page/n639",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1804/ttl_74x1804.sv",
     "testbench_path": "tb/chips/ttl_74x1804/tb_ttl_74x1804.sv",
     "readme_path": "rtl/chips/ttl_74x1804/README.md"
