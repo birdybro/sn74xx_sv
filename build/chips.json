@@ -13967,8 +13967,10 @@
     "pins": "14",
     "datasheet": "SN74AS758",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n527",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible; quad/specialized configuration needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x758/ttl_74x758.sv",
     "testbench_path": "tb/chips/ttl_74x758/tb_ttl_74x758.sv",
     "readme_path": "rtl/chips/ttl_74x758/README.md"
@@ -13986,8 +13988,10 @@
     "pins": "14",
     "datasheet": "SN74AS759",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n527",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible; quad/specialized configuration needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x759/ttl_74x759.sv",
     "testbench_path": "tb/chips/ttl_74x759/tb_ttl_74x759.sv",
     "readme_path": "rtl/chips/ttl_74x759/README.md"
@@ -14026,8 +14030,10 @@
     "pins": "20",
     "datasheet": "SN74ALS762",
     "datasheet_url": "https://web.archive.org/web/20170224211619/http://www.ti.com/lit/ds/symlink/sn74as762.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible; quad/specialized configuration needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x762/ttl_74x762.sv",
     "testbench_path": "tb/chips/ttl_74x762/tb_ttl_74x762.sv",
     "readme_path": "rtl/chips/ttl_74x762/README.md"

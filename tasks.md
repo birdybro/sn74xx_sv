@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 595
-- blocked: 43
+- blocked: 46
 - digital_only_approximation: 27
-- not_started: 890
+- not_started: 887
 
 ## Chips
 
@@ -10664,7 +10664,7 @@ For every chip:
   - Functional twin of 74x241; Verilator lint+sim clean
 
 ### 74x758 - quadruple bus transceivers, inverting outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x758
 - Aliases: none
 - Source section: Larger footprints
@@ -10677,10 +10677,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x758/tb_ttl_74x758.sv
 - README: rtl/chips/ttl_74x758/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible; quad/specialized configuration needs confirmation
 
 ### 74x759 - quadruple bus transceivers, non-inverting outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x759
 - Aliases: none
 - Source section: Larger footprints
@@ -10693,7 +10693,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x759/tb_ttl_74x759.sv
 - README: rtl/chips/ttl_74x759/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible; quad/specialized configuration needs confirmation
 
 ### 74x760 - octal buffer/line driver, non-inverting outputs
 - Status: [x]
@@ -10712,7 +10712,7 @@ For every chip:
   - Functional twin of 74x244; Verilator lint+sim clean
 
 ### 74x762 - octal buffer/line driver, inverting and non-inverting outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x762
 - Aliases: none
 - Source section: Larger footprints
@@ -10725,7 +10725,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x762/tb_ttl_74x762.sv
 - README: rtl/chips/ttl_74x762/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible; quad/specialized configuration needs confirmation
 
 ### 74x763 - octal buffer/line driver, inverting outputs, complementary enable inputs
 - Status: [ ]
