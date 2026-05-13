@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 608
-- blocked: 57
+- blocked: 64
 - digital_only_approximation: 27
-- not_started: 863
+- not_started: 856
 
 ## Chips
 
@@ -10920,7 +10920,7 @@ For every chip:
   - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
 
 ### 74x794 - 8-bit register, readback
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x794
 - Aliases: none
 - Source section: Larger footprints
@@ -10933,7 +10933,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x794/tb_ttl_74x794.sv
 - README: rtl/chips/ttl_74x794/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x795 - octal buffer, non-inverting, shared enable
 - Status: [x]
@@ -11080,7 +11080,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x807 - 1-to-10 clock driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x807
 - Aliases: none
 - Source section: Larger footprints
@@ -11093,7 +11093,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x807/tb_ttl_74x807.sv
 - README: rtl/chips/ttl_74x807/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x808 - hex 2-input AND drivers
 - Status: [x]
@@ -11144,7 +11144,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x817 - GTL+ to LV-TTL 1-to-6 fanout / LV-TTL to GTL+ 1-to-2 fanout driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x817
 - Aliases: none
 - Source section: Larger footprints
@@ -11157,10 +11157,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x817/tb_ttl_74x817.sv
 - README: rtl/chips/ttl_74x817/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x818 - 8-bit diagnostic register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x818
 - Aliases: none
 - Source section: Larger footprints
@@ -11173,10 +11173,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x818/tb_ttl_74x818.sv
 - README: rtl/chips/ttl_74x818/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x819 - 8-bit diagnostic / pipeline register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x819
 - Aliases: none
 - Source section: Larger footprints
@@ -11189,10 +11189,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x819/tb_ttl_74x819.sv
 - README: rtl/chips/ttl_74x819/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x821 - 10-bit bus interface flip-flop
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x821
 - Aliases: none
 - Source section: Larger footprints
@@ -11205,10 +11205,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x821/tb_ttl_74x821.sv
 - README: rtl/chips/ttl_74x821/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x822 - 10-bit bus interface flip-flop, inverting inputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x822
 - Aliases: none
 - Source section: Larger footprints
@@ -11221,7 +11221,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x822/tb_ttl_74x822.sv
 - README: rtl/chips/ttl_74x822/README.md
 - Notes:
-  - (none)
+  - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x823 - 9-bit D-type flip-flops, clear and clock enable inputs
 - Status: [ ]

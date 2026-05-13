@@ -14303,8 +14303,10 @@
     "pins": "20",
     "datasheet": "SN74LS794",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1984DatabookOCR#page/n433",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x794/ttl_74x794.sv",
     "testbench_path": "tb/chips/ttl_74x794/tb_ttl_74x794.sv",
     "readme_path": "rtl/chips/ttl_74x794/README.md"
@@ -14511,8 +14513,10 @@
     "pins": "20",
     "datasheet": "IDT74FCT807",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n569",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x807/ttl_74x807.sv",
     "testbench_path": "tb/chips/ttl_74x807/tb_ttl_74x807.sv",
     "readme_path": "rtl/chips/ttl_74x807/README.md"
@@ -14593,8 +14597,10 @@
     "pins": "(24)",
     "datasheet": "SN74GTLP817",
     "datasheet_url": "https://www.ti.com/lit/gpn/SN74GTLP817",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x817/ttl_74x817.sv",
     "testbench_path": "tb/chips/ttl_74x817/tb_ttl_74x817.sv",
     "readme_path": "rtl/chips/ttl_74x817/README.md"
@@ -14612,8 +14618,10 @@
     "pins": "24",
     "datasheet": "74ACT818",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n411",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x818/ttl_74x818.sv",
     "testbench_path": "tb/chips/ttl_74x818/tb_ttl_74x818.sv",
     "readme_path": "rtl/chips/ttl_74x818/README.md"
@@ -14631,8 +14639,10 @@
     "pins": "24",
     "datasheet": "SN74ALS819",
     "datasheet_url": "https://pdf1.alldatasheet.com/datasheet-pdf/view/466541/TI1/SN74ALS819.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x819/ttl_74x819.sv",
     "testbench_path": "tb/chips/ttl_74x819/tb_ttl_74x819.sv",
     "readme_path": "rtl/chips/ttl_74x819/README.md"
@@ -14650,8 +14660,10 @@
     "pins": "24",
     "datasheet": "SN74AS821A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54as821a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x821/ttl_74x821.sv",
     "testbench_path": "tb/chips/ttl_74x821/tb_ttl_74x821.sv",
     "readme_path": "rtl/chips/ttl_74x821/README.md"
@@ -14669,8 +14681,10 @@
     "pins": "24",
     "datasheet": "SN74AS822",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n557",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+    ],
     "rtl_path": "rtl/chips/ttl_74x822/ttl_74x822.sv",
     "testbench_path": "tb/chips/ttl_74x822/tb_ttl_74x822.sv",
     "readme_path": "rtl/chips/ttl_74x822/README.md"
