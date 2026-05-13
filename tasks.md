@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1096
+- complete: 1097
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 12
+- not_started: 11
 
 ## Chips
 
@@ -24741,7 +24741,7 @@ IDT74FST3245
   - Bus buffer/driver OE_n. Verilator + Yosys clean.
 
 ### 74x1T126 - single-supply single buffer/driver with 3-state output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t126
 - Aliases: none
 - Source section: Voltage translation
@@ -24754,7 +24754,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t126/tb_ttl_74x1t126.sv
 - README: rtl/chips/ttl_74x1t126/README.md
 - Notes:
-  - (none)
+  - Bus buffer/driver OE. Verilator + Yosys clean.
 
 ### 74x1T157 - single-supply 2-input schmitt-trigger multiplexer (non-inverted)
 - Status: [ ]
