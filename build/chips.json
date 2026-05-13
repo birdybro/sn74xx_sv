@@ -22946,8 +22946,10 @@
     "pins": "(24)",
     "datasheet": "74LVX4245",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCROSSVOLTLowVoltageLogicSeriesDatabook_18426235/page/n135",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logically identical to 74x245; voltage translation not modeled. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4245/ttl_74x4245.sv",
     "testbench_path": "tb/chips/ttl_74x4245/tb_ttl_74x4245.sv",
     "readme_path": "rtl/chips/ttl_74x4245/README.md"
