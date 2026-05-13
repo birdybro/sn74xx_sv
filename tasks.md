@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1078
+- complete: 1079
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 30
+- not_started: 29
 
 ## Chips
 
@@ -24098,7 +24098,7 @@ IDT74FST3245
   - Dual configurable 7-function gate; requires datasheet
 
 ### 74x2G125 - dual bus buffer, active-low enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g125
 - Aliases: none
 - Source section: Smaller footprints
@@ -24111,7 +24111,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g125/tb_ttl_74x2g125.sv
 - README: rtl/chips/ttl_74x2g125/README.md
 - Notes:
-  - (none)
+  - Dual 3-state buffer, OE_n. Verilator + Yosys clean.
 
 ### 74x2G126 - dual bus buffer, active-high enable
 - Status: [ ]
