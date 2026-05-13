@@ -17525,8 +17525,10 @@
     "pins": "16",
     "datasheet": "SN74S1050",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74s1050",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1050/ttl_74x1050.sv",
     "testbench_path": "tb/chips/ttl_74x1050/tb_ttl_74x1050.sv",
     "readme_path": "rtl/chips/ttl_74x1050/README.md"
@@ -17544,8 +17546,10 @@
     "pins": "16",
     "datasheet": "SN74S1051",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74s1051",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1051/ttl_74x1051.sv",
     "testbench_path": "tb/chips/ttl_74x1051/tb_ttl_74x1051.sv",
     "readme_path": "rtl/chips/ttl_74x1051/README.md"
@@ -17563,8 +17567,10 @@
     "pins": "20",
     "datasheet": "SN74S1052",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-AdvancedLogicandBusInterfaceLogic1991OCR/page/n471",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1052/ttl_74x1052.sv",
     "testbench_path": "tb/chips/ttl_74x1052/tb_ttl_74x1052.sv",
     "readme_path": "rtl/chips/ttl_74x1052/README.md"
@@ -17582,8 +17588,10 @@
     "pins": "20",
     "datasheet": "SN74S1053",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74s1053",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1053/ttl_74x1053.sv",
     "testbench_path": "tb/chips/ttl_74x1053/tb_ttl_74x1053.sv",
     "readme_path": "rtl/chips/ttl_74x1053/README.md"
@@ -17601,8 +17609,10 @@
     "pins": "(16)",
     "datasheet": "SN74F1056",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74f1056",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1056/ttl_74x1056.sv",
     "testbench_path": "tb/chips/ttl_74x1056/tb_ttl_74x1056.sv",
     "readme_path": "rtl/chips/ttl_74x1056/README.md"
@@ -17620,8 +17630,10 @@
     "pins": "(14)",
     "datasheet": "SN74ACT1071",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act1071",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1071/ttl_74x1071.sv",
     "testbench_path": "tb/chips/ttl_74x1071/tb_ttl_74x1071.sv",
     "readme_path": "rtl/chips/ttl_74x1071/README.md"
@@ -17639,8 +17651,10 @@
     "pins": "(20)",
     "datasheet": "SN74ACT1073",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act1073",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1073/ttl_74x1073.sv",
     "testbench_path": "tb/chips/ttl_74x1073/tb_ttl_74x1073.sv",
     "readme_path": "rtl/chips/ttl_74x1073/README.md"
@@ -17677,8 +17691,10 @@
     "pins": "24",
     "datasheet": "SN74AS1181",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n503",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1181/ttl_74x1181.sv",
     "testbench_path": "tb/chips/ttl_74x1181/tb_ttl_74x1181.sv",
     "readme_path": "rtl/chips/ttl_74x1181/README.md"
@@ -17810,8 +17826,10 @@
     "pins": "20",
     "datasheet": "QS74FCT1280",
     "datasheet_url": "https://web.archive.org/web/20181117162114/https://4donline.ihs.com/images/VipMasterIC/IC/QSEM/QSEMD004/QSEMD004-3-71.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1280/ttl_74x1280.sv",
     "testbench_path": "tb/chips/ttl_74x1280/tb_ttl_74x1280.sv",
     "readme_path": "rtl/chips/ttl_74x1280/README.md"
@@ -17829,8 +17847,10 @@
     "pins": "20",
     "datasheet": "74HCT1284",
     "datasheet_url": "https://web.archive.org/web/20181011013652/http://pdf.datasheetcatalog.com/datasheet/philips/74HCT1284PW.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1284/ttl_74x1284.sv",
     "testbench_path": "tb/chips/ttl_74x1284/tb_ttl_74x1284.sv",
     "readme_path": "rtl/chips/ttl_74x1284/README.md"
@@ -17848,8 +17868,10 @@
     "pins": "(16)",
     "datasheet": "SN74GTLP1394",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtlp1394",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1394/ttl_74x1394.sv",
     "testbench_path": "tb/chips/ttl_74x1394/tb_ttl_74x1394.sv",
     "readme_path": "rtl/chips/ttl_74x1394/README.md"
@@ -17867,8 +17889,10 @@
     "pins": "(20)",
     "datasheet": "SN74GTLP1395",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtlp1395",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1395/ttl_74x1395.sv",
     "testbench_path": "tb/chips/ttl_74x1395/tb_ttl_74x1395.sv",
     "readme_path": "rtl/chips/ttl_74x1395/README.md"

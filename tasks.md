@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 672
-- blocked: 126
+- blocked: 138
 - digital_only_approximation: 27
-- not_started: 730
+- not_started: 718
 
 ## Chips
 
@@ -13386,7 +13386,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74x1050 - 12-bit Schottky diode bus termination array, clamp to GND
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1050
 - Aliases: none
 - Source section: Larger footprints
@@ -13399,10 +13399,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1050/tb_ttl_74x1050.sv
 - README: rtl/chips/ttl_74x1050/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1051 - 12-bit Schottky diode bus termination array, clamp to GND/V
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1051
 - Aliases: none
 - Source section: Larger footprints
@@ -13415,10 +13415,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1051/tb_ttl_74x1051.sv
 - README: rtl/chips/ttl_74x1051/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1052 - 16-bit Schottky diode bus termination array, clamp to GND
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1052
 - Aliases: none
 - Source section: Larger footprints
@@ -13431,10 +13431,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1052/tb_ttl_74x1052.sv
 - README: rtl/chips/ttl_74x1052/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1053 - 16-bit Schottky diode bus termination array, clamp to GND/V
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1053
 - Aliases: none
 - Source section: Larger footprints
@@ -13447,10 +13447,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1053/tb_ttl_74x1053.sv
 - README: rtl/chips/ttl_74x1053/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1056 - 8-bit Schottky diode bus termination array, clamp to GND
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1056
 - Aliases: none
 - Source section: Larger footprints
@@ -13463,10 +13463,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1056/tb_ttl_74x1056.sv
 - README: rtl/chips/ttl_74x1056/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1071 - 10-bit bus termination array with bus-hold function
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1071
 - Aliases: none
 - Source section: Larger footprints
@@ -13479,10 +13479,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1071/tb_ttl_74x1071.sv
 - README: rtl/chips/ttl_74x1071/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1073 - 16-bit bus termination array with bus-hold function
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1073
 - Aliases: none
 - Source section: Larger footprints
@@ -13495,7 +13495,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1073/tb_ttl_74x1073.sv
 - README: rtl/chips/ttl_74x1073/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1074 - dual D negative edge triggered flip-flop, asynchronous preset and clear
 - Status: [ ]
@@ -13514,7 +13514,7 @@ For every chip:
   - (none)
 
 ### 74x1181 - 4-bit arithmetic logic unit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1181
 - Aliases: none
 - Source section: Larger footprints
@@ -13527,7 +13527,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1181/tb_ttl_74x1181.sv
 - README: rtl/chips/ttl_74x1181/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1240 - octal buffer / line driver, inverting (lower-power version of 74x240)
 - Status: [ ]
@@ -13626,7 +13626,7 @@ For every chip:
   - (none)
 
 ### 74x1280 - 9-bit parity generator/checker with registered outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1280
 - Aliases: none
 - Source section: Larger footprints
@@ -13639,10 +13639,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1280/tb_ttl_74x1280.sv
 - README: rtl/chips/ttl_74x1280/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1284 - parallel printer interface transceiver / buffer (IEEE 1284)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1284
 - Aliases: none
 - Source section: Larger footprints
@@ -13655,10 +13655,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1284/tb_ttl_74x1284.sv
 - README: rtl/chips/ttl_74x1284/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1394 - 2-bit GTLP transceiver with split LV-TTL port
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1394
 - Aliases: none
 - Source section: Larger footprints
@@ -13671,10 +13671,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1394/tb_ttl_74x1394.sv
 - README: rtl/chips/ttl_74x1394/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1395 - Dual 1-bit GTLP transceiver with split LV-TTL port
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1395
 - Aliases: none
 - Source section: Larger footprints
@@ -13687,7 +13687,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1395/tb_ttl_74x1395.sv
 - README: rtl/chips/ttl_74x1395/README.md
 - Notes:
-  - (none)
+  - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1403 - 8-bit bus receiver plus 4-bit bus driver
 - Status: [ ]
