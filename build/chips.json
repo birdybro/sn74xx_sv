@@ -17017,8 +17017,10 @@
     "pins": "20",
     "datasheet": "SN74ALS991",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n473",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ALS990 datasheet family (SDAS027B); LE+/OERB control, Q always driven, only D-side is 3-state; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x991/ttl_74x991.sv",
     "testbench_path": "tb/chips/ttl_74x991/tb_ttl_74x991.sv",
     "readme_path": "rtl/chips/ttl_74x991/README.md"

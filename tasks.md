@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 653
+- complete: 654
 - blocked: 121
 - digital_only_approximation: 27
-- not_started: 754
+- not_started: 753
 
 ## Chips
 
@@ -13002,7 +13002,7 @@ For every chip:
   - Per SN74ALS990 datasheet family (SDAS027B); LE+/OERB control, Q always driven, only D-side is 3-state; Verilator lint+sim clean
 
 ### 74x991 - 8-bit D-type transparent read-back latch, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x991
 - Aliases: none
 - Source section: Larger footprints
@@ -13015,7 +13015,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x991/tb_ttl_74x991.sv
 - README: rtl/chips/ttl_74x991/README.md
 - Notes:
-  - (none)
+  - Per SN74ALS990 datasheet family (SDAS027B); LE+/OERB control, Q always driven, only D-side is 3-state; Verilator lint+sim clean
 
 ### 74x992 - 9-bit D-type transparent read-back latch, non-inverting
 - Status: [ ]
