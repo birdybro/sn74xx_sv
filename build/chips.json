@@ -27566,8 +27566,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "16-bit version of 74x543. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x16543/ttl_74x16543.sv",
     "testbench_path": "tb/chips/ttl_74x16543/tb_ttl_74x16543.sv",
     "readme_path": "rtl/chips/ttl_74x16543/README.md"

@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 983
+- complete: 984
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 160
+- not_started: 159
 
 ## Chips
 
@@ -21023,7 +21023,7 @@ IDT74FST3245
   - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x16543 - 16-bit registered tranceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16543
 - Aliases: none
 - Source section: Widebus devices
@@ -21036,7 +21036,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16543/tb_ttl_74x16543.sv
 - README: rtl/chips/ttl_74x16543/README.md
 - Notes:
-  - (none)
+  - 16-bit version of 74x543. Verilator + Yosys clean.
 
 ### 74x16600 - 18-bit universal bus transceiver (registered, active low clock)
 - Status: [!]
