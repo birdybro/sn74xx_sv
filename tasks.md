@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1056
+- complete: 1057
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 54
+- not_started: 53
 
 ## Chips
 
@@ -23890,7 +23890,7 @@ IDT74FST3245
   - (none)
 
 ### 74x2G32 - dual 2-input OR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g32
 - Aliases: none
 - Source section: Smaller footprints
@@ -23903,7 +23903,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g32/tb_ttl_74x2g32.sv
 - README: rtl/chips/ttl_74x2g32/README.md
 - Notes:
-  - (none)
+  - Dual 2-input OR. Verilator + Yosys clean.
 
 ### 74x2G34 - dual buffer gate
 - Status: [ ]
