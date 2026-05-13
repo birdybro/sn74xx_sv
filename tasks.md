@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 555
+- complete: 556
 - digital_only_approximation: 27
-- not_started: 973
+- not_started: 972
 
 ## Chips
 
@@ -9351,7 +9351,7 @@ For every chip:
   - Tests pass; Verilator + Yosys clean.
 
 ### 74x643 - octal bus transceiver, mix of inverting and non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x643
 - Aliases: none
 - Source section: Larger footprints
@@ -9364,7 +9364,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x643/tb_ttl_74x643.sv
 - README: rtl/chips/ttl_74x643/README.md
 - Notes:
-  - (none)
+  - A->B non-inverting, B->A inverting; Verilator lint+sim clean (yosys not installed locally)
 
 ### 74x644 - octal bus transceiver, mix of inverting and non-inverting outputs
 - Status: [ ]
