@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 606
+- complete: 607
 - blocked: 57
 - digital_only_approximation: 27
-- not_started: 865
+- not_started: 864
 
 ## Chips
 
@@ -11112,7 +11112,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x810 - quad 2-input XNOR gates
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x810
 - Aliases: none
 - Source section: Larger footprints
@@ -11125,7 +11125,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x810/tb_ttl_74x810.sv
 - README: rtl/chips/ttl_74x810/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x811 - quad 2-input XNOR gates
 - Status: [ ]
