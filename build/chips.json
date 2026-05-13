@@ -14530,8 +14530,10 @@
     "pins": "20",
     "datasheet": "SN74AS808B",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74as808b",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x808/ttl_74x808.sv",
     "testbench_path": "tb/chips/ttl_74x808/tb_ttl_74x808.sv",
     "readme_path": "rtl/chips/ttl_74x808/README.md"

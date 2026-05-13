@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 605
+- complete: 606
 - blocked: 57
 - digital_only_approximation: 27
-- not_started: 866
+- not_started: 865
 
 ## Chips
 
@@ -11096,7 +11096,7 @@ For every chip:
   - (none)
 
 ### 74x808 - hex 2-input AND drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x808
 - Aliases: none
 - Source section: Larger footprints
@@ -11109,7 +11109,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x808/tb_ttl_74x808.sv
 - README: rtl/chips/ttl_74x808/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x810 - quad 2-input XNOR gates
 - Status: [ ]
