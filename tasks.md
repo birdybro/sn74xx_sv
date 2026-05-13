@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 863
+- complete: 864
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 323
+- not_started: 322
 
 ## Chips
 
@@ -17788,7 +17788,7 @@ IDT74FST3245
   - 4-bit binary up/down counter with sync load. Verilator + Yosys clean.
 
 ### 74x4518 - dual 4-bit synchronous decade counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4518
 - Aliases: none
 - Source section: Larger footprints
@@ -17801,7 +17801,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4518/tb_ttl_74x4518.sv
 - README: rtl/chips/ttl_74x4518/README.md
 - Notes:
-  - (none)
+  - Dual 4-bit BCD up counter. Verilator + Yosys clean.
 
 ### 74x4520 - dual 4-bit synchronous binary counter
 - Status: [ ]
