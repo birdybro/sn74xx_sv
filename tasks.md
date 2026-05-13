@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 557
+- complete: 558
 - digital_only_approximation: 27
-- not_started: 971
+- not_started: 970
 
 ## Chips
 
@@ -9383,7 +9383,7 @@ For every chip:
   - OC variant of 74x643; A->B non-inverting, B->A inverting; Verilator lint+sim clean
 
 ### 74x645 - octal bus transceiver, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x645
 - Aliases: none
 - Source section: Larger footprints
@@ -9396,7 +9396,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x645/tb_ttl_74x645.sv
 - README: rtl/chips/ttl_74x645/README.md
 - Notes:
-  - (none)
+  - Functional twin of 74x245; dir+oe_n control, non-inverting; Verilator lint+sim clean
 
 ### 74x646 - octal bus transceiver/latch/multiplexer, non-inverting outputs
 - Status: [ ]
