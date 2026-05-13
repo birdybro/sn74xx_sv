@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 824
+- complete: 825
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 375
+- not_started: 374
 
 ## Chips
 
@@ -16940,7 +16940,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3651 - 73728-bit FIFO memory (2048x36)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3651
 - Aliases: none
 - Source section: Larger footprints
@@ -16953,7 +16953,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3651/tb_ttl_74x3651.sv
 - README: rtl/chips/ttl_74x3651/README.md
 - Notes:
-  - (none)
+  - Generated via scripts/gen_fifo.py (2048x36). Verilator + Yosys clean.
 
 ### 74x3708 - 8192-bit PROM (1024x8)
 - Status: [ ]
