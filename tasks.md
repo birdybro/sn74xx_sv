@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1009
+- complete: 1010
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 115
+- not_started: 114
 
 ## Chips
 
@@ -23378,7 +23378,7 @@ IDT74FST3245
   - D-FF with async preset+clear. Verilator + Yosys clean.
 
 ### 74x1G79 - single positive-edge D flip-flop, Q output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g79
 - Aliases: none
 - Source section: Smaller footprints
@@ -23391,7 +23391,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g79/tb_ttl_74x1g79.sv
 - README: rtl/chips/ttl_74x1g79/README.md
 - Notes:
-  - (none)
+  - D-FF Q output only. Verilator + Yosys clean.
 
 ### 74x1G80 - single positive-edge D flip-flop, /Q output
 - Status: [ ]
