@@ -27482,8 +27482,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16524.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "18-bit version of 74x543. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x16524/ttl_74x16524.sv",
     "testbench_path": "tb/chips/ttl_74x16524/tb_ttl_74x16524.sv",
     "readme_path": "rtl/chips/ttl_74x16524/README.md"

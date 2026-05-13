@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 981
+- complete: 982
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 162
+- not_started: 161
 
 ## Chips
 
@@ -20959,7 +20959,7 @@ IDT74FST3245
   - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16524 - 18-bit registered bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16524
 - Aliases: none
 - Source section: Widebus devices
@@ -20972,7 +20972,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16524/tb_ttl_74x16524.sv
 - README: rtl/chips/ttl_74x16524/README.md
 - Notes:
-  - (none)
+  - 18-bit version of 74x543. Verilator + Yosys clean.
 
 ### 74x16525 - 18-bit registered bus transceiver
 - Status: [ ]
