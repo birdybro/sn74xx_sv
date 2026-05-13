@@ -24099,8 +24099,10 @@
     "pins": "14",
     "datasheet": "TC74HCT7007AP",
     "datasheet_url": "https://www.alldatasheet.com/datasheet-pdf/pdf/31796/TOSHIBA/TC74HCT7007AF.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex non-inverting buffer. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7007/ttl_74x7007.sv",
     "testbench_path": "tb/chips/ttl_74x7007/tb_ttl_74x7007.sv",
     "readme_path": "rtl/chips/ttl_74x7007/README.md"
