@@ -15376,8 +15376,10 @@
     "pins": "24",
     "datasheet": "SN74ALS869",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als869",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x869/ttl_74x869.sv",
     "testbench_path": "tb/chips/ttl_74x869/tb_ttl_74x869.sv",
     "readme_path": "rtl/chips/ttl_74x869/README.md"
@@ -15395,8 +15397,10 @@
     "pins": "24",
     "datasheet": "SN74AS870",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x870/ttl_74x870.sv",
     "testbench_path": "tb/chips/ttl_74x870/tb_ttl_74x870.sv",
     "readme_path": "rtl/chips/ttl_74x870/README.md"
@@ -15414,8 +15418,10 @@
     "pins": "28",
     "datasheet": "SN74AS871",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x871/ttl_74x871.sv",
     "testbench_path": "tb/chips/ttl_74x871/tb_ttl_74x871.sv",
     "readme_path": "rtl/chips/ttl_74x871/README.md"
@@ -15496,8 +15502,10 @@
     "pins": "24",
     "datasheet": "SN74AS877",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n663",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x877/ttl_74x877.sv",
     "testbench_path": "tb/chips/ttl_74x877/tb_ttl_74x877.sv",
     "readme_path": "rtl/chips/ttl_74x877/README.md"
@@ -15578,8 +15586,10 @@
     "pins": "24",
     "datasheet": "SN74AS881A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n681",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x881/ttl_74x881.sv",
     "testbench_path": "tb/chips/ttl_74x881/tb_ttl_74x881.sv",
     "readme_path": "rtl/chips/ttl_74x881/README.md"
@@ -15597,8 +15607,10 @@
     "pins": "24",
     "datasheet": "SN74AS882",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n683",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x882/ttl_74x882.sv",
     "testbench_path": "tb/chips/ttl_74x882/tb_ttl_74x882.sv",
     "readme_path": "rtl/chips/ttl_74x882/README.md"
@@ -15637,8 +15649,10 @@
     "pins": "(68)",
     "datasheet": "SN74AS887",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/1986_LSI_Logic/page/n277",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x887/ttl_74x887.sv",
     "testbench_path": "tb/chips/ttl_74x887/tb_ttl_74x887.sv",
     "readme_path": "rtl/chips/ttl_74x887/README.md"
@@ -15656,8 +15670,10 @@
     "pins": "64",
     "datasheet": "SN74AS888",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/1986_LSI_Logic/page/n325",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x888/ttl_74x888.sv",
     "testbench_path": "tb/chips/ttl_74x888/tb_ttl_74x888.sv",
     "readme_path": "rtl/chips/ttl_74x888/README.md"
@@ -15675,8 +15691,10 @@
     "pins": "(68)",
     "datasheet": "SN74AS889",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookuitsDataBook_32771470/page/n637",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x889/ttl_74x889.sv",
     "testbench_path": "tb/chips/ttl_74x889/tb_ttl_74x889.sv",
     "readme_path": "rtl/chips/ttl_74x889/README.md"
@@ -15694,8 +15712,10 @@
     "pins": "64",
     "datasheet": "SN74AS890",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n375",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x890/ttl_74x890.sv",
     "testbench_path": "tb/chips/ttl_74x890/tb_ttl_74x890.sv",
     "readme_path": "rtl/chips/ttl_74x890/README.md"
@@ -15713,8 +15733,10 @@
     "pins": "(68)",
     "datasheet": "SN74AS891",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookuitsDataBook_32771470/page/n685",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x891/ttl_74x891.sv",
     "testbench_path": "tb/chips/ttl_74x891/tb_ttl_74x891.sv",
     "readme_path": "rtl/chips/ttl_74x891/README.md"
@@ -15732,8 +15754,10 @@
     "pins": "(68)",
     "datasheet": "SN74AS895",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n393",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x895/ttl_74x895.sv",
     "testbench_path": "tb/chips/ttl_74x895/tb_ttl_74x895.sv",
     "readme_path": "rtl/chips/ttl_74x895/README.md"
@@ -15751,8 +15775,10 @@
     "pins": "(68)",
     "datasheet": "SN74AS897A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n443",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x897/ttl_74x897.sv",
     "testbench_path": "tb/chips/ttl_74x897/tb_ttl_74x897.sv",
     "readme_path": "rtl/chips/ttl_74x897/README.md"
@@ -15770,8 +15796,10 @@
     "pins": "(28)",
     "datasheet": "74AC899",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaFACTDatabook_39311242/page/n431",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x899/ttl_74x899.sv",
     "testbench_path": "tb/chips/ttl_74x899/tb_ttl_74x899.sv",
     "readme_path": "rtl/chips/ttl_74x899/README.md"

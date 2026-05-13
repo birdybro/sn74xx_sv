@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 637
-- blocked: 74
+- blocked: 88
 - digital_only_approximation: 27
-- not_started: 817
+- not_started: 803
 
 ## Chips
 
@@ -11738,7 +11738,7 @@ For every chip:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x869 - synchronous 8-bit up/down counter, synchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x869
 - Aliases: none
 - Source section: Larger footprints
@@ -11751,10 +11751,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x869/tb_ttl_74x869.sv
 - README: rtl/chips/ttl_74x869/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x870 - dual 16x4 register files
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x870
 - Aliases: none
 - Source section: Larger footprints
@@ -11767,10 +11767,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x870/tb_ttl_74x870.sv
 - README: rtl/chips/ttl_74x870/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x871 - dual 16x4 register files
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x871
 - Aliases: none
 - Source section: Larger footprints
@@ -11783,7 +11783,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x871/tb_ttl_74x871.sv
 - README: rtl/chips/ttl_74x871/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x873 - dual 4-bit transparent latch with clear
 - Status: [x]
@@ -11834,7 +11834,7 @@ For every chip:
   - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x877 - 8-bit universal transceiver port controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x877
 - Aliases: none
 - Source section: Larger footprints
@@ -11847,7 +11847,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x877/tb_ttl_74x877.sv
 - README: rtl/chips/ttl_74x877/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x878 - dual 4-bit D-type flip-flop, synchronous clear, non-inverting outputs
 - Status: [x]
@@ -11898,7 +11898,7 @@ For every chip:
   - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x881 - 4-bit arithmetic logic unit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x881
 - Aliases: none
 - Source section: Larger footprints
@@ -11911,10 +11911,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x881/tb_ttl_74x881.sv
 - README: rtl/chips/ttl_74x881/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x882 - 32-bit lookahead carry generator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x882
 - Aliases: none
 - Source section: Larger footprints
@@ -11927,7 +11927,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x882/tb_ttl_74x882.sv
 - README: rtl/chips/ttl_74x882/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x885 - 8-bit magnitude comparator
 - Status: [x]
@@ -11946,7 +11946,7 @@ For every chip:
   - 8-bit unsigned/two's complement magnitude comparator with P latch and cascade per SN74AS885 (SDAS236A); Verilator lint+sim clean
 
 ### 74x887 - 8-bit processor element (non-cascadable version of 74x888)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x887
 - Aliases: none
 - Source section: Larger footprints
@@ -11959,10 +11959,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x887/tb_ttl_74x887.sv
 - README: rtl/chips/ttl_74x887/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x888 - 8-bit processor slice
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x888
 - Aliases: none
 - Source section: Larger footprints
@@ -11975,10 +11975,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x888/tb_ttl_74x888.sv
 - README: rtl/chips/ttl_74x888/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x889 - 8-bit processor slice
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x889
 - Aliases: none
 - Source section: Larger footprints
@@ -11991,10 +11991,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x889/tb_ttl_74x889.sv
 - README: rtl/chips/ttl_74x889/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x890 - microoperation sequencer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x890
 - Aliases: none
 - Source section: Larger footprints
@@ -12007,10 +12007,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x890/tb_ttl_74x890.sv
 - README: rtl/chips/ttl_74x890/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x891 - microoperation sequencer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x891
 - Aliases: none
 - Source section: Larger footprints
@@ -12023,10 +12023,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x891/tb_ttl_74x891.sv
 - README: rtl/chips/ttl_74x891/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x895 - 8-bit memory address generator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x895
 - Aliases: none
 - Source section: Larger footprints
@@ -12039,10 +12039,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x895/tb_ttl_74x895.sv
 - README: rtl/chips/ttl_74x895/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x897 - 16-bit parallel/serial barrel shifter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x897
 - Aliases: none
 - Source section: Larger footprints
@@ -12055,10 +12055,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x897/tb_ttl_74x897.sv
 - README: rtl/chips/ttl_74x897/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x899 - 9-bit latchable transceiver with parity generator / checker
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x899
 - Aliases: none
 - Source section: Larger footprints
@@ -12071,7 +12071,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x899/tb_ttl_74x899.sv
 - README: rtl/chips/ttl_74x899/README.md
 - Notes:
-  - (none)
+  - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x900 - quad 2-input NAND gate
 - Status: [ ]
