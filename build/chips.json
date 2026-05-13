@@ -23009,8 +23009,10 @@
     "pins": "20",
     "datasheet": "MN74HC4303",
     "datasheet_url": "https://archive.org/details/bitsavers_panasonicdicHighSpeedCMOS_23161100/page/n421",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting 8-bit D-FF. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4303/ttl_74x4303.sv",
     "testbench_path": "tb/chips/ttl_74x4303/tb_ttl_74x4303.sv",
     "readme_path": "rtl/chips/ttl_74x4303/README.md"

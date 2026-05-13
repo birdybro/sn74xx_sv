@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 853
+- complete: 854
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 333
+- not_started: 332
 
 ## Chips
 
@@ -17548,7 +17548,7 @@ IDT74FST3245
   - Non-inverting 8-bit transparent latch. Verilator + Yosys clean.
 
 ### 74x4303 - 8-bit D-type flip-flop, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4303
 - Aliases: none
 - Source section: Larger footprints
@@ -17561,7 +17561,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4303/tb_ttl_74x4303.sv
 - README: rtl/chips/ttl_74x4303/README.md
 - Notes:
-  - (none)
+  - Inverting 8-bit D-FF. Verilator + Yosys clean.
 
 ### 74x4304 - 8-bit D-type flip-flop, non-inverting outputs
 - Status: [ ]
