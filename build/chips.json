@@ -24059,8 +24059,10 @@
     "pins": "14",
     "datasheet": "SN74HC7003",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n707",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 2-input NAND, = 74x00. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7003/ttl_74x7003.sv",
     "testbench_path": "tb/chips/ttl_74x7003/tb_ttl_74x7003.sv",
     "readme_path": "rtl/chips/ttl_74x7003/README.md"
