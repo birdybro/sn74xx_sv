@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 577
+- complete: 578
 - blocked: 17
 - digital_only_approximation: 27
-- not_started: 934
+- not_started: 933
 
 ## Chips
 
@@ -9976,7 +9976,7 @@ For every chip:
   - Separate G1 (P=Q) and G2 (P>Q) active-low enables; Verilator lint+sim clean
 
 ### 74x687 - 8-bit magnitude comparator, P>Q output, enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x687
 - Aliases: none
 - Source section: Larger footprints
@@ -9989,7 +9989,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x687/tb_ttl_74x687.sv
 - README: rtl/chips/ttl_74x687/README.md
 - Notes:
-  - (none)
+  - OC twin of 74x686; Verilator lint+sim clean
 
 ### 74x688 - 8-bit magnitude comparator, enable
 - Status: [ ]
