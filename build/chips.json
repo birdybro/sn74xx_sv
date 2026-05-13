@@ -14364,8 +14364,10 @@
     "pins": "20",
     "datasheet": "SN74LS797",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n437",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x797/ttl_74x797.sv",
     "testbench_path": "tb/chips/ttl_74x797/tb_ttl_74x797.sv",
     "readme_path": "rtl/chips/ttl_74x797/README.md"

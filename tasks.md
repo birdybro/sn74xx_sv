@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 598
+- complete: 599
 - blocked: 57
 - digital_only_approximation: 27
-- not_started: 873
+- not_started: 872
 
 ## Chips
 
@@ -10968,7 +10968,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x797 - octal buffer, non-inverting, enable for 4 buffers each
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x797
 - Aliases: none
 - Source section: Larger footprints
@@ -10981,7 +10981,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x797/tb_ttl_74x797.sv
 - README: rtl/chips/ttl_74x797/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x798 - octal buffer, inverting, enable for 4 buffers each
 - Status: [ ]
