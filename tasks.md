@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 723
+- complete: 724
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 625
+- not_started: 624
 
 ## Chips
 
@@ -21311,7 +21311,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16820 - 3.3-V 10-bit flip-flop with dual outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16820
 - Aliases: none
 - Source section: Widebus devices
@@ -21324,7 +21324,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16820/tb_ttl_74x16820.sv
 - README: rtl/chips/ttl_74x16820/README.md
 - Notes:
-  - (none)
+  - Widebus flop variant; Verilator lint+sim clean
 
 ### 74x16821 - 20-bit bus interface flip-flops
 - Status: [ ]

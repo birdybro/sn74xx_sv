@@ -27114,8 +27114,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16820.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus flop variant; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16820/ttl_74x16820.sv",
     "testbench_path": "tb/chips/ttl_74x16820/tb_ttl_74x16820.sv",
     "readme_path": "rtl/chips/ttl_74x16820/README.md"
