@@ -24710,8 +24710,10 @@
     "pins": "16",
     "datasheet": "M74HC7294",
     "datasheet_url": "https://pdf1.alldatasheet.com/datasheet-pdf/view/23075/STMICROELECTRONICS/M74HC7294.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Same as 74x7292. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7294/ttl_74x7294.sv",
     "testbench_path": "tb/chips/ttl_74x7294/tb_ttl_74x7294.sv",
     "readme_path": "rtl/chips/ttl_74x7294/README.md"

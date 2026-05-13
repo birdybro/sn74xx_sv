@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 915
+- complete: 916
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 254
+- not_started: 253
 
 ## Chips
 
@@ -18844,7 +18844,7 @@ IDT74FST3245
   - 32-bit programmable divider; flat binary divisor. Verilator + Yosys clean.
 
 ### 74x7294 - programmable divider/timer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7294
 - Aliases: none
 - Source section: Larger footprints
@@ -18857,7 +18857,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7294/tb_ttl_74x7294.sv
 - README: rtl/chips/ttl_74x7294/README.md
 - Notes:
-  - (none)
+  - Same as 74x7292. Verilator + Yosys clean.
 
 ### 74x7340 - 8-bit bus driver with bidirectional registers
 - Status: [x]
