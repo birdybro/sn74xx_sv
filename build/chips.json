@@ -22547,8 +22547,10 @@
     "pins": "16",
     "datasheet": "TC74HC4028P",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-067/DSA2IH00204191.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "BCD to 1-of-10 decoder; invalid codes drive all outputs low. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4028/ttl_74x4028.sv",
     "testbench_path": "tb/chips/ttl_74x4028/tb_ttl_74x4028.sv",
     "readme_path": "rtl/chips/ttl_74x4028/README.md"

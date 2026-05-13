@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 839
+- complete: 840
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 360
+- not_started: 359
 
 ## Chips
 
@@ -17196,7 +17196,7 @@ IDT74FST3245
   - 7-bit ripple binary counter (synthesizes to sync counter). Verilator + Yosys clean.
 
 ### 74x4028 - BCD to decimal decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4028
 - Aliases: none
 - Source section: Larger footprints
@@ -17209,7 +17209,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4028/tb_ttl_74x4028.sv
 - README: rtl/chips/ttl_74x4028/README.md
 - Notes:
-  - (none)
+  - BCD to 1-of-10 decoder; invalid codes drive all outputs low. Verilator + Yosys clean.
 
 ### 74x4040 - 12-stage binary ripple counter
 - Status: [ ]
