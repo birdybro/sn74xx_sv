@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 898
+- complete: 899
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 271
+- not_started: 270
 
 ## Chips
 
@@ -18684,7 +18684,7 @@ IDT74FST3245
   - 4096x9 FIFO via gen_fifo.py. Verilator + Yosys clean.
 
 ### 74HCU7204 - dual unbuffered inverters
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74hcu7204
 - Aliases: none
 - Source section: Larger footprints
@@ -18697,7 +18697,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74hcu7204/tb_ttl_74hcu7204.sv
 - README: rtl/chips/ttl_74hcu7204/README.md
 - Notes:
-  - (none)
+  - Dual inverters; unbuffered CMOS not modeled. Verilator + Yosys clean.
 
 ### 74x7205 - 73728-bit FIFO memory (8192x9)
 - Status: [x]

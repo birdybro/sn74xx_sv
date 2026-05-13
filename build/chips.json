@@ -24500,8 +24500,10 @@
     "pins": "(8)",
     "datasheet": "SN74HCU7204",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hcu7204",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual inverters; unbuffered CMOS not modeled. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74hcu7204/ttl_74hcu7204.sv",
     "testbench_path": "tb/chips/ttl_74hcu7204/tb_ttl_74hcu7204.sv",
     "readme_path": "rtl/chips/ttl_74hcu7204/README.md"
