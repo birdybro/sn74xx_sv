@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 1023
-- blocked: 404
+- blocked: 406
 - digital_only_approximation: 27
-- not_started: 101
+- not_started: 99
 
 ## Chips
 
@@ -23666,7 +23666,7 @@ IDT74FST3245
   - D-FF with OE. Verilator + Yosys clean.
 
 ### 74x1G384 - single FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g384
 - Aliases: none
 - Source section: Smaller footprints
@@ -23679,7 +23679,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g384/tb_ttl_74x1g384.sv
 - README: rtl/chips/ttl_74x1g384/README.md
 - Notes:
-  - (none)
+  - Single FET bus switch; analog FET switch
 
 ### 74x1G386 - single 3-input XOR gate (a.k.a. 3-bit even-parity generator)
 - Status: [ ]
@@ -23714,7 +23714,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1G3157 - single SPDT analog switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1g3157
 - Aliases: none
 - Source section: Smaller footprints
@@ -23727,7 +23727,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g3157/tb_ttl_74x1g3157.sv
 - README: rtl/chips/ttl_74x1g3157/README.md
 - Notes:
-  - (none)
+  - Single SPDT analog switch; CMOS transmission gate
 
 ### 74x1G3208 - single 3-input OR-AND combo gate (2-input OR into 2-input AND)
 - Status: [ ]

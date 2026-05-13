@@ -30987,8 +30987,10 @@
     "pins": "5",
     "datasheet": "CBT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Single FET bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g384/ttl_74x1g384.sv",
     "testbench_path": "tb/chips/ttl_74x1g384/tb_ttl_74x1g384.sv",
     "readme_path": "rtl/chips/ttl_74x1g384/README.md"
@@ -31044,8 +31046,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc1g3157",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Single SPDT analog switch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g3157/ttl_74x1g3157.sv",
     "testbench_path": "tb/chips/ttl_74x1g3157/tb_ttl_74x1g3157.sv",
     "readme_path": "rtl/chips/ttl_74x1g3157/README.md"
