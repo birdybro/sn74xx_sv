@@ -32522,8 +32522,10 @@
     "pins": "16",
     "datasheet": "AVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avc4t234.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual-supply 4-bit bus xceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4t234/ttl_74x4t234.sv",
     "testbench_path": "tb/chips/ttl_74x4t234/tb_ttl_74x4t234.sv",
     "readme_path": "rtl/chips/ttl_74x4t234/README.md"
