@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 988
-- blocked: 385
+- blocked: 395
 - digital_only_approximation: 27
-- not_started: 155
+- not_started: 145
 
 ## Chips
 
@@ -22399,7 +22399,7 @@ IDT74FST3245
   - Scan test device with 18-bit universal bus transceiver; specialized scan logic requires datasheet
 
 ### 74x18640 - scan test devices with 18-bit inverting bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18640
 - Aliases: none
 - Source section: Widebus devices
@@ -22412,10 +22412,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18640/tb_ttl_74x18640.sv
 - README: rtl/chips/ttl_74x18640/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit inverting transceiver; scan logic requires datasheet
 
 ### 74x18646 - scan test devices with 18-bit transceivers and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18646
 - Aliases: none
 - Source section: Widebus devices
@@ -22428,10 +22428,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18646/tb_ttl_74x18646.sv
 - README: rtl/chips/ttl_74x18646/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit transceiver+registers; scan logic requires datasheet
 
 ### 74x18652 - scan test devices with 18-bit transceivers and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18652
 - Aliases: none
 - Source section: Widebus devices
@@ -22444,10 +22444,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18652/tb_ttl_74x18652.sv
 - README: rtl/chips/ttl_74x18652/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit transceiver+registers; scan logic requires datasheet
 
 ### 74x182502 - scan test devices with 18-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x182502
 - Aliases: none
 - Source section: Widebus devices
@@ -22460,10 +22460,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x182502/tb_ttl_74x182502.sv
 - README: rtl/chips/ttl_74x182502/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit universal transceiver; scan logic requires datasheet
 
 ### 74x182504 - scan test devices with 20-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x182504
 - Aliases: none
 - Source section: Widebus devices
@@ -22476,10 +22476,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x182504/tb_ttl_74x182504.sv
 - README: rtl/chips/ttl_74x182504/README.md
 - Notes:
-  - (none)
+  - Scan test device 20-bit universal transceiver; scan logic requires datasheet
 
 ### 74x182512 - scan test devices with 18-bit universal bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x182512
 - Aliases: none
 - Source section: Widebus devices
@@ -22492,10 +22492,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x182512/tb_ttl_74x182512.sv
 - README: rtl/chips/ttl_74x182512/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit universal transceiver; scan logic requires datasheet
 
 ### 74x182646 - scan test devices with 18-bit transceivers and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x182646
 - Aliases: none
 - Source section: Widebus devices
@@ -22508,10 +22508,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x182646/tb_ttl_74x182646.sv
 - README: rtl/chips/ttl_74x182646/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit transceiver+registers; scan logic requires datasheet
 
 ### 74x182652 - scan test devices with 18-bit transceivers and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x182652
 - Aliases: none
 - Source section: Widebus devices
@@ -22524,7 +22524,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x182652/tb_ttl_74x182652.sv
 - README: rtl/chips/ttl_74x182652/README.md
 - Notes:
-  - (none)
+  - Scan test device 18-bit transceiver+registers; scan logic requires datasheet
 
 ### 74x20245 - 20-bit dual supply bus transceiver
 - Status: [ ]
@@ -22543,7 +22543,7 @@ IDT74FST3245
   - (none)
 
 ### 74x22033 - 8-bit LVTTL-to-GTLP adjustable edge rate registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x22033
 - Aliases: none
 - Source section: Widebus devices
@@ -22556,7 +22556,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x22033/tb_ttl_74x22033.sv
 - README: rtl/chips/ttl_74x22033/README.md
 - Notes:
-  - (none)
+  - LVTTL-to-GTLP adjustable edge rate transceiver; physical signaling-level translation
 
 ### 74x22501 - 8-bit universal bus transceiver and two 1-bit bus transceivers
 - Status: [ ]
@@ -23042,7 +23042,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1GX04 - single crystal oscillator driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1gx04
 - Aliases: none
 - Source section: Smaller footprints
@@ -23055,7 +23055,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1gx04/tb_ttl_74x1gx04.sv
 - README: rtl/chips/ttl_74x1gx04/README.md
 - Notes:
-  - (none)
+  - Single crystal oscillator driver; analog oscillator
 
 ### 74x1G06 - single inverter gate
 - Status: [ ]

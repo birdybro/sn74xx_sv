@@ -29372,8 +29372,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abt18640.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit inverting transceiver; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18640/ttl_74x18640.sv",
     "testbench_path": "tb/chips/ttl_74x18640/tb_ttl_74x18640.sv",
     "readme_path": "rtl/chips/ttl_74x18640/README.md"
@@ -29391,8 +29393,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18646a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit transceiver+registers; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18646/ttl_74x18646.sv",
     "testbench_path": "tb/chips/ttl_74x18646/tb_ttl_74x18646.sv",
     "readme_path": "rtl/chips/ttl_74x18646/README.md"
@@ -29410,8 +29414,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18652a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit transceiver+registers; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18652/ttl_74x18652.sv",
     "testbench_path": "tb/chips/ttl_74x18652/tb_ttl_74x18652.sv",
     "readme_path": "rtl/chips/ttl_74x18652/README.md"
@@ -29429,8 +29435,10 @@
     "pins": "(64)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avca164245.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit universal transceiver; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x182502/ttl_74x182502.sv",
     "testbench_path": "tb/chips/ttl_74x182502/tb_ttl_74x182502.sv",
     "readme_path": "rtl/chips/ttl_74x182502/README.md"
@@ -29448,8 +29456,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avca164245.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 20-bit universal transceiver; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x182504/ttl_74x182504.sv",
     "testbench_path": "tb/chips/ttl_74x182504/tb_ttl_74x182504.sv",
     "readme_path": "rtl/chips/ttl_74x182504/README.md"
@@ -29467,8 +29477,10 @@
     "pins": "64",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18512.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit universal transceiver; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x182512/ttl_74x182512.sv",
     "testbench_path": "tb/chips/ttl_74x182512/tb_ttl_74x182512.sv",
     "readme_path": "rtl/chips/ttl_74x182512/README.md"
@@ -29486,8 +29498,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18646a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit transceiver+registers; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x182646/ttl_74x182646.sv",
     "testbench_path": "tb/chips/ttl_74x182646/tb_ttl_74x182646.sv",
     "readme_path": "rtl/chips/ttl_74x182646/README.md"
@@ -29505,8 +29519,10 @@
     "pins": "(64)",
     "datasheet": "LVTH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvth18652a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Scan test device 18-bit transceiver+registers; scan logic requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x182652/ttl_74x182652.sv",
     "testbench_path": "tb/chips/ttl_74x182652/tb_ttl_74x182652.sv",
     "readme_path": "rtl/chips/ttl_74x182652/README.md"
@@ -29543,8 +29559,10 @@
     "pins": "48",
     "datasheet": "GTLP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtlp22033.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "LVTTL-to-GTLP adjustable edge rate transceiver; physical signaling-level translation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x22033/ttl_74x22033.sv",
     "testbench_path": "tb/chips/ttl_74x22033/tb_ttl_74x22033.sv",
     "readme_path": "rtl/chips/ttl_74x22033/README.md"
@@ -30138,8 +30156,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=98",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Single crystal oscillator driver; analog oscillator"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1gx04/ttl_74x1gx04.sv",
     "testbench_path": "tb/chips/ttl_74x1gx04/tb_ttl_74x1gx04.sv",
     "readme_path": "rtl/chips/ttl_74x1gx04/README.md"
