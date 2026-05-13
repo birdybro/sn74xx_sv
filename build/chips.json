@@ -30357,8 +30357,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G17.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single buffer with 3-state output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g17/ttl_74x1g17.sv",
     "testbench_path": "tb/chips/ttl_74x1g17/tb_ttl_74x1g17.sv",
     "readme_path": "rtl/chips/ttl_74x1g17/README.md"
