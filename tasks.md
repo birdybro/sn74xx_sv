@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 857
+- complete: 858
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 329
+- not_started: 328
 
 ## Chips
 
@@ -17676,7 +17676,7 @@ IDT74FST3245
   - Triple 2-channel analog multiplexer with latch; CMOS transmission gate
 
 ### 74x4374 - 8-bit dual-rank synchronizer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4374
 - Aliases: none
 - Source section: Larger footprints
@@ -17689,7 +17689,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4374/tb_ttl_74x4374.sv
 - README: rtl/chips/ttl_74x4374/README.md
 - Notes:
-  - (none)
+  - 8-bit dual-rank synchronizer (2 stage cascade). Verilator + Yosys clean.
 
 ### 74x4503 - controller for 64k/256k/1M dynamic RAM
 - Status: [!]
