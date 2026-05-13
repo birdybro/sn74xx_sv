@@ -13799,8 +13799,10 @@
     "pins": "20",
     "datasheet": "title=TTL-Taschenbuch, Teil 3 |trans-title=TTL Pocket Reference, Part 3 |language=de |publisher=mitp-Verlag |place=Bonn |date=2002 |isbn=3-8266-0802-X}}</ref>",
     "datasheet_url": "http://www.reniemarquet.com/kicad/libs/o_ttl.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Functional twin of 74x240; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x742/ttl_74x742.sv",
     "testbench_path": "tb/chips/ttl_74x742/tb_ttl_74x742.sv",
     "readme_path": "rtl/chips/ttl_74x742/README.md"
