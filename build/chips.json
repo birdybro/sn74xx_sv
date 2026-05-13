@@ -26117,8 +26117,10 @@
     "pins": "(44)",
     "datasheet": "74F8963",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F8962_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit non-inverting latched bidir transceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8963/ttl_74x8963.sv",
     "testbench_path": "tb/chips/ttl_74x8963/tb_ttl_74x8963.sv",
     "readme_path": "rtl/chips/ttl_74x8963/README.md"
