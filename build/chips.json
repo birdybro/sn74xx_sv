@@ -25088,8 +25088,10 @@
     "pins": "(56)",
     "datasheet": "SN74ACT7806",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDataBook400_13134187/page/n139",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "256x18 FIFO. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7806/ttl_74x7806.sv",
     "testbench_path": "tb/chips/ttl_74x7806/tb_ttl_74x7806.sv",
     "readme_path": "rtl/chips/ttl_74x7806/README.md"
