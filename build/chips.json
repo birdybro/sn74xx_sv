@@ -16825,8 +16825,10 @@
     "pins": "40",
     "datasheet": "MM74C956",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1357",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "4-digit 17-segment alphanumeric LED display driver; segment-decoder ROM and pinout are part-specific and not in Wikipedia"
+    ],
     "rtl_path": "rtl/chips/ttl_74c956/ttl_74c956.sv",
     "testbench_path": "tb/chips/ttl_74c956/tb_ttl_74c956.sv",
     "readme_path": "rtl/chips/ttl_74c956/README.md"
@@ -17961,8 +17963,10 @@
     "pins": "(8)",
     "datasheet": "SN74LVC1404",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74lvc1404",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Oscillator driver; physical/analog crystal-oscillator buffer with no clocked logic to model"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1404/ttl_74x1404.sv",
     "testbench_path": "tb/chips/ttl_74x1404/tb_ttl_74x1404.sv",
     "readme_path": "rtl/chips/ttl_74x1404/README.md"
@@ -18631,8 +18635,10 @@
     "pins": "24",
     "datasheet": "74LS1801",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-002/Scans-0052487.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FM/MFM/DM disk encoder/decoder; analog/timing-heavy floppy data separator requires WD/Intel datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1801/ttl_74x1801.sv",
     "testbench_path": "tb/chips/ttl_74x1801/tb_ttl_74x1801.sv",
     "readme_path": "rtl/chips/ttl_74x1801/README.md"
@@ -18650,8 +18656,10 @@
     "pins": "48",
     "datasheet": "74LS1802",
     "datasheet_url": "https://web.archive.org/web/20181004225845/https://4donline.ihs.com/images/VipMasterIC/IC/SIGC/SIGCD005/SIGCD005-7-26.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "SerDes with ECC and CRC; complex serial protocol requires part-specific datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1802/ttl_74x1802.sv",
     "testbench_path": "tb/chips/ttl_74x1802/tb_ttl_74x1802.sv",
     "readme_path": "rtl/chips/ttl_74x1802/README.md"
@@ -18753,8 +18761,10 @@
     "pins": "24",
     "datasheet": "74LS1811",
     "datasheet_url": "https://web.archive.org/web/20181004225836/https://4donline.ihs.com/images/VipMasterIC/IC/SIGC/SIGCD005/SIGCD005-7-36.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FM/MFM/DM disk encoder/decoder (faster); same blocker as 74x1801"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1811/ttl_74x1811.sv",
     "testbench_path": "tb/chips/ttl_74x1811/tb_ttl_74x1811.sv",
     "readme_path": "rtl/chips/ttl_74x1811/README.md"
@@ -18772,8 +18782,10 @@
     "pins": "48",
     "datasheet": "74LS1812",
     "datasheet_url": "https://web.archive.org/web/20181004225858/https://4donline.ihs.com/images/VipMasterIC/IC/SIGC/SIGCD005/SIGCD005-7-37.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "SerDes with ECC and CRC (faster); same blocker as 74x1802"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1812/ttl_74x1812.sv",
     "testbench_path": "tb/chips/ttl_74x1812/tb_ttl_74x1812.sv",
     "readme_path": "rtl/chips/ttl_74x1812/README.md"

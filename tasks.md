@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 786
-- blocked: 291
+- blocked: 297
 - digital_only_approximation: 27
-- not_started: 451
+- not_started: 445
 
 ## Chips
 
@@ -12842,7 +12842,7 @@ For every chip:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74C956 - 4-digit, 17-segment alpha-numeric LED display driver with memory and decoder
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74c956
 - Aliases: none
 - Source section: Larger footprints
@@ -12855,7 +12855,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74c956/tb_ttl_74c956.sv
 - README: rtl/chips/ttl_74c956/README.md
 - Notes:
-  - (none)
+  - 4-digit 17-segment alphanumeric LED display driver; segment-decoder ROM and pinout are part-specific and not in Wikipedia
 
 ### 74BCT956 - octal bus transceiver and latch
 - Status: [x]
@@ -13706,7 +13706,7 @@ For every chip:
   - Behavioral: 8-bit registered receiver + 4-bit registered driver, each with its own clock/OE. Verilator + Yosys clean.
 
 ### 74x1404 - oscillator driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1404
 - Aliases: none
 - Source section: Larger footprints
@@ -13719,7 +13719,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1404/tb_ttl_74x1404.sv
 - README: rtl/chips/ttl_74x1404/README.md
 - Notes:
-  - (none)
+  - Oscillator driver; physical/analog crystal-oscillator buffer with no clocked logic to model
 
 ### 74x1604 - dual 8-bit transparent latch with output multiplexer
 - Status: [!]
@@ -14218,7 +14218,7 @@ For every chip:
   - Synchronous 8-bit up/down counter with load + async clear + ripple-carry. Verilator + Yosys clean.
 
 ### 74x1801 - FM, MFM, and DM encoder / decoder, data rates up to 10 MHz
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1801
 - Aliases: none
 - Source section: Larger footprints
@@ -14231,10 +14231,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1801/tb_ttl_74x1801.sv
 - README: rtl/chips/ttl_74x1801/README.md
 - Notes:
-  - (none)
+  - FM/MFM/DM disk encoder/decoder; analog/timing-heavy floppy data separator requires WD/Intel datasheet
 
 ### 74x1802 - SerDes with ECC and CRC, data rates up to 10 MHz
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1802
 - Aliases: none
 - Source section: Larger footprints
@@ -14247,7 +14247,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1802/tb_ttl_74x1802.sv
 - README: rtl/chips/ttl_74x1802/README.md
 - Notes:
-  - (none)
+  - SerDes with ECC and CRC; complex serial protocol requires part-specific datasheet
 
 ### 74x1803 - quad clock driver
 - Status: [x]
@@ -14314,7 +14314,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x1811 - FM, MFM, and DM encoder / decoder, data rates up to 20 MHz
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1811
 - Aliases: none
 - Source section: Larger footprints
@@ -14327,10 +14327,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1811/tb_ttl_74x1811.sv
 - README: rtl/chips/ttl_74x1811/README.md
 - Notes:
-  - (none)
+  - FM/MFM/DM disk encoder/decoder (faster); same blocker as 74x1801
 
 ### 74x1812 - SerDes with ECC and CRC, data rates up to 30 MHz
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1812
 - Aliases: none
 - Source section: Larger footprints
@@ -14343,7 +14343,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1812/tb_ttl_74x1812.sv
 - README: rtl/chips/ttl_74x1812/README.md
 - Notes:
-  - (none)
+  - SerDes with ECC and CRC (faster); same blocker as 74x1802
 
 ### 74x1821 - 10-bit bus interface flip-flops
 - Status: [x]
