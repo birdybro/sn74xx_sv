@@ -20947,8 +20947,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2823T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n435",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit D-FF with async clear and 3-state output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2823/ttl_74x2823.sv",
     "testbench_path": "tb/chips/ttl_74x2823/tb_ttl_74x2823.sv",
     "readme_path": "rtl/chips/ttl_74x2823/README.md"

@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 798
+- complete: 799
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 433
+- not_started: 432
 
 ## Chips
 
@@ -15978,7 +15978,7 @@ For every chip:
   - 10-bit D-FF with 3-state output. Verilator + Yosys clean.
 
 ### 74x2823 - 9-bit D-type flip-flop with clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2823
 - Aliases: none
 - Source section: Larger footprints
@@ -15991,7 +15991,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2823/tb_ttl_74x2823.sv
 - README: rtl/chips/ttl_74x2823/README.md
 - Notes:
-  - (none)
+  - 9-bit D-FF with async clear and 3-state output. Verilator + Yosys clean.
 
 ### 74x2825 - 8-bit D-type flip-flop with clear and clock enable
 - Status: [ ]
