@@ -31724,8 +31724,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G0604.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual inverter (one OD). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g0604/ttl_74x2g0604.sv",
     "testbench_path": "tb/chips/ttl_74x2g0604/tb_ttl_74x2g0604.sv",
     "readme_path": "rtl/chips/ttl_74x2g0604/README.md"
