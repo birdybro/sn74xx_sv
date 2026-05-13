@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 737
+- complete: 738
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 561
+- not_started: 560
 
 ## Chips
 
@@ -14282,7 +14282,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x1805 - hex 2-input NOR
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1805
 - Aliases: none
 - Source section: Larger footprints
@@ -14295,7 +14295,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1805/tb_ttl_74x1805.sv
 - README: rtl/chips/ttl_74x1805/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x1808 - hex 2-input AND
 - Status: [ ]
