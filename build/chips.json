@@ -24395,8 +24395,10 @@
     "pins": "28",
     "datasheet": "SN74ACT7200L",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDataBook_33517703/page/n695",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "256x9 FIFO via gen_fifo.py. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7200/ttl_74x7200.sv",
     "testbench_path": "tb/chips/ttl_74x7200/tb_ttl_74x7200.sv",
     "readme_path": "rtl/chips/ttl_74x7200/README.md"

@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 890
+- complete: 891
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 279
+- not_started: 278
 
 ## Chips
 
@@ -18604,7 +18604,7 @@ IDT74FST3245
   - Quad adjustable comparator with output latches; analog comparator
 
 ### 74x7200 - 2304-bit FIFO memory (256x9)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7200
 - Aliases: none
 - Source section: Larger footprints
@@ -18617,7 +18617,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7200/tb_ttl_74x7200.sv
 - README: rtl/chips/ttl_74x7200/README.md
 - Notes:
-  - (none)
+  - 256x9 FIFO via gen_fifo.py. Verilator + Yosys clean.
 
 ### 74x7201 - 4608-bit FIFO memory (512x9)
 - Status: [ ]
