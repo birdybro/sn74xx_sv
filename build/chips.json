@@ -19362,8 +19362,10 @@
     "pins": "(16)",
     "datasheet": "CD74FCT2157",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n197",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "FCT mux twin of 74x15x; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74fct2157/ttl_74fct2157.sv",
     "testbench_path": "tb/chips/ttl_74fct2157/tb_ttl_74fct2157.sv",
     "readme_path": "rtl/chips/ttl_74fct2157/README.md"

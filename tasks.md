@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 761
+- complete: 762
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 537
+- not_started: 536
 
 ## Chips
 
@@ -14842,7 +14842,7 @@ For every chip:
   - (none)
 
 ### 74FCT2157 - quad 2-line to 1-line multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74fct2157
 - Aliases: none
 - Source section: Larger footprints
@@ -14855,7 +14855,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74fct2157/tb_ttl_74fct2157.sv
 - README: rtl/chips/ttl_74fct2157/README.md
 - Notes:
-  - (none)
+  - FCT mux twin of 74x15x; Verilator lint+sim clean
 
 ### 74x2158 - 8k x 9 cache address comparator
 - Status: [ ]
