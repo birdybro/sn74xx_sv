@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 775
+- complete: 776
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 467
+- not_started: 466
 
 ## Chips
 
@@ -15818,7 +15818,7 @@ For every chip:
   - Logically identical to 74x643; MOS drive strength not modeled. Verilator + Yosys clean.
 
 ### 74x2645 - octal bus transceiver / MOS driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2645
 - Aliases: none
 - Source section: Larger footprints
@@ -15831,7 +15831,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2645/tb_ttl_74x2645.sv
 - README: rtl/chips/ttl_74x2645/README.md
 - Notes:
-  - (none)
+  - Logically identical to 74x645; MOS drive strength not modeled. Verilator + Yosys clean.
 
 ### 74x2646 - octal registered transceiver, non-inverting
 - Status: [ ]

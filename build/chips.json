@@ -20695,8 +20695,10 @@
     "pins": "20",
     "datasheet": "SN74AS2645",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n767",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logically identical to 74x645; MOS drive strength not modeled. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2645/ttl_74x2645.sv",
     "testbench_path": "tb/chips/ttl_74x2645/tb_ttl_74x2645.sv",
     "readme_path": "rtl/chips/ttl_74x2645/README.md"
