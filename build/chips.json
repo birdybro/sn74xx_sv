@@ -24689,8 +24689,10 @@
     "pins": "16",
     "datasheet": "TC74HC7292AP",
     "datasheet_url": "https://pdf1.alldatasheet.com/datasheet-pdf/view/31771/TOSHIBA/TC74HC7292AP.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "32-bit programmable divider; flat binary divisor. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7292/ttl_74x7292.sv",
     "testbench_path": "tb/chips/ttl_74x7292/tb_ttl_74x7292.sv",
     "readme_path": "rtl/chips/ttl_74x7292/README.md"

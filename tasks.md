@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 914
+- complete: 915
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 255
+- not_started: 254
 
 ## Chips
 
@@ -18828,7 +18828,7 @@ IDT74FST3245
   - Octal D-FF with async reset, = 74x273. Verilator + Yosys clean.
 
 ### 74x7292 - programmable divider/timer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7292
 - Aliases: none
 - Source section: Larger footprints
@@ -18841,7 +18841,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7292/tb_ttl_74x7292.sv
 - README: rtl/chips/ttl_74x7292/README.md
 - Notes:
-  - (none)
+  - 32-bit programmable divider; flat binary divisor. Verilator + Yosys clean.
 
 ### 74x7294 - programmable divider/timer
 - Status: [ ]
