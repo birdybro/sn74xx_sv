@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 726
+- complete: 727
 - blocked: 208
 - digital_only_approximation: 27
-- not_started: 594
+- not_started: 593
 
 ## Chips
 
@@ -22031,7 +22031,7 @@ IDT74FST3245
   - (none)
 
 ### 74x162541 - 3.3-V ABT 16-bit buffers/drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162541
 - Aliases: none
 - Source section: Widebus devices
@@ -22044,7 +22044,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162541/tb_ttl_74x162541.sv
 - README: rtl/chips/ttl_74x162541/README.md
 - Notes:
-  - (none)
+  - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162543 - 16-bit latched transceiver
 - Status: [ ]
