@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 992
+- complete: 993
 - blocked: 395
 - digital_only_approximation: 27
-- not_started: 141
+- not_started: 140
 
 ## Chips
 
@@ -23058,7 +23058,7 @@ IDT74FST3245
   - Single crystal oscillator driver; analog oscillator
 
 ### 74x1G06 - single inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g06
 - Aliases: none
 - Source section: Smaller footprints
@@ -23071,7 +23071,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g06/tb_ttl_74x1g06.sv
 - README: rtl/chips/ttl_74x1g06/README.md
 - Notes:
-  - (none)
+  - Single inverter (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x1G07 - single buffer gate
 - Status: [ ]

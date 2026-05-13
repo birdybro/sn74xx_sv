@@ -30185,8 +30185,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G06.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single inverter (open-drain not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g06/ttl_74x1g06.sv",
     "testbench_path": "tb/chips/ttl_74x1g06/tb_ttl_74x1g06.sv",
     "readme_path": "rtl/chips/ttl_74x1g06/README.md"
