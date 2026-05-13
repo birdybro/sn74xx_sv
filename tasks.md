@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1082
+- complete: 1083
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 26
+- not_started: 25
 
 ## Chips
 
@@ -24178,7 +24178,7 @@ IDT74FST3245
   - Dual inverting buffer with OE_n. Verilator + Yosys clean.
 
 ### 74x2G241 - dual bus buffer gate, active-low and active-high enables
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g241
 - Aliases: none
 - Source section: Smaller footprints
@@ -24191,7 +24191,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g241/tb_ttl_74x2g241.sv
 - README: rtl/chips/ttl_74x2g241/README.md
 - Notes:
-  - (none)
+  - Dual buffer with split active-low/high enables. Verilator + Yosys clean.
 
 ### 74x2G0604 - dual inverter gate (one open-drain)
 - Status: [ ]
