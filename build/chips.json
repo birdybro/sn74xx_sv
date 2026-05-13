@@ -16928,8 +16928,10 @@
     "pins": "52",
     "datasheet": "74F968",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n655",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "DRAM address mux + RAS/CAS, 10-bit address path (1M class). Refresh logic external. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x968/ttl_74x968.sv",
     "testbench_path": "tb/chips/ttl_74x968/tb_ttl_74x968.sv",
     "readme_path": "rtl/chips/ttl_74x968/README.md"

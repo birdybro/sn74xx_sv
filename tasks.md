@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 784
+- complete: 785
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 458
+- not_started: 457
 
 ## Chips
 
@@ -12922,7 +12922,7 @@ For every chip:
   - Dual rank 8-bit shift register with sync clear (mode 11) and async clear (clr_n). Verilator + Yosys clean.
 
 ### 74x968 - controller/driver for 16k/64k/256k/1M dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x968
 - Aliases: none
 - Source section: Larger footprints
@@ -12935,7 +12935,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x968/tb_ttl_74x968.sv
 - README: rtl/chips/ttl_74x968/README.md
 - Notes:
-  - (none)
+  - DRAM address mux + RAS/CAS, 10-bit address path (1M class). Refresh logic external. Verilator + Yosys clean.
 
 ### 74x978 - octal flip-flop with serial scanner
 - Status: [x]
