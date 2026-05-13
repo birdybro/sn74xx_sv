@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 808
+- complete: 809
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 423
+- not_started: 422
 
 ## Chips
 
@@ -16170,7 +16170,7 @@ For every chip:
   - 9-bit non-inverting bus transceiver with independent A/B output enables. Verilator + Yosys clean.
 
 ### 74x2864 - 9-bit inverting bus transceiver with dual output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2864
 - Aliases: none
 - Source section: Larger footprints
@@ -16183,7 +16183,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2864/tb_ttl_74x2864.sv
 - README: rtl/chips/ttl_74x2864/README.md
 - Notes:
-  - (none)
+  - 9-bit inverting bus transceiver with independent A/B output enables. Verilator + Yosys clean.
 
 ### 74x2952 - octal bus transceiver and register, non-inverting
 - Status: [ ]
