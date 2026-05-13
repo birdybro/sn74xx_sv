@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 673
+- complete: 674
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 717
+- not_started: 716
 
 ## Chips
 
@@ -13530,7 +13530,7 @@ For every chip:
   - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1240 - octal buffer / line driver, inverting (lower-power version of 74x240)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1240
 - Aliases: none
 - Source section: Larger footprints
@@ -13543,7 +13543,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1240/tb_ttl_74x1240.sv
 - README: rtl/chips/ttl_74x1240/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x1241 - octal buffer / line driver, non-inverting (lower-power version of 74x241)
 - Status: [ ]
