@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 710
+- complete: 711
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 680
+- not_started: 679
 
 ## Chips
 
@@ -21151,7 +21151,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16640 - 16-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16640
 - Aliases: none
 - Source section: Widebus devices
@@ -21164,7 +21164,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16640/tb_ttl_74x16640.sv
 - README: rtl/chips/ttl_74x16640/README.md
 - Notes:
-  - (none)
+  - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x16646 - 16-bit bus transceiver and registers
 - Status: [ ]
