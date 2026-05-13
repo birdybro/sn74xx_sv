@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 626
+- complete: 627
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 828
+- not_started: 827
 
 ## Chips
 
@@ -11642,7 +11642,7 @@ For every chip:
   - Hex 2-to-1 universal mux with AND/NAND mask, force-low, and inversion modes per SN74ALS857 (SDAS170A); separate y_oe_n and oper_oe_n; Verilator lint+sim clean
 
 ### 74x861 - 10-bit bus transceiver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x861
 - Aliases: none
 - Source section: Larger footprints
@@ -11655,7 +11655,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x861/tb_ttl_74x861.sv
 - README: rtl/chips/ttl_74x861/README.md
 - Notes:
-  - (none)
+  - Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean
 
 ### 74x862 - 10-bit bus transceiver, inverting
 - Status: [ ]
