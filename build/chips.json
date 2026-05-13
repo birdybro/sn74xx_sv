@@ -21387,8 +21387,10 @@
     "pins": "16",
     "datasheet": "74F3038",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n955",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 2-input NAND, identical to 74x00. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3038/ttl_74x3038.sv",
     "testbench_path": "tb/chips/ttl_74x3038/tb_ttl_74x3038.sv",
     "readme_path": "rtl/chips/ttl_74x3038/README.md"
