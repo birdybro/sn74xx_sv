@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 725
+- complete: 726
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 623
+- not_started: 622
 
 ## Chips
 
@@ -21599,7 +21599,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16863 - 18-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16863
 - Aliases: none
 - Source section: Widebus devices
@@ -21612,7 +21612,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16863/tb_ttl_74x16863.sv
 - README: rtl/chips/ttl_74x16863/README.md
 - Notes:
-  - (none)
+  - 18-bit transceiver; Verilator lint+sim clean
 
 ### 74x16901 - 18-bit universal bus transceiver with parity generators/checkers
 - Status: [ ]

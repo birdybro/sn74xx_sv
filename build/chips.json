@@ -27474,8 +27474,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abt16863.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "18-bit transceiver; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16863/ttl_74x16863.sv",
     "testbench_path": "tb/chips/ttl_74x16863/tb_ttl_74x16863.sv",
     "readme_path": "rtl/chips/ttl_74x16863/README.md"
