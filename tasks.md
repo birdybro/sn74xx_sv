@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 580
+- complete: 581
 - blocked: 27
 - digital_only_approximation: 27
-- not_started: 921
+- not_started: 920
 
 ## Chips
 
@@ -10184,7 +10184,7 @@ For every chip:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x700 - octal dRAM driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x700
 - Aliases: none
 - Source section: Larger footprints
@@ -10197,7 +10197,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x700/tb_ttl_74x700.sv
 - README: rtl/chips/ttl_74x700/README.md
 - Notes:
-  - (none)
+  - Octal DRAM driver, inverting; functional twin of 74x240; Verilator lint+sim clean
 
 ### 74x701 - 8-bit register/counter/comparator
 - Status: [ ]
