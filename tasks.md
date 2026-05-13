@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 672
+- complete: 673
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 718
+- not_started: 717
 
 ## Chips
 
@@ -13498,7 +13498,7 @@ For every chip:
   - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1074 - dual D negative edge triggered flip-flop, asynchronous preset and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1074
 - Aliases: none
 - Source section: Larger footprints
@@ -13511,7 +13511,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1074/tb_ttl_74x1074.sv
 - README: rtl/chips/ttl_74x1074/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x1181 - 4-bit arithmetic logic unit
 - Status: [!]
