@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1022
+- complete: 1023
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 102
+- not_started: 101
 
 ## Chips
 
@@ -23650,7 +23650,7 @@ IDT74FST3245
   - D-latch with OE. Verilator + Yosys clean.
 
 ### 74x1G374 - single positive-edge D flip-flop, Q output, active-low output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g374
 - Aliases: none
 - Source section: Smaller footprints
@@ -23663,7 +23663,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g374/tb_ttl_74x1g374.sv
 - README: rtl/chips/ttl_74x1g374/README.md
 - Notes:
-  - (none)
+  - D-FF with OE. Verilator + Yosys clean.
 
 ### 74x1G384 - single FET bus switch
 - Status: [ ]
