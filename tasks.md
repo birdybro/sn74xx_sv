@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 581
-- blocked: 27
+- blocked: 39
 - digital_only_approximation: 27
-- not_started: 920
+- not_started: 908
 
 ## Chips
 
@@ -10200,7 +10200,7 @@ For every chip:
   - Octal DRAM driver, inverting; functional twin of 74x240; Verilator lint+sim clean
 
 ### 74x701 - 8-bit register/counter/comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x701
 - Aliases: none
 - Source section: Larger footprints
@@ -10213,10 +10213,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x701/tb_ttl_74x701.sv
 - README: rtl/chips/ttl_74x701/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x702 - 8-bit registered read-back transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x702
 - Aliases: none
 - Source section: Larger footprints
@@ -10229,10 +10229,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x702/tb_ttl_74x702.sv
 - README: rtl/chips/ttl_74x702/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x705 - arithmetic logic unit for digital signal processing applications
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x705
 - Aliases: none
 - Source section: Larger footprints
@@ -10245,10 +10245,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x705/tb_ttl_74x705.sv
 - README: rtl/chips/ttl_74x705/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x707 - 8-bit TTL-ECL shift register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x707
 - Aliases: none
 - Source section: Larger footprints
@@ -10261,10 +10261,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x707/tb_ttl_74x707.sv
 - README: rtl/chips/ttl_74x707/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x708 - 576-bit FIFO memory (64x9)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x708
 - Aliases: none
 - Source section: Larger footprints
@@ -10277,10 +10277,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x708/tb_ttl_74x708.sv
 - README: rtl/chips/ttl_74x708/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x710 - 8-bit single-supply TTL-ECL shift register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x710
 - Aliases: none
 - Source section: Larger footprints
@@ -10293,7 +10293,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x710/tb_ttl_74x710.sv
 - README: rtl/chips/ttl_74x710/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x711 - quint 2-to-1 multiplexers
 - Status: [ ]
@@ -10328,7 +10328,7 @@ For every chip:
   - (none)
 
 ### 74x715 - programmable video sync generator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x715
 - Aliases: none
 - Source section: Larger footprints
@@ -10341,10 +10341,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x715/tb_ttl_74x715.sv
 - README: rtl/chips/ttl_74x715/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x716 - programmable decade counter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x716
 - Aliases: none
 - Source section: Larger footprints
@@ -10357,10 +10357,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x716/tb_ttl_74x716.sv
 - README: rtl/chips/ttl_74x716/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x718 - programmable binary counter
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x718
 - Aliases: none
 - Source section: Larger footprints
@@ -10373,10 +10373,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x718/tb_ttl_74x718.sv
 - README: rtl/chips/ttl_74x718/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x723 - 576-bit FIFO memory (64x9)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x723
 - Aliases: none
 - Source section: Larger footprints
@@ -10389,10 +10389,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x723/tb_ttl_74x723.sv
 - README: rtl/chips/ttl_74x723/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x724 - voltage-controlled multivibrator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x724
 - Aliases: none
 - Source section: Larger footprints
@@ -10405,10 +10405,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x724/tb_ttl_74x724.sv
 - README: rtl/chips/ttl_74x724/README.md
 - Notes:
-  - (none)
+  - Voltage-controlled multivibrator with analog inputs; not a synthesizable digital part for this library
 
 ### 74x725 - 4608-bit FIFO memory (512x9)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x725
 - Aliases: none
 - Source section: Larger footprints
@@ -10421,7 +10421,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x725/tb_ttl_74x725.sv
 - README: rtl/chips/ttl_74x725/README.md
 - Notes:
-  - (none)
+  - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x730 - octal dRAM driver, inverting
 - Status: [ ]

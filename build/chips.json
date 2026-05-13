@@ -13358,8 +13358,10 @@
     "pins": "24",
     "datasheet": "74F701",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n615",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x701/ttl_74x701.sv",
     "testbench_path": "tb/chips/ttl_74x701/tb_ttl_74x701.sv",
     "readme_path": "rtl/chips/ttl_74x701/README.md"
@@ -13377,8 +13379,10 @@
     "pins": "24",
     "datasheet": "74F702",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n617",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x702/ttl_74x702.sv",
     "testbench_path": "tb/chips/ttl_74x702/tb_ttl_74x702.sv",
     "readme_path": "rtl/chips/ttl_74x702/README.md"
@@ -13396,8 +13400,10 @@
     "pins": "(84)",
     "datasheet": "74ACT705",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n349",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x705/ttl_74x705.sv",
     "testbench_path": "tb/chips/ttl_74x705/tb_ttl_74x705.sv",
     "readme_path": "rtl/chips/ttl_74x705/README.md"
@@ -13415,8 +13421,10 @@
     "pins": "20",
     "datasheet": "74F707",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaFASTDatabook_31226275/page/n621",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x707/ttl_74x707.sv",
     "testbench_path": "tb/chips/ttl_74x707/tb_ttl_74x707.sv",
     "readme_path": "rtl/chips/ttl_74x707/README.md"
@@ -13434,8 +13442,10 @@
     "pins": "28",
     "datasheet": "74ACT708",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n361",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x708/ttl_74x708.sv",
     "testbench_path": "tb/chips/ttl_74x708/tb_ttl_74x708.sv",
     "readme_path": "rtl/chips/ttl_74x708/README.md"
@@ -13453,8 +13463,10 @@
     "pins": "20",
     "datasheet": "74F710",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n621",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x710/ttl_74x710.sv",
     "testbench_path": "tb/chips/ttl_74x710/tb_ttl_74x710.sv",
     "readme_path": "rtl/chips/ttl_74x710/README.md"
@@ -13510,8 +13522,10 @@
     "pins": "20",
     "datasheet": "74ACT715",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-303/53948.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x715/ttl_74x715.sv",
     "testbench_path": "tb/chips/ttl_74x715/tb_ttl_74x715.sv",
     "readme_path": "rtl/chips/ttl_74x715/README.md"
@@ -13529,8 +13543,10 @@
     "pins": "16",
     "datasheet": "SN74LS716",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n397",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x716/ttl_74x716.sv",
     "testbench_path": "tb/chips/ttl_74x716/tb_ttl_74x716.sv",
     "readme_path": "rtl/chips/ttl_74x716/README.md"
@@ -13548,8 +13564,10 @@
     "pins": "16",
     "datasheet": "SN74LS718",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n397",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x718/ttl_74x718.sv",
     "testbench_path": "tb/chips/ttl_74x718/tb_ttl_74x718.sv",
     "readme_path": "rtl/chips/ttl_74x718/README.md"
@@ -13567,8 +13585,10 @@
     "pins": "28",
     "datasheet": "74ACT723",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n379",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x723/ttl_74x723.sv",
     "testbench_path": "tb/chips/ttl_74x723/tb_ttl_74x723.sv",
     "readme_path": "rtl/chips/ttl_74x723/README.md"
@@ -13586,8 +13606,10 @@
     "pins": "8",
     "datasheet": "SN74LS724",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n409",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Voltage-controlled multivibrator with analog inputs; not a synthesizable digital part for this library"
+    ],
     "rtl_path": "rtl/chips/ttl_74x724/ttl_74x724.sv",
     "testbench_path": "tb/chips/ttl_74x724/tb_ttl_74x724.sv",
     "readme_path": "rtl/chips/ttl_74x724/README.md"
@@ -13605,8 +13627,10 @@
     "pins": "28",
     "datasheet": "74ACT725",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n395",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x725/ttl_74x725.sv",
     "testbench_path": "tb/chips/ttl_74x725/tb_ttl_74x725.sv",
     "readme_path": "rtl/chips/ttl_74x725/README.md"
