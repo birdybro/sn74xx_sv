@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 758
+- complete: 759
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 540
+- not_started: 539
 
 ## Chips
 
@@ -15738,7 +15738,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2574 - octal D-type flip-flop, shared clock
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2574
 - Aliases: none
 - Source section: Larger footprints
@@ -15751,7 +15751,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2574/tb_ttl_74x2574.sv
 - README: rtl/chips/ttl_74x2574/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2620 - octal bus transceiver / MOS driver, inverting
 - Status: [ ]
