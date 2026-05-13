@@ -29,9 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 566
+- complete: 567
+- blocked: 2
 - digital_only_approximation: 27
-- not_started: 962
+- not_started: 959
 
 ## Chips
 
@@ -9527,7 +9528,7 @@ For every chip:
   - Non-inverting registered transceiver, A=3-state/B=OC; Verilator lint+sim clean
 
 ### 74x655 - octal buffer / line driver with parity, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x655
 - Aliases: none
 - Source section: Larger footprints
@@ -9540,10 +9541,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x655/tb_ttl_74x655.sv
 - README: rtl/chips/ttl_74x655/README.md
 - Notes:
-  - (none)
+  - 74F655 datasheet not accessible via current sources; need confirmation of unidirectional buffer-with-parity pinout before implementation
 
 ### 74x656 - octal buffer / line driver with parity, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x656
 - Aliases: none
 - Source section: Larger footprints
@@ -9556,10 +9557,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x656/tb_ttl_74x656.sv
 - README: rtl/chips/ttl_74x656/README.md
 - Notes:
-  - (none)
+  - 74F656 datasheet not accessible via current sources; need confirmation of unidirectional buffer-with-parity pinout before implementation
 
 ### 74x657 - octal bidirectional transceiver with 8-bit parity generator/checker
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x657
 - Aliases: none
 - Source section: Larger footprints
@@ -9572,7 +9573,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x657/tb_ttl_74x657.sv
 - README: rtl/chips/ttl_74x657/README.md
 - Notes:
-  - (none)
+  - Octal transceiver combining 'F245 with 'F280B parity engine, per SDFS027A datasheet; Verilator lint+sim clean
 
 ### 74x658 - octal bus transceiver, parity, inverting
 - Status: [ ]

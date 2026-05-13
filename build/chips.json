@@ -12476,8 +12476,10 @@
     "pins": "24",
     "datasheet": "74F655",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFASTDataBook_29981933/page/n553",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "74F655 datasheet not accessible via current sources; need confirmation of unidirectional buffer-with-parity pinout before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x655/ttl_74x655.sv",
     "testbench_path": "tb/chips/ttl_74x655/tb_ttl_74x655.sv",
     "readme_path": "rtl/chips/ttl_74x655/README.md"
@@ -12495,8 +12497,10 @@
     "pins": "24",
     "datasheet": "74F656",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFASTDataBook_29981933/page/n553",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "74F656 datasheet not accessible via current sources; need confirmation of unidirectional buffer-with-parity pinout before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x656/ttl_74x656.sv",
     "testbench_path": "tb/chips/ttl_74x656/tb_ttl_74x656.sv",
     "readme_path": "rtl/chips/ttl_74x656/README.md"
@@ -12514,8 +12518,10 @@
     "pins": "24",
     "datasheet": "SN74F657",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74f657",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Octal transceiver combining 'F245 with 'F280B parity engine, per SDFS027A datasheet; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x657/ttl_74x657.sv",
     "testbench_path": "tb/chips/ttl_74x657/tb_ttl_74x657.sv",
     "readme_path": "rtl/chips/ttl_74x657/README.md"
