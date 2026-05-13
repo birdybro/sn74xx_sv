@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 705
+- complete: 706
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 685
+- not_started: 684
 
 ## Chips
 
@@ -20815,7 +20815,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16373 - 16-bit transparent D-type latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16373
 - Aliases: none
 - Source section: Widebus devices
@@ -20828,7 +20828,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16373/tb_ttl_74x16373.sv
 - README: rtl/chips/ttl_74x16373/README.md
 - Notes:
-  - (none)
+  - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16374 - 16-bit edge-triggered D-type flip-flops
 - Status: [ ]
