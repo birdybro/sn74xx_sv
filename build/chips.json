@@ -12350,8 +12350,10 @@
     "pins": "24",
     "datasheet": "SN74ALS648A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als648a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting variant of 74x646; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x648/ttl_74x648.sv",
     "testbench_path": "tb/chips/ttl_74x648/tb_ttl_74x648.sv",
     "readme_path": "rtl/chips/ttl_74x648/README.md"

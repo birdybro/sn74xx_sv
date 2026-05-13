@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 560
+- complete: 561
 - digital_only_approximation: 27
-- not_started: 968
+- not_started: 967
 
 ## Chips
 
@@ -9431,7 +9431,7 @@ For every chip:
   - OC twin of 74x646; same control/storage topology; Verilator lint+sim clean
 
 ### 74x648 - octal bus transceiver/latch/multiplexer, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x648
 - Aliases: none
 - Source section: Larger footprints
@@ -9444,7 +9444,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x648/tb_ttl_74x648.sv
 - README: rtl/chips/ttl_74x648/README.md
 - Notes:
-  - (none)
+  - Inverting variant of 74x646; Verilator lint+sim clean
 
 ### 74x649 - octal bus transceiver/latch/multiplexer, inverting outputs
 - Status: [ ]
