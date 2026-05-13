@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1019
+- complete: 1020
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 105
+- not_started: 104
 
 ## Chips
 
@@ -23602,7 +23602,7 @@ IDT74FST3245
   - D-FF with async clear. Verilator + Yosys clean.
 
 ### 74x1G240 - single bus buffer gate, active-low enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g240
 - Aliases: none
 - Source section: Smaller footprints
@@ -23615,7 +23615,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g240/tb_ttl_74x1g240.sv
 - README: rtl/chips/ttl_74x1g240/README.md
 - Notes:
-  - (none)
+  - Inverting buffer with OE. Verilator + Yosys clean.
 
 ### 74x1G332 - single 3-input OR gate
 - Status: [ ]
