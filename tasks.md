@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 595
+- complete: 596
 - blocked: 46
 - digital_only_approximation: 27
-- not_started: 887
+- not_started: 886
 
 ## Chips
 
@@ -10728,7 +10728,7 @@ For every chip:
   - Datasheet not accessible; quad/specialized configuration needs confirmation
 
 ### 74x763 - octal buffer/line driver, inverting outputs, complementary enable inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x763
 - Aliases: none
 - Source section: Larger footprints
@@ -10741,7 +10741,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x763/tb_ttl_74x763.sv
 - README: rtl/chips/ttl_74x763/README.md
 - Notes:
-  - (none)
+  - Inverting variant of 74x741; one bank active-low OE, other active-high; Verilator lint+sim clean
 
 ### 74x764 - dual-port dRAM controller
 - Status: [ ]

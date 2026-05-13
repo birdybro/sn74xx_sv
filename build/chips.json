@@ -14051,8 +14051,10 @@
     "pins": "20",
     "datasheet": "SN74ALS763",
     "datasheet_url": "https://web.archive.org/web/20170224211619/http://www.ti.com/lit/ds/symlink/sn74as762.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting variant of 74x741; one bank active-low OE, other active-high; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x763/ttl_74x763.sv",
     "testbench_path": "tb/chips/ttl_74x763/tb_ttl_74x763.sv",
     "readme_path": "rtl/chips/ttl_74x763/README.md"
