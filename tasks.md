@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 765
+- complete: 766
 - blocked: 284
 - digital_only_approximation: 27
-- not_started: 479
+- not_started: 478
 
 ## Chips
 
@@ -16732,7 +16732,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3573 - octal transparent latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3573
 - Aliases: none
 - Source section: Larger footprints
@@ -16745,7 +16745,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3573/tb_ttl_74x3573.sv
 - README: rtl/chips/ttl_74x3573/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x3574 - octal D-type flip flop
 - Status: [ ]
