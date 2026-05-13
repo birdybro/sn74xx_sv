@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 732
-- blocked: 208
+- blocked: 223
 - digital_only_approximation: 27
-- not_started: 588
+- not_started: 573
 
 ## Chips
 
@@ -21823,7 +21823,7 @@ IDT74FST3245
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x162260 - 12-bit to 24-bit multiplexed D-type latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162260
 - Aliases: none
 - Source section: Widebus devices
@@ -21836,10 +21836,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162260/tb_ttl_74x162260.sv
 - README: rtl/chips/ttl_74x162260/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162268 - 12-bit to 24-bit registered bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162268
 - Aliases: none
 - Source section: Widebus devices
@@ -21852,10 +21852,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162268/tb_ttl_74x162268.sv
 - README: rtl/chips/ttl_74x162268/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162280 - 16-bit to 32-bit registered bus exchanger with byte masks
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162280
 - Aliases: none
 - Source section: Widebus devices
@@ -21868,10 +21868,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162280/tb_ttl_74x162280.sv
 - README: rtl/chips/ttl_74x162280/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162282 - 18-bit to 36-bit registered bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162282
 - Aliases: none
 - Source section: Widebus devices
@@ -21884,10 +21884,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162282/tb_ttl_74x162282.sv
 - README: rtl/chips/ttl_74x162282/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162292 - 12-bit 1-of-2 FET multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162292
 - Aliases: none
 - Source section: Widebus devices
@@ -21900,10 +21900,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162292/tb_ttl_74x162292.sv
 - README: rtl/chips/ttl_74x162292/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162334 - 16-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162334
 - Aliases: none
 - Source section: Widebus devices
@@ -21916,10 +21916,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162334/tb_ttl_74x162334.sv
 - README: rtl/chips/ttl_74x162334/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162344 - 1-bit to 4-bit address driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162344
 - Aliases: none
 - Source section: Widebus devices
@@ -21932,7 +21932,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162344/tb_ttl_74x162344.sv
 - README: rtl/chips/ttl_74x162344/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162373 - 3.3-V ABT 16-bit transparent D-type latch
 - Status: [x]
@@ -21967,7 +21967,7 @@ IDT74FST3245
   - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x162460 - 4-to-1 multiplexed/demultiplexed registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162460
 - Aliases: none
 - Source section: Widebus devices
@@ -21980,10 +21980,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162460/tb_ttl_74x162460.sv
 - README: rtl/chips/ttl_74x162460/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162500 - 18-bit universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162500
 - Aliases: none
 - Source section: Widebus devices
@@ -21996,10 +21996,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162500/tb_ttl_74x162500.sv
 - README: rtl/chips/ttl_74x162500/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162501 - 18-bit registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162501
 - Aliases: none
 - Source section: Widebus devices
@@ -22012,10 +22012,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162501/tb_ttl_74x162501.sv
 - README: rtl/chips/ttl_74x162501/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162525 - 18-bit registered bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162525
 - Aliases: none
 - Source section: Widebus devices
@@ -22028,7 +22028,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162525/tb_ttl_74x162525.sv
 - README: rtl/chips/ttl_74x162525/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162541 - 3.3-V ABT 16-bit buffers/drivers
 - Status: [x]
@@ -22047,7 +22047,7 @@ IDT74FST3245
   - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162543 - 16-bit latched transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162543
 - Aliases: none
 - Source section: Widebus devices
@@ -22060,10 +22060,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162543/tb_ttl_74x162543.sv
 - README: rtl/chips/ttl_74x162543/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162601 - 18-bit universal bus tranceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162601
 - Aliases: none
 - Source section: Widebus devices
@@ -22076,10 +22076,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162601/tb_ttl_74x162601.sv
 - README: rtl/chips/ttl_74x162601/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162646 - 16-bit registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162646
 - Aliases: none
 - Source section: Widebus devices
@@ -22092,10 +22092,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162646/tb_ttl_74x162646.sv
 - README: rtl/chips/ttl_74x162646/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162652 - 16-bit registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162652
 - Aliases: none
 - Source section: Widebus devices
@@ -22108,7 +22108,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162652/tb_ttl_74x162652.sv
 - README: rtl/chips/ttl_74x162652/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus 3.3-V part — needs dedicated datasheet
 
 ### 74x162721 - 3.3-V 20-bit flip-flop
 - Status: [x]

@@ -27806,8 +27806,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162260.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162260/ttl_74x162260.sv",
     "testbench_path": "tb/chips/ttl_74x162260/tb_ttl_74x162260.sv",
     "readme_path": "rtl/chips/ttl_74x162260/README.md"
@@ -27825,8 +27827,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162268.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162268/ttl_74x162268.sv",
     "testbench_path": "tb/chips/ttl_74x162268/tb_ttl_74x162268.sv",
     "readme_path": "rtl/chips/ttl_74x162268/README.md"
@@ -27844,8 +27848,10 @@
     "pins": "80",
     "datasheet": "ALVCHG",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=757",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162280/ttl_74x162280.sv",
     "testbench_path": "tb/chips/ttl_74x162280/tb_ttl_74x162280.sv",
     "readme_path": "rtl/chips/ttl_74x162280/README.md"
@@ -27863,8 +27869,10 @@
     "pins": "80",
     "datasheet": "ALVCHG",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=759",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162282/ttl_74x162282.sv",
     "testbench_path": "tb/chips/ttl_74x162282/tb_ttl_74x162282.sv",
     "readme_path": "rtl/chips/ttl_74x162282/README.md"
@@ -27882,8 +27890,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt162292.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162292/ttl_74x162292.sv",
     "testbench_path": "tb/chips/ttl_74x162292/tb_ttl_74x162292.sv",
     "readme_path": "rtl/chips/ttl_74x162292/README.md"
@@ -27901,8 +27911,10 @@
     "pins": "48",
     "datasheet": "ALVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvc162334.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162334/ttl_74x162334.sv",
     "testbench_path": "tb/chips/ttl_74x162334/tb_ttl_74x162334.sv",
     "readme_path": "rtl/chips/ttl_74x162334/README.md"
@@ -27920,8 +27932,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162344.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162344/ttl_74x162344.sv",
     "testbench_path": "tb/chips/ttl_74x162344/tb_ttl_74x162344.sv",
     "readme_path": "rtl/chips/ttl_74x162344/README.md"
@@ -27981,8 +27995,10 @@
     "pins": "56",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=767",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162460/ttl_74x162460.sv",
     "testbench_path": "tb/chips/ttl_74x162460/tb_ttl_74x162460.sv",
     "readme_path": "rtl/chips/ttl_74x162460/README.md"
@@ -28000,8 +28016,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abt162500.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162500/ttl_74x162500.sv",
     "testbench_path": "tb/chips/ttl_74x162500/tb_ttl_74x162500.sv",
     "readme_path": "rtl/chips/ttl_74x162500/README.md"
@@ -28019,8 +28037,10 @@
     "pins": "56",
     "datasheet": "FCT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/cy74fct162501t.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162501/ttl_74x162501.sv",
     "testbench_path": "tb/chips/ttl_74x162501/tb_ttl_74x162501.sv",
     "readme_path": "rtl/chips/ttl_74x162501/README.md"
@@ -28038,8 +28058,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=773",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162525/ttl_74x162525.sv",
     "testbench_path": "tb/chips/ttl_74x162525/tb_ttl_74x162525.sv",
     "readme_path": "rtl/chips/ttl_74x162525/README.md"
@@ -28078,8 +28100,10 @@
     "pins": "56",
     "datasheet": "FCT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/cy74fct162543t.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162543/ttl_74x162543.sv",
     "testbench_path": "tb/chips/ttl_74x162543/tb_ttl_74x162543.sv",
     "readme_path": "rtl/chips/ttl_74x162543/README.md"
@@ -28097,8 +28121,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162601.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162601/ttl_74x162601.sv",
     "testbench_path": "tb/chips/ttl_74x162601/tb_ttl_74x162601.sv",
     "readme_path": "rtl/chips/ttl_74x162601/README.md"
@@ -28116,8 +28142,10 @@
     "pins": "56",
     "datasheet": "FCT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/cy74fct162646t.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162646/ttl_74x162646.sv",
     "testbench_path": "tb/chips/ttl_74x162646/tb_ttl_74x162646.sv",
     "readme_path": "rtl/chips/ttl_74x162646/README.md"
@@ -28135,8 +28163,10 @@
     "pins": "56",
     "datasheet": "FCT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/cy74fct162652t.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus 3.3-V part — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162652/ttl_74x162652.sv",
     "testbench_path": "tb/chips/ttl_74x162652/tb_ttl_74x162652.sv",
     "readme_path": "rtl/chips/ttl_74x162652/README.md"
