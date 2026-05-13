@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 851
+- complete: 852
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 335
+- not_started: 334
 
 ## Chips
 
@@ -17516,7 +17516,7 @@ IDT74FST3245
   - Logically identical to 74x245; voltage translation not modeled. Verilator + Yosys clean.
 
 ### 74x4301 - 8-bit latch, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4301
 - Aliases: none
 - Source section: Larger footprints
@@ -17529,7 +17529,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4301/tb_ttl_74x4301.sv
 - README: rtl/chips/ttl_74x4301/README.md
 - Notes:
-  - (none)
+  - Inverting 8-bit transparent latch. Verilator + Yosys clean.
 
 ### 74x4302 - 8-bit latch, non-inverting
 - Status: [ ]
