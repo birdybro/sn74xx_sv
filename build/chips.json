@@ -29666,8 +29666,10 @@
     "pins": "24",
     "datasheet": "ALS",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74als29821.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x2821. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x29821/ttl_74x29821.sv",
     "testbench_path": "tb/chips/ttl_74x29821/tb_ttl_74x29821.sv",
     "readme_path": "rtl/chips/ttl_74x29821/README.md"

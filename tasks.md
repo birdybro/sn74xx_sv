@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1028
+- complete: 1029
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 94
+- not_started: 93
 
 ## Chips
 
@@ -22623,7 +22623,7 @@ IDT74FST3245
   - = 74x245. Verilator + Yosys clean.
 
 ### 74x29821 - 10-bit bus interface flip-flops
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x29821
 - Aliases: none
 - Source section: Widebus devices
@@ -22636,7 +22636,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x29821/tb_ttl_74x29821.sv
 - README: rtl/chips/ttl_74x29821/README.md
 - Notes:
-  - (none)
+  - = 74x2821. Verilator + Yosys clean.
 
 ### 74x29825 - 8-bit bus interface flip-flops
 - Status: [ ]
