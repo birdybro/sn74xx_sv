@@ -30315,8 +30315,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G14.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single inverter (Schmitt input not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g14/ttl_74x1g14.sv",
     "testbench_path": "tb/chips/ttl_74x1g14/tb_ttl_74x1g14.sv",
     "readme_path": "rtl/chips/ttl_74x1g14/README.md"
