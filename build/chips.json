@@ -24164,8 +24164,10 @@
     "pins": "14",
     "datasheet": "SN74HC7022",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n615",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "÷8 Johnson counter with power-up clear via initial. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7022/ttl_74x7022.sv",
     "testbench_path": "tb/chips/ttl_74x7022/tb_ttl_74x7022.sv",
     "readme_path": "rtl/chips/ttl_74x7022/README.md"
