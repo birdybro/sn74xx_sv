@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 954
+- complete: 955
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 203
+- not_started: 202
 
 ## Chips
 
@@ -19452,7 +19452,7 @@ IDT74FST3245
   - 10-bit selectable invert/non-invert buffer. Verilator + Yosys clean.
 
 ### 74x8153 - 8-bit serial-to-parallel interface
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8153
 - Aliases: none
 - Source section: Larger footprints
@@ -19465,7 +19465,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8153/tb_ttl_74x8153.sv
 - README: rtl/chips/ttl_74x8153/README.md
 - Notes:
-  - (none)
+  - Basic 8-bit SIPO. Verilator + Yosys clean.
 
 ### 74x8154 - dual 16-bit counters with output registers
 - Status: [ ]

@@ -25508,8 +25508,10 @@
     "pins": "20",
     "datasheet": "SN74LV8153",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74lv8153",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Basic 8-bit SIPO. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8153/ttl_74x8153.sv",
     "testbench_path": "tb/chips/ttl_74x8153/tb_ttl_74x8153.sv",
     "readme_path": "rtl/chips/ttl_74x8153/README.md"
