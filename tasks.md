@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1066
+- complete: 1067
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 44
+- not_started: 43
 
 ## Chips
 
@@ -24354,7 +24354,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3G34 - triple buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3g34
 - Aliases: none
 - Source section: Smaller footprints
@@ -24367,7 +24367,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g34/tb_ttl_74x3g34.sv
 - README: rtl/chips/ttl_74x3g34/README.md
 - Notes:
-  - (none)
+  - Triple buffer. Verilator + Yosys clean.
 
 ### 74x3G57 - triple configurable 7-function gate
 - Status: [!]
