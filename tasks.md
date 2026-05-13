@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1021
+- complete: 1022
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 103
+- not_started: 102
 
 ## Chips
 
@@ -23634,7 +23634,7 @@ IDT74FST3245
   - 3-input OR. Verilator + Yosys clean.
 
 ### 74x1G373 - single D-type transparent latch, Q output, active-low output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g373
 - Aliases: none
 - Source section: Smaller footprints
@@ -23647,7 +23647,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g373/tb_ttl_74x1g373.sv
 - README: rtl/chips/ttl_74x1g373/README.md
 - Notes:
-  - (none)
+  - D-latch with OE. Verilator + Yosys clean.
 
 ### 74x1G374 - single positive-edge D flip-flop, Q output, active-low output enable
 - Status: [ ]

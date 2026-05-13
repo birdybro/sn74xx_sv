@@ -30945,8 +30945,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc1g373",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "D-latch with OE. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g373/ttl_74x1g373.sv",
     "testbench_path": "tb/chips/ttl_74x1g373/tb_ttl_74x1g373.sv",
     "readme_path": "rtl/chips/ttl_74x1g373/README.md"
