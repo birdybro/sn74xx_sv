@@ -26054,8 +26054,10 @@
     "pins": "28",
     "datasheet": "74F8960",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F8960_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit inverting latched bidir transceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8960/ttl_74x8960.sv",
     "testbench_path": "tb/chips/ttl_74x8960/tb_ttl_74x8960.sv",
     "readme_path": "rtl/chips/ttl_74x8960/README.md"
