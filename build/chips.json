@@ -30798,8 +30798,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc1g132",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "2-input NAND (Schmitt not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g132/ttl_74x1g132.sv",
     "testbench_path": "tb/chips/ttl_74x1g132/tb_ttl_74x1g132.sv",
     "readme_path": "rtl/chips/ttl_74x1g132/README.md"
