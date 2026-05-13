@@ -21464,8 +21464,10 @@
     "pins": "20",
     "datasheet": "SN74CBT3245A\nIDT74FST3245",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n61",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FET bus switch / GTLP transceiver — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74cbt3245/ttl_74cbt3245.sv",
     "testbench_path": "tb/chips/ttl_74cbt3245/tb_ttl_74cbt3245.sv",
     "readme_path": "rtl/chips/ttl_74cbt3245/README.md"
@@ -21504,8 +21506,10 @@
     "pins": "(114)",
     "datasheet": "SN74GTLPH3245",
     "datasheet_url": "https://www.mouser.com/datasheet/2/405/sn74gtlph3245-447892.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "FET bus switch / GTLP transceiver — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74gtlph3245/ttl_74gtlph3245.sv",
     "testbench_path": "tb/chips/ttl_74gtlph3245/tb_ttl_74gtlph3245.sv",
     "readme_path": "rtl/chips/ttl_74gtlph3245/README.md"

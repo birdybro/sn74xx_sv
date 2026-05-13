@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 767
-- blocked: 284
+- blocked: 286
 - digital_only_approximation: 27
-- not_started: 477
+- not_started: 475
 
 ## Chips
 
@@ -16475,7 +16475,7 @@ IDT74FST3244
   - Twin of base part; Verilator lint+sim clean
 
 ### 74CBT3245 - octal FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74cbt3245
 - Aliases: 74FST3245
 - Source section: Larger footprints
@@ -16489,7 +16489,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74cbt3245/tb_ttl_74cbt3245.sv
 - README: rtl/chips/ttl_74cbt3245/README.md
 - Notes:
-  - (none)
+  - FET bus switch / GTLP transceiver — needs datasheet
 
 ### 74LVX3245 - octal bidirectional voltage-translating transceiver
 - Status: [x]
@@ -16508,7 +16508,7 @@ IDT74FST3245
   - Twin of base part; Verilator lint+sim clean
 
 ### 74GTLPH3245 - 32-bit LV-TTL-to-GTLP adjustable-edge-rate bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74gtlph3245
 - Aliases: none
 - Source section: Larger footprints
@@ -16521,7 +16521,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74gtlph3245/tb_ttl_74gtlph3245.sv
 - README: rtl/chips/ttl_74gtlph3245/README.md
 - Notes:
-  - (none)
+  - FET bus switch / GTLP transceiver — needs datasheet
 
 ### 74x3251 - 8-line to 1-line FET multiplexer / demultiplexer
 - Status: [ ]
