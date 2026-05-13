@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 793
+- complete: 794
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 438
+- not_started: 437
 
 ## Chips
 
@@ -15898,7 +15898,7 @@ For every chip:
   - Identical to 74x652. Verilator + Yosys clean.
 
 ### 74S2708 - 8192-bit PROM (1024x8)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74s2708
 - Aliases: none
 - Source section: Larger footprints
@@ -15911,7 +15911,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74s2708/tb_ttl_74s2708.sv
 - README: rtl/chips/ttl_74s2708/README.md
 - Notes:
-  - (none)
+  - PROM model identical to 74x478 (1024x8) with INIT_FILE. Verilator + Yosys clean.
 
 ### 74AC2708 - 576-bit FIFO memory (64x9)
 - Status: [ ]
