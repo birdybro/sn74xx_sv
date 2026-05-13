@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 708
+- complete: 709
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 682
+- not_started: 681
 
 ## Chips
 
@@ -20991,7 +20991,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16540 - 16-bit inverting buffer/driver with grouped 8-bit output enables (active-low)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16540
 - Aliases: none
 - Source section: Widebus devices
@@ -21004,7 +21004,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16540/tb_ttl_74x16540.sv
 - README: rtl/chips/ttl_74x16540/README.md
 - Notes:
-  - (none)
+  - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x16541 - 16-bit non-inverting buffer/driver with grouped 8-bit output enables (active-low)
 - Status: [ ]
