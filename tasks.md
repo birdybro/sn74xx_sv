@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 942
+- complete: 943
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 215
+- not_started: 214
 
 ## Chips
 
@@ -19436,7 +19436,7 @@ IDT74FST3245
   - Dual 2-input NAND. Verilator + Yosys clean.
 
 ### 74x8151 - 10-bit inverting/non-inverting buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8151
 - Aliases: none
 - Source section: Larger footprints
@@ -19449,7 +19449,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8151/tb_ttl_74x8151.sv
 - README: rtl/chips/ttl_74x8151/README.md
 - Notes:
-  - (none)
+  - 10-bit selectable invert/non-invert buffer. Verilator + Yosys clean.
 
 ### 74x8153 - 8-bit serial-to-parallel interface
 - Status: [ ]
