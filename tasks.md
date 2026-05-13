@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 878
+- complete: 879
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 291
+- not_started: 290
 
 ## Chips
 
@@ -18460,7 +18460,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7032 - quad 2-input OR gates
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7032
 - Aliases: none
 - Source section: Larger footprints
@@ -18473,7 +18473,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7032/tb_ttl_74x7032.sv
 - README: rtl/chips/ttl_74x7032/README.md
 - Notes:
-  - (none)
+  - Quad 2-input OR, = 74x32. Verilator + Yosys clean.
 
 ### 74x7038 - 9-bit bus transceiver with latch
 - Status: [ ]

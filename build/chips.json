@@ -24194,8 +24194,10 @@
     "pins": "14",
     "datasheet": "SN74HC7032",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookSLogicDataBook_45157566/page/n787",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 2-input OR, = 74x32. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7032/ttl_74x7032.sv",
     "testbench_path": "tb/chips/ttl_74x7032/tb_ttl_74x7032.sv",
     "readme_path": "rtl/chips/ttl_74x7032/README.md"
