@@ -13484,8 +13484,10 @@
     "pins": "20",
     "datasheet": "74F711",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n777",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x711/ttl_74x711.sv",
     "testbench_path": "tb/chips/ttl_74x711/tb_ttl_74x711.sv",
     "readme_path": "rtl/chips/ttl_74x711/README.md"
@@ -13503,8 +13505,10 @@
     "pins": "24",
     "datasheet": "74F712",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n777",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x712/ttl_74x712.sv",
     "testbench_path": "tb/chips/ttl_74x712/tb_ttl_74x712.sv",
     "readme_path": "rtl/chips/ttl_74x712/README.md"
@@ -13686,8 +13690,10 @@
     "pins": "20",
     "datasheet": "74F732",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n789",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x732/ttl_74x732.sv",
     "testbench_path": "tb/chips/ttl_74x732/tb_ttl_74x732.sv",
     "readme_path": "rtl/chips/ttl_74x732/README.md"
@@ -13705,8 +13711,10 @@
     "pins": "20",
     "datasheet": "74F733",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n789",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL"
+    ],
     "rtl_path": "rtl/chips/ttl_74x733/ttl_74x733.sv",
     "testbench_path": "tb/chips/ttl_74x733/tb_ttl_74x733.sv",
     "readme_path": "rtl/chips/ttl_74x733/README.md"

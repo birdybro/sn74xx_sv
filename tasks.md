@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 581
-- blocked: 39
+- blocked: 43
 - digital_only_approximation: 27
-- not_started: 908
+- not_started: 904
 
 ## Chips
 
@@ -10296,7 +10296,7 @@ For every chip:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x711 - quint 2-to-1 multiplexers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x711
 - Aliases: none
 - Source section: Larger footprints
@@ -10309,10 +10309,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x711/tb_ttl_74x711.sv
 - README: rtl/chips/ttl_74x711/README.md
 - Notes:
-  - (none)
+  - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
 
 ### 74x712 - quint 3-to-1 multiplexers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x712
 - Aliases: none
 - Source section: Larger footprints
@@ -10325,7 +10325,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x712/tb_ttl_74x712.sv
 - README: rtl/chips/ttl_74x712/README.md
 - Notes:
-  - (none)
+  - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
 
 ### 74x715 - programmable video sync generator
 - Status: [!]
@@ -10456,7 +10456,7 @@ For every chip:
   - (none)
 
 ### 74x732 - 4-bit 3-bus multiplexer, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x732
 - Aliases: none
 - Source section: Larger footprints
@@ -10469,10 +10469,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x732/tb_ttl_74x732.sv
 - README: rtl/chips/ttl_74x732/README.md
 - Notes:
-  - (none)
+  - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
 
 ### 74x733 - 4-bit 3-bus multiplexer, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x733
 - Aliases: none
 - Source section: Larger footprints
@@ -10485,7 +10485,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x733/tb_ttl_74x733.sv
 - README: rtl/chips/ttl_74x733/README.md
 - Notes:
-  - (none)
+  - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
 
 ### 74x734 - octal dRAM driver, non-inverting
 - Status: [ ]
