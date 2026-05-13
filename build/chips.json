@@ -15292,8 +15292,10 @@
     "pins": "24",
     "datasheet": "SN74ABT863",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_80793740/page/n273",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x863/ttl_74x863.sv",
     "testbench_path": "tb/chips/ttl_74x863/tb_ttl_74x863.sv",
     "readme_path": "rtl/chips/ttl_74x863/README.md"
