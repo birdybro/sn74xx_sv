@@ -31745,8 +31745,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G3404.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single buffer + inverter. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g3404/ttl_74x2g3404.sv",
     "testbench_path": "tb/chips/ttl_74x2g3404/tb_ttl_74x2g3404.sv",
     "readme_path": "rtl/chips/ttl_74x2g3404/README.md"
