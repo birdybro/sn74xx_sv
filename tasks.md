@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 688
+- complete: 689
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 702
+- not_started: 701
 
 ## Chips
 
@@ -14410,7 +14410,7 @@ For every chip:
   - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74x1843 - 9-bit bus interface transparent latches with clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1843
 - Aliases: none
 - Source section: Larger footprints
@@ -14423,7 +14423,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1843/tb_ttl_74x1843.sv
 - README: rtl/chips/ttl_74x1843/README.md
 - Notes:
-  - (none)
+  - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74x2000 - direction discriminator with microprocessor interface
 - Status: [ ]
