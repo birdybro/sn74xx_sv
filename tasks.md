@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1055
+- complete: 1056
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 55
+- not_started: 54
 
 ## Chips
 
@@ -23858,7 +23858,7 @@ IDT74FST3245
   - Dual 2-input AND. Verilator + Yosys clean.
 
 ### 74x2G14 - dual inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g14
 - Aliases: none
 - Source section: Smaller footprints
@@ -23871,7 +23871,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g14/tb_ttl_74x2g14.sv
 - README: rtl/chips/ttl_74x2g14/README.md
 - Notes:
-  - (none)
+  - Dual Schmitt inverter (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x2G17 - dual buffer gate
 - Status: [ ]
