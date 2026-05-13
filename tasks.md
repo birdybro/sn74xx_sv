@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 672
-- blocked: 121
+- blocked: 126
 - digital_only_approximation: 27
-- not_started: 735
+- not_started: 730
 
 ## Chips
 
@@ -13210,7 +13210,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74AC1010 - 16x16-bit multiplier/accumulator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74ac1010
 - Aliases: 74ACT1010
 - Source section: Larger footprints
@@ -13223,7 +13223,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ac1010/tb_ttl_74ac1010.sv
 - README: rtl/chips/ttl_74ac1010/README.md
 - Notes:
-  - (none)
+  - Wide multiplier/accumulator or passive termination array — needs dedicated datasheet
 
 ### 74x1011 - triple 3-input AND gate
 - Status: [x]
@@ -13242,7 +13242,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74F1016 - 16-bit Schottky diode R-C bus termination array
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74f1016
 - Aliases: none
 - Source section: Larger footprints
@@ -13255,10 +13255,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74f1016/tb_ttl_74f1016.sv
 - README: rtl/chips/ttl_74f1016/README.md
 - Notes:
-  - (none)
+  - Wide multiplier/accumulator or passive termination array — needs dedicated datasheet
 
 ### 74AC1016 - 16x16-bit multiplier
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74ac1016
 - Aliases: 74ACT1016
 - Source section: Larger footprints
@@ -13271,10 +13271,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74ac1016/tb_ttl_74ac1016.sv
 - README: rtl/chips/ttl_74ac1016/README.md
 - Notes:
-  - (none)
+  - Wide multiplier/accumulator or passive termination array — needs dedicated datasheet
 
 ### 74x1017 - 16x16-bit parallel multiplier
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1017
 - Aliases: none
 - Source section: Larger footprints
@@ -13287,10 +13287,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1017/tb_ttl_74x1017.sv
 - README: rtl/chips/ttl_74x1017/README.md
 - Notes:
-  - (none)
+  - Wide multiplier/accumulator or passive termination array — needs dedicated datasheet
 
 ### 74x1018 - 18-bit Schottky diode R-C bus termination array
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1018
 - Aliases: none
 - Source section: Larger footprints
@@ -13303,7 +13303,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1018/tb_ttl_74x1018.sv
 - README: rtl/chips/ttl_74x1018/README.md
 - Notes:
-  - (none)
+  - Wide multiplier/accumulator or passive termination array — needs dedicated datasheet
 
 ### 74x1020 - dual 4-input NAND gate
 - Status: [x]

@@ -17292,8 +17292,10 @@
     "pins": "64",
     "datasheet": "74AC1010",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n457",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Wide multiplier/accumulator or passive termination array — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74ac1010/ttl_74ac1010.sv",
     "testbench_path": "tb/chips/ttl_74ac1010/tb_ttl_74ac1010.sv",
     "readme_path": "rtl/chips/ttl_74ac1010/README.md"
@@ -17332,8 +17334,10 @@
     "pins": "(20)",
     "datasheet": "SN74F1016",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74f1016",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Wide multiplier/accumulator or passive termination array — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74f1016/ttl_74f1016.sv",
     "testbench_path": "tb/chips/ttl_74f1016/tb_ttl_74f1016.sv",
     "readme_path": "rtl/chips/ttl_74f1016/README.md"
@@ -17353,8 +17357,10 @@
     "pins": "64",
     "datasheet": "74AC1016",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n467",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Wide multiplier/accumulator or passive termination array — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74ac1016/ttl_74ac1016.sv",
     "testbench_path": "tb/chips/ttl_74ac1016/tb_ttl_74ac1016.sv",
     "readme_path": "rtl/chips/ttl_74ac1016/README.md"
@@ -17372,8 +17378,10 @@
     "pins": "64",
     "datasheet": "74AC1017",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n479",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Wide multiplier/accumulator or passive termination array — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1017/ttl_74x1017.sv",
     "testbench_path": "tb/chips/ttl_74x1017/tb_ttl_74x1017.sv",
     "readme_path": "rtl/chips/ttl_74x1017/README.md"
@@ -17391,8 +17399,10 @@
     "pins": "(24)",
     "datasheet": "SN74F1018",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-36/DSA-706945.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Wide multiplier/accumulator or passive termination array — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1018/ttl_74x1018.sv",
     "testbench_path": "tb/chips/ttl_74x1018/tb_ttl_74x1018.sv",
     "readme_path": "rtl/chips/ttl_74x1018/README.md"
