@@ -21050,8 +21050,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2841T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n453",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "10-bit transparent D latch with 3-state. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2841/ttl_74x2841.sv",
     "testbench_path": "tb/chips/ttl_74x2841/tb_ttl_74x2841.sv",
     "readme_path": "rtl/chips/ttl_74x2841/README.md"
