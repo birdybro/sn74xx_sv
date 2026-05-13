@@ -22820,8 +22820,10 @@
     "pins": "14",
     "datasheet": "TC74HC4072",
     "datasheet_url": "http://www.htmldatasheet.com/pdf/toshiba/tc74hc4072.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 4-input OR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4072/ttl_74x4072.sv",
     "testbench_path": "tb/chips/ttl_74x4072/tb_ttl_74x4072.sv",
     "readme_path": "rtl/chips/ttl_74x4072/README.md"

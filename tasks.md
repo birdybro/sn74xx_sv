@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 844
+- complete: 845
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 342
+- not_started: 341
 
 ## Chips
 
@@ -17404,7 +17404,7 @@ IDT74FST3245
   - 16-channel analog multiplexer; CMOS transmission-gate switch
 
 ### 74x4072 - dual 4-input OR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4072
 - Aliases: none
 - Source section: Larger footprints
@@ -17417,7 +17417,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4072/tb_ttl_74x4072.sv
 - README: rtl/chips/ttl_74x4072/README.md
 - Notes:
-  - (none)
+  - Dual 4-input OR. Verilator + Yosys clean.
 
 ### 74x4075 - triple 3-input OR gate
 - Status: [ ]
