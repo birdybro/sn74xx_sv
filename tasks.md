@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 666
+- complete: 667
 - blocked: 121
 - digital_only_approximation: 27
-- not_started: 741
+- not_started: 740
 
 ## Chips
 
@@ -13226,7 +13226,7 @@ For every chip:
   - (none)
 
 ### 74x1011 - triple 3-input AND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1011
 - Aliases: none
 - Source section: Larger footprints
@@ -13239,7 +13239,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1011/tb_ttl_74x1011.sv
 - README: rtl/chips/ttl_74x1011/README.md
 - Notes:
-  - (none)
+  - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74F1016 - 16-bit Schottky diode R-C bus termination array
 - Status: [ ]
