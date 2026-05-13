@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 782
+- complete: 783
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 460
+- not_started: 459
 
 ## Chips
 
@@ -12890,7 +12890,7 @@ For every chip:
   - Dual 8-bit ranks A/B with hold/shift/copy/exchange modes. Verilator + Yosys clean.
 
 ### 74x963 - dual rank 8-bit shift register, synchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x963
 - Aliases: none
 - Source section: Larger footprints
@@ -12903,7 +12903,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x963/tb_ttl_74x963.sv
 - README: rtl/chips/ttl_74x963/README.md
 - Notes:
-  - (none)
+  - Dual rank 8-bit shift register with sync clear (mode 11). Verilator + Yosys clean.
 
 ### 74x964 - dual rank 8-bit shift register, synchronous and asynchronous clear
 - Status: [ ]
