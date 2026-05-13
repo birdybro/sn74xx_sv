@@ -15616,8 +15616,10 @@
     "pins": "24",
     "datasheet": "SN74AS885",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74as885",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit unsigned/two's complement magnitude comparator with P latch and cascade per SN74AS885 (SDAS236A); Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x885/ttl_74x885.sv",
     "testbench_path": "tb/chips/ttl_74x885/tb_ttl_74x885.sv",
     "readme_path": "rtl/chips/ttl_74x885/README.md"

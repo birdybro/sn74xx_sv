@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 636
+- complete: 637
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 818
+- not_started: 817
 
 ## Chips
 
@@ -11930,7 +11930,7 @@ For every chip:
   - (none)
 
 ### 74x885 - 8-bit magnitude comparator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x885
 - Aliases: none
 - Source section: Larger footprints
@@ -11943,7 +11943,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x885/tb_ttl_74x885.sv
 - README: rtl/chips/ttl_74x885/README.md
 - Notes:
-  - (none)
+  - 8-bit unsigned/two's complement magnitude comparator with P latch and cascade per SN74AS885 (SDAS236A); Verilator lint+sim clean
 
 ### 74x887 - 8-bit processor element (non-cascadable version of 74x888)
 - Status: [ ]
