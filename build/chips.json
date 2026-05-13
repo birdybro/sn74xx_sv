@@ -24603,8 +24603,10 @@
     "pins": "20",
     "datasheet": "TC74HC7244AP",
     "datasheet_url": "http://pdf.datasheet.live/datasheets-1/toshiba/TC74HC7241AP.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Octal non-inverting buffer, = 74x244. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7244/ttl_74x7244.sv",
     "testbench_path": "tb/chips/ttl_74x7244/tb_ttl_74x7244.sv",
     "readme_path": "rtl/chips/ttl_74x7244/README.md"
