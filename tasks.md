@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 623
+- complete: 624
 - blocked: 65
 - digital_only_approximation: 27
-- not_started: 840
+- not_started: 839
 
 ## Chips
 
@@ -11482,7 +11482,7 @@ For every chip:
   - Per SN74ALS843 family datasheet (SDAS232A); latch (not flop) with async /PRE > /CLR > LE; Verilator lint+sim clean
 
 ### 74x845 - 8-bit D flip-flops, clear and set inputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x845
 - Aliases: none
 - Source section: Larger footprints
@@ -11495,7 +11495,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x845/tb_ttl_74x845.sv
 - README: rtl/chips/ttl_74x845/README.md
 - Notes:
-  - (none)
+  - Per SN74ALS843 family datasheet (SDAS232A); latch (not flop) with async /PRE > /CLR > LE; Verilator lint+sim clean
 
 ### 74x846 - 8-bit D flip-flops, clear and set inputs, inverting inputs
 - Status: [ ]
