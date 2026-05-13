@@ -15557,8 +15557,10 @@
     "pins": "24",
     "datasheet": "SN74ALS880",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n675",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x880/ttl_74x880.sv",
     "testbench_path": "tb/chips/ttl_74x880/tb_ttl_74x880.sv",
     "readme_path": "rtl/chips/ttl_74x880/README.md"

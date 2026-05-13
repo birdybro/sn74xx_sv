@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 635
+- complete: 636
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 819
+- not_started: 818
 
 ## Chips
 
@@ -11882,7 +11882,7 @@ For every chip:
   - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x880 - dual 4-bit transparent latch with clear, inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x880
 - Aliases: none
 - Source section: Larger footprints
@@ -11895,7 +11895,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x880/tb_ttl_74x880.sv
 - README: rtl/chips/ttl_74x880/README.md
 - Notes:
-  - (none)
+  - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x881 - 4-bit arithmetic logic unit
 - Status: [ ]
