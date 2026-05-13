@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 975
+- complete: 976
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 168
+- not_started: 167
 
 ## Chips
 
@@ -20332,7 +20332,7 @@ IDT74FST3245
   - 16x16-bit MAC (Am29510/TDC1010-equivalent); complex pipelined multiplier-accumulator
 
 ### 74x9541 - 8-bit buffer / line driver, inverting / non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9541
 - Aliases: none
 - Source section: Larger footprints
@@ -20345,7 +20345,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9541/tb_ttl_74x9541.sv
 - README: rtl/chips/ttl_74x9541/README.md
 - Notes:
-  - (none)
+  - 8-bit selectable invert/non-invert. Verilator + Yosys clean.
 
 ### 74x9595 - 8-bit shift register with latch (serial in, parallel out)
 - Status: [ ]
