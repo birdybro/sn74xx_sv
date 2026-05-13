@@ -12623,8 +12623,10 @@
     "pins": "24",
     "datasheet": "SN74ALS666",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als666",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit transparent latch with /OE1+/OE2 AND-enable on Q and /OERB read-back onto D, per SN74ALS666 datasheet; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x666/ttl_74x666.sv",
     "testbench_path": "tb/chips/ttl_74x666/tb_ttl_74x666.sv",
     "readme_path": "rtl/chips/ttl_74x666/README.md"

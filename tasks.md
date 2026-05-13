@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 567
+- complete: 568
 - blocked: 6
 - digital_only_approximation: 27
-- not_started: 955
+- not_started: 954
 
 ## Chips
 
@@ -9640,7 +9640,7 @@ For every chip:
   - HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation
 
 ### 74x666 - 8-bit D-type transparent read-back latch, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x666
 - Aliases: none
 - Source section: Larger footprints
@@ -9653,7 +9653,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x666/tb_ttl_74x666.sv
 - README: rtl/chips/ttl_74x666/README.md
 - Notes:
-  - (none)
+  - 8-bit transparent latch with /OE1+/OE2 AND-enable on Q and /OERB read-back onto D, per SN74ALS666 datasheet; Verilator lint+sim clean
 
 ### 74x667 - 8-bit D-type transparent read-back latch, inverting
 - Status: [ ]
