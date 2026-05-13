@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 594
+- complete: 595
 - blocked: 43
 - digital_only_approximation: 27
-- not_started: 891
+- not_started: 890
 
 ## Chips
 
@@ -10696,7 +10696,7 @@ For every chip:
   - (none)
 
 ### 74x760 - octal buffer/line driver, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x760
 - Aliases: none
 - Source section: Larger footprints
@@ -10709,7 +10709,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x760/tb_ttl_74x760.sv
 - README: rtl/chips/ttl_74x760/README.md
 - Notes:
-  - (none)
+  - Functional twin of 74x244; Verilator lint+sim clean
 
 ### 74x762 - octal buffer/line driver, inverting and non-inverting outputs
 - Status: [ ]

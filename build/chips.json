@@ -14005,8 +14005,10 @@
     "pins": "20",
     "datasheet": "SN74ALS760",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als760",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Functional twin of 74x244; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x760/ttl_74x760.sv",
     "testbench_path": "tb/chips/ttl_74x760/tb_ttl_74x760.sv",
     "readme_path": "rtl/chips/ttl_74x760/README.md"
