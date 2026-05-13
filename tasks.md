@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 988
+- complete: 989
 - blocked: 395
 - digital_only_approximation: 27
-- not_started: 145
+- not_started: 144
 
 ## Chips
 
@@ -22978,7 +22978,7 @@ IDT74FST3245
 ## Section: Smaller footprints
 
 ### 74x1G00 - single 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g00
 - Aliases: none
 - Source section: Smaller footprints
@@ -22991,7 +22991,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g00/tb_ttl_74x1g00.sv
 - README: rtl/chips/ttl_74x1g00/README.md
 - Notes:
-  - (none)
+  - Single 2-input NAND. Verilator + Yosys clean.
 
 ### 74x1G02 - single 2-input NOR gate
 - Status: [ ]
