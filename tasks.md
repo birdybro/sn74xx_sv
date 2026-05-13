@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 806
+- complete: 807
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 425
+- not_started: 424
 
 ## Chips
 
@@ -16138,7 +16138,7 @@ For every chip:
   - 10-bit non-inverting bus transceiver. Verilator + Yosys clean.
 
 ### 74x2862 - 10-bit inverting bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2862
 - Aliases: none
 - Source section: Larger footprints
@@ -16151,7 +16151,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2862/tb_ttl_74x2862.sv
 - README: rtl/chips/ttl_74x2862/README.md
 - Notes:
-  - (none)
+  - 10-bit inverting bus transceiver. Verilator + Yosys clean.
 
 ### 74x2863 - 9-bit non-inverting bus transceiver with dual output enable
 - Status: [ ]
