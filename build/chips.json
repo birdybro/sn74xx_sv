@@ -22022,8 +22022,10 @@
     "pins": "(120)",
     "datasheet": "SN74ABT3612",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDataBook_33517703/page/n387",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Bidir FIFO (2x64x36) via gen_fifo.py --bidir. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x3612/ttl_74x3612.sv",
     "testbench_path": "tb/chips/ttl_74x3612/tb_ttl_74x3612.sv",
     "readme_path": "rtl/chips/ttl_74x3612/README.md"
