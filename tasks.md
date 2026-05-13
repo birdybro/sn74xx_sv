@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 717
+- complete: 718
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 631
+- not_started: 630
 
 ## Chips
 
@@ -21391,7 +21391,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16827 - 20-bit non-inverting bus buffer/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16827
 - Aliases: none
 - Source section: Widebus devices
@@ -21404,7 +21404,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16827/tb_ttl_74x16827.sv
 - README: rtl/chips/ttl_74x16827/README.md
 - Notes:
-  - (none)
+  - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16828 - 20-bit inverting bus buffer/driver
 - Status: [ ]
