@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 770
+- complete: 771
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 472
+- not_started: 471
 
 ## Chips
 
@@ -15130,7 +15130,7 @@ For every chip:
   - Behavioral bidirectional FIFO (two 1024x9 queues, A->B and B->A). Verilator + Yosys clean.
 
 ### 74x2236 - 18432-bit bidirectional FIFO memory (2x1024x9)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2236
 - Aliases: none
 - Source section: Larger footprints
@@ -15143,7 +15143,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2236/tb_ttl_74x2236.sv
 - README: rtl/chips/ttl_74x2236/README.md
 - Notes:
-  - (none)
+  - Behaviorally identical to 74x2235; differs only in package details. Verilator + Yosys clean.
 
 ### 74x2238 - 576-bit bidirectional FIFO memory (2x32x9)
 - Status: [ ]
