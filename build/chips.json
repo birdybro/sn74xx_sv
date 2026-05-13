@@ -30002,8 +30002,10 @@
     "pins": "(100)",
     "datasheet": "ABTH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=741",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "36-bit version of 74x245. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x32501/ttl_74x32501.sv",
     "testbench_path": "tb/chips/ttl_74x32501/tb_ttl_74x32501.sv",
     "readme_path": "rtl/chips/ttl_74x32501/README.md"
