@@ -28310,8 +28310,10 @@
     "pins": "80",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162830.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162830/ttl_74x162830.sv",
     "testbench_path": "tb/chips/ttl_74x162830/tb_ttl_74x162830.sv",
     "readme_path": "rtl/chips/ttl_74x162830/README.md"
@@ -28329,8 +28331,10 @@
     "pins": "80",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=785",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162831/ttl_74x162831.sv",
     "testbench_path": "tb/chips/ttl_74x162831/tb_ttl_74x162831.sv",
     "readme_path": "rtl/chips/ttl_74x162831/README.md"
@@ -28348,8 +28352,10 @@
     "pins": "64",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=786",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162832/ttl_74x162832.sv",
     "testbench_path": "tb/chips/ttl_74x162832/tb_ttl_74x162832.sv",
     "readme_path": "rtl/chips/ttl_74x162832/README.md"
@@ -28367,8 +28373,10 @@
     "pins": "56",
     "datasheet": "ALVCF",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvcf162834.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162834/ttl_74x162834.sv",
     "testbench_path": "tb/chips/ttl_74x162834/tb_ttl_74x162834.sv",
     "readme_path": "rtl/chips/ttl_74x162834/README.md"
@@ -28386,8 +28394,10 @@
     "pins": "56",
     "datasheet": "ALVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvc162835.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162835/ttl_74x162835.sv",
     "testbench_path": "tb/chips/ttl_74x162835/tb_ttl_74x162835.sv",
     "readme_path": "rtl/chips/ttl_74x162835/README.md"
@@ -28405,8 +28415,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162836.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162836/ttl_74x162836.sv",
     "testbench_path": "tb/chips/ttl_74x162836/tb_ttl_74x162836.sv",
     "readme_path": "rtl/chips/ttl_74x162836/README.md"
@@ -28466,8 +28478,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn54abt18245a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized address driver / universal bus driver / scan-test part — needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x18245/ttl_74x18245.sv",
     "testbench_path": "tb/chips/ttl_74x18245/tb_ttl_74x18245.sv",
     "readme_path": "rtl/chips/ttl_74x18245/README.md"

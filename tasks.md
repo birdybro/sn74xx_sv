@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 735
-- blocked: 223
+- blocked: 230
 - digital_only_approximation: 27
-- not_started: 570
+- not_started: 563
 
 ## Chips
 
@@ -22207,7 +22207,7 @@ IDT74FST3245
   - Widebus twin; Verilator lint+sim clean
 
 ### 74x162830 - 1-bit to 2-bit address driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162830
 - Aliases: none
 - Source section: Widebus devices
@@ -22220,10 +22220,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162830/tb_ttl_74x162830.sv
 - README: rtl/chips/ttl_74x162830/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162831 - 1-bit to 4-bit address register/driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162831
 - Aliases: none
 - Source section: Widebus devices
@@ -22236,10 +22236,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162831/tb_ttl_74x162831.sv
 - README: rtl/chips/ttl_74x162831/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162832 - 1-bit to 4-bit address register/driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162832
 - Aliases: none
 - Source section: Widebus devices
@@ -22252,10 +22252,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162832/tb_ttl_74x162832.sv
 - README: rtl/chips/ttl_74x162832/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162834 - 3.3-V CMOS 18-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162834
 - Aliases: none
 - Source section: Widebus devices
@@ -22268,10 +22268,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162834/tb_ttl_74x162834.sv
 - README: rtl/chips/ttl_74x162834/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162835 - 18-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162835
 - Aliases: none
 - Source section: Widebus devices
@@ -22284,10 +22284,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162835/tb_ttl_74x162835.sv
 - README: rtl/chips/ttl_74x162835/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162836 - 20-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x162836
 - Aliases: none
 - Source section: Widebus devices
@@ -22300,7 +22300,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162836/tb_ttl_74x162836.sv
 - README: rtl/chips/ttl_74x162836/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x162841 - 20-bit bus interface D-type latch
 - Status: [x]
@@ -22335,7 +22335,7 @@ IDT74FST3245
   - Widebus twin; Verilator lint+sim clean
 
 ### 74x18245 - scan test devices with 18-bit bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x18245
 - Aliases: none
 - Source section: Widebus devices
@@ -22348,7 +22348,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x18245/tb_ttl_74x18245.sv
 - README: rtl/chips/ttl_74x18245/README.md
 - Notes:
-  - (none)
+  - Specialized address driver / universal bus driver / scan-test part — needs datasheet
 
 ### 74x18502 - scan test devices with 18-bit universal bus transceivers
 - Status: [ ]
