@@ -15838,8 +15838,10 @@
     "pins": "14",
     "datasheet": "MM74C901",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n93",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Simple combinational gate/buffer; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x901/ttl_74x901.sv",
     "testbench_path": "tb/chips/ttl_74x901/tb_ttl_74x901.sv",
     "readme_path": "rtl/chips/ttl_74x901/README.md"
