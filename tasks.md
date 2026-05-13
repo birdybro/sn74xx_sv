@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1010
+- complete: 1011
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 114
+- not_started: 113
 
 ## Chips
 
@@ -23394,7 +23394,7 @@ IDT74FST3245
   - D-FF Q output only. Verilator + Yosys clean.
 
 ### 74x1G80 - single positive-edge D flip-flop, /Q output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g80
 - Aliases: none
 - Source section: Smaller footprints
@@ -23407,7 +23407,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g80/tb_ttl_74x1g80.sv
 - README: rtl/chips/ttl_74x1g80/README.md
 - Notes:
-  - (none)
+  - D-FF /Q output only. Verilator + Yosys clean.
 
 ### 74x1G86 - single 2-input XOR gate (a.k.a. 2-bit even-parity generator)
 - Status: [ ]
