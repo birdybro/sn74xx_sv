@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 651
+- complete: 652
 - blocked: 93
 - digital_only_approximation: 27
-- not_started: 784
+- not_started: 783
 
 ## Chips
 
@@ -12682,7 +12682,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x941 - octal bus/line drivers/line receivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x941
 - Aliases: none
 - Source section: Larger footprints
@@ -12695,7 +12695,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x941/tb_ttl_74x941.sv
 - README: rtl/chips/ttl_74x941/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x942 - 300 baud Bell 103 modem (+/- 5 V supply)
 - Status: [ ]
