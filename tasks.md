@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 959
+- complete: 960
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 198
+- not_started: 197
 
 ## Chips
 
@@ -19900,7 +19900,7 @@ IDT74FST3245
   - 8-bit non-inverting latched bidir transceiver. Verilator + Yosys clean.
 
 ### 74x8962 - 9-bit bidirectional latched FutureBus transceiver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8962
 - Aliases: none
 - Source section: Larger footprints
@@ -19913,7 +19913,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8962/tb_ttl_74x8962.sv
 - README: rtl/chips/ttl_74x8962/README.md
 - Notes:
-  - (none)
+  - 9-bit inverting latched bidir transceiver. Verilator + Yosys clean.
 
 ### 74x8963 - 9-bit bidirectional latched FutureBus transceiver, non-inverting
 - Status: [ ]
