@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 976
+- complete: 977
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 167
+- not_started: 166
 
 ## Chips
 
@@ -20348,7 +20348,7 @@ IDT74FST3245
   - 8-bit selectable invert/non-invert. Verilator + Yosys clean.
 
 ### 74x9595 - 8-bit shift register with latch (serial in, parallel out)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9595
 - Aliases: none
 - Source section: Larger footprints
@@ -20361,7 +20361,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9595/tb_ttl_74x9595.sv
 - README: rtl/chips/ttl_74x9595/README.md
 - Notes:
-  - (none)
+  - 8-bit SIPO shift register with output latch. Verilator + Yosys clean.
 
 ### 74x40102 - presettable synchronous 2-decade BCD down counter
 - Status: [ ]
