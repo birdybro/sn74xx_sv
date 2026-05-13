@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 831
+- complete: 832
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 368
+- not_started: 367
 
 ## Chips
 
@@ -16956,7 +16956,7 @@ IDT74FST3245
   - Generated via scripts/gen_fifo.py (2048x36). Verilator + Yosys clean.
 
 ### 74x3708 - 8192-bit PROM (1024x8)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3708
 - Aliases: none
 - Source section: Larger footprints
@@ -16969,7 +16969,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3708/tb_ttl_74x3708.sv
 - README: rtl/chips/ttl_74x3708/README.md
 - Notes:
-  - (none)
+  - 1024x8 PROM, same as 74x478 model. Verilator + Yosys clean.
 
 ### 74x3807 - 1-to-10 clock driver
 - Status: [!]
