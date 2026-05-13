@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 647
-- blocked: 88
+- blocked: 93
 - digital_only_approximation: 27
-- not_started: 793
+- not_started: 788
 
 ## Chips
 
@@ -12186,7 +12186,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x905 - 12-bit successive approximation register
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x905
 - Aliases: none
 - Source section: Larger footprints
@@ -12199,7 +12199,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x905/tb_ttl_74x905.sv
 - README: rtl/chips/ttl_74x905/README.md
 - Notes:
-  - (none)
+  - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x906 - hex open drain n-channel buffers
 - Status: [x]
@@ -12250,7 +12250,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x909 - quad voltage comparator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x909
 - Aliases: none
 - Source section: Larger footprints
@@ -12263,10 +12263,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x909/tb_ttl_74x909.sv
 - README: rtl/chips/ttl_74x909/README.md
 - Notes:
-  - (none)
+  - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x910 - 256-bit RAM (64x4)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x910
 - Aliases: none
 - Source section: Larger footprints
@@ -12279,10 +12279,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x910/tb_ttl_74x910.sv
 - README: rtl/chips/ttl_74x910/README.md
 - Notes:
-  - (none)
+  - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x911 - 4-digit expandable display controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x911
 - Aliases: none
 - Source section: Larger footprints
@@ -12295,10 +12295,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x911/tb_ttl_74x911.sv
 - README: rtl/chips/ttl_74x911/README.md
 - Notes:
-  - (none)
+  - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x912 - 6-digit BCD display controller and driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x912
 - Aliases: none
 - Source section: Larger footprints
@@ -12311,7 +12311,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x912/tb_ttl_74x912.sv
 - README: rtl/chips/ttl_74x912/README.md
 - Notes:
-  - (none)
+  - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x913 - 6-digit BCD display controller and driver, no decimal point
 - Status: [ ]

@@ -15964,8 +15964,10 @@
     "pins": "24",
     "datasheet": "MM74C905",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n97",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x905/ttl_74x905.sv",
     "testbench_path": "tb/chips/ttl_74x905/tb_ttl_74x905.sv",
     "readme_path": "rtl/chips/ttl_74x905/README.md"
@@ -16046,8 +16048,10 @@
     "pins": "14",
     "datasheet": "MM74C909",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n109",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x909/ttl_74x909.sv",
     "testbench_path": "tb/chips/ttl_74x909/tb_ttl_74x909.sv",
     "readme_path": "rtl/chips/ttl_74x909/README.md"
@@ -16065,8 +16069,10 @@
     "pins": "18",
     "datasheet": "MM74C910",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n115",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x910/ttl_74x910.sv",
     "testbench_path": "tb/chips/ttl_74x910/tb_ttl_74x910.sv",
     "readme_path": "rtl/chips/ttl_74x910/README.md"
@@ -16084,8 +16090,10 @@
     "pins": "28",
     "datasheet": "MM74C911",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n135",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x911/ttl_74x911.sv",
     "testbench_path": "tb/chips/ttl_74x911/tb_ttl_74x911.sv",
     "readme_path": "rtl/chips/ttl_74x911/README.md"
@@ -16103,8 +16111,10 @@
     "pins": "28",
     "datasheet": "MM74C912",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n135",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x912/ttl_74x912.sv",
     "testbench_path": "tb/chips/ttl_74x912/tb_ttl_74x912.sv",
     "readme_path": "rtl/chips/ttl_74x912/README.md"
