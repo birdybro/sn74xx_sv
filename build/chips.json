@@ -23282,8 +23282,10 @@
     "pins": "24",
     "datasheet": "CD74HC4515",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd54hc4514",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-to-16 decoder with latched input, inverting outputs. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4515/ttl_74x4515.sv",
     "testbench_path": "tb/chips/ttl_74x4515/tb_ttl_74x4515.sv",
     "readme_path": "rtl/chips/ttl_74x4515/README.md"

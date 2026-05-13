@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 861
+- complete: 862
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 325
+- not_started: 324
 
 ## Chips
 
@@ -17756,7 +17756,7 @@ IDT74FST3245
   - 4-to-16 decoder with latched input. Verilator + Yosys clean.
 
 ### 74x4515 - 4-to-16 line decoder/demultiplexer with input latches; inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4515
 - Aliases: none
 - Source section: Larger footprints
@@ -17769,7 +17769,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4515/tb_ttl_74x4515.sv
 - README: rtl/chips/ttl_74x4515/README.md
 - Notes:
-  - (none)
+  - 4-to-16 decoder with latched input, inverting outputs. Verilator + Yosys clean.
 
 ### 74x4516 - 4-bit binary up/down counter
 - Status: [ ]
