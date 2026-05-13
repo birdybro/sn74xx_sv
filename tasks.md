@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 801
+- complete: 802
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 430
+- not_started: 429
 
 ## Chips
 
@@ -16026,7 +16026,7 @@ For every chip:
   - 10-bit non-inverting buffer with 3-state. Verilator + Yosys clean.
 
 ### 74x2828 - 10-bit buffer, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2828
 - Aliases: none
 - Source section: Larger footprints
@@ -16039,7 +16039,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2828/tb_ttl_74x2828.sv
 - README: rtl/chips/ttl_74x2828/README.md
 - Notes:
-  - (none)
+  - 10-bit inverting buffer with 3-state. Verilator + Yosys clean.
 
 ### 74x2833 - 8-bit bus transceiver with parity error flip-flop
 - Status: [ ]
