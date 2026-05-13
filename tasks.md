@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 581
+- complete: 582
 - blocked: 43
 - digital_only_approximation: 27
-- not_started: 904
+- not_started: 903
 
 ## Chips
 
@@ -10424,7 +10424,7 @@ For every chip:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x730 - octal dRAM driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x730
 - Aliases: none
 - Source section: Larger footprints
@@ -10437,7 +10437,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x730/tb_ttl_74x730.sv
 - README: rtl/chips/ttl_74x730/README.md
 - Notes:
-  - (none)
+  - Functional twin of 74x700; Verilator lint+sim clean
 
 ### 74x731 - octal dRAM driver, non-inverting
 - Status: [ ]
