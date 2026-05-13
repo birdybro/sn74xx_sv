@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1006
+- complete: 1007
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 118
+- not_started: 117
 
 ## Chips
 
@@ -23282,7 +23282,7 @@ IDT74FST3245
   - Single 2-input OR. Verilator + Yosys clean.
 
 ### 74x1G34 - single buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g34
 - Aliases: none
 - Source section: Smaller footprints
@@ -23295,7 +23295,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g34/tb_ttl_74x1g34.sv
 - README: rtl/chips/ttl_74x1g34/README.md
 - Notes:
-  - (none)
+  - Single buffer. Verilator + Yosys clean.
 
 ### 74x1G38 - single 2-input NAND gate
 - Status: [ ]
