@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 731
+- complete: 732
 - blocked: 208
 - digital_only_approximation: 27
-- not_started: 589
+- not_started: 588
 
 ## Chips
 
@@ -22175,7 +22175,7 @@ IDT74FST3245
   - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162825 - 18-bit buffer/driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x162825
 - Aliases: none
 - Source section: Widebus devices
@@ -22188,7 +22188,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x162825/tb_ttl_74x162825.sv
 - README: rtl/chips/ttl_74x162825/README.md
 - Notes:
-  - (none)
+  - 3.3-V twin of 16xxx; Verilator lint+sim clean
 
 ### 74x162827 - 20-bit buffer/driver
 - Status: [ ]
