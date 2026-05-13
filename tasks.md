@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 766
+- complete: 767
 - blocked: 284
 - digital_only_approximation: 27
-- not_started: 478
+- not_started: 477
 
 ## Chips
 
@@ -16748,7 +16748,7 @@ IDT74FST3245
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x3574 - octal D-type flip flop
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3574
 - Aliases: none
 - Source section: Larger footprints
@@ -16761,7 +16761,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3574/tb_ttl_74x3574.sv
 - README: rtl/chips/ttl_74x3574/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x3584 - dual 5-bit FET bus switch
 - Status: [ ]
