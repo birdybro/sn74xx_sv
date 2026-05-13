@@ -12707,8 +12707,10 @@
     "pins": "16",
     "datasheet": "SN74LS670",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls670",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4x4 register file with independent read/write ports; level-sensitive (transparent) write; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x670/ttl_74x670.sv",
     "testbench_path": "tb/chips/ttl_74x670/tb_ttl_74x670.sv",
     "readme_path": "rtl/chips/ttl_74x670/README.md"

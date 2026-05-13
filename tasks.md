@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 571
+- complete: 572
 - blocked: 6
 - digital_only_approximation: 27
-- not_started: 951
+- not_started: 950
 
 ## Chips
 
@@ -9704,7 +9704,7 @@ For every chip:
   - Binary up/down counter; functional twin of 74x169; Verilator lint+sim clean
 
 ### 74x670 - 16-bit register file (4x4)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x670
 - Aliases: none
 - Source section: Larger footprints
@@ -9717,7 +9717,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x670/tb_ttl_74x670.sv
 - README: rtl/chips/ttl_74x670/README.md
 - Notes:
-  - (none)
+  - 4x4 register file with independent read/write ports; level-sensitive (transparent) write; Verilator lint+sim clean
 
 ### 74x671 - 4-bit bidirectional shift register/latch/multiplexer, direct clear
 - Status: [ ]
