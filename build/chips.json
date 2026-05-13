@@ -16979,8 +16979,10 @@
     "pins": "16",
     "datasheet": "MM74C989",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n1313",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Generated via scripts/gen_ram.py (16x4 inverted). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x989/ttl_74x989.sv",
     "testbench_path": "tb/chips/ttl_74x989/tb_ttl_74x989.sv",
     "readme_path": "rtl/chips/ttl_74x989/README.md"

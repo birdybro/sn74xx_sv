@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 768
+- complete: 769
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 474
+- not_started: 473
 
 ## Chips
 
@@ -12970,7 +12970,7 @@ For every chip:
   - (none)
 
 ### 74x989 - 64-bit RAM (16x4), inverting output
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x989
 - Aliases: none
 - Source section: Larger footprints
@@ -12983,7 +12983,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x989/tb_ttl_74x989.sv
 - README: rtl/chips/ttl_74x989/README.md
 - Notes:
-  - (none)
+  - Generated via scripts/gen_ram.py (16x4 inverted). Verilator + Yosys clean.
 
 ### 74x990 - 8-bit D-type transparent read-back latch, non-inverting
 - Status: [x]
