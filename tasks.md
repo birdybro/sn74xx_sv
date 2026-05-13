@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 780
+- complete: 781
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 462
+- not_started: 461
 
 ## Chips
 
@@ -12938,7 +12938,7 @@ For every chip:
   - (none)
 
 ### 74x978 - octal flip-flop with serial scanner
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x978
 - Aliases: none
 - Source section: Larger footprints
@@ -12951,7 +12951,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x978/tb_ttl_74x978.sv
 - README: rtl/chips/ttl_74x978/README.md
 - Notes:
-  - (none)
+  - Octal D-FF with scan-chain mode (test_n=0 shifts scan_in through q[0..7]). Verilator + Yosys clean.
 
 ### 74x979 - 9-bit registered transceiver with parity generator/checker for FutureBus
 - Status: [x]

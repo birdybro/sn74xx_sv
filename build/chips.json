@@ -16941,8 +16941,10 @@
     "pins": "24",
     "datasheet": "74F978",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n667",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Octal D-FF with scan-chain mode (test_n=0 shifts scan_in through q[0..7]). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x978/ttl_74x978.sv",
     "testbench_path": "tb/chips/ttl_74x978/tb_ttl_74x978.sv",
     "readme_path": "rtl/chips/ttl_74x978/README.md"
