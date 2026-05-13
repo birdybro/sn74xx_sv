@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 982
+- complete: 983
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 161
+- not_started: 160
 
 ## Chips
 
@@ -20975,7 +20975,7 @@ IDT74FST3245
   - 18-bit version of 74x543. Verilator + Yosys clean.
 
 ### 74x16525 - 18-bit registered bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16525
 - Aliases: none
 - Source section: Widebus devices
@@ -20988,7 +20988,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16525/tb_ttl_74x16525.sv
 - README: rtl/chips/ttl_74x16525/README.md
 - Notes:
-  - (none)
+  - 18-bit version of 74x543 (same as 74x16524). Verilator + Yosys clean.
 
 ### 74x16540 - 16-bit inverting buffer/driver with grouped 8-bit output enables (active-low)
 - Status: [x]
