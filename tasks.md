@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1005
+- complete: 1006
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 119
+- not_started: 118
 
 ## Chips
 
@@ -23266,7 +23266,7 @@ IDT74FST3245
   - Single 2-to-3 decoder, active-low. Verilator + Yosys clean.
 
 ### 74x1G32 - single 2-input OR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g32
 - Aliases: none
 - Source section: Smaller footprints
@@ -23279,7 +23279,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g32/tb_ttl_74x1g32.sv
 - README: rtl/chips/ttl_74x1g32/README.md
 - Notes:
-  - (none)
+  - Single 2-input OR. Verilator + Yosys clean.
 
 ### 74x1G34 - single buffer gate
 - Status: [ ]
