@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 745
+- complete: 746
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 553
+- not_started: 552
 
 ## Chips
 
@@ -15002,7 +15002,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2193 - synchronous presettable 4-bit binary counter, separate up/down clocks
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2193
 - Aliases: none
 - Source section: Larger footprints
@@ -15015,7 +15015,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2193/tb_ttl_74x2193.sv
 - README: rtl/chips/ttl_74x2193/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2226 - dual 64-bit FIFO memories (64x1)
 - Status: [ ]

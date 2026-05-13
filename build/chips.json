@@ -19556,8 +19556,10 @@
     "pins": "16",
     "datasheet": "QS74FCT2193T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n329",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2193/ttl_74x2193.sv",
     "testbench_path": "tb/chips/ttl_74x2193/tb_ttl_74x2193.sv",
     "readme_path": "rtl/chips/ttl_74x2193/README.md"
