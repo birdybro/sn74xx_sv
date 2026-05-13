@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 665
+- complete: 666
 - blocked: 121
 - digital_only_approximation: 27
-- not_started: 742
+- not_started: 741
 
 ## Chips
 
@@ -13194,7 +13194,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74ALS1010 - triple 3-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74als1010
 - Aliases: none
 - Source section: Larger footprints
@@ -13207,7 +13207,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74als1010/tb_ttl_74als1010.sv
 - README: rtl/chips/ttl_74als1010/README.md
 - Notes:
-  - (none)
+  - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74AC1010 - 16x16-bit multiplier/accumulator
 - Status: [ ]

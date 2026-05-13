@@ -17269,8 +17269,10 @@
     "pins": "14",
     "datasheet": "SN74ALS1010A",
     "datasheet_url": "https://web.archive.org/web/20170225141918/http://www.ti.com/lit/ds/symlink/sn74als1010a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "High-drive variant of standard gate; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74als1010/ttl_74als1010.sv",
     "testbench_path": "tb/chips/ttl_74als1010/tb_ttl_74als1010.sv",
     "readme_path": "rtl/chips/ttl_74als1010/README.md"
