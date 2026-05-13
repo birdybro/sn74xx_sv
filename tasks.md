@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 847
+- complete: 848
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 339
+- not_started: 338
 
 ## Chips
 
@@ -17452,7 +17452,7 @@ IDT74FST3245
   - 8-input OR with both OR and NOR outputs. Verilator + Yosys clean.
 
 ### 74x4094 - 8-bit three-state shift register/latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4094
 - Aliases: none
 - Source section: Larger footprints
@@ -17465,7 +17465,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4094/tb_ttl_74x4094.sv
 - README: rtl/chips/ttl_74x4094/README.md
 - Notes:
-  - (none)
+  - 8-bit serial-to-parallel shift+latch with 3-state output. Verilator + Yosys clean.
 
 ### 74x4102 - 2-digit BCD presettable synchronous down counter
 - Status: [ ]
