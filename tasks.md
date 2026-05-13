@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 637
+- complete: 638
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 803
+- not_started: 802
 
 ## Chips
 
@@ -12074,7 +12074,7 @@ For every chip:
   - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
 
 ### 74x900 - quad 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x900
 - Aliases: none
 - Source section: Larger footprints
@@ -12087,7 +12087,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x900/tb_ttl_74x900.sv
 - README: rtl/chips/ttl_74x900/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x901 - hex inverting TTL buffer
 - Status: [ ]
