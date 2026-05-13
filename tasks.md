@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1092
+- complete: 1093
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 16
+- not_started: 15
 
 ## Chips
 
@@ -24613,7 +24613,7 @@ IDT74FST3245
   - Dual-supply 1-bit bus xceiver. Verilator + Yosys clean.
 
 ### 74x1T50 - single-supply schmitt-trigger buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t50
 - Aliases: none
 - Source section: Voltage translation
@@ -24626,7 +24626,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t50/tb_ttl_74x1t50.sv
 - README: rtl/chips/ttl_74x1t50/README.md
 - Notes:
-  - (none)
+  - Single-supply Schmitt buffer (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x1T57 - single-supply configurable 9-function gate
 - Status: [!]
