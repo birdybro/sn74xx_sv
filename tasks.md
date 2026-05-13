@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1027
+- complete: 1028
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 95
+- not_started: 94
 
 ## Chips
 
@@ -22607,7 +22607,7 @@ IDT74FST3245
   - = 74x245. Verilator + Yosys clean.
 
 ### 74x25642 - 25-Ω octal bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x25642
 - Aliases: none
 - Source section: Widebus devices
@@ -22620,7 +22620,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x25642/tb_ttl_74x25642.sv
 - README: rtl/chips/ttl_74x25642/README.md
 - Notes:
-  - (none)
+  - = 74x245. Verilator + Yosys clean.
 
 ### 74x29821 - 10-bit bus interface flip-flops
 - Status: [ ]
