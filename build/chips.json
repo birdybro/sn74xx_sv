@@ -21092,8 +21092,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2845T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n453",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit latch with async reset and dual output enable (both OE_n must be low). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2845/ttl_74x2845.sv",
     "testbench_path": "tb/chips/ttl_74x2845/tb_ttl_74x2845.sv",
     "readme_path": "rtl/chips/ttl_74x2845/README.md"

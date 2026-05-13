@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 804
+- complete: 805
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 427
+- not_started: 426
 
 ## Chips
 
@@ -16090,7 +16090,7 @@ For every chip:
   - 9-bit transparent latch with async reset. Verilator + Yosys clean.
 
 ### 74x2845 - 8-bit transparent latch with asynchronous reset and multiple output enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2845
 - Aliases: none
 - Source section: Larger footprints
@@ -16103,7 +16103,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2845/tb_ttl_74x2845.sv
 - README: rtl/chips/ttl_74x2845/README.md
 - Notes:
-  - (none)
+  - 8-bit latch with async reset and dual output enable (both OE_n must be low). Verilator + Yosys clean.
 
 ### 74x2853 - 8-bit bus transceiver with parity error latch
 - Status: [ ]
