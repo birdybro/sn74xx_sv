@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 858
+- complete: 859
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 328
+- not_started: 327
 
 ## Chips
 
@@ -17708,7 +17708,7 @@ IDT74FST3245
   - Programmable DRAM controller for 64k/256k/1M; complex state machine requires datasheet
 
 ### 74x4510 - BCD decade up/down counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4510
 - Aliases: none
 - Source section: Larger footprints
@@ -17721,7 +17721,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4510/tb_ttl_74x4510.sv
 - README: rtl/chips/ttl_74x4510/README.md
 - Notes:
-  - (none)
+  - BCD decade up/down counter with load + reset + carry-out. Verilator + Yosys clean.
 
 ### 74x4511 - BCD to 7-segment decoder
 - Status: [ ]
