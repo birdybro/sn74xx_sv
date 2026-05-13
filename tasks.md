@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 769
+- complete: 770
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 473
+- not_started: 472
 
 ## Chips
 
@@ -15114,7 +15114,7 @@ For every chip:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2235 - 18432-bit bidirectional FIFO memory (2x1024x9)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2235
 - Aliases: none
 - Source section: Larger footprints
@@ -15127,7 +15127,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2235/tb_ttl_74x2235.sv
 - README: rtl/chips/ttl_74x2235/README.md
 - Notes:
-  - (none)
+  - Behavioral bidirectional FIFO (two 1024x9 queues, A->B and B->A). Verilator + Yosys clean.
 
 ### 74x2236 - 18432-bit bidirectional FIFO memory (2x1024x9)
 - Status: [ ]

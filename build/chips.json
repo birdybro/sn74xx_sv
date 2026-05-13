@@ -19771,8 +19771,10 @@
     "pins": "(44)",
     "datasheet": "SN74ACT2235",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDatabook_63352841/page/n203",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Behavioral bidirectional FIFO (two 1024x9 queues, A->B and B->A). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2235/ttl_74x2235.sv",
     "testbench_path": "tb/chips/ttl_74x2235/tb_ttl_74x2235.sv",
     "readme_path": "rtl/chips/ttl_74x2235/README.md"
