@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1016
+- complete: 1017
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 108
+- not_started: 107
 
 ## Chips
 
@@ -23554,7 +23554,7 @@ IDT74FST3245
   - 2-to-4 decoder active-low. Verilator + Yosys clean.
 
 ### 74x1G157 - single 2-to-1 data selector/multiplexer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g157
 - Aliases: none
 - Source section: Smaller footprints
@@ -23567,7 +23567,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g157/tb_ttl_74x1g157.sv
 - README: rtl/chips/ttl_74x1g157/README.md
 - Notes:
-  - (none)
+  - 2-to-1 mux. Verilator + Yosys clean.
 
 ### 74x1G158 - single 2-input multiplexer, active-low outputs
 - Status: [ ]
