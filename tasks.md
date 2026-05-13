@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 786
+- complete: 787
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 445
+- not_started: 444
 
 ## Chips
 
@@ -16346,7 +16346,7 @@ For every chip:
   - (none)
 
 ### 74x3037 - quad 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3037
 - Aliases: none
 - Source section: Larger footprints
@@ -16359,7 +16359,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x3037/tb_ttl_74x3037.sv
 - README: rtl/chips/ttl_74x3037/README.md
 - Notes:
-  - (none)
+  - Quad 2-input NAND, identical to 74x00. Verilator + Yosys clean.
 
 ### 74x3038 - quad 2-input NAND gate
 - Status: [ ]
