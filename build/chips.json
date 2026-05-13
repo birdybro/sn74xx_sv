@@ -17819,8 +17819,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1245A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als1245a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1245/ttl_74x1245.sv",
     "testbench_path": "tb/chips/ttl_74x1245/tb_ttl_74x1245.sv",
     "readme_path": "rtl/chips/ttl_74x1245/README.md"
