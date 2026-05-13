@@ -23618,8 +23618,10 @@
     "pins": "28",
     "datasheet": "SN74ABT5400",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n605",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "11-bit non-inverting line/memory driver with 3-state. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x5400/ttl_74x5400.sv",
     "testbench_path": "tb/chips/ttl_74x5400/tb_ttl_74x5400.sv",
     "readme_path": "rtl/chips/ttl_74x5400/README.md"
