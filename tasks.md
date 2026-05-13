@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 812
+- complete: 813
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 419
+- not_started: 418
 
 ## Chips
 
@@ -16202,7 +16202,7 @@ For every chip:
   - Identical to 74x652 (transceiver/register, non-inverting). Verilator + Yosys clean.
 
 ### 74x2953 - octal bus transceiver and register, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2953
 - Aliases: none
 - Source section: Larger footprints
@@ -16215,7 +16215,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2953/tb_ttl_74x2953.sv
 - README: rtl/chips/ttl_74x2953/README.md
 - Notes:
-  - (none)
+  - Identical to 74x651 (transceiver/register, inverting). Verilator + Yosys clean.
 
 ### 74x2960 - error detection and correction (EDAC), equivalent to Am2960
 - Status: [ ]
