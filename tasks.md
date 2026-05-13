@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 993
+- complete: 994
 - blocked: 395
 - digital_only_approximation: 27
-- not_started: 140
+- not_started: 139
 
 ## Chips
 
@@ -23074,7 +23074,7 @@ IDT74FST3245
   - Single inverter (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x1G07 - single buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g07
 - Aliases: none
 - Source section: Smaller footprints
@@ -23087,7 +23087,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g07/tb_ttl_74x1g07.sv
 - README: rtl/chips/ttl_74x1g07/README.md
 - Notes:
-  - (none)
+  - Single buffer (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x1G08 - single 2-input AND gate
 - Status: [ ]
