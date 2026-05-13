@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1091
+- complete: 1092
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 17
+- not_started: 16
 
 ## Chips
 
@@ -24597,7 +24597,7 @@ IDT74FST3245
   - Dual-supply unidir buffer. Verilator + Yosys clean.
 
 ### 74x1T45 - dual-supply 1-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t45
 - Aliases: none
 - Source section: Voltage translation
@@ -24610,7 +24610,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t45/tb_ttl_74x1t45.sv
 - README: rtl/chips/ttl_74x1t45/README.md
 - Notes:
-  - (none)
+  - Dual-supply 1-bit bus xceiver. Verilator + Yosys clean.
 
 ### 74x1T50 - single-supply schmitt-trigger buffer
 - Status: [ ]
