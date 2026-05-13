@@ -24351,8 +24351,10 @@
     "pins": "20",
     "datasheet": "74HCT7080",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-25/DSA-491964.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "16-bit parity generator/checker with parity-in input. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7080/ttl_74x7080.sv",
     "testbench_path": "tb/chips/ttl_74x7080/tb_ttl_74x7080.sv",
     "readme_path": "rtl/chips/ttl_74x7080/README.md"

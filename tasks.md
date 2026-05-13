@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 888
+- complete: 889
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 281
+- not_started: 280
 
 ## Chips
 
@@ -18572,7 +18572,7 @@ IDT74FST3245
   - Mixed gate + dual D-FF; 2 NORs instead of NAND+NOR. Verilator + Yosys clean.
 
 ### 74x7080 - 16-bit parity generator / checker
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7080
 - Aliases: none
 - Source section: Larger footprints
@@ -18585,7 +18585,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7080/tb_ttl_74x7080.sv
 - README: rtl/chips/ttl_74x7080/README.md
 - Notes:
-  - (none)
+  - 16-bit parity generator/checker with parity-in input. Verilator + Yosys clean.
 
 ### 74x7132 - quad adjustable comparator with output latches
 - Status: [!]
