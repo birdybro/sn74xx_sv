@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 677
+- complete: 678
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 713
+- not_started: 712
 
 ## Chips
 
@@ -13594,7 +13594,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x1244 - octal buffer / driver, non-inverting (lower-power version of 74x244)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1244
 - Aliases: none
 - Source section: Larger footprints
@@ -13607,7 +13607,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1244/tb_ttl_74x1244.sv
 - README: rtl/chips/ttl_74x1244/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x1245 - octal bus transceiver (lower-power version of 74x245)
 - Status: [ ]
