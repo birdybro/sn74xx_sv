@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 670
+- complete: 671
 - blocked: 121
 - digital_only_approximation: 27
-- not_started: 737
+- not_started: 736
 
 ## Chips
 
@@ -13354,7 +13354,7 @@ For every chip:
   - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74x1035 - hex non-inverting buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1035
 - Aliases: none
 - Source section: Larger footprints
@@ -13367,7 +13367,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1035/tb_ttl_74x1035.sv
 - README: rtl/chips/ttl_74x1035/README.md
 - Notes:
-  - (none)
+  - High-drive variant of standard gate; Verilator lint+sim clean
 
 ### 74x1036 - quad 2-input NOR gate
 - Status: [ ]
