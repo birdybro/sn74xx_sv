@@ -24542,8 +24542,10 @@
     "pins": "28",
     "datasheet": "SN74ACT7206L",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-36/DSA-705735.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "16384x9 FIFO via gen_fifo.py. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7206/ttl_74x7206.sv",
     "testbench_path": "tb/chips/ttl_74x7206/tb_ttl_74x7206.sv",
     "readme_path": "rtl/chips/ttl_74x7206/README.md"
