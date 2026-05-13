@@ -27083,8 +27083,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus extension of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16825/ttl_74x16825.sv",
     "testbench_path": "tb/chips/ttl_74x16825/tb_ttl_74x16825.sv",
     "readme_path": "rtl/chips/ttl_74x16825/README.md"
