@@ -28424,8 +28424,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch162841.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Widebus twin; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x162841/ttl_74x162841.sv",
     "testbench_path": "tb/chips/ttl_74x162841/tb_ttl_74x162841.sv",
     "readme_path": "rtl/chips/ttl_74x162841/README.md"
