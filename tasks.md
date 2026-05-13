@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 649
+- complete: 650
 - blocked: 93
 - digital_only_approximation: 27
-- not_started: 786
+- not_started: 785
 
 ## Chips
 
@@ -12570,7 +12570,7 @@ For every chip:
   - (none)
 
 ### 74x933 - 7-bit address bus comparator
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x933
 - Aliases: none
 - Source section: Larger footprints
@@ -12583,7 +12583,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x933/tb_ttl_74x933.sv
 - README: rtl/chips/ttl_74x933/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74934 - ADC similar to ADC0829, see corresponding NSC datasheet
 - Status: [ ]
