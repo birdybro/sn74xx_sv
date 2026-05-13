@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 884
+- complete: 885
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 285
+- not_started: 284
 
 ## Chips
 
@@ -18540,7 +18540,7 @@ IDT74FST3245
   - Mixed gate + dual D-FF with async preset/clear. Verilator + Yosys clean.
 
 ### 74x7075 - two inverters, two 2-input NAND, two D-type flip-flops
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7075
 - Aliases: none
 - Source section: Larger footprints
@@ -18553,7 +18553,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7075/tb_ttl_74x7075.sv
 - README: rtl/chips/ttl_74x7075/README.md
 - Notes:
-  - (none)
+  - Mixed gate + dual D-FF; 2 NANDs instead of NAND+NOR. Verilator + Yosys clean.
 
 ### 74x7076 - two inverters, two 2-input NOR, two D-type flip-flops
 - Status: [ ]

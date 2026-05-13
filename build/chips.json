@@ -24305,8 +24305,10 @@
     "pins": "24",
     "datasheet": "SN74HC7075",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookSLogicDataBook_45157566/page/n797",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Mixed gate + dual D-FF; 2 NANDs instead of NAND+NOR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7075/ttl_74x7075.sv",
     "testbench_path": "tb/chips/ttl_74x7075/tb_ttl_74x7075.sv",
     "readme_path": "rtl/chips/ttl_74x7075/README.md"
