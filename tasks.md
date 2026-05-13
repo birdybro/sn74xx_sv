@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 854
+- complete: 855
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 332
+- not_started: 331
 
 ## Chips
 
@@ -17564,7 +17564,7 @@ IDT74FST3245
   - Inverting 8-bit D-FF. Verilator + Yosys clean.
 
 ### 74x4304 - 8-bit D-type flip-flop, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4304
 - Aliases: none
 - Source section: Larger footprints
@@ -17577,7 +17577,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4304/tb_ttl_74x4304.sv
 - README: rtl/chips/ttl_74x4304/README.md
 - Notes:
-  - (none)
+  - Non-inverting 8-bit D-FF. Verilator + Yosys clean.
 
 ### 74x4305 - dual 4-bit buffer, inverting
 - Status: [ ]
