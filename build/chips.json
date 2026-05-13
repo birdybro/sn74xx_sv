@@ -31493,8 +31493,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "http://www.ti.com/lit/gpn/sn74lvc2g79",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual D-FF, Q only. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g79/ttl_74x2g79.sv",
     "testbench_path": "tb/chips/ttl_74x2g79/tb_ttl_74x2g79.sv",
     "readme_path": "rtl/chips/ttl_74x2g79/README.md"
