@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1065
+- complete: 1066
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 45
+- not_started: 44
 
 ## Chips
 
@@ -24306,7 +24306,7 @@ IDT74FST3245
   - Triple buffer (open-drain). Verilator + Yosys clean.
 
 ### 74x3G14 - triple inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3g14
 - Aliases: none
 - Source section: Smaller footprints
@@ -24319,7 +24319,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g14/tb_ttl_74x3g14.sv
 - README: rtl/chips/ttl_74x3g14/README.md
 - Notes:
-  - (none)
+  - Triple Schmitt inverter (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x3G16 - triple buffer gate
 - Status: [ ]
