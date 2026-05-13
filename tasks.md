@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1011
+- complete: 1012
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 113
+- not_started: 112
 
 ## Chips
 
@@ -23410,7 +23410,7 @@ IDT74FST3245
   - D-FF /Q output only. Verilator + Yosys clean.
 
 ### 74x1G86 - single 2-input XOR gate (a.k.a. 2-bit even-parity generator)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g86
 - Aliases: none
 - Source section: Smaller footprints
@@ -23423,7 +23423,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g86/tb_ttl_74x1g86.sv
 - README: rtl/chips/ttl_74x1g86/README.md
 - Notes:
-  - (none)
+  - 2-input XOR. Verilator + Yosys clean.
 
 ### 74x1G97 - single configurable 7-function gate
 - Status: [!]
