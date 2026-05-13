@@ -29729,8 +29729,10 @@
     "pins": "24",
     "datasheet": "BCT",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=719",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x2828. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x29828/ttl_74x29828.sv",
     "testbench_path": "tb/chips/ttl_74x29828/tb_ttl_74x29828.sv",
     "readme_path": "rtl/chips/ttl_74x29828/README.md"
