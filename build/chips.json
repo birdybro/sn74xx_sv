@@ -19912,8 +19912,10 @@
     "pins": "(20)",
     "datasheet": "CD74FCT2273",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n215",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2273/ttl_74x2273.sv",
     "testbench_path": "tb/chips/ttl_74x2273/tb_ttl_74x2273.sv",
     "readme_path": "rtl/chips/ttl_74x2273/README.md"

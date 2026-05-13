@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 746
+- complete: 747
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 552
+- not_started: 551
 
 ## Chips
 
@@ -15290,7 +15290,7 @@ For every chip:
   - (none)
 
 ### 74x2273 - octal D-type flip-flop, shared clock and clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2273
 - Aliases: none
 - Source section: Larger footprints
@@ -15303,7 +15303,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2273/tb_ttl_74x2273.sv
 - README: rtl/chips/ttl_74x2273/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2299 - 8-bit universal shift register
 - Status: [ ]
