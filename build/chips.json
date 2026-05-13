@@ -14851,8 +14851,10 @@
     "pins": "24",
     "datasheet": "SN74ABT833",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74abt833",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-to-9 parity transceiver per SN74ABT833 (SCBS195C); 4 OE-modes, sticky-low error register; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x833/ttl_74x833.sv",
     "testbench_path": "tb/chips/ttl_74x833/tb_ttl_74x833.sv",
     "readme_path": "rtl/chips/ttl_74x833/README.md"

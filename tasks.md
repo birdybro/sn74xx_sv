@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 617
+- complete: 618
 - blocked: 62
 - digital_only_approximation: 27
-- not_started: 849
+- not_started: 848
 
 ## Chips
 
@@ -11338,7 +11338,7 @@ For every chip:
   - Hex 2-in OR drivers; Verilator lint+sim clean
 
 ### 74x833 - 8-bit to 9-bit bus transceiver with parity register, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x833
 - Aliases: none
 - Source section: Larger footprints
@@ -11351,7 +11351,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x833/tb_ttl_74x833.sv
 - README: rtl/chips/ttl_74x833/README.md
 - Notes:
-  - (none)
+  - 8-to-9 parity transceiver per SN74ABT833 (SCBS195C); 4 OE-modes, sticky-low error register; Verilator lint+sim clean
 
 ### 74x834 - 8-bit to 9-bit bus transceiver with parity register, inverting
 - Status: [ ]
