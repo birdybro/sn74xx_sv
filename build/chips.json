@@ -14572,8 +14572,10 @@
     "pins": "14",
     "datasheet": "DM74ALS811",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaicDatabook_22808448/page/n349",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x811/ttl_74x811.sv",
     "testbench_path": "tb/chips/ttl_74x811/tb_ttl_74x811.sv",
     "readme_path": "rtl/chips/ttl_74x811/README.md"
