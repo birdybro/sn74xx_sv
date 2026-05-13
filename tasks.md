@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 582
+- complete: 583
 - blocked: 43
 - digital_only_approximation: 27
-- not_started: 903
+- not_started: 902
 
 ## Chips
 
@@ -10440,7 +10440,7 @@ For every chip:
   - Functional twin of 74x700; Verilator lint+sim clean
 
 ### 74x731 - octal dRAM driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x731
 - Aliases: none
 - Source section: Larger footprints
@@ -10453,7 +10453,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x731/tb_ttl_74x731.sv
 - README: rtl/chips/ttl_74x731/README.md
 - Notes:
-  - (none)
+  - Octal DRAM driver, non-inverting; functional twin of 74x244; Verilator lint+sim clean
 
 ### 74x732 - 4-bit 3-bus multiplexer, inverting
 - Status: [!]

@@ -13673,8 +13673,10 @@
     "pins": "20",
     "datasheet": "SN74S731",
     "datasheet_url": "https://archive.org/stream/MonolithicMemories-MMI-BipolarLSI1984DatabookOCR#page/n315",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Octal DRAM driver, non-inverting; functional twin of 74x244; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x731/ttl_74x731.sv",
     "testbench_path": "tb/chips/ttl_74x731/tb_ttl_74x731.sv",
     "readme_path": "rtl/chips/ttl_74x731/README.md"
