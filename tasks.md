@@ -29,9 +29,9 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 559
+- complete: 560
 - digital_only_approximation: 27
-- not_started: 969
+- not_started: 968
 
 ## Chips
 
@@ -9415,7 +9415,7 @@ For every chip:
   - transceiver/register/mux with posedge cab/cba storage and sab/sba real-time-vs-stored select; Verilator lint+sim clean
 
 ### 74x647 - octal bus transceiver/latch/multiplexer, non-inverting outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x647
 - Aliases: none
 - Source section: Larger footprints
@@ -9428,7 +9428,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x647/tb_ttl_74x647.sv
 - README: rtl/chips/ttl_74x647/README.md
 - Notes:
-  - (none)
+  - OC twin of 74x646; same control/storage topology; Verilator lint+sim clean
 
 ### 74x648 - octal bus transceiver/latch/multiplexer, inverting outputs
 - Status: [ ]
