@@ -22526,8 +22526,10 @@
     "pins": "14",
     "datasheet": "CD74HC4024",
     "datasheet_url": "https://web.archive.org/web/20170305193812/http://www.ti.com/lit/ds/symlink/cd74hc4024.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "7-bit ripple binary counter (synthesizes to sync counter). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4024/ttl_74x4024.sv",
     "testbench_path": "tb/chips/ttl_74x4024/tb_ttl_74x4024.sv",
     "readme_path": "rtl/chips/ttl_74x4024/README.md"
