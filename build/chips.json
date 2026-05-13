@@ -26159,8 +26159,10 @@
     "pins": "(44)",
     "datasheet": "74F8966",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F8965_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "9-bit latched FutureBus xceiver with idle indicator. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8966/ttl_74x8966.sv",
     "testbench_path": "tb/chips/ttl_74x8966/tb_ttl_74x8966.sv",
     "readme_path": "rtl/chips/ttl_74x8966/README.md"
