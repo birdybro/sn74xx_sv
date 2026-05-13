@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 772
+- complete: 773
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 470
+- not_started: 469
 
 ## Chips
 
@@ -15770,7 +15770,7 @@ For every chip:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
 
 ### 74x2623 - octal bus transceiver / MOS driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2623
 - Aliases: none
 - Source section: Larger footprints
@@ -15783,7 +15783,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2623/tb_ttl_74x2623.sv
 - README: rtl/chips/ttl_74x2623/README.md
 - Notes:
-  - (none)
+  - Logically identical to 74x623; MOS drive strength not modeled. Verilator + Yosys clean.
 
 ### 74x2640 - octal bus transceiver / MOS driver, inverting
 - Status: [ ]
