@@ -24751,8 +24751,10 @@
     "pins": "18",
     "datasheet": "74HC7404",
     "datasheet_url": "https://pdf1.alldatasheet.com/datasheet-pdf/view/15661/PHILIPS/74HC7404.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "64x5 FIFO via gen_fifo.py. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7404/ttl_74x7404.sv",
     "testbench_path": "tb/chips/ttl_74x7404/tb_ttl_74x7404.sv",
     "readme_path": "rtl/chips/ttl_74x7404/README.md"
