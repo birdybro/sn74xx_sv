@@ -19813,8 +19813,10 @@
     "pins": "40",
     "datasheet": "SN74ALS2238",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDatabook_63352841/page/n157",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Behavioral bidirectional FIFO (two 32x9 queues). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2238/ttl_74x2238.sv",
     "testbench_path": "tb/chips/ttl_74x2238/tb_ttl_74x2238.sv",
     "readme_path": "rtl/chips/ttl_74x2238/README.md"
