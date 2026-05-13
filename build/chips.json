@@ -16865,8 +16865,10 @@
     "pins": "18",
     "datasheet": "DM74LS962",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductorLogicDatabook1981/National%20Semiconductor%20Logic%20Databook%201981#page/n417",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 8-bit ranks A/B with hold/shift/copy/exchange modes. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x962/ttl_74x962.sv",
     "testbench_path": "tb/chips/ttl_74x962/tb_ttl_74x962.sv",
     "readme_path": "rtl/chips/ttl_74x962/README.md"
