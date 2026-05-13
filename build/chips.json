@@ -25546,8 +25546,10 @@
     "pins": "24",
     "datasheet": "SN74ALS8161",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-067/DSA2IH00215541.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "8-bit sync binary counter with dual enable + carry-out. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8161/ttl_74x8161.sv",
     "testbench_path": "tb/chips/ttl_74x8161/tb_ttl_74x8161.sv",
     "readme_path": "rtl/chips/ttl_74x8161/README.md"
