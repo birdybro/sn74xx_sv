@@ -17735,8 +17735,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1241",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n731",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1241/ttl_74x1241.sv",
     "testbench_path": "tb/chips/ttl_74x1241/tb_ttl_74x1241.sv",
     "readme_path": "rtl/chips/ttl_74x1241/README.md"
