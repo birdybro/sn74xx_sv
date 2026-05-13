@@ -21031,8 +21031,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2833T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n451",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logically identical to 74x833. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2833/ttl_74x2833.sv",
     "testbench_path": "tb/chips/ttl_74x2833/tb_ttl_74x2833.sv",
     "readme_path": "rtl/chips/ttl_74x2833/README.md"
