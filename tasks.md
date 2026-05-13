@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 616
+- complete: 617
 - blocked: 62
 - digital_only_approximation: 27
-- not_started: 850
+- not_started: 849
 
 ## Chips
 
@@ -11322,7 +11322,7 @@ For every chip:
   - Per 74F827/828 datasheet (DS009598); dual /OE NOR-style; Verilator lint+sim clean
 
 ### 74x832 - hex 2-input OR drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x832
 - Aliases: none
 - Source section: Larger footprints
@@ -11335,7 +11335,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x832/tb_ttl_74x832.sv
 - README: rtl/chips/ttl_74x832/README.md
 - Notes:
-  - (none)
+  - Hex 2-in OR drivers; Verilator lint+sim clean
 
 ### 74x833 - 8-bit to 9-bit bus transceiver with parity register, non-inverting
 - Status: [ ]

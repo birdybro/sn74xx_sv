@@ -14830,8 +14830,10 @@
     "pins": "20",
     "datasheet": "SN74ALS832A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als832a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex 2-in OR drivers; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x832/ttl_74x832.sv",
     "testbench_path": "tb/chips/ttl_74x832/tb_ttl_74x832.sv",
     "readme_path": "rtl/chips/ttl_74x832/README.md"
