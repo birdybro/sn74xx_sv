@@ -32333,8 +32333,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t58.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 9-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t97/ttl_74x1t97.sv",
     "testbench_path": "tb/chips/ttl_74x1t97/tb_ttl_74x1t97.sv",
     "readme_path": "rtl/chips/ttl_74x1t97/README.md"
@@ -32352,8 +32354,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t98.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Configurable 9-function gate; requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t98/ttl_74x1t98.sv",
     "testbench_path": "tb/chips/ttl_74x1t98/tb_ttl_74x1t98.sv",
     "readme_path": "rtl/chips/ttl_74x1t98/README.md"

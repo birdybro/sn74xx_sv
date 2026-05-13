@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 1074
-- blocked: 418
+- blocked: 420
 - digital_only_approximation: 27
-- not_started: 36
+- not_started: 34
 
 ## Chips
 
@@ -24693,7 +24693,7 @@ IDT74FST3245
   - (none)
 
 ### 74x1T97 - single-supply configurable 9-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1t97
 - Aliases: none
 - Source section: Voltage translation
@@ -24706,10 +24706,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t97/tb_ttl_74x1t97.sv
 - README: rtl/chips/ttl_74x1t97/README.md
 - Notes:
-  - (none)
+  - Configurable 9-function gate; requires datasheet
 
 ### 74x1T98 - single-supply configurable 9-function gate
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1t98
 - Aliases: none
 - Source section: Voltage translation
@@ -24722,7 +24722,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t98/tb_ttl_74x1t98.sv
 - README: rtl/chips/ttl_74x1t98/README.md
 - Notes:
-  - (none)
+  - Configurable 9-function gate; requires datasheet
 
 ### 74x1T125 - single-supply single buffer/driver with 3-state output
 - Status: [ ]
