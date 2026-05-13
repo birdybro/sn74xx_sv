@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 751
+- complete: 752
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 547
+- not_started: 546
 
 ## Chips
 
@@ -15626,7 +15626,7 @@ For every chip:
   - (none)
 
 ### 74x2533 - 8-bit bus interface latch, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2533
 - Aliases: none
 - Source section: Larger footprints
@@ -15639,7 +15639,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2533/tb_ttl_74x2533.sv
 - README: rtl/chips/ttl_74x2533/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2534 - 8-bit bus interface register, inverting
 - Status: [ ]
