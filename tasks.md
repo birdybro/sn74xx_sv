@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 835
+- complete: 836
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 364
+- not_started: 363
 
 ## Chips
 
@@ -17132,7 +17132,7 @@ IDT74FST3245
   - Quad bilateral analog switch; CMOS transmission gates, not modeled digitally
 
 ### 74x4017 - 5-stage ÷10 Johnson counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4017
 - Aliases: none
 - Source section: Larger footprints
@@ -17145,7 +17145,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4017/tb_ttl_74x4017.sv
 - README: rtl/chips/ttl_74x4017/README.md
 - Notes:
-  - (none)
+  - Decade counter with 10 decoded one-hot outputs and divide-by-10 carry. Verilator + Yosys clean.
 
 ### 74x4020 - 14-stage binary counter
 - Status: [ ]

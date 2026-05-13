@@ -22463,8 +22463,10 @@
     "pins": "16",
     "datasheet": "CD74HC4017",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4017",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Decade counter with 10 decoded one-hot outputs and divide-by-10 carry. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4017/ttl_74x4017.sv",
     "testbench_path": "tb/chips/ttl_74x4017/tb_ttl_74x4017.sv",
     "readme_path": "rtl/chips/ttl_74x4017/README.md"
