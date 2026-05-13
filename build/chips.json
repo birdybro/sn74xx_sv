@@ -13001,8 +13001,10 @@
     "pins": "20",
     "datasheet": "SN74LS684",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls684",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Totem-pole, no Q pullups; same logic as 74x682; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x684/ttl_74x684.sv",
     "testbench_path": "tb/chips/ttl_74x684/tb_ttl_74x684.sv",
     "readme_path": "rtl/chips/ttl_74x684/README.md"
