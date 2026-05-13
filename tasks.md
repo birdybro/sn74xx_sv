@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1106
+- complete: 1107
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 2
+- not_started: 1
 
 ## Chips
 
@@ -24901,7 +24901,7 @@ IDT74FST3245
   - Dual-supply 20-bit bus xceiver. Verilator + Yosys clean.
 
 ### 74x24T245 - dual-supply 24-bit bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x24t245
 - Aliases: none
 - Source section: Voltage translation
@@ -24914,7 +24914,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x24t245/tb_ttl_74x24t245.sv
 - README: rtl/chips/ttl_74x24t245/README.md
 - Notes:
-  - (none)
+  - Dual-supply 24-bit bus xceiver. Verilator + Yosys clean.
 
 ### 74x32T245 - dual-supply 32-bit bus transceiver
 - Status: [ ]
