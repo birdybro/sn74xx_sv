@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 950
+- complete: 951
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 207
+- not_started: 206
 
 ## Chips
 
@@ -19612,7 +19612,7 @@ IDT74FST3245
   - 8-bit selectable invert/non-invert buffer. Verilator + Yosys clean.
 
 ### 74x8543 - octal registered bus transceiver with JTAG port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8543
 - Aliases: none
 - Source section: Larger footprints
@@ -19625,7 +19625,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8543/tb_ttl_74x8543.sv
 - README: rtl/chips/ttl_74x8543/README.md
 - Notes:
-  - (none)
+  - = 74x543 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8646 - octal bus transceiver and register with JTAG port
 - Status: [ ]
