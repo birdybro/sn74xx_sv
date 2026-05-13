@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 987
+- complete: 988
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 156
+- not_started: 155
 
 ## Chips
 
@@ -21743,7 +21743,7 @@ IDT74FST3245
   - 8-bit transceiver + 8-bit latch combined. Verilator + Yosys clean.
 
 ### 74x161284 - 19-bit bus interface
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x161284
 - Aliases: none
 - Source section: Widebus devices
@@ -21756,7 +21756,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x161284/tb_ttl_74x161284.sv
 - README: rtl/chips/ttl_74x161284/README.md
 - Notes:
-  - (none)
+  - 19-bit version of 74x245. Verilator + Yosys clean.
 
 ### 74x162240 - 3.3-V ABT 16-bit buffer/driver
 - Status: [x]
