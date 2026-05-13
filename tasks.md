@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1038
+- complete: 1039
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 84
+- not_started: 83
 
 ## Chips
 
@@ -22863,7 +22863,7 @@ IDT74FST3245
   - 32-bit version of 74x373. Verilator + Yosys clean.
 
 ### 74x32374 - 32-bit D-type flip-flops
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x32374
 - Aliases: none
 - Source section: Widebus devices
@@ -22876,7 +22876,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x32374/tb_ttl_74x32374.sv
 - README: rtl/chips/ttl_74x32374/README.md
 - Notes:
-  - (none)
+  - 32-bit version of 74x374. Verilator + Yosys clean.
 
 ### 74x32501 - 36-bit universal bus transceiver
 - Status: [ ]
