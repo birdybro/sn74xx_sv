@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 953
+- complete: 954
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 204
+- not_started: 203
 
 ## Chips
 
@@ -19852,7 +19852,7 @@ IDT74FST3245
   - 32-bit vector processor unit; complex VPU, needs datasheet
 
 ### 74x8952 - octal registered bus transceiver with JTAG port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8952
 - Aliases: none
 - Source section: Larger footprints
@@ -19865,7 +19865,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8952/tb_ttl_74x8952.sv
 - README: rtl/chips/ttl_74x8952/README.md
 - Notes:
-  - (none)
+  - = 74x652 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8960 - 8-bit bidirectional latched FutureBus transceiver, inverting
 - Status: [ ]
