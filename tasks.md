@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 783
+- complete: 784
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 459
+- not_started: 458
 
 ## Chips
 
@@ -12906,7 +12906,7 @@ For every chip:
   - Dual rank 8-bit shift register with sync clear (mode 11). Verilator + Yosys clean.
 
 ### 74x964 - dual rank 8-bit shift register, synchronous and asynchronous clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x964
 - Aliases: none
 - Source section: Larger footprints
@@ -12919,7 +12919,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x964/tb_ttl_74x964.sv
 - README: rtl/chips/ttl_74x964/README.md
 - Notes:
-  - (none)
+  - Dual rank 8-bit shift register with sync clear (mode 11) and async clear (clr_n). Verilator + Yosys clean.
 
 ### 74x968 - controller/driver for 16k/64k/256k/1M dRAM
 - Status: [ ]
