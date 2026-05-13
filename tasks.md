@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 816
+- complete: 817
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 415
+- not_started: 414
 
 ## Chips
 
@@ -16282,7 +16282,7 @@ For every chip:
   - DRAM address mux + RAS/CAS, 9-bit path; same as 74x409 model. Verilator + Yosys clean.
 
 ### 74x2968 - controller/driver for 16k/64k/256k dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2968
 - Aliases: none
 - Source section: Larger footprints
@@ -16295,7 +16295,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2968/tb_ttl_74x2968.sv
 - README: rtl/chips/ttl_74x2968/README.md
 - Notes:
-  - (none)
+  - DRAM address mux + RAS/CAS, 9-bit path; same as 74x2967. Verilator + Yosys clean.
 
 ### 74x2969 - memory timing controller for use with EDAC
 - Status: [ ]
