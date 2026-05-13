@@ -20447,8 +20447,10 @@
     "pins": "20",
     "datasheet": "QS74FCT2573T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n407",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2573/ttl_74x2573.sv",
     "testbench_path": "tb/chips/ttl_74x2573/tb_ttl_74x2573.sv",
     "readme_path": "rtl/chips/ttl_74x2573/README.md"
