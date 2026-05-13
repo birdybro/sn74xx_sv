@@ -24895,8 +24895,10 @@
     "pins": "20",
     "datasheet": "M74HC7643",
     "datasheet_url": "https://pdf1.alldatasheet.com/datasheet-pdf/view/23130/STMICROELECTRONICS/M74HC7645.html",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x643. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7643/ttl_74x7643.sv",
     "testbench_path": "tb/chips/ttl_74x7643/tb_ttl_74x7643.sv",
     "readme_path": "rtl/chips/ttl_74x7643/README.md"
