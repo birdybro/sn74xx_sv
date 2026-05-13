@@ -23660,8 +23660,10 @@
     "pins": "28",
     "datasheet": "SN74ABT5402",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n613",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "12-bit non-inverting driver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x5402/ttl_74x5402.sv",
     "testbench_path": "tb/chips/ttl_74x5402/tb_ttl_74x5402.sv",
     "readme_path": "rtl/chips/ttl_74x5402/README.md"
