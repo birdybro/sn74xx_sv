@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 686
+- complete: 687
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 704
+- not_started: 703
 
 ## Chips
 
@@ -14378,7 +14378,7 @@ For every chip:
   - (none)
 
 ### 74x1832 - hex 2-input OR
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1832
 - Aliases: none
 - Source section: Larger footprints
@@ -14391,7 +14391,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1832/tb_ttl_74x1832.sv
 - README: rtl/chips/ttl_74x1832/README.md
 - Notes:
-  - (none)
+  - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74x1841 - 10-bit bus interface transparent latches
 - Status: [ ]

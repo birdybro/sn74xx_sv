@@ -18755,8 +18755,10 @@
     "pins": "20",
     "datasheet": "DM74ALS1832",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaicDatabook_22808448/page/n645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Low-power twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1832/ttl_74x1832.sv",
     "testbench_path": "tb/chips/ttl_74x1832/tb_ttl_74x1832.sv",
     "readme_path": "rtl/chips/ttl_74x1832/README.md"
