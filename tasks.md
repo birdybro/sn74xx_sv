@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 814
+- complete: 815
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 417
+- not_started: 416
 
 ## Chips
 
@@ -16250,7 +16250,7 @@ For every chip:
   - 4-bit EDAC bus buffer, inverting; Am2961-equivalent. Verilator + Yosys clean.
 
 ### 74x2962 - 4-bit EDAC bus buffer, non-inverting, equivalent to Am2962
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2962
 - Aliases: none
 - Source section: Larger footprints
@@ -16263,7 +16263,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2962/tb_ttl_74x2962.sv
 - README: rtl/chips/ttl_74x2962/README.md
 - Notes:
-  - (none)
+  - 4-bit EDAC bus buffer, non-inverting; Am2962-equivalent. Verilator + Yosys clean.
 
 ### 74x2967 - controller/driver for 16k/64k/256k dRAM
 - Status: [ ]

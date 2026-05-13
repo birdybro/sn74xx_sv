@@ -21302,8 +21302,10 @@
     "pins": "24",
     "datasheet": "MC74F2962A",
     "datasheet_url": "https://datasheetspdf.com/pdf-file/501240/Motorola/MC74F2961A/1",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-bit EDAC bus buffer, non-inverting; Am2962-equivalent. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2962/ttl_74x2962.sv",
     "testbench_path": "tb/chips/ttl_74x2962/tb_ttl_74x2962.sv",
     "readme_path": "rtl/chips/ttl_74x2962/README.md"
