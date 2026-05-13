@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 693
+- complete: 694
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 697
+- not_started: 696
 
 ## Chips
 
@@ -15210,7 +15210,7 @@ For every chip:
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x2243 - 4-bit bus transceiver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2243
 - Aliases: none
 - Source section: Larger footprints
@@ -15223,7 +15223,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2243/tb_ttl_74x2243.sv
 - README: rtl/chips/ttl_74x2243/README.md
 - Notes:
-  - (none)
+  - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x2244 - dual 4-bit buffer / line driver, non-inverting
 - Status: [ ]
