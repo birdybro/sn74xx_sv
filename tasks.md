@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 865
+- complete: 866
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 321
+- not_started: 320
 
 ## Chips
 
@@ -17836,7 +17836,7 @@ IDT74FST3245
   - Retriggerable monostable multivibrator; analog timing (RC-based pulse width)
 
 ### 74x4543 - BCD to 7-segment latch/decoder/driver for LCDs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4543
 - Aliases: none
 - Source section: Larger footprints
@@ -17849,7 +17849,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4543/tb_ttl_74x4543.sv
 - README: rtl/chips/ttl_74x4543/README.md
 - Notes:
-  - (none)
+  - BCD to 7-seg LCD decoder with phase XOR. Verilator + Yosys clean.
 
 ### 74x4560 - 4-bit BCD adder
 - Status: [ ]
