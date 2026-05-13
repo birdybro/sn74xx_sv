@@ -15454,8 +15454,10 @@
     "pins": "24",
     "datasheet": "SN74ALS874B",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als874b",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x874/ttl_74x874.sv",
     "testbench_path": "tb/chips/ttl_74x874/tb_ttl_74x874.sv",
     "readme_path": "rtl/chips/ttl_74x874/README.md"

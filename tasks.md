@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 631
+- complete: 632
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 823
+- not_started: 822
 
 ## Chips
 
@@ -11802,7 +11802,7 @@ For every chip:
   - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x874 - dual 4-bit edge-triggered D flip-flops with clear
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x874
 - Aliases: none
 - Source section: Larger footprints
@@ -11815,7 +11815,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x874/tb_ttl_74x874.sv
 - README: rtl/chips/ttl_74x874/README.md
 - Notes:
-  - (none)
+  - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x876 - dual 4-bit edge-triggered D flip-flops with set, inverting outputs
 - Status: [ ]
