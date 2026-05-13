@@ -21323,8 +21323,10 @@
     "pins": "48",
     "datasheet": "SN74ALS2967",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n515",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "DRAM address mux + RAS/CAS, 9-bit path; same as 74x409 model. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2967/ttl_74x2967.sv",
     "testbench_path": "tb/chips/ttl_74x2967/tb_ttl_74x2967.sv",
     "readme_path": "rtl/chips/ttl_74x2967/README.md"

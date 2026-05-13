@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 815
+- complete: 816
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 416
+- not_started: 415
 
 ## Chips
 
@@ -16266,7 +16266,7 @@ For every chip:
   - 4-bit EDAC bus buffer, non-inverting; Am2962-equivalent. Verilator + Yosys clean.
 
 ### 74x2967 - controller/driver for 16k/64k/256k dRAM
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2967
 - Aliases: none
 - Source section: Larger footprints
@@ -16279,7 +16279,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2967/tb_ttl_74x2967.sv
 - README: rtl/chips/ttl_74x2967/README.md
 - Notes:
-  - (none)
+  - DRAM address mux + RAS/CAS, 9-bit path; same as 74x409 model. Verilator + Yosys clean.
 
 ### 74x2968 - controller/driver for 16k/64k/256k dRAM
 - Status: [ ]
