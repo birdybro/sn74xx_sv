@@ -15061,8 +15061,10 @@
     "pins": "24",
     "datasheet": "SN74ALS846",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n595",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ALS843 family datasheet (SDAS232A); latch (not flop) with async /PRE > /CLR > LE; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x846/ttl_74x846.sv",
     "testbench_path": "tb/chips/ttl_74x846/tb_ttl_74x846.sv",
     "readme_path": "rtl/chips/ttl_74x846/README.md"
