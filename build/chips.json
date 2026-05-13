@@ -32627,8 +32627,10 @@
     "pins": "56",
     "datasheet": "AVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avc20t245.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual-supply 20-bit bus xceiver. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x20t245/ttl_74x20t245.sv",
     "testbench_path": "tb/chips/ttl_74x20t245/tb_ttl_74x20t245.sv",
     "readme_path": "rtl/chips/ttl_74x20t245/README.md"
