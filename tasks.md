@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 794
+- complete: 795
 - blocked: 297
 - digital_only_approximation: 27
-- not_started: 437
+- not_started: 436
 
 ## Chips
 
@@ -15914,7 +15914,7 @@ For every chip:
   - PROM model identical to 74x478 (1024x8) with INIT_FILE. Verilator + Yosys clean.
 
 ### 74AC2708 - 576-bit FIFO memory (64x9)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74ac2708
 - Aliases: none
 - Source section: Larger footprints
@@ -15927,7 +15927,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74ac2708/tb_ttl_74ac2708.sv
 - README: rtl/chips/ttl_74ac2708/README.md
 - Notes:
-  - (none)
+  - Generated via scripts/gen_fifo.py (64x9). Verilator + Yosys clean.
 
 ### 74x2725 - 4608-bit FIFO memory (512x9)
 - Status: [ ]
