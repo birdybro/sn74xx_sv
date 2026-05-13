@@ -26785,8 +26785,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16600/ttl_74x16600.sv",
     "testbench_path": "tb/chips/ttl_74x16600/tb_ttl_74x16600.sv",
     "readme_path": "rtl/chips/ttl_74x16600/README.md"
@@ -26804,8 +26806,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16601/ttl_74x16601.sv",
     "testbench_path": "tb/chips/ttl_74x16601/tb_ttl_74x16601.sv",
     "readme_path": "rtl/chips/ttl_74x16601/README.md"
@@ -26823,8 +26827,10 @@
     "pins": "56",
     "datasheet": "GTL",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtl16612.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16612/ttl_74x16612.sv",
     "testbench_path": "tb/chips/ttl_74x16612/tb_ttl_74x16612.sv",
     "readme_path": "rtl/chips/ttl_74x16612/README.md"
@@ -26842,8 +26848,10 @@
     "pins": "56",
     "datasheet": "GTL",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtl16616.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16616/ttl_74x16616.sv",
     "testbench_path": "tb/chips/ttl_74x16616/tb_ttl_74x16616.sv",
     "readme_path": "rtl/chips/ttl_74x16616/README.md"
@@ -26880,8 +26888,10 @@
     "pins": "64",
     "datasheet": "GTL",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtl16622a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16622/ttl_74x16622.sv",
     "testbench_path": "tb/chips/ttl_74x16622/tb_ttl_74x16622.sv",
     "readme_path": "rtl/chips/ttl_74x16622/README.md"
@@ -26939,8 +26949,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16646/ttl_74x16646.sv",
     "testbench_path": "tb/chips/ttl_74x16646/tb_ttl_74x16646.sv",
     "readme_path": "rtl/chips/ttl_74x16646/README.md"
@@ -26958,8 +26970,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16648/ttl_74x16648.sv",
     "testbench_path": "tb/chips/ttl_74x16648/tb_ttl_74x16648.sv",
     "readme_path": "rtl/chips/ttl_74x16648/README.md"
@@ -26977,8 +26991,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16651/ttl_74x16651.sv",
     "testbench_path": "tb/chips/ttl_74x16651/tb_ttl_74x16651.sv",
     "readme_path": "rtl/chips/ttl_74x16651/README.md"
@@ -26996,8 +27012,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16652/ttl_74x16652.sv",
     "testbench_path": "tb/chips/ttl_74x16652/tb_ttl_74x16652.sv",
     "readme_path": "rtl/chips/ttl_74x16652/README.md"
@@ -27015,8 +27033,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16657/ttl_74x16657.sv",
     "testbench_path": "tb/chips/ttl_74x16657/tb_ttl_74x16657.sv",
     "readme_path": "rtl/chips/ttl_74x16657/README.md"
@@ -27076,8 +27096,10 @@
     "pins": "48",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16800c.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16800/ttl_74x16800.sv",
     "testbench_path": "tb/chips/ttl_74x16800/tb_ttl_74x16800.sv",
     "readme_path": "rtl/chips/ttl_74x16800/README.md"
@@ -27095,8 +27117,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16811c.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16811/ttl_74x16811.sv",
     "testbench_path": "tb/chips/ttl_74x16811/tb_ttl_74x16811.sv",
     "readme_path": "rtl/chips/ttl_74x16811/README.md"
@@ -27261,8 +27285,10 @@
     "pins": "80",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=693",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16831/ttl_74x16831.sv",
     "testbench_path": "tb/chips/ttl_74x16831/tb_ttl_74x16831.sv",
     "readme_path": "rtl/chips/ttl_74x16831/README.md"
@@ -27280,8 +27306,10 @@
     "pins": "64",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=694",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16832/ttl_74x16832.sv",
     "testbench_path": "tb/chips/ttl_74x16832/tb_ttl_74x16832.sv",
     "readme_path": "rtl/chips/ttl_74x16832/README.md"
@@ -27299,8 +27327,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16833/ttl_74x16833.sv",
     "testbench_path": "tb/chips/ttl_74x16833/tb_ttl_74x16833.sv",
     "readme_path": "rtl/chips/ttl_74x16833/README.md"
@@ -27318,8 +27348,10 @@
     "pins": "56",
     "datasheet": "AVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74avc16834.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16834/ttl_74x16834.sv",
     "testbench_path": "tb/chips/ttl_74x16834/tb_ttl_74x16834.sv",
     "readme_path": "rtl/chips/ttl_74x16834/README.md"
@@ -27337,8 +27369,10 @@
     "pins": "56",
     "datasheet": "ALVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvc16835.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16835/ttl_74x16835.sv",
     "testbench_path": "tb/chips/ttl_74x16835/tb_ttl_74x16835.sv",
     "readme_path": "rtl/chips/ttl_74x16835/README.md"
@@ -27398,8 +27432,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=701",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16853/ttl_74x16853.sv",
     "testbench_path": "tb/chips/ttl_74x16853/tb_ttl_74x16853.sv",
     "readme_path": "rtl/chips/ttl_74x16853/README.md"
@@ -27417,8 +27453,10 @@
     "pins": "48",
     "datasheet": "SSTVF",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74sstvf16857.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16857/ttl_74x16857.sv",
     "testbench_path": "tb/chips/ttl_74x16857/tb_ttl_74x16857.sv",
     "readme_path": "rtl/chips/ttl_74x16857/README.md"
@@ -27436,8 +27474,10 @@
     "pins": "64",
     "datasheet": "SSTVF",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74sstvf16859.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16859/ttl_74x16859.sv",
     "testbench_path": "tb/chips/ttl_74x16859/tb_ttl_74x16859.sv",
     "readme_path": "rtl/chips/ttl_74x16859/README.md"
@@ -27455,8 +27495,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16861.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16861/ttl_74x16861.sv",
     "testbench_path": "tb/chips/ttl_74x16861/tb_ttl_74x16861.sv",
     "readme_path": "rtl/chips/ttl_74x16861/README.md"
@@ -27495,8 +27537,10 @@
     "pins": "64",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16901.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16901/ttl_74x16901.sv",
     "testbench_path": "tb/chips/ttl_74x16901/tb_ttl_74x16901.sv",
     "readme_path": "rtl/chips/ttl_74x16901/README.md"
@@ -27514,8 +27558,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16903.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16903/ttl_74x16903.sv",
     "testbench_path": "tb/chips/ttl_74x16903/tb_ttl_74x16903.sv",
     "readme_path": "rtl/chips/ttl_74x16903/README.md"
@@ -27533,8 +27579,10 @@
     "pins": "56",
     "datasheet": "GTLPH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtlph16912.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16912/ttl_74x16912.sv",
     "testbench_path": "tb/chips/ttl_74x16912/tb_ttl_74x16912.sv",
     "readme_path": "rtl/chips/ttl_74x16912/README.md"
@@ -27552,8 +27600,10 @@
     "pins": "56",
     "datasheet": "GTLPH",
     "datasheet_url": "https://www.ti.com/lit/ug/sced004a/sced004a.pdf#page=289",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16916/ttl_74x16916.sv",
     "testbench_path": "tb/chips/ttl_74x16916/tb_ttl_74x16916.sv",
     "readme_path": "rtl/chips/ttl_74x16916/README.md"
@@ -27571,8 +27621,10 @@
     "pins": "64",
     "datasheet": "GTL",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtlph16912.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16923/ttl_74x16923.sv",
     "testbench_path": "tb/chips/ttl_74x16923/tb_ttl_74x16923.sv",
     "readme_path": "rtl/chips/ttl_74x16923/README.md"
@@ -27590,8 +27642,10 @@
     "pins": "48",
     "datasheet": "GTLPH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74gtlph16945.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16945/ttl_74x16945.sv",
     "testbench_path": "tb/chips/ttl_74x16945/tb_ttl_74x16945.sv",
     "readme_path": "rtl/chips/ttl_74x16945/README.md"
@@ -27609,8 +27663,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abt16952.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16952/ttl_74x16952.sv",
     "testbench_path": "tb/chips/ttl_74x16952/tb_ttl_74x16952.sv",
     "readme_path": "rtl/chips/ttl_74x16952/README.md"

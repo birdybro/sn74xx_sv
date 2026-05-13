@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 726
-- blocked: 180
+- blocked: 208
 - digital_only_approximation: 27
-- not_started: 622
+- not_started: 594
 
 ## Chips
 
@@ -21039,7 +21039,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16600 - 18-bit universal bus transceiver (registered, active low clock)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16600
 - Aliases: none
 - Source section: Widebus devices
@@ -21052,10 +21052,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16600/tb_ttl_74x16600.sv
 - README: rtl/chips/ttl_74x16600/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16601 - 18-bit universal bus transceiver (registered, active high clock)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16601
 - Aliases: none
 - Source section: Widebus devices
@@ -21068,10 +21068,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16601/tb_ttl_74x16601.sv
 - README: rtl/chips/ttl_74x16601/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16612 - 18-bit LVTTL-to-GTL+ universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16612
 - Aliases: none
 - Source section: Widebus devices
@@ -21084,10 +21084,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16612/tb_ttl_74x16612.sv
 - README: rtl/chips/ttl_74x16612/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16616 - 17-bit LVTTL-to-GTL+ universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16616
 - Aliases: none
 - Source section: Widebus devices
@@ -21100,7 +21100,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16616/tb_ttl_74x16616.sv
 - README: rtl/chips/ttl_74x16616/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16620 - 16-bit bus transceiver
 - Status: [ ]
@@ -21119,7 +21119,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16622 - 18-bit LVTTL-to-GTL+ bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16622
 - Aliases: none
 - Source section: Widebus devices
@@ -21132,7 +21132,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16622/tb_ttl_74x16622.sv
 - README: rtl/chips/ttl_74x16622/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16623 - 16-bit bus transceiver
 - Status: [ ]
@@ -21167,7 +21167,7 @@ IDT74FST3245
   - Widebus extension of base part; Verilator lint+sim clean
 
 ### 74x16646 - 16-bit bus transceiver and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16646
 - Aliases: none
 - Source section: Widebus devices
@@ -21180,10 +21180,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16646/tb_ttl_74x16646.sv
 - README: rtl/chips/ttl_74x16646/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16648 - 16-bit bus transceiver and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16648
 - Aliases: none
 - Source section: Widebus devices
@@ -21196,10 +21196,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16648/tb_ttl_74x16648.sv
 - README: rtl/chips/ttl_74x16648/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16651 - 16-bit bus transceiver and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16651
 - Aliases: none
 - Source section: Widebus devices
@@ -21212,10 +21212,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16651/tb_ttl_74x16651.sv
 - README: rtl/chips/ttl_74x16651/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16652 - 16-bit bus transceiver and registers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16652
 - Aliases: none
 - Source section: Widebus devices
@@ -21228,10 +21228,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16652/tb_ttl_74x16652.sv
 - README: rtl/chips/ttl_74x16652/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16657 - 16-bit bus transceiver with parity generators/checkers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16657
 - Aliases: none
 - Source section: Widebus devices
@@ -21244,7 +21244,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16657/tb_ttl_74x16657.sv
 - README: rtl/chips/ttl_74x16657/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16721 - 3.3-V 20-bit flip-flop
 - Status: [x]
@@ -21279,7 +21279,7 @@ IDT74FST3245
   - Widebus flop variant; Verilator lint+sim clean
 
 ### 74x16800 - 20-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16800
 - Aliases: none
 - Source section: Widebus devices
@@ -21292,10 +21292,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16800/tb_ttl_74x16800.sv
 - README: rtl/chips/ttl_74x16800/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16811 - 24-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16811
 - Aliases: none
 - Source section: Widebus devices
@@ -21308,7 +21308,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16811/tb_ttl_74x16811.sv
 - README: rtl/chips/ttl_74x16811/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16820 - 3.3-V 10-bit flip-flop with dual outputs
 - Status: [x]
@@ -21423,7 +21423,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16831 - 1-to-4 address register/driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16831
 - Aliases: none
 - Source section: Widebus devices
@@ -21436,10 +21436,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16831/tb_ttl_74x16831.sv
 - README: rtl/chips/ttl_74x16831/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16832 - 1-to-4 address register/driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16832
 - Aliases: none
 - Source section: Widebus devices
@@ -21452,10 +21452,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16832/tb_ttl_74x16832.sv
 - README: rtl/chips/ttl_74x16832/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16833 - dual 8-bit to 9-bit parity bus transceivers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16833
 - Aliases: none
 - Source section: Widebus devices
@@ -21468,10 +21468,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16833/tb_ttl_74x16833.sv
 - README: rtl/chips/ttl_74x16833/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16834 - 18-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16834
 - Aliases: none
 - Source section: Widebus devices
@@ -21484,10 +21484,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16834/tb_ttl_74x16834.sv
 - README: rtl/chips/ttl_74x16834/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16835 - 18-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16835
 - Aliases: none
 - Source section: Widebus devices
@@ -21500,7 +21500,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16835/tb_ttl_74x16835.sv
 - README: rtl/chips/ttl_74x16835/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16841 - 20-bit bus interface D-type latches
 - Status: [x]
@@ -21535,7 +21535,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16853 - dual 8-bit to 9-bit parity bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16853
 - Aliases: none
 - Source section: Widebus devices
@@ -21548,10 +21548,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16853/tb_ttl_74x16853.sv
 - README: rtl/chips/ttl_74x16853/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16857 - 14-bit registered buffer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16857
 - Aliases: none
 - Source section: Widebus devices
@@ -21564,10 +21564,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16857/tb_ttl_74x16857.sv
 - README: rtl/chips/ttl_74x16857/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16859 - 13-bit to 26-bit registered buffer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16859
 - Aliases: none
 - Source section: Widebus devices
@@ -21580,10 +21580,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16859/tb_ttl_74x16859.sv
 - README: rtl/chips/ttl_74x16859/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16861 - 20-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16861
 - Aliases: none
 - Source section: Widebus devices
@@ -21596,7 +21596,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16861/tb_ttl_74x16861.sv
 - README: rtl/chips/ttl_74x16861/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16863 - 18-bit bus transceiver
 - Status: [x]
@@ -21615,7 +21615,7 @@ IDT74FST3245
   - 18-bit transceiver; Verilator lint+sim clean
 
 ### 74x16901 - 18-bit universal bus transceiver with parity generators/checkers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16901
 - Aliases: none
 - Source section: Widebus devices
@@ -21628,10 +21628,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16901/tb_ttl_74x16901.sv
 - README: rtl/chips/ttl_74x16901/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16903 - 3.3-V 12-bit universal bus driver with parity checker
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16903
 - Aliases: none
 - Source section: Widebus devices
@@ -21644,10 +21644,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16903/tb_ttl_74x16903.sv
 - README: rtl/chips/ttl_74x16903/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16912 - 18-bit LVTTL-to-GTLP universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16912
 - Aliases: none
 - Source section: Widebus devices
@@ -21660,10 +21660,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16912/tb_ttl_74x16912.sv
 - README: rtl/chips/ttl_74x16912/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16916 - 17-bit LVTTL-to-GTLP universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16916
 - Aliases: none
 - Source section: Widebus devices
@@ -21676,10 +21676,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16916/tb_ttl_74x16916.sv
 - README: rtl/chips/ttl_74x16916/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16923 - 18-bit LVTTL-to-GTLP universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16923
 - Aliases: none
 - Source section: Widebus devices
@@ -21692,10 +21692,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16923/tb_ttl_74x16923.sv
 - README: rtl/chips/ttl_74x16923/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16945 - 16-bit LVTTL-to-GTLP bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16945
 - Aliases: none
 - Source section: Widebus devices
@@ -21708,10 +21708,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16945/tb_ttl_74x16945.sv
 - README: rtl/chips/ttl_74x16945/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16952 - 16-bit registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16952
 - Aliases: none
 - Source section: Widebus devices
@@ -21724,7 +21724,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16952/tb_ttl_74x16952.sv
 - README: rtl/chips/ttl_74x16952/README.md
 - Notes:
-  - (none)
+  - Widebus registered/parity/FET/GTLP transceiver — needs dedicated datasheet
 
 ### 74x16973 - 8-bit bus transceiver and transparent D-type latch
 - Status: [ ]
