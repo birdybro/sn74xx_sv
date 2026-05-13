@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 820
-- blocked: 325
+- blocked: 329
 - digital_only_approximation: 27
-- not_started: 383
+- not_started: 379
 
 ## Chips
 
@@ -16972,7 +16972,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3807 - 1-to-10 clock driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3807
 - Aliases: none
 - Source section: Larger footprints
@@ -16985,7 +16985,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3807/tb_ttl_74x3807.sv
 - README: rtl/chips/ttl_74x3807/README.md
 - Notes:
-  - (none)
+  - 1-to-10 clock driver/buffer; physical clock fanout buffer, electrical not logical
 
 ### 74x3827 - 10-bit buffer
 - Status: [ ]
@@ -17036,7 +17036,7 @@ IDT74FST3245
   - 10-bit FET bus switch with dual OE; analog FET switch
 
 ### 74x3893 - quad Futurebus backplane transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3893
 - Aliases: none
 - Source section: Larger footprints
@@ -17049,7 +17049,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3893/tb_ttl_74x3893.sv
 - README: rtl/chips/ttl_74x3893/README.md
 - Notes:
-  - (none)
+  - Quad Futurebus backplane transceiver; specialized backplane physical-layer transceiver requires datasheet
 
 ### 74x3907 - Pentium clock synthesizer
 - Status: [!]
@@ -17340,7 +17340,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4060 - 14-stage binary ripple counter with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4060
 - Aliases: none
 - Source section: Larger footprints
@@ -17353,10 +17353,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4060/tb_ttl_74x4060.sv
 - README: rtl/chips/ttl_74x4060/README.md
 - Notes:
-  - (none)
+  - 14-stage binary counter with on-chip oscillator; oscillator portion is analog/timing
 
 ### 74x4061 - 14-stage asynchronous binary counter with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4061
 - Aliases: none
 - Source section: Larger footprints
@@ -17369,7 +17369,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4061/tb_ttl_74x4061.sv
 - README: rtl/chips/ttl_74x4061/README.md
 - Notes:
-  - (none)
+  - 14-stage async binary counter with on-chip oscillator; same blocker as 74x4060
 
 ### 74x4066 - quad single-pole single-throw analog switch
 - Status: [!]

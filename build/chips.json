@@ -22229,8 +22229,10 @@
     "pins": "20",
     "datasheet": "IDT74FCT3807",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n589",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "1-to-10 clock driver/buffer; physical clock fanout buffer, electrical not logical"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3807/ttl_74x3807.sv",
     "testbench_path": "tb/chips/ttl_74x3807/tb_ttl_74x3807.sv",
     "readme_path": "rtl/chips/ttl_74x3807/README.md"
@@ -22309,8 +22311,10 @@
     "pins": "(20)",
     "datasheet": "MC74F3893A",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaFASTandLSTTLData_35934218/page/n313",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad Futurebus backplane transceiver; specialized backplane physical-layer transceiver requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3893/ttl_74x3893.sv",
     "testbench_path": "tb/chips/ttl_74x3893/tb_ttl_74x3893.sv",
     "readme_path": "rtl/chips/ttl_74x3893/README.md"
@@ -22684,8 +22688,10 @@
     "pins": "16",
     "datasheet": "SN74HC4060",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc4060",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "14-stage binary counter with on-chip oscillator; oscillator portion is analog/timing"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4060/ttl_74x4060.sv",
     "testbench_path": "tb/chips/ttl_74x4060/tb_ttl_74x4060.sv",
     "readme_path": "rtl/chips/ttl_74x4060/README.md"
@@ -22703,8 +22709,10 @@
     "pins": "16",
     "datasheet": "SN74HC4061",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n449",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "14-stage async binary counter with on-chip oscillator; same blocker as 74x4060"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4061/ttl_74x4061.sv",
     "testbench_path": "tb/chips/ttl_74x4061/tb_ttl_74x4061.sv",
     "readme_path": "rtl/chips/ttl_74x4061/README.md"
