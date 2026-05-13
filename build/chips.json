@@ -20758,8 +20758,10 @@
     "pins": "24",
     "datasheet": "QS74FCT2646T",
     "datasheet_url": "https://archive.org/details/QualitySemiconductor-1991DatabookOCR/page/n419",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Identical to 74x646. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2646/ttl_74x2646.sv",
     "testbench_path": "tb/chips/ttl_74x2646/tb_ttl_74x2646.sv",
     "readme_path": "rtl/chips/ttl_74x2646/README.md"
