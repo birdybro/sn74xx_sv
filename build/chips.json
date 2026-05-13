@@ -16844,8 +16844,10 @@
     "pins": "24",
     "datasheet": "SN74BCT956",
     "datasheet_url": "https://web.archive.org/web/20181019041146/https://datasheetspdf.com/pdf-file/1271601/Texas/SN74BCT956/1",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Logically identical to 74x543; testbench checks both directions and latch hold. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74bct956/ttl_74bct956.sv",
     "testbench_path": "tb/chips/ttl_74bct956/tb_ttl_74bct956.sv",
     "readme_path": "rtl/chips/ttl_74bct956/README.md"

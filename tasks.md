@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 767
+- complete: 768
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 475
+- not_started: 474
 
 ## Chips
 
@@ -12858,7 +12858,7 @@ For every chip:
   - (none)
 
 ### 74BCT956 - octal bus transceiver and latch
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74bct956
 - Aliases: none
 - Source section: Larger footprints
@@ -12871,7 +12871,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74bct956/tb_ttl_74bct956.sv
 - README: rtl/chips/ttl_74bct956/README.md
 - Notes:
-  - (none)
+  - Logically identical to 74x543; testbench checks both directions and latch hold. Verilator + Yosys clean.
 
 ### 74x962 - dual rank 8-bit shift register, register exchange mode
 - Status: [ ]
