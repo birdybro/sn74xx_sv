@@ -30504,8 +30504,10 @@
     "pins": "5",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP1G38.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single 2-input NAND (open-drain not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1g38/ttl_74x1g38.sv",
     "testbench_path": "tb/chips/ttl_74x1g38/tb_ttl_74x1g38.sv",
     "readme_path": "rtl/chips/ttl_74x1g38/README.md"
