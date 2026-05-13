@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 719
+- complete: 720
 - blocked: 180
 - digital_only_approximation: 27
-- not_started: 629
+- not_started: 628
 
 ## Chips
 
@@ -21503,7 +21503,7 @@ IDT74FST3245
   - (none)
 
 ### 74x16841 - 20-bit bus interface D-type latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x16841
 - Aliases: none
 - Source section: Widebus devices
@@ -21516,7 +21516,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16841/tb_ttl_74x16841.sv
 - README: rtl/chips/ttl_74x16841/README.md
 - Notes:
-  - (none)
+  - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16843 - 18-bit bus interface D-type latches
 - Status: [ ]
