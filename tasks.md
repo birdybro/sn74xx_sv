@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 910
+- complete: 911
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 259
+- not_started: 258
 
 ## Chips
 
@@ -18956,7 +18956,7 @@ IDT74FST3245
   - 8-bit shift register with parallel input latch. Verilator + Yosys clean.
 
 ### 74x7623 - octal bus transceiver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7623
 - Aliases: none
 - Source section: Larger footprints
@@ -18969,7 +18969,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7623/tb_ttl_74x7623.sv
 - README: rtl/chips/ttl_74x7623/README.md
 - Notes:
-  - (none)
+  - = 74x623. Verilator + Yosys clean.
 
 ### 74x7640 - octal bus transceiver, inverting
 - Status: [ ]
