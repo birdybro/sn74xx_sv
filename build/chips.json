@@ -32333,8 +32333,10 @@
     "pins": "5",
     "datasheet": "AUPLV",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t86.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Single XOR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x1t86/ttl_74x1t86.sv",
     "testbench_path": "tb/chips/ttl_74x1t86/tb_ttl_74x1t86.sv",
     "readme_path": "rtl/chips/ttl_74x1t86/README.md"

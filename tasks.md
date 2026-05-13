@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1093
+- complete: 1094
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 15
+- not_started: 14
 
 ## Chips
 
@@ -24661,7 +24661,7 @@ IDT74FST3245
   - Configurable 9-function gate; requires datasheet
 
 ### 74x1T86 - single-supply 2-input XOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1t86
 - Aliases: none
 - Source section: Voltage translation
@@ -24674,7 +24674,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1t86/tb_ttl_74x1t86.sv
 - README: rtl/chips/ttl_74x1t86/README.md
 - Notes:
-  - (none)
+  - Single XOR. Verilator + Yosys clean.
 
 ### 74x1T87 - single-supply 2-input XNOR gate
 - Status: [ ]
