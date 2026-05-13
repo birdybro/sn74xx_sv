@@ -23303,8 +23303,10 @@
     "pins": "16",
     "datasheet": "CD74HC4516",
     "datasheet_url": "https://archive.org/details/bitsavers_rcadataBooMOS_35821859/page/n559",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "4-bit binary up/down counter with sync load. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4516/ttl_74x4516.sv",
     "testbench_path": "tb/chips/ttl_74x4516/tb_ttl_74x4516.sv",
     "readme_path": "rtl/chips/ttl_74x4516/README.md"
