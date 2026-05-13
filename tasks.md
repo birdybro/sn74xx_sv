@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 836
+- complete: 837
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 363
+- not_started: 362
 
 ## Chips
 
@@ -17148,7 +17148,7 @@ IDT74FST3245
   - Decade counter with 10 decoded one-hot outputs and divide-by-10 carry. Verilator + Yosys clean.
 
 ### 74x4020 - 14-stage binary counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4020
 - Aliases: none
 - Source section: Larger footprints
@@ -17161,7 +17161,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4020/tb_ttl_74x4020.sv
 - README: rtl/chips/ttl_74x4020/README.md
 - Notes:
-  - (none)
+  - 14-bit binary counter with async reset. Verilator + Yosys clean.
 
 ### 74x4022 - 4-stage ÷8 Johnson counter
 - Status: [ ]

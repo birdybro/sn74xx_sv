@@ -22484,8 +22484,10 @@
     "pins": "16",
     "datasheet": "SN74HC4020",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4020",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "14-bit binary counter with async reset. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4020/ttl_74x4020.sv",
     "testbench_path": "tb/chips/ttl_74x4020/tb_ttl_74x4020.sv",
     "readme_path": "rtl/chips/ttl_74x4020/README.md"
