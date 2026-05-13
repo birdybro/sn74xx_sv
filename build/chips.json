@@ -24038,8 +24038,10 @@
     "pins": "14",
     "datasheet": "SN74HC7002",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc7002",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 2-input NOR, = 74x02. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7002/ttl_74x7002.sv",
     "testbench_path": "tb/chips/ttl_74x7002/tb_ttl_74x7002.sv",
     "readme_path": "rtl/chips/ttl_74x7002/README.md"
