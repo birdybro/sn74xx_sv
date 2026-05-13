@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 843
+- complete: 844
 - blocked: 329
 - digital_only_approximation: 27
-- not_started: 356
+- not_started: 355
 
 ## Chips
 
@@ -17324,7 +17324,7 @@ IDT74FST3245
   - Triple 2-channel analog multiplexer; CMOS transmission-gate switch
 
 ### 74x4059 - programmable divide-by-N counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4059
 - Aliases: none
 - Source section: Larger footprints
@@ -17337,7 +17337,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4059/tb_ttl_74x4059.sv
 - README: rtl/chips/ttl_74x4059/README.md
 - Notes:
-  - (none)
+  - Behavioral programmable divide-by-N (14-bit binary, not BCD); exposes flat divisor input. Verilator + Yosys clean.
 
 ### 74x4060 - 14-stage binary ripple counter with oscillator
 - Status: [!]

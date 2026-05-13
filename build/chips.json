@@ -22715,8 +22715,10 @@
     "pins": "24",
     "datasheet": "CD74HC4059",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4059",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Behavioral programmable divide-by-N (14-bit binary, not BCD); exposes flat divisor input. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4059/ttl_74x4059.sv",
     "testbench_path": "tb/chips/ttl_74x4059/tb_ttl_74x4059.sv",
     "readme_path": "rtl/chips/ttl_74x4059/README.md"
