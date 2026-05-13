@@ -31157,8 +31157,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC2G02.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 2-input NOR. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g02/ttl_74x2g02.sv",
     "testbench_path": "tb/chips/ttl_74x2g02/tb_ttl_74x2g02.sv",
     "readme_path": "rtl/chips/ttl_74x2g02/README.md"
