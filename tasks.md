@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 856
+- complete: 857
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 330
+- not_started: 329
 
 ## Chips
 
@@ -17596,7 +17596,7 @@ IDT74FST3245
   - Dual 4-bit inverting buffers. Verilator + Yosys clean.
 
 ### 74x4306 - dual 4-bit buffer, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4306
 - Aliases: none
 - Source section: Larger footprints
@@ -17609,7 +17609,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4306/tb_ttl_74x4306.sv
 - README: rtl/chips/ttl_74x4306/README.md
 - Notes:
-  - (none)
+  - Dual 4-bit non-inverting buffers. Verilator + Yosys clean.
 
 ### 74x4316 - quad analog switch
 - Status: [!]

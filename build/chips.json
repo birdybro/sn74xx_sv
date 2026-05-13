@@ -23072,8 +23072,10 @@
     "pins": "20",
     "datasheet": "MN74HC4306",
     "datasheet_url": "https://archive.org/details/bitsavers_panasonicdicHighSpeedCMOS_23161100/page/n433",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual 4-bit non-inverting buffers. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4306/ttl_74x4306.sv",
     "testbench_path": "tb/chips/ttl_74x4306/tb_ttl_74x4306.sv",
     "readme_path": "rtl/chips/ttl_74x4306/README.md"
