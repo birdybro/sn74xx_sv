@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 604
+- complete: 605
 - blocked: 57
 - digital_only_approximation: 27
-- not_started: 867
+- not_started: 866
 
 ## Chips
 
@@ -11064,7 +11064,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x805 - hex 2-input NOR drivers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x805
 - Aliases: none
 - Source section: Larger footprints
@@ -11077,7 +11077,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x805/tb_ttl_74x805.sv
 - README: rtl/chips/ttl_74x805/README.md
 - Notes:
-  - (none)
+  - Verilator lint+sim clean
 
 ### 74x807 - 1-to-10 clock driver
 - Status: [ ]

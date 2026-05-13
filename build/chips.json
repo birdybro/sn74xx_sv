@@ -14490,8 +14490,10 @@
     "pins": "20",
     "datasheet": "SN74ALS805A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54as805b",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x805/ttl_74x805.sv",
     "testbench_path": "tb/chips/ttl_74x805/tb_ttl_74x805.sv",
     "readme_path": "rtl/chips/ttl_74x805/README.md"
