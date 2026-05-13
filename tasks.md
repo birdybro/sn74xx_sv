@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 625
-- blocked: 65
+- blocked: 74
 - digital_only_approximation: 27
-- not_started: 838
+- not_started: 829
 
 ## Chips
 
@@ -11514,7 +11514,7 @@ For every chip:
   - Per SN74ALS843 family datasheet (SDAS232A); latch (not flop) with async /PRE > /CLR > LE; Verilator lint+sim clean
 
 ### 74x848 - 8 to 3-line priority encoder (glitch-less)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x848
 - Aliases: none
 - Source section: Larger footprints
@@ -11527,10 +11527,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x848/tb_ttl_74x848.sv
 - README: rtl/chips/ttl_74x848/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x850 - 1 of 16 data selector/multiplexer, clocked select
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x850
 - Aliases: none
 - Source section: Larger footprints
@@ -11543,10 +11543,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x850/tb_ttl_74x850.sv
 - README: rtl/chips/ttl_74x850/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x851 - 1 of 16 data selector/multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x851
 - Aliases: none
 - Source section: Larger footprints
@@ -11559,10 +11559,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x851/tb_ttl_74x851.sv
 - README: rtl/chips/ttl_74x851/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x852 - 8-bit universal transceiver port controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x852
 - Aliases: none
 - Source section: Larger footprints
@@ -11575,10 +11575,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x852/tb_ttl_74x852.sv
 - README: rtl/chips/ttl_74x852/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x853 - 8-bit to 9-bit bus transceiver with parity latch, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x853
 - Aliases: none
 - Source section: Larger footprints
@@ -11591,10 +11591,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x853/tb_ttl_74x853.sv
 - README: rtl/chips/ttl_74x853/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x854 - 8-bit to 9-bit bus transceiver with parity latch, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x854
 - Aliases: none
 - Source section: Larger footprints
@@ -11607,10 +11607,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x854/tb_ttl_74x854.sv
 - README: rtl/chips/ttl_74x854/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x856 - 8-bit universal transceiver port controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x856
 - Aliases: none
 - Source section: Larger footprints
@@ -11623,7 +11623,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x856/tb_ttl_74x856.sv
 - README: rtl/chips/ttl_74x856/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x857 - hex 2-line to 1-line multiplexer
 - Status: [ ]
@@ -11706,7 +11706,7 @@ For every chip:
   - (none)
 
 ### 74x866 - 8-bit magnitude comparator with latches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x866
 - Aliases: none
 - Source section: Larger footprints
@@ -11719,10 +11719,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x866/tb_ttl_74x866.sv
 - README: rtl/chips/ttl_74x866/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x867 - synchronous 8-bit up/down counter, asynchronous clear
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x867
 - Aliases: none
 - Source section: Larger footprints
@@ -11735,7 +11735,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x867/tb_ttl_74x867.sv
 - README: rtl/chips/ttl_74x867/README.md
 - Notes:
-  - (none)
+  - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x869 - synchronous 8-bit up/down counter, synchronous clear
 - Status: [ ]

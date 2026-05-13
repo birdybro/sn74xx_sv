@@ -15082,8 +15082,10 @@
     "pins": "16",
     "datasheet": "SN74LS848",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n315",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x848/ttl_74x848.sv",
     "testbench_path": "tb/chips/ttl_74x848/tb_ttl_74x848.sv",
     "readme_path": "rtl/chips/ttl_74x848/README.md"
@@ -15101,8 +15103,10 @@
     "pins": "28",
     "datasheet": "SN74AS850",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n603",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x850/ttl_74x850.sv",
     "testbench_path": "tb/chips/ttl_74x850/tb_ttl_74x850.sv",
     "readme_path": "rtl/chips/ttl_74x850/README.md"
@@ -15120,8 +15124,10 @@
     "pins": "28",
     "datasheet": "SN74AS851",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n603",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x851/ttl_74x851.sv",
     "testbench_path": "tb/chips/ttl_74x851/tb_ttl_74x851.sv",
     "readme_path": "rtl/chips/ttl_74x851/README.md"
@@ -15139,8 +15145,10 @@
     "pins": "24",
     "datasheet": "SN74AS852",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n613",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x852/ttl_74x852.sv",
     "testbench_path": "tb/chips/ttl_74x852/tb_ttl_74x852.sv",
     "readme_path": "rtl/chips/ttl_74x852/README.md"
@@ -15158,8 +15166,10 @@
     "pins": "24",
     "datasheet": "SN74ABT853",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74abt853",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x853/ttl_74x853.sv",
     "testbench_path": "tb/chips/ttl_74x853/tb_ttl_74x853.sv",
     "readme_path": "rtl/chips/ttl_74x853/README.md"
@@ -15177,8 +15187,10 @@
     "pins": "24",
     "datasheet": "IDT74FCT854",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceCMOSDataBook_66222191/page/n1071",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x854/ttl_74x854.sv",
     "testbench_path": "tb/chips/ttl_74x854/tb_ttl_74x854.sv",
     "readme_path": "rtl/chips/ttl_74x854/README.md"
@@ -15196,8 +15208,10 @@
     "pins": "24",
     "datasheet": "SN74AS856",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n619",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x856/ttl_74x856.sv",
     "testbench_path": "tb/chips/ttl_74x856/tb_ttl_74x856.sv",
     "readme_path": "rtl/chips/ttl_74x856/README.md"
@@ -15310,8 +15324,10 @@
     "pins": "24",
     "datasheet": "SN74AS866",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n633",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x866/ttl_74x866.sv",
     "testbench_path": "tb/chips/ttl_74x866/tb_ttl_74x866.sv",
     "readme_path": "rtl/chips/ttl_74x866/README.md"
@@ -15329,8 +15345,10 @@
     "pins": "24",
     "datasheet": "SN74ALS867A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als867a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x867/ttl_74x867.sv",
     "testbench_path": "tb/chips/ttl_74x867/tb_ttl_74x867.sv",
     "readme_path": "rtl/chips/ttl_74x867/README.md"
