@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 817
-- blocked: 297
+- blocked: 313
 - digital_only_approximation: 27
-- not_started: 414
+- not_started: 398
 
 ## Chips
 
@@ -16218,7 +16218,7 @@ For every chip:
   - Identical to 74x651 (transceiver/register, inverting). Verilator + Yosys clean.
 
 ### 74x2960 - error detection and correction (EDAC), equivalent to Am2960
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2960
 - Aliases: none
 - Source section: Larger footprints
@@ -16231,7 +16231,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2960/tb_ttl_74x2960.sv
 - README: rtl/chips/ttl_74x2960/README.md
 - Notes:
-  - (none)
+  - EDAC equivalent to Am2960; complex syndrome generation/decode and check-bit ALU requires Am2960 datasheet
 
 ### 74x2961 - 4-bit EDAC bus buffer, inverting, equivalent to Am2961
 - Status: [x]
@@ -16298,7 +16298,7 @@ For every chip:
   - DRAM address mux + RAS/CAS, 9-bit path; same as 74x2967. Verilator + Yosys clean.
 
 ### 74x2969 - memory timing controller for use with EDAC
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2969
 - Aliases: none
 - Source section: Larger footprints
@@ -16311,10 +16311,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2969/tb_ttl_74x2969.sv
 - README: rtl/chips/ttl_74x2969/README.md
 - Notes:
-  - (none)
+  - Memory timing controller for EDAC use; complex state machine requires SN74F2969 datasheet
 
 ### 74x2970 - memory timing controller for use without EDAC
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x2970
 - Aliases: none
 - Source section: Larger footprints
@@ -16327,10 +16327,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2970/tb_ttl_74x2970.sv
 - README: rtl/chips/ttl_74x2970/README.md
 - Notes:
-  - (none)
+  - Memory timing controller (non-EDAC); complex state machine requires SN74F2970 datasheet
 
 ### 74x3004 - selectable GTL voltage reference
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3004
 - Aliases: none
 - Source section: Larger footprints
@@ -16343,7 +16343,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x3004/tb_ttl_74x3004.sv
 - README: rtl/chips/ttl_74x3004/README.md
 - Notes:
-  - (none)
+  - GTL voltage reference; analog 1.0V/1.2V reference generator with no digital logic
 
 ### 74x3037 - quad 2-input NAND gate
 - Status: [x]
@@ -16394,7 +16394,7 @@ For every chip:
   - Dual 4-input NAND, identical to 74x20. Verilator + Yosys clean.
 
 ### 74x3125 - quad FET bus switch, output enable active low
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3125
 - Aliases: none
 - Source section: Larger footprints
@@ -16407,10 +16407,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x3125/tb_ttl_74x3125.sv
 - README: rtl/chips/ttl_74x3125/README.md
 - Notes:
-  - (none)
+  - Quad FET bus switch; physical switch with no logical model, like 74CBT3245
 
 ### 74x3126 - quad FET bus switch, output enable active high
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3126
 - Aliases: none
 - Source section: Larger footprints
@@ -16423,7 +16423,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x3126/tb_ttl_74x3126.sv
 - README: rtl/chips/ttl_74x3126/README.md
 - Notes:
-  - (none)
+  - Quad FET bus switch, OE active high; physical switch with no logical model
 
 ### 74FCT3244 - dual 4-bit buffer / line driver
 - Status: [ ]
@@ -16442,7 +16442,7 @@ For every chip:
   - (none)
 
 ### 74CBT3244 - dual 4-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74cbt3244
 - Aliases: 74FST3244
 - Source section: Larger footprints
@@ -16456,7 +16456,7 @@ IDT74FST3244
 - Testbench: tb/chips/ttl_74cbt3244/tb_ttl_74cbt3244.sv
 - README: rtl/chips/ttl_74cbt3244/README.md
 - Notes:
-  - (none)
+  - Dual 4-bit FET bus switch; physical switch, no behavioral model
 
 ### 74FCT3245 - octal bidirectional transceiver
 - Status: [x]
@@ -16524,7 +16524,7 @@ IDT74FST3245
   - FET bus switch / GTLP transceiver — needs datasheet
 
 ### 74x3251 - 8-line to 1-line FET multiplexer / demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3251
 - Aliases: none
 - Source section: Larger footprints
@@ -16537,10 +16537,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3251/tb_ttl_74x3251.sv
 - README: rtl/chips/ttl_74x3251/README.md
 - Notes:
-  - (none)
+  - 8-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled
 
 ### 74x3253 - dual 4-line to 1-line FET multiplexer / demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3253
 - Aliases: none
 - Source section: Larger footprints
@@ -16553,10 +16553,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3253/tb_ttl_74x3253.sv
 - README: rtl/chips/ttl_74x3253/README.md
 - Notes:
-  - (none)
+  - Dual 4-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled
 
 ### 74x3257 - quad 2-line to 1-line FET multiplexer / demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3257
 - Aliases: none
 - Source section: Larger footprints
@@ -16569,7 +16569,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3257/tb_ttl_74x3257.sv
 - README: rtl/chips/ttl_74x3257/README.md
 - Notes:
-  - (none)
+  - Quad 2-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled
 
 ### 74x3283 - 32-bit latchable transceiver with parity checker / generator
 - Status: [ ]
@@ -16604,7 +16604,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3305 - dual FET bus switch with extended voltage range
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3305
 - Aliases: none
 - Source section: Larger footprints
@@ -16617,10 +16617,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3305/tb_ttl_74x3305.sv
 - README: rtl/chips/ttl_74x3305/README.md
 - Notes:
-  - (none)
+  - Dual FET bus switch with extended voltage range; analog FET switch
 
 ### 74x3306 - dual FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3306
 - Aliases: none
 - Source section: Larger footprints
@@ -16633,10 +16633,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3306/tb_ttl_74x3306.sv
 - README: rtl/chips/ttl_74x3306/README.md
 - Notes:
-  - (none)
+  - Dual FET bus switch; analog FET switch
 
 ### 74x3345 - octal FET bus switch, dual output enable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3345
 - Aliases: none
 - Source section: Larger footprints
@@ -16649,7 +16649,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3345/tb_ttl_74x3345.sv
 - README: rtl/chips/ttl_74x3345/README.md
 - Notes:
-  - (none)
+  - Octal FET bus switch with dual OE; analog FET switch
 
 ### 74x3374 - 8-bit metastable-resistant D-type flip-flop
 - Status: [x]
@@ -16668,7 +16668,7 @@ IDT74FST3245
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x3383 - 5-bit 4-port FET bus exchange switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3383
 - Aliases: none
 - Source section: Larger footprints
@@ -16681,10 +16681,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3383/tb_ttl_74x3383.sv
 - README: rtl/chips/ttl_74x3383/README.md
 - Notes:
-  - (none)
+  - 5-bit 4-port FET bus exchange switch; analog FET switch crossbar
 
 ### 74x3384 - dual 5-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3384
 - Aliases: none
 - Source section: Larger footprints
@@ -16697,10 +16697,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3384/tb_ttl_74x3384.sv
 - README: rtl/chips/ttl_74x3384/README.md
 - Notes:
-  - (none)
+  - Dual 5-bit FET bus switch; analog FET switch
 
 ### 74x3386 - 5-bit 4-port FET bus exchange switch with extended voltage range
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3386
 - Aliases: none
 - Source section: Larger footprints
@@ -16713,7 +16713,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3386/tb_ttl_74x3386.sv
 - README: rtl/chips/ttl_74x3386/README.md
 - Notes:
-  - (none)
+  - 5-bit 4-port FET bus exchange switch, extended voltage; analog FET switch
 
 ### 74x3390 - octal 2-line to 1-line FET multiplexer / bus switch
 - Status: [ ]

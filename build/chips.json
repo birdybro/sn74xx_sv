@@ -21262,8 +21262,10 @@
     "pins": "48",
     "datasheet": "MC74F2960",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n629",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "EDAC equivalent to Am2960; complex syndrome generation/decode and check-bit ALU requires Am2960 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2960/ttl_74x2960.sv",
     "testbench_path": "tb/chips/ttl_74x2960/tb_ttl_74x2960.sv",
     "readme_path": "rtl/chips/ttl_74x2960/README.md"
@@ -21365,8 +21367,10 @@
     "pins": "48",
     "datasheet": "MC74F2969",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaSchottkyTTLData_33878952/page/n635",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Memory timing controller for EDAC use; complex state machine requires SN74F2969 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2969/ttl_74x2969.sv",
     "testbench_path": "tb/chips/ttl_74x2969/tb_ttl_74x2969.sv",
     "readme_path": "rtl/chips/ttl_74x2969/README.md"
@@ -21384,8 +21388,10 @@
     "pins": "24",
     "datasheet": "MC74F2970",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0043139.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Memory timing controller (non-EDAC); complex state machine requires SN74F2970 datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2970/ttl_74x2970.sv",
     "testbench_path": "tb/chips/ttl_74x2970/tb_ttl_74x2970.sv",
     "readme_path": "rtl/chips/ttl_74x2970/README.md"
@@ -21403,8 +21409,10 @@
     "pins": "(6)",
     "datasheet": "SN74GTL3004",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl3004",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "GTL voltage reference; analog 1.0V/1.2V reference generator with no digital logic"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3004/ttl_74x3004.sv",
     "testbench_path": "tb/chips/ttl_74x3004/tb_ttl_74x3004.sv",
     "readme_path": "rtl/chips/ttl_74x3004/README.md"
@@ -21485,8 +21493,10 @@
     "pins": "(14)",
     "datasheet": "SN74CBT3125",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n45",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad FET bus switch; physical switch with no logical model, like 74CBT3245"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3125/ttl_74x3125.sv",
     "testbench_path": "tb/chips/ttl_74x3125/tb_ttl_74x3125.sv",
     "readme_path": "rtl/chips/ttl_74x3125/README.md"
@@ -21504,8 +21514,10 @@
     "pins": "(14)",
     "datasheet": "SN74CBT3126",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n49",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad FET bus switch, OE active high; physical switch with no logical model"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3126/ttl_74x3126.sv",
     "testbench_path": "tb/chips/ttl_74x3126/tb_ttl_74x3126.sv",
     "readme_path": "rtl/chips/ttl_74x3126/README.md"
@@ -21544,8 +21556,10 @@
     "pins": "20",
     "datasheet": "SN74CBT3244\nIDT74FST3244",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n53",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 4-bit FET bus switch; physical switch, no behavioral model"
+    ],
     "rtl_path": "rtl/chips/ttl_74cbt3244/ttl_74cbt3244.sv",
     "testbench_path": "tb/chips/ttl_74cbt3244/tb_ttl_74cbt3244.sv",
     "readme_path": "rtl/chips/ttl_74cbt3244/README.md"
@@ -21649,8 +21663,10 @@
     "pins": "(16)",
     "datasheet": "SN74CBT3251",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n69",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "8-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3251/ttl_74x3251.sv",
     "testbench_path": "tb/chips/ttl_74x3251/tb_ttl_74x3251.sv",
     "readme_path": "rtl/chips/ttl_74x3251/README.md"
@@ -21668,8 +21684,10 @@
     "pins": "(16)",
     "datasheet": "SN74CBT3253",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n73",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 4-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3253/ttl_74x3253.sv",
     "testbench_path": "tb/chips/ttl_74x3253/tb_ttl_74x3253.sv",
     "readme_path": "rtl/chips/ttl_74x3253/README.md"
@@ -21687,8 +21705,10 @@
     "pins": "(16)",
     "datasheet": "IDT74FST3257",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n651",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad 2-to-1 FET multiplexer/demultiplexer; analog FET switch, not modeled"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3257/ttl_74x3257.sv",
     "testbench_path": "tb/chips/ttl_74x3257/tb_ttl_74x3257.sv",
     "readme_path": "rtl/chips/ttl_74x3257/README.md"
@@ -21744,8 +21764,10 @@
     "pins": "(8)",
     "datasheet": "SN74CBT3305C",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74cbt3305c",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual FET bus switch with extended voltage range; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3305/ttl_74x3305.sv",
     "testbench_path": "tb/chips/ttl_74x3305/tb_ttl_74x3305.sv",
     "readme_path": "rtl/chips/ttl_74x3305/README.md"
@@ -21763,8 +21785,10 @@
     "pins": "(8)",
     "datasheet": "SN74CBT3306",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n85",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual FET bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3306/ttl_74x3306.sv",
     "testbench_path": "tb/chips/ttl_74x3306/tb_ttl_74x3306.sv",
     "readme_path": "rtl/chips/ttl_74x3306/README.md"
@@ -21782,8 +21806,10 @@
     "pins": "(20)",
     "datasheet": "SN74CBT3345",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n89",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Octal FET bus switch with dual OE; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3345/ttl_74x3345.sv",
     "testbench_path": "tb/chips/ttl_74x3345/tb_ttl_74x3345.sv",
     "readme_path": "rtl/chips/ttl_74x3345/README.md"
@@ -21822,8 +21848,10 @@
     "pins": "24",
     "datasheet": "IDT74FST3383",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n655",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "5-bit 4-port FET bus exchange switch; analog FET switch crossbar"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3383/ttl_74x3383.sv",
     "testbench_path": "tb/chips/ttl_74x3383/tb_ttl_74x3383.sv",
     "readme_path": "rtl/chips/ttl_74x3383/README.md"
@@ -21841,8 +21869,10 @@
     "pins": "24",
     "datasheet": "IDT74FST3384",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n509",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 5-bit FET bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3384/ttl_74x3384.sv",
     "testbench_path": "tb/chips/ttl_74x3384/tb_ttl_74x3384.sv",
     "readme_path": "rtl/chips/ttl_74x3384/README.md"
@@ -21860,8 +21890,10 @@
     "pins": "(24)",
     "datasheet": "SN74CBT3386",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n113",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "5-bit 4-port FET bus exchange switch, extended voltage; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3386/ttl_74x3386.sv",
     "testbench_path": "tb/chips/ttl_74x3386/tb_ttl_74x3386.sv",
     "readme_path": "rtl/chips/ttl_74x3386/README.md"
