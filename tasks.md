@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 902
+- complete: 903
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 267
+- not_started: 266
 
 ## Chips
 
@@ -18780,7 +18780,7 @@ IDT74FST3245
   - Octal non-inverting buffer, = 74x244. Verilator + Yosys clean.
 
 ### 74x7245 - octal bus transceiver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7245
 - Aliases: none
 - Source section: Larger footprints
@@ -18793,7 +18793,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7245/tb_ttl_74x7245.sv
 - README: rtl/chips/ttl_74x7245/README.md
 - Notes:
-  - (none)
+  - Octal bidir transceiver, = 74x245. Verilator + Yosys clean.
 
 ### 74x7266 - quad 2-input XNOR gate
 - Status: [ ]
