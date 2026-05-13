@@ -14872,8 +14872,10 @@
     "pins": "24",
     "datasheet": "IDT74FCT834",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceCMOSDataBook_66222191/page/n1071",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting twin of 74x833; bus outputs inverted, parity logic identical; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x834/ttl_74x834.sv",
     "testbench_path": "tb/chips/ttl_74x834/tb_ttl_74x834.sv",
     "readme_path": "rtl/chips/ttl_74x834/README.md"
