@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 880
+- complete: 881
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 289
+- not_started: 288
 
 ## Chips
 
@@ -18412,7 +18412,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7014 - hex buffer gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7014
 - Aliases: none
 - Source section: Larger footprints
@@ -18425,7 +18425,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7014/tb_ttl_74x7014.sv
 - README: rtl/chips/ttl_74x7014/README.md
 - Notes:
-  - (none)
+  - Hex non-inverting buffer. Verilator + Yosys clean.
 
 ### 74x7022 - 4-stage ÷8 Johnson counter with power-up clear
 - Status: [ ]

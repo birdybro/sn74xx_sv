@@ -24139,8 +24139,10 @@
     "pins": "14",
     "datasheet": "74HC7014",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74HC7014.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Hex non-inverting buffer. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7014/ttl_74x7014.sv",
     "testbench_path": "tb/chips/ttl_74x7014/tb_ttl_74x7014.sv",
     "readme_path": "rtl/chips/ttl_74x7014/README.md"
