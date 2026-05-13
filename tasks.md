@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 899
+- complete: 900
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 270
+- not_started: 269
 
 ## Chips
 
@@ -18732,7 +18732,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7240 - octal bus buffer, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7240
 - Aliases: none
 - Source section: Larger footprints
@@ -18745,7 +18745,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7240/tb_ttl_74x7240.sv
 - README: rtl/chips/ttl_74x7240/README.md
 - Notes:
-  - (none)
+  - Octal inverting buffer, = 74x240. Verilator + Yosys clean.
 
 ### 74x7241 - octal bus buffer, non-inverting
 - Status: [ ]
