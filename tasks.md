@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 820
-- blocked: 313
+- blocked: 325
 - digital_only_approximation: 27
-- not_started: 395
+- not_started: 383
 
 ## Chips
 
@@ -16716,7 +16716,7 @@ IDT74FST3245
   - 5-bit 4-port FET bus exchange switch, extended voltage; analog FET switch
 
 ### 74x3390 - octal 2-line to 1-line FET multiplexer / bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3390
 - Aliases: none
 - Source section: Larger footprints
@@ -16729,7 +16729,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3390/tb_ttl_74x3390.sv
 - README: rtl/chips/ttl_74x3390/README.md
 - Notes:
-  - (none)
+  - Octal 2-to-1 FET multiplexer / bus switch; analog FET switch
 
 ### 74x3573 - octal transparent latch
 - Status: [x]
@@ -16764,7 +16764,7 @@ IDT74FST3245
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x3584 - dual 5-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3584
 - Aliases: none
 - Source section: Larger footprints
@@ -16777,7 +16777,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3584/tb_ttl_74x3584.sv
 - README: rtl/chips/ttl_74x3584/README.md
 - Notes:
-  - (none)
+  - Dual 5-bit FET bus switch; analog FET switch
 
 ### 74x3611 - 2304-bit FIFO memory (64x36)
 - Status: [ ]
@@ -17004,7 +17004,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3861 - 10-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3861
 - Aliases: none
 - Source section: Larger footprints
@@ -17017,10 +17017,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3861/tb_ttl_74x3861.sv
 - README: rtl/chips/ttl_74x3861/README.md
 - Notes:
-  - (none)
+  - 10-bit FET bus switch; analog FET switch
 
 ### 74x3862 - 10-bit FET bus switch with dual output enable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3862
 - Aliases: none
 - Source section: Larger footprints
@@ -17033,7 +17033,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3862/tb_ttl_74x3862.sv
 - README: rtl/chips/ttl_74x3862/README.md
 - Notes:
-  - (none)
+  - 10-bit FET bus switch with dual OE; analog FET switch
 
 ### 74x3893 - quad Futurebus backplane transceiver
 - Status: [ ]
@@ -17052,7 +17052,7 @@ IDT74FST3245
   - (none)
 
 ### 74x3907 - Pentium clock synthesizer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3907
 - Aliases: none
 - Source section: Larger footprints
@@ -17065,10 +17065,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3907/tb_ttl_74x3907.sv
 - README: rtl/chips/ttl_74x3907/README.md
 - Notes:
-  - (none)
+  - Pentium clock synthesizer; PLL-based clock multiplier with frequency synthesis
 
 ### 74x3932 - PLL-based clock driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x3932
 - Aliases: none
 - Source section: Larger footprints
@@ -17081,7 +17081,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3932/tb_ttl_74x3932.sv
 - README: rtl/chips/ttl_74x3932/README.md
 - Notes:
-  - (none)
+  - PLL-based clock driver; PLL not modeled digitally
 
 ### 74x4002 - dual 4-input NOR gate
 - Status: [ ]
@@ -17116,7 +17116,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4016 - quad bilateral switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4016
 - Aliases: none
 - Source section: Larger footprints
@@ -17129,7 +17129,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4016/tb_ttl_74x4016.sv
 - README: rtl/chips/ttl_74x4016/README.md
 - Notes:
-  - (none)
+  - Quad bilateral analog switch; CMOS transmission gates, not modeled digitally
 
 ### 74x4017 - 5-stage ÷10 Johnson counter
 - Status: [ ]
@@ -17228,7 +17228,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4046 - phase-locked loop and voltage-controlled oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4046
 - Aliases: none
 - Source section: Larger footprints
@@ -17241,7 +17241,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4046/tb_ttl_74x4046.sv
 - README: rtl/chips/ttl_74x4046/README.md
 - Notes:
-  - (none)
+  - PLL + VCO; analog phase detector and voltage-controlled oscillator
 
 ### 74x4049 - hex inverting buffer
 - Status: [ ]
@@ -17276,7 +17276,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4051 - high-speed 8-channel analog multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4051
 - Aliases: none
 - Source section: Larger footprints
@@ -17289,10 +17289,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4051/tb_ttl_74x4051.sv
 - README: rtl/chips/ttl_74x4051/README.md
 - Notes:
-  - (none)
+  - 8-channel analog multiplexer/demultiplexer; CMOS transmission-gate switch
 
 ### 74x4052 - dual 4-channel analog multiplexer/demultiplexers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4052
 - Aliases: none
 - Source section: Larger footprints
@@ -17305,10 +17305,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4052/tb_ttl_74x4052.sv
 - README: rtl/chips/ttl_74x4052/README.md
 - Notes:
-  - (none)
+  - Dual 4-channel analog multiplexer; CMOS transmission-gate switch
 
 ### 74x4053 - triple 2-channel analog multiplexer/demultiplexers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4053
 - Aliases: none
 - Source section: Larger footprints
@@ -17321,7 +17321,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4053/tb_ttl_74x4053.sv
 - README: rtl/chips/ttl_74x4053/README.md
 - Notes:
-  - (none)
+  - Triple 2-channel analog multiplexer; CMOS transmission-gate switch
 
 ### 74x4059 - programmable divide-by-N counter
 - Status: [ ]
@@ -17372,7 +17372,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4066 - quad single-pole single-throw analog switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4066
 - Aliases: none
 - Source section: Larger footprints
@@ -17385,7 +17385,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4066/tb_ttl_74x4066.sv
 - README: rtl/chips/ttl_74x4066/README.md
 - Notes:
-  - (none)
+  - Quad SPST analog switch; CMOS transmission gate
 
 ### 74x4067 - 16-channel analog multiplexer/demultiplexer
 - Status: [ ]

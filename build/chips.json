@@ -21917,8 +21917,10 @@
     "pins": "(28)",
     "datasheet": "IDT74FST3390",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n665",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Octal 2-to-1 FET multiplexer / bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3390/ttl_74x3390.sv",
     "testbench_path": "tb/chips/ttl_74x3390/tb_ttl_74x3390.sv",
     "readme_path": "rtl/chips/ttl_74x3390/README.md"
@@ -21978,8 +21980,10 @@
     "pins": "24",
     "datasheet": "QS74QST3584",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-111/DSAP0025436.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 5-bit FET bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3584/ttl_74x3584.sv",
     "testbench_path": "tb/chips/ttl_74x3584/tb_ttl_74x3584.sv",
     "readme_path": "rtl/chips/ttl_74x3584/README.md"
@@ -22263,8 +22267,10 @@
     "pins": "(24)",
     "datasheet": "SN74CBT3861",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-CBT5-VandCBTLV3.3-VBusSwitches1998OCR/page/n121",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "10-bit FET bus switch; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3861/ttl_74x3861.sv",
     "testbench_path": "tb/chips/ttl_74x3861/tb_ttl_74x3861.sv",
     "readme_path": "rtl/chips/ttl_74x3861/README.md"
@@ -22282,8 +22288,10 @@
     "pins": "(24)",
     "datasheet": "IDT74CBTLV3862",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-14/DSA-272858.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "10-bit FET bus switch with dual OE; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3862/ttl_74x3862.sv",
     "testbench_path": "tb/chips/ttl_74x3862/tb_ttl_74x3862.sv",
     "readme_path": "rtl/chips/ttl_74x3862/README.md"
@@ -22320,8 +22328,10 @@
     "pins": "(28)",
     "datasheet": "IDT74FCT3907",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n629",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Pentium clock synthesizer; PLL-based clock multiplier with frequency synthesis"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3907/ttl_74x3907.sv",
     "testbench_path": "tb/chips/ttl_74x3907/tb_ttl_74x3907.sv",
     "readme_path": "rtl/chips/ttl_74x3907/README.md"
@@ -22339,8 +22349,10 @@
     "pins": "(48)",
     "datasheet": "IDT74FCT3932",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n619",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "PLL-based clock driver; PLL not modeled digitally"
+    ],
     "rtl_path": "rtl/chips/ttl_74x3932/ttl_74x3932.sv",
     "testbench_path": "tb/chips/ttl_74x3932/tb_ttl_74x3932.sv",
     "readme_path": "rtl/chips/ttl_74x3932/README.md"
@@ -22396,8 +22408,10 @@
     "pins": "14",
     "datasheet": "CD74HC4016",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4016",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad bilateral analog switch; CMOS transmission gates, not modeled digitally"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4016/ttl_74x4016.sv",
     "testbench_path": "tb/chips/ttl_74x4016/tb_ttl_74x4016.sv",
     "readme_path": "rtl/chips/ttl_74x4016/README.md"
@@ -22529,8 +22543,10 @@
     "pins": "16",
     "datasheet": "CD74HC4046A",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4046a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "PLL + VCO; analog phase detector and voltage-controlled oscillator"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4046/ttl_74x4046.sv",
     "testbench_path": "tb/chips/ttl_74x4046/tb_ttl_74x4046.sv",
     "readme_path": "rtl/chips/ttl_74x4046/README.md"
@@ -22586,8 +22602,10 @@
     "pins": "16",
     "datasheet": "CD74HC4051",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4051",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "8-channel analog multiplexer/demultiplexer; CMOS transmission-gate switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4051/ttl_74x4051.sv",
     "testbench_path": "tb/chips/ttl_74x4051/tb_ttl_74x4051.sv",
     "readme_path": "rtl/chips/ttl_74x4051/README.md"
@@ -22605,8 +22623,10 @@
     "pins": "16",
     "datasheet": "CD74HC4052",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4052",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 4-channel analog multiplexer; CMOS transmission-gate switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4052/ttl_74x4052.sv",
     "testbench_path": "tb/chips/ttl_74x4052/tb_ttl_74x4052.sv",
     "readme_path": "rtl/chips/ttl_74x4052/README.md"
@@ -22624,8 +22644,10 @@
     "pins": "16",
     "datasheet": "CD74HC4053",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4053",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple 2-channel analog multiplexer; CMOS transmission-gate switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4053/ttl_74x4053.sv",
     "testbench_path": "tb/chips/ttl_74x4053/tb_ttl_74x4053.sv",
     "readme_path": "rtl/chips/ttl_74x4053/README.md"
@@ -22700,8 +22722,10 @@
     "pins": "14",
     "datasheet": "SN74HC4066",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc4066",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad SPST analog switch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4066/ttl_74x4066.sv",
     "testbench_path": "tb/chips/ttl_74x4066/tb_ttl_74x4066.sv",
     "readme_path": "rtl/chips/ttl_74x4066/README.md"
