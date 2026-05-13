@@ -19128,8 +19128,10 @@
     "pins": "(14)",
     "datasheet": "TC74VCX2125",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-2/DSA-33230.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x2125/ttl_74x2125.sv",
     "testbench_path": "tb/chips/ttl_74x2125/tb_ttl_74x2125.sv",
     "readme_path": "rtl/chips/ttl_74x2125/README.md"
