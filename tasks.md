@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1059
+- complete: 1060
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 51
+- not_started: 50
 
 ## Chips
 
@@ -24050,7 +24050,7 @@ IDT74FST3245
   - (none)
 
 ### 74x2G86 - dual 2-input XOR gate (a.k.a. 2-bit even-parity generator)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g86
 - Aliases: none
 - Source section: Smaller footprints
@@ -24063,7 +24063,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g86/tb_ttl_74x2g86.sv
 - README: rtl/chips/ttl_74x2g86/README.md
 - Notes:
-  - (none)
+  - Dual 2-input XOR. Verilator + Yosys clean.
 
 ### 74x2G97 - dual configurable 7-function gate
 - Status: [!]
