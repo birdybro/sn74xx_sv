@@ -13778,8 +13778,10 @@
     "pins": "20",
     "datasheet": "SN74S741",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-056/DSAIH000137088.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Twin of 74x241 (complementary enables); Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x741/ttl_74x741.sv",
     "testbench_path": "tb/chips/ttl_74x741/tb_ttl_74x741.sv",
     "readme_path": "rtl/chips/ttl_74x741/README.md"
