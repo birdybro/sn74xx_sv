@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 844
-- blocked: 329
+- blocked: 342
 - digital_only_approximation: 27
-- not_started: 355
+- not_started: 342
 
 ## Chips
 
@@ -17388,7 +17388,7 @@ IDT74FST3245
   - Quad SPST analog switch; CMOS transmission gate
 
 ### 74x4067 - 16-channel analog multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4067
 - Aliases: none
 - Source section: Larger footprints
@@ -17401,7 +17401,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4067/tb_ttl_74x4067.sv
 - README: rtl/chips/ttl_74x4067/README.md
 - Notes:
-  - (none)
+  - 16-channel analog multiplexer; CMOS transmission-gate switch
 
 ### 74x4072 - dual 4-input OR gate
 - Status: [ ]
@@ -17612,7 +17612,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4316 - quad analog switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4316
 - Aliases: none
 - Source section: Larger footprints
@@ -17625,10 +17625,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4316/tb_ttl_74x4316.sv
 - README: rtl/chips/ttl_74x4316/README.md
 - Notes:
-  - (none)
+  - Quad analog switch; CMOS transmission gate
 
 ### 74x4351 - 8-channel analog multiplexer/demultiplexer with latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4351
 - Aliases: none
 - Source section: Larger footprints
@@ -17641,10 +17641,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4351/tb_ttl_74x4351.sv
 - README: rtl/chips/ttl_74x4351/README.md
 - Notes:
-  - (none)
+  - 8-channel analog multiplexer with latch; CMOS transmission gate
 
 ### 74x4352 - dual 4-channel analog multiplexer/demultiplexer with latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4352
 - Aliases: none
 - Source section: Larger footprints
@@ -17657,10 +17657,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4352/tb_ttl_74x4352.sv
 - README: rtl/chips/ttl_74x4352/README.md
 - Notes:
-  - (none)
+  - Dual 4-channel analog multiplexer with latch; CMOS transmission gate
 
 ### 74x4353 - triple 2-channel analog multiplexer/demultiplexer with latch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4353
 - Aliases: none
 - Source section: Larger footprints
@@ -17673,7 +17673,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4353/tb_ttl_74x4353.sv
 - README: rtl/chips/ttl_74x4353/README.md
 - Notes:
-  - (none)
+  - Triple 2-channel analog multiplexer with latch; CMOS transmission gate
 
 ### 74x4374 - 8-bit dual-rank synchronizer
 - Status: [ ]
@@ -17692,7 +17692,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4503 - controller for 64k/256k/1M dynamic RAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4503
 - Aliases: none
 - Source section: Larger footprints
@@ -17705,7 +17705,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4503/tb_ttl_74x4503.sv
 - README: rtl/chips/ttl_74x4503/README.md
 - Notes:
-  - (none)
+  - Programmable DRAM controller for 64k/256k/1M; complex state machine requires datasheet
 
 ### 74x4510 - BCD decade up/down counter
 - Status: [ ]
@@ -17820,7 +17820,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4538 - dual retriggerable precision monostable multivibrator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4538
 - Aliases: none
 - Source section: Larger footprints
@@ -17833,7 +17833,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4538/tb_ttl_74x4538.sv
 - README: rtl/chips/ttl_74x4538/README.md
 - Notes:
-  - (none)
+  - Retriggerable monostable multivibrator; analog timing (RC-based pulse width)
 
 ### 74x4543 - BCD to 7-segment latch/decoder/driver for LCDs
 - Status: [ ]
@@ -17884,7 +17884,7 @@ IDT74FST3245
   - (none)
 
 ### 74x4764 - programmable dRAM controller
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4764
 - Aliases: none
 - Source section: Larger footprints
@@ -17897,10 +17897,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4764/tb_ttl_74x4764.sv
 - README: rtl/chips/ttl_74x4764/README.md
 - Notes:
-  - (none)
+  - Programmable DRAM controller; complex programming + state machine requires datasheet
 
 ### 74x4799 - Timer for NiCd and NiMH chargers
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4799
 - Aliases: none
 - Source section: Larger footprints
@@ -17913,10 +17913,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4799/tb_ttl_74x4799.sv
 - README: rtl/chips/ttl_74x4799/README.md
 - Notes:
-  - (none)
+  - Timer for NiCd/NiMH battery chargers; specialized application-specific timer
 
 ### 74x4851 - 8-channel analog multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4851
 - Aliases: none
 - Source section: Larger footprints
@@ -17929,10 +17929,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4851/tb_ttl_74x4851.sv
 - README: rtl/chips/ttl_74x4851/README.md
 - Notes:
-  - (none)
+  - 8-channel analog multiplexer; CMOS transmission gate
 
 ### 74x4852 - dual 4-channel analog multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x4852
 - Aliases: none
 - Source section: Larger footprints
@@ -17945,7 +17945,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4852/tb_ttl_74x4852.sv
 - README: rtl/chips/ttl_74x4852/README.md
 - Notes:
-  - (none)
+  - Dual 4-channel analog multiplexer; CMOS transmission gate
 
 ### 74x5074 - dual positive edge-triggered D-type flip-flop (metastable immune)
 - Status: [ ]
@@ -17980,7 +17980,7 @@ IDT74FST3245
   - (none)
 
 ### 74x5300 - fiber optic LED driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x5300
 - Aliases: none
 - Source section: Larger footprints
@@ -17993,10 +17993,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5300/tb_ttl_74x5300.sv
 - README: rtl/chips/ttl_74x5300/README.md
 - Notes:
-  - (none)
+  - Fiber optic LED driver; analog optical-link driver
 
 ### 74x5302 - dual fiber optic LED / clock driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x5302
 - Aliases: none
 - Source section: Larger footprints
@@ -18009,7 +18009,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5302/tb_ttl_74x5302.sv
 - README: rtl/chips/ttl_74x5302/README.md
 - Notes:
-  - (none)
+  - Dual fiber optic LED / clock driver; analog optical-link driver
 
 ### 74x5400 - 11-bit line/memory driver, non-inverting
 - Status: [ ]

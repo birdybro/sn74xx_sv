@@ -22799,8 +22799,10 @@
     "pins": "24",
     "datasheet": "CD74HC4067",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4067",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "16-channel analog multiplexer; CMOS transmission-gate switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4067/ttl_74x4067.sv",
     "testbench_path": "tb/chips/ttl_74x4067/tb_ttl_74x4067.sv",
     "readme_path": "rtl/chips/ttl_74x4067/README.md"
@@ -23065,8 +23067,10 @@
     "pins": "14",
     "datasheet": "MM74HC4316",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaLogicDatabookVolume1_95500749/page/n703",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad analog switch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4316/ttl_74x4316.sv",
     "testbench_path": "tb/chips/ttl_74x4316/tb_ttl_74x4316.sv",
     "readme_path": "rtl/chips/ttl_74x4316/README.md"
@@ -23084,8 +23088,10 @@
     "pins": "20",
     "datasheet": "CD74HC4351",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4351",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "8-channel analog multiplexer with latch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4351/ttl_74x4351.sv",
     "testbench_path": "tb/chips/ttl_74x4351/tb_ttl_74x4351.sv",
     "readme_path": "rtl/chips/ttl_74x4351/README.md"
@@ -23103,8 +23109,10 @@
     "pins": "20",
     "datasheet": "CD74HC4352",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc4352",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 4-channel analog multiplexer with latch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4352/ttl_74x4352.sv",
     "testbench_path": "tb/chips/ttl_74x4352/tb_ttl_74x4352.sv",
     "readme_path": "rtl/chips/ttl_74x4352/README.md"
@@ -23122,8 +23130,10 @@
     "pins": "20",
     "datasheet": "MC74HC4353",
     "datasheet_url": "https://archive.org/details/bitsavers_motoroladaHighSpeedCMOSData_40597139/page/n741",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Triple 2-channel analog multiplexer with latch; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4353/ttl_74x4353.sv",
     "testbench_path": "tb/chips/ttl_74x4353/tb_ttl_74x4353.sv",
     "readme_path": "rtl/chips/ttl_74x4353/README.md"
@@ -23160,8 +23170,10 @@
     "pins": "52",
     "datasheet": "SN74ACT4503",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable DRAM controller for 64k/256k/1M; complex state machine requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4503/ttl_74x4503.sv",
     "testbench_path": "tb/chips/ttl_74x4503/tb_ttl_74x4503.sv",
     "readme_path": "rtl/chips/ttl_74x4503/README.md"
@@ -23312,8 +23324,10 @@
     "pins": "16",
     "datasheet": "CD74HC4538",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd54hc4538",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Retriggerable monostable multivibrator; analog timing (RC-based pulse width)"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4538/ttl_74x4538.sv",
     "testbench_path": "tb/chips/ttl_74x4538/tb_ttl_74x4538.sv",
     "readme_path": "rtl/chips/ttl_74x4538/README.md"
@@ -23388,8 +23402,10 @@
     "pins": "(100)",
     "datasheet": "74ABT4764",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-110/DSAP0018785.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable DRAM controller; complex programming + state machine requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4764/ttl_74x4764.sv",
     "testbench_path": "tb/chips/ttl_74x4764/tb_ttl_74x4764.sv",
     "readme_path": "rtl/chips/ttl_74x4764/README.md"
@@ -23407,8 +23423,10 @@
     "pins": "16",
     "datasheet": "74LV4799",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-25/DSA-494778.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Timer for NiCd/NiMH battery chargers; specialized application-specific timer"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4799/ttl_74x4799.sv",
     "testbench_path": "tb/chips/ttl_74x4799/tb_ttl_74x4799.sv",
     "readme_path": "rtl/chips/ttl_74x4799/README.md"
@@ -23426,8 +23444,10 @@
     "pins": "16",
     "datasheet": "SN74HC4851",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc4851",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "8-channel analog multiplexer; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4851/ttl_74x4851.sv",
     "testbench_path": "tb/chips/ttl_74x4851/tb_ttl_74x4851.sv",
     "readme_path": "rtl/chips/ttl_74x4851/README.md"
@@ -23445,8 +23465,10 @@
     "pins": "16",
     "datasheet": "SN74HC4852",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74hc4852",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual 4-channel analog multiplexer; CMOS transmission gate"
+    ],
     "rtl_path": "rtl/chips/ttl_74x4852/ttl_74x4852.sv",
     "testbench_path": "tb/chips/ttl_74x4852/tb_ttl_74x4852.sv",
     "readme_path": "rtl/chips/ttl_74x4852/README.md"
@@ -23502,8 +23524,10 @@
     "pins": "8",
     "datasheet": "74F5300",
     "datasheet_url": "https://web.archive.org/web/20201026061544/http://pdf.datasheetcatalog.com/datasheet/philips/N74F5300D.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Fiber optic LED driver; analog optical-link driver"
+    ],
     "rtl_path": "rtl/chips/ttl_74x5300/ttl_74x5300.sv",
     "testbench_path": "tb/chips/ttl_74x5300/tb_ttl_74x5300.sv",
     "readme_path": "rtl/chips/ttl_74x5300/README.md"
@@ -23521,8 +23545,10 @@
     "pins": "14",
     "datasheet": "74F5302",
     "datasheet_url": "http://www.datasheetbank.com/datasheet-download/530792/1/Philips/74F5302",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Dual fiber optic LED / clock driver; analog optical-link driver"
+    ],
     "rtl_path": "rtl/chips/ttl_74x5302/ttl_74x5302.sv",
     "testbench_path": "tb/chips/ttl_74x5302/tb_ttl_74x5302.sv",
     "readme_path": "rtl/chips/ttl_74x5302/README.md"
