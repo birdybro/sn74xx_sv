@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 972
+- complete: 973
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 171
+- not_started: 170
 
 ## Chips
 
@@ -20252,7 +20252,7 @@ IDT74FST3245
   - 8-bit universal shift register (hold/SR/SL/load). Verilator + Yosys clean.
 
 ### 74x9240 - 9-bit buffer / line driver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9240
 - Aliases: none
 - Source section: Larger footprints
@@ -20265,7 +20265,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9240/tb_ttl_74x9240.sv
 - README: rtl/chips/ttl_74x9240/README.md
 - Notes:
-  - (none)
+  - 9-bit inverting line driver. Verilator + Yosys clean.
 
 ### 74x9244 - 9-bit buffer / line driver, non-inverting
 - Status: [ ]
