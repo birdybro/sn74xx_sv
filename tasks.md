@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 641
+- complete: 642
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 799
+- not_started: 798
 
 ## Chips
 
@@ -12138,7 +12138,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74C903 - hex inverting PMOS buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74c903
 - Aliases: none
 - Source section: Larger footprints
@@ -12151,7 +12151,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74c903/tb_ttl_74c903.sv
 - README: rtl/chips/ttl_74c903/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74ALS903 - quad 2-input NAND gate
 - Status: [ ]
