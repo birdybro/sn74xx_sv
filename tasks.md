@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 569
+- complete: 570
 - blocked: 6
 - digital_only_approximation: 27
-- not_started: 953
+- not_started: 952
 
 ## Chips
 
@@ -9672,7 +9672,7 @@ For every chip:
   - Inverting-Q twin of 74x666 per SN74ALS667; Verilator lint+sim clean
 
 ### 74x668 - synchronous 4-bit decade up/down counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x668
 - Aliases: none
 - Source section: Larger footprints
@@ -9685,7 +9685,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x668/tb_ttl_74x668.sv
 - README: rtl/chips/ttl_74x668/README.md
 - Notes:
-  - (none)
+  - Decade up/down counter; functional twin of 74x168 (enable polarity assumed to match 168/169 convention pending 668 datasheet confirmation); Verilator lint+sim clean
 
 ### 74x669 - synchronous 4-bit binary up/down counter
 - Status: [ ]

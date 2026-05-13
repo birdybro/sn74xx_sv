@@ -12665,8 +12665,10 @@
     "pins": "16",
     "datasheet": "SN74LS668",
     "datasheet_url": "https://web.archive.org/web/20060602131759/http://focus.ti.com/lit/ds/symlink/sn74ls669.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Decade up/down counter; functional twin of 74x168 (enable polarity assumed to match 168/169 convention pending 668 datasheet confirmation); Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x668/ttl_74x668.sv",
     "testbench_path": "tb/chips/ttl_74x668/tb_ttl_74x668.sv",
     "readme_path": "rtl/chips/ttl_74x668/README.md"
