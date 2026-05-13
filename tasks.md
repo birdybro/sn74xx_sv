@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 752
+- complete: 753
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 546
+- not_started: 545
 
 ## Chips
 
@@ -15642,7 +15642,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2534 - 8-bit bus interface register, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2534
 - Aliases: none
 - Source section: Larger footprints
@@ -15655,7 +15655,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2534/tb_ttl_74x2534.sv
 - README: rtl/chips/ttl_74x2534/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2540 - 8-bit buffer / line driver, inverting
 - Status: [ ]
