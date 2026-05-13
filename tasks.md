@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1013
+- complete: 1014
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 111
+- not_started: 110
 
 ## Chips
 
@@ -23506,7 +23506,7 @@ IDT74FST3245
   - Single 3-state buffer, active-low enable. Verilator + Yosys clean.
 
 ### 74x1G126 - single bus buffer gate, active-high enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g126
 - Aliases: none
 - Source section: Smaller footprints
@@ -23519,7 +23519,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g126/tb_ttl_74x1g126.sv
 - README: rtl/chips/ttl_74x1g126/README.md
 - Notes:
-  - (none)
+  - Single 3-state buffer, active-high enable. Verilator + Yosys clean.
 
 ### 74x1G132 - single 2-input NAND gate
 - Status: [ ]
