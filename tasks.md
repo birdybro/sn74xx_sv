@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 907
+- complete: 908
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 262
+- not_started: 261
 
 ## Chips
 
@@ -18924,7 +18924,7 @@ IDT74FST3245
   - Octal inverting buffer/driver, = 74x540. Verilator + Yosys clean.
 
 ### 74x7541 - octal buffer/line driver, non-inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7541
 - Aliases: none
 - Source section: Larger footprints
@@ -18937,7 +18937,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7541/tb_ttl_74x7541.sv
 - README: rtl/chips/ttl_74x7541/README.md
 - Notes:
-  - (none)
+  - Octal non-inverting buffer/driver, = 74x541. Verilator + Yosys clean.
 
 ### 74x7597 - 8-bit shift register with input latches
 - Status: [ ]
