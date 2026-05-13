@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 629
+- complete: 630
 - blocked: 74
 - digital_only_approximation: 27
-- not_started: 825
+- not_started: 824
 
 ## Chips
 
@@ -11690,7 +11690,7 @@ For every chip:
   - Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean
 
 ### 74x864 - 9-bit bus transceiver, inverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x864
 - Aliases: none
 - Source section: Larger footprints
@@ -11703,7 +11703,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x864/tb_ttl_74x864.sv
 - README: rtl/chips/ttl_74x864/README.md
 - Notes:
-  - (none)
+  - Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean
 
 ### 74x866 - 8-bit magnitude comparator with latches
 - Status: [!]

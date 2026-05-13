@@ -15313,8 +15313,10 @@
     "pins": "24",
     "datasheet": "74F864",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n867",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x864/ttl_74x864.sv",
     "testbench_path": "tb/chips/ttl_74x864/tb_ttl_74x864.sv",
     "readme_path": "rtl/chips/ttl_74x864/README.md"
