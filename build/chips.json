@@ -15922,8 +15922,10 @@
     "pins": "14",
     "datasheet": "SN74ALS903",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-111/DSAP0036722.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Simple combinational gate/buffer; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74als903/ttl_74als903.sv",
     "testbench_path": "tb/chips/ttl_74als903/tb_ttl_74als903.sv",
     "readme_path": "rtl/chips/ttl_74als903/README.md"
