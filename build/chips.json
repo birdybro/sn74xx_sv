@@ -14971,8 +14971,10 @@
     "pins": "24",
     "datasheet": "SN74ALS842",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als841",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Inverting twin of 74x841 per SN74ALS842; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x842/ttl_74x842.sv",
     "testbench_path": "tb/chips/ttl_74x842/tb_ttl_74x842.sv",
     "readme_path": "rtl/chips/ttl_74x842/README.md"
