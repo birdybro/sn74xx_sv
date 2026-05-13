@@ -24730,8 +24730,10 @@
     "pins": "16",
     "datasheet": "74HC7403",
     "datasheet_url": "https://web.archive.org/web/20181011013822/http://pdf.datasheetcatalog.com/datasheet/philips/74HC7403.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "64x4 FIFO via gen_fifo.py. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7403/ttl_74x7403.sv",
     "testbench_path": "tb/chips/ttl_74x7403/tb_ttl_74x7403.sv",
     "readme_path": "rtl/chips/ttl_74x7403/README.md"
