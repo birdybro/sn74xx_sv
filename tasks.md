@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1033
+- complete: 1034
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 89
+- not_started: 88
 
 ## Chips
 
@@ -22703,7 +22703,7 @@ IDT74FST3245
   - = 74x2841. Verilator + Yosys clean.
 
 ### 74x29843 - 9-bit bus interface D-type latches
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x29843
 - Aliases: none
 - Source section: Widebus devices
@@ -22716,7 +22716,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x29843/tb_ttl_74x29843.sv
 - README: rtl/chips/ttl_74x29843/README.md
 - Notes:
-  - (none)
+  - = 74x2843. Verilator + Yosys clean.
 
 ### 74x29854 - 8-bit to 9-bit parity bus transceiver
 - Status: [ ]
