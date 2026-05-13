@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 679
+- complete: 680
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 711
+- not_started: 710
 
 ## Chips
 
@@ -13882,7 +13882,7 @@ For every chip:
   - (none)
 
 ### 74x1638 - octal bus transceiver, inverting (lower-power version of 74x638)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1638
 - Aliases: none
 - Source section: Larger footprints
@@ -13895,7 +13895,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1638/tb_ttl_74x1638.sv
 - README: rtl/chips/ttl_74x1638/README.md
 - Notes:
-  - (none)
+  - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74x1639 - octal bus transceiver, non-inverting (lower-power version of 74x639)
 - Status: [ ]

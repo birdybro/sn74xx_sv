@@ -18152,8 +18152,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1638",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n753",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Low-power twin of base part; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1638/ttl_74x1638.sv",
     "testbench_path": "tb/chips/ttl_74x1638/tb_ttl_74x1638.sv",
     "readme_path": "rtl/chips/ttl_74x1638/README.md"
