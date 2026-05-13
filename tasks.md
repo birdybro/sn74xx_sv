@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 874
+- complete: 875
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 295
+- not_started: 294
 
 ## Chips
 
@@ -18092,7 +18092,7 @@ IDT74FST3245
   - Programmable delay timer with oscillator; analog RC oscillator and delay generator
 
 ### 74x5620 - octal bidirectional transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x5620
 - Aliases: none
 - Source section: Larger footprints
@@ -18105,7 +18105,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5620/tb_ttl_74x5620.sv
 - README: rtl/chips/ttl_74x5620/README.md
 - Notes:
-  - (none)
+  - Logically identical to 74x245. Verilator + Yosys clean.
 
 ### 74x6000 - logic-to-logic optocoupler, non-inverting
 - Status: [!]
