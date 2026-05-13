@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1023
+- complete: 1024
 - blocked: 406
 - digital_only_approximation: 27
-- not_started: 99
+- not_started: 98
 
 ## Chips
 
@@ -22527,7 +22527,7 @@ IDT74FST3245
   - Scan test device 18-bit transceiver+registers; scan logic requires datasheet
 
 ### 74x20245 - 20-bit dual supply bus transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x20245
 - Aliases: none
 - Source section: Widebus devices
@@ -22540,7 +22540,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x20245/tb_ttl_74x20245.sv
 - README: rtl/chips/ttl_74x20245/README.md
 - Notes:
-  - (none)
+  - 20-bit transceiver. Verilator + Yosys clean.
 
 ### 74x22033 - 8-bit LVTTL-to-GTLP adjustable edge rate registered transceiver
 - Status: [!]
