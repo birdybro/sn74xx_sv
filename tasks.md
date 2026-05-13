@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 903
+- complete: 904
 - blocked: 359
 - digital_only_approximation: 27
-- not_started: 266
+- not_started: 265
 
 ## Chips
 
@@ -18796,7 +18796,7 @@ IDT74FST3245
   - Octal bidir transceiver, = 74x245. Verilator + Yosys clean.
 
 ### 74x7266 - quad 2-input XNOR gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x7266
 - Aliases: none
 - Source section: Larger footprints
@@ -18809,7 +18809,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7266/tb_ttl_74x7266.sv
 - README: rtl/chips/ttl_74x7266/README.md
 - Notes:
-  - (none)
+  - Quad 2-input XNOR, = 74x266. Verilator + Yosys clean.
 
 ### 74x7273 - octal positive edge-triggered D-type flip-flop with reset
 - Status: [ ]

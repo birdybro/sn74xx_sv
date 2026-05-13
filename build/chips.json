@@ -24645,8 +24645,10 @@
     "pins": "14",
     "datasheet": "SN74HC7266",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n461",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Quad 2-input XNOR, = 74x266. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7266/ttl_74x7266.sv",
     "testbench_path": "tb/chips/ttl_74x7266/tb_ttl_74x7266.sv",
     "readme_path": "rtl/chips/ttl_74x7266/README.md"
