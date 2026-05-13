@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 868
+- complete: 869
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 318
+- not_started: 317
 
 ## Chips
 
@@ -17948,7 +17948,7 @@ IDT74FST3245
   - Dual 4-channel analog multiplexer; CMOS transmission gate
 
 ### 74x5074 - dual positive edge-triggered D-type flip-flop (metastable immune)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x5074
 - Aliases: none
 - Source section: Larger footprints
@@ -17961,7 +17961,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5074/tb_ttl_74x5074.sv
 - README: rtl/chips/ttl_74x5074/README.md
 - Notes:
-  - (none)
+  - Dual D-FF with dual-rank synchronizer to mitigate metastability. Verilator + Yosys clean.
 
 ### 74x5245 - octal bidirectional transceiver
 - Status: [ ]
