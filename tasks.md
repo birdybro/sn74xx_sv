@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1012
+- complete: 1013
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 112
+- not_started: 111
 
 ## Chips
 
@@ -23490,7 +23490,7 @@ IDT74FST3245
   - Retriggerable monostable multivibrator; analog RC-based pulse width
 
 ### 74x1G125 - single bus buffer gate, active-low enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g125
 - Aliases: none
 - Source section: Smaller footprints
@@ -23503,7 +23503,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g125/tb_ttl_74x1g125.sv
 - README: rtl/chips/ttl_74x1g125/README.md
 - Notes:
-  - (none)
+  - Single 3-state buffer, active-low enable. Verilator + Yosys clean.
 
 ### 74x1G126 - single bus buffer gate, active-high enable
 - Status: [ ]
