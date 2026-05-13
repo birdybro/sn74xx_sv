@@ -25235,8 +25235,10 @@
     "pins": "(120)",
     "datasheet": "SN74ABT7816",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDataBook400_13134187/page/n291",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Bidir 2x64x36 FIFO. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x7816/ttl_74x7816.sv",
     "testbench_path": "tb/chips/ttl_74x7816/tb_ttl_74x7816.sv",
     "readme_path": "rtl/chips/ttl_74x7816/README.md"
