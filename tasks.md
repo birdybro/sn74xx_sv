@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 646
+- complete: 647
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 794
+- not_started: 793
 
 ## Chips
 
@@ -12234,7 +12234,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x908 - dual 2-input NAND 30 V / 250 mA relay driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x908
 - Aliases: none
 - Source section: Larger footprints
@@ -12247,7 +12247,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x908/tb_ttl_74x908.sv
 - README: rtl/chips/ttl_74x908/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x909 - quad voltage comparator
 - Status: [ ]

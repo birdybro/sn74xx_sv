@@ -16025,8 +16025,10 @@
     "pins": "8",
     "datasheet": "MM74C908",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n105",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Simple combinational gate/buffer; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74x908/ttl_74x908.sv",
     "testbench_path": "tb/chips/ttl_74x908/tb_ttl_74x908.sv",
     "readme_path": "rtl/chips/ttl_74x908/README.md"
