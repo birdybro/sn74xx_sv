@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 716
-- blocked: 138
+- blocked: 180
 - digital_only_approximation: 27
-- not_started: 674
+- not_started: 632
 
 ## Chips
 
@@ -13722,7 +13722,7 @@ For every chip:
   - (none)
 
 ### 74x1604 - dual 8-bit transparent latch with output multiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1604
 - Aliases: none
 - Source section: Larger footprints
@@ -13735,10 +13735,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1604/tb_ttl_74x1604.sv
 - README: rtl/chips/ttl_74x1604/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1612 - 18-bit LV-TTL-to-GTLP adjustable-edge-rate universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1612
 - Aliases: none
 - Source section: Larger footprints
@@ -13751,10 +13751,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1612/tb_ttl_74x1612.sv
 - README: rtl/chips/ttl_74x1612/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74ALS1616 - 16x16-bit multimode multiplier
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74als1616
 - Aliases: none
 - Source section: Larger footprints
@@ -13767,10 +13767,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74als1616/tb_ttl_74als1616.sv
 - README: rtl/chips/ttl_74als1616/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74GTLPH1616 - 17-bit LV-TTL-to-GTLP adjustable-edge-rate universal bus transceiver with buffered clock outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74gtlph1616
 - Aliases: none
 - Source section: Larger footprints
@@ -13783,10 +13783,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74gtlph1616/tb_ttl_74gtlph1616.sv
 - README: rtl/chips/ttl_74gtlph1616/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1620 - octal bus transceiver, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1620
 - Aliases: none
 - Source section: Larger footprints
@@ -13799,10 +13799,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1620/tb_ttl_74x1620.sv
 - README: rtl/chips/ttl_74x1620/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1621 - octal bus transceiver, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1621
 - Aliases: none
 - Source section: Larger footprints
@@ -13815,10 +13815,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1621/tb_ttl_74x1621.sv
 - README: rtl/chips/ttl_74x1621/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1622 - octal bus transceiver, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1622
 - Aliases: none
 - Source section: Larger footprints
@@ -13831,10 +13831,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1622/tb_ttl_74x1622.sv
 - README: rtl/chips/ttl_74x1622/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1623 - octal bus transceiver, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1623
 - Aliases: none
 - Source section: Larger footprints
@@ -13847,10 +13847,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1623/tb_ttl_74x1623.sv
 - README: rtl/chips/ttl_74x1623/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1627 - 18-bit LV-TTL-to-GTLP adjustable-edge-rate bus transceiver with source synchronous clock outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1627
 - Aliases: none
 - Source section: Larger footprints
@@ -13863,10 +13863,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1627/tb_ttl_74x1627.sv
 - README: rtl/chips/ttl_74x1627/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1631 - quad bus driver with complementary outputs
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1631
 - Aliases: none
 - Source section: Larger footprints
@@ -13879,7 +13879,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1631/tb_ttl_74x1631.sv
 - README: rtl/chips/ttl_74x1631/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1638 - octal bus transceiver, inverting (lower-power version of 74x638)
 - Status: [x]
@@ -14010,7 +14010,7 @@ For every chip:
   - Low-power twin of 74x645; Verilator lint+sim clean
 
 ### 74GTLPH1645 - 16-bit LV-TTL-to-GTLP adjustable-edge-rate bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74gtlph1645
 - Aliases: none
 - Source section: Larger footprints
@@ -14023,10 +14023,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74gtlph1645/tb_ttl_74gtlph1645.sv
 - README: rtl/chips/ttl_74gtlph1645/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1650 - dual 9-bit Futurebus universal storage transceiver with split TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1650
 - Aliases: none
 - Source section: Larger footprints
@@ -14039,10 +14039,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1650/tb_ttl_74x1650.sv
 - README: rtl/chips/ttl_74x1650/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1651 - 9-bit and 8-bit Futurebus universal storage transceivers with delayed buffered clock with split TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1651
 - Aliases: none
 - Source section: Larger footprints
@@ -14055,10 +14055,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1651/tb_ttl_74x1651.sv
 - README: rtl/chips/ttl_74x1651/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1653 - 9-bit and 8-bit Futurebus universal storage transceivers with delayed buffered clock with split 3.3V TTL I/O
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1653
 - Aliases: none
 - Source section: Larger footprints
@@ -14071,10 +14071,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1653/tb_ttl_74x1653.sv
 - README: rtl/chips/ttl_74x1653/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1655 - dual 8-bit GTL universal storage transceivers with live insertion
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1655
 - Aliases: none
 - Source section: Larger footprints
@@ -14087,7 +14087,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1655/tb_ttl_74x1655.sv
 - README: rtl/chips/ttl_74x1655/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1760 - 10-bit 4-way latched address multiplexer
 - Status: [ ]
@@ -20431,7 +20431,7 @@ IDT74FST3245
 ## Section: Widebus devices
 
 ### 74x1616 - 17-bit LVTTL-to-GTLP adjustable edge rate universal bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1616
 - Aliases: none
 - Source section: Widebus devices
@@ -20444,10 +20444,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1616/tb_ttl_74x1616.sv
 - README: rtl/chips/ttl_74x1616/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x1645 - 16-bit LVTTL-to-GTLP adjustable edge rate bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x1645
 - Aliases: none
 - Source section: Widebus devices
@@ -20460,10 +20460,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1645/tb_ttl_74x1645.sv
 - README: rtl/chips/ttl_74x1645/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16209 - 18-bit FET bus exchange switches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16209
 - Aliases: none
 - Source section: Widebus devices
@@ -20476,10 +20476,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16209/tb_ttl_74x16209.sv
 - README: rtl/chips/ttl_74x16209/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16210 - 20-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16210
 - Aliases: none
 - Source section: Widebus devices
@@ -20492,10 +20492,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16210/tb_ttl_74x16210.sv
 - README: rtl/chips/ttl_74x16210/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16211 - 24-bit FET bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16211
 - Aliases: none
 - Source section: Widebus devices
@@ -20508,10 +20508,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16211/tb_ttl_74x16211.sv
 - README: rtl/chips/ttl_74x16211/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16212 - 24-bit FET bus exchange switches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16212
 - Aliases: none
 - Source section: Widebus devices
@@ -20524,10 +20524,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16212/tb_ttl_74x16212.sv
 - README: rtl/chips/ttl_74x16212/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16213 - 24-bit FET bus exchange switches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16213
 - Aliases: none
 - Source section: Widebus devices
@@ -20540,10 +20540,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16213/tb_ttl_74x16213.sv
 - README: rtl/chips/ttl_74x16213/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16214 - 12-bit 1-of-3 FET multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16214
 - Aliases: none
 - Source section: Widebus devices
@@ -20556,10 +20556,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16214/tb_ttl_74x16214.sv
 - README: rtl/chips/ttl_74x16214/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16222 - 22-bit voltage clamp
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16222
 - Aliases: none
 - Source section: Widebus devices
@@ -20572,10 +20572,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16222/tb_ttl_74x16222.sv
 - README: rtl/chips/ttl_74x16222/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16232 - synchronous 16-bit 1-of-2 FET multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16232
 - Aliases: none
 - Source section: Widebus devices
@@ -20588,10 +20588,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16232/tb_ttl_74x16232.sv
 - README: rtl/chips/ttl_74x16232/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16233 - 16-bit 1-of-2 FET multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16233
 - Aliases: none
 - Source section: Widebus devices
@@ -20604,7 +20604,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16233/tb_ttl_74x16233.sv
 - README: rtl/chips/ttl_74x16233/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16240 - 16-bit inverting buffer/driver with grouped 4-bit output enables (all active-low)
 - Status: [x]
@@ -20623,7 +20623,7 @@ IDT74FST3245
   - 16-bit Widebus 240 with 4-bit grouped OEs; Verilator lint+sim clean
 
 ### 74x16241 - 16-bit non-inverting buffer/driver with grouped 4-bit output enables (1 and 4 active-low)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16241
 - Aliases: none
 - Source section: Widebus devices
@@ -20636,7 +20636,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16241/tb_ttl_74x16241.sv
 - README: rtl/chips/ttl_74x16241/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16244 - 16-bit non-inverting buffer/driver with grouped 4-bit output enables (all active-low)
 - Status: [x]
@@ -20671,7 +20671,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16246 - 11-bit incident wave switching bus transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16246
 - Aliases: none
 - Source section: Widebus devices
@@ -20684,10 +20684,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16246/tb_ttl_74x16246.sv
 - README: rtl/chips/ttl_74x16246/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16260 - 12-bit to 24-bit multiplexed D-type latches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16260
 - Aliases: none
 - Source section: Widebus devices
@@ -20700,10 +20700,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16260/tb_ttl_74x16260.sv
 - README: rtl/chips/ttl_74x16260/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16269 - 12-bit to 24-bit registered bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16269
 - Aliases: none
 - Source section: Widebus devices
@@ -20716,10 +20716,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16269/tb_ttl_74x16269.sv
 - README: rtl/chips/ttl_74x16269/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16270 - 12-bit to 24-bit registered bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16270
 - Aliases: none
 - Source section: Widebus devices
@@ -20732,10 +20732,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16270/tb_ttl_74x16270.sv
 - README: rtl/chips/ttl_74x16270/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16271 - 12-bit to 24-bit multiplexed bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16271
 - Aliases: none
 - Source section: Widebus devices
@@ -20748,10 +20748,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16271/tb_ttl_74x16271.sv
 - README: rtl/chips/ttl_74x16271/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16282 - 18-bit to 36-bit registered bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16282
 - Aliases: none
 - Source section: Widebus devices
@@ -20764,10 +20764,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16282/tb_ttl_74x16282.sv
 - README: rtl/chips/ttl_74x16282/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16292 - 12-bit 1-of-2 FET multiplexer/demultiplexer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16292
 - Aliases: none
 - Source section: Widebus devices
@@ -20780,10 +20780,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16292/tb_ttl_74x16292.sv
 - README: rtl/chips/ttl_74x16292/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16334 - 16-bit universal bus driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16334
 - Aliases: none
 - Source section: Widebus devices
@@ -20796,10 +20796,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16334/tb_ttl_74x16334.sv
 - README: rtl/chips/ttl_74x16334/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16344 - 1-bit to 4-bit address driver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16344
 - Aliases: none
 - Source section: Widebus devices
@@ -20812,7 +20812,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16344/tb_ttl_74x16344.sv
 - README: rtl/chips/ttl_74x16344/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16373 - 16-bit transparent D-type latches
 - Status: [x]
@@ -20863,7 +20863,7 @@ IDT74FST3245
   - Widebus version of base part; Verilator lint+sim clean
 
 ### 74x16390 - 16-bit to 32-bit FET multiplexer/demultiplexer bus switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16390
 - Aliases: none
 - Source section: Widebus devices
@@ -20876,10 +20876,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16390/tb_ttl_74x16390.sv
 - README: rtl/chips/ttl_74x16390/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16409 - 9-bit 4-port universal bus exchanger
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16409
 - Aliases: none
 - Source section: Widebus devices
@@ -20892,10 +20892,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16409/tb_ttl_74x16409.sv
 - README: rtl/chips/ttl_74x16409/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16460 - 4-to-1 multiplexed/demultiplexed registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16460
 - Aliases: none
 - Source section: Widebus devices
@@ -20908,10 +20908,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16460/tb_ttl_74x16460.sv
 - README: rtl/chips/ttl_74x16460/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16470 - 16-bit registered transceiver
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16470
 - Aliases: none
 - Source section: Widebus devices
@@ -20924,10 +20924,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16470/tb_ttl_74x16470.sv
 - README: rtl/chips/ttl_74x16470/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16500 - 18-bit universal bus transceiver (registered, active low clock)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16500
 - Aliases: none
 - Source section: Widebus devices
@@ -20940,10 +20940,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16500/tb_ttl_74x16500.sv
 - README: rtl/chips/ttl_74x16500/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16501 - 18-bit universal bus transceiver (registered, active high clock)
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x16501
 - Aliases: none
 - Source section: Widebus devices
@@ -20956,7 +20956,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x16501/tb_ttl_74x16501.sv
 - README: rtl/chips/ttl_74x16501/README.md
 - Notes:
-  - (none)
+  - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
 
 ### 74x16524 - 18-bit registered bus transceiver
 - Status: [ ]

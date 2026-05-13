@@ -17962,8 +17962,10 @@
     "pins": "28",
     "datasheet": "74F1604",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F1604_PhilipsSemiconductors.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1604/ttl_74x1604.sv",
     "testbench_path": "tb/chips/ttl_74x1604/tb_ttl_74x1604.sv",
     "readme_path": "rtl/chips/ttl_74x1604/README.md"
@@ -17981,8 +17983,10 @@
     "pins": "(64)",
     "datasheet": "SN74GTLPH1612",
     "datasheet_url": "https://e2e.ti.com/cfs-file/__key/communityserver-discussions-components-files/151/SN74GTLPH1612-Rev2005.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1612/ttl_74x1612.sv",
     "testbench_path": "tb/chips/ttl_74x1612/tb_ttl_74x1612.sv",
     "readme_path": "rtl/chips/ttl_74x1612/README.md"
@@ -18000,8 +18004,10 @@
     "pins": "64",
     "datasheet": "SN74ALS1616",
     "datasheet_url": "https://archive.org/details/bitsavers_icMaster19_159569496/page/n919",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74als1616/ttl_74als1616.sv",
     "testbench_path": "tb/chips/ttl_74als1616/tb_ttl_74als1616.sv",
     "readme_path": "rtl/chips/ttl_74als1616/README.md"
@@ -18019,8 +18025,10 @@
     "pins": "(64)",
     "datasheet": "SN74GTLPH1616",
     "datasheet_url": "https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/sn74gtlph1616.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74gtlph1616/ttl_74gtlph1616.sv",
     "testbench_path": "tb/chips/ttl_74gtlph1616/tb_ttl_74gtlph1616.sv",
     "readme_path": "rtl/chips/ttl_74gtlph1616/README.md"
@@ -18038,8 +18046,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1620",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n747",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1620/ttl_74x1620.sv",
     "testbench_path": "tb/chips/ttl_74x1620/tb_ttl_74x1620.sv",
     "readme_path": "rtl/chips/ttl_74x1620/README.md"
@@ -18057,8 +18067,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1621",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n747",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1621/ttl_74x1621.sv",
     "testbench_path": "tb/chips/ttl_74x1621/tb_ttl_74x1621.sv",
     "readme_path": "rtl/chips/ttl_74x1621/README.md"
@@ -18076,8 +18088,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1622",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n747",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1622/ttl_74x1622.sv",
     "testbench_path": "tb/chips/ttl_74x1622/tb_ttl_74x1622.sv",
     "readme_path": "rtl/chips/ttl_74x1622/README.md"
@@ -18095,8 +18109,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1623",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n747",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1623/ttl_74x1623.sv",
     "testbench_path": "tb/chips/ttl_74x1623/tb_ttl_74x1623.sv",
     "readme_path": "rtl/chips/ttl_74x1623/README.md"
@@ -18114,8 +18130,10 @@
     "pins": "(64)",
     "datasheet": "SN74GTLPH1627",
     "datasheet_url": "https://media.digikey.com/pdf/Data%20Sheets/Texas%20Instruments%20PDFs/sn74gtlph1627%5b1%5d.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1627/ttl_74x1627.sv",
     "testbench_path": "tb/chips/ttl_74x1627/tb_ttl_74x1627.sv",
     "readme_path": "rtl/chips/ttl_74x1627/README.md"
@@ -18133,8 +18151,10 @@
     "pins": "16",
     "datasheet": "at=3-336}}",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1631/ttl_74x1631.sv",
     "testbench_path": "tb/chips/ttl_74x1631/tb_ttl_74x1631.sv",
     "readme_path": "rtl/chips/ttl_74x1631/README.md"
@@ -18320,8 +18340,10 @@
     "pins": "(56)",
     "datasheet": "SN74GTLPH1645",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtlph1645",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74gtlph1645/ttl_74gtlph1645.sv",
     "testbench_path": "tb/chips/ttl_74gtlph1645/tb_ttl_74gtlph1645.sv",
     "readme_path": "rtl/chips/ttl_74gtlph1645/README.md"
@@ -18339,8 +18361,10 @@
     "pins": "(100)",
     "datasheet": "SN74FB1650",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n689",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1650/ttl_74x1650.sv",
     "testbench_path": "tb/chips/ttl_74x1650/tb_ttl_74x1650.sv",
     "readme_path": "rtl/chips/ttl_74x1650/README.md"
@@ -18358,8 +18382,10 @@
     "pins": "(100)",
     "datasheet": "SN74FB1651",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-36/DSA-703111.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1651/ttl_74x1651.sv",
     "testbench_path": "tb/chips/ttl_74x1651/tb_ttl_74x1651.sv",
     "readme_path": "rtl/chips/ttl_74x1651/README.md"
@@ -18377,8 +18403,10 @@
     "pins": "(100)",
     "datasheet": "SN74FB1653",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74fb1653",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1653/ttl_74x1653.sv",
     "testbench_path": "tb/chips/ttl_74x1653/tb_ttl_74x1653.sv",
     "readme_path": "rtl/chips/ttl_74x1653/README.md"
@@ -18396,8 +18424,10 @@
     "pins": "(64)",
     "datasheet": "SN74GTL1655",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74gtl1655",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1655/ttl_74x1655.sv",
     "testbench_path": "tb/chips/ttl_74x1655/tb_ttl_74x1655.sv",
     "readme_path": "rtl/chips/ttl_74x1655/README.md"
@@ -25963,8 +25993,10 @@
     "pins": "64",
     "datasheet": "GTLPH",
     "datasheet_url": "https://www.ti.com/lit/ug/sced004a/sced004a.pdf#page=147",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1616/ttl_74x1616.sv",
     "testbench_path": "tb/chips/ttl_74x1616/tb_ttl_74x1616.sv",
     "readme_path": "rtl/chips/ttl_74x1616/README.md"
@@ -25982,8 +26014,10 @@
     "pins": "56",
     "datasheet": "GTLPH",
     "datasheet_url": "https://www.ti.com/lit/ug/sced004a/sced004a.pdf#page=176",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x1645/ttl_74x1645.sv",
     "testbench_path": "tb/chips/ttl_74x1645/tb_ttl_74x1645.sv",
     "readme_path": "rtl/chips/ttl_74x1645/README.md"
@@ -26001,8 +26035,10 @@
     "pins": "48",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16209a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16209/ttl_74x16209.sv",
     "testbench_path": "tb/chips/ttl_74x16209/tb_ttl_74x16209.sv",
     "readme_path": "rtl/chips/ttl_74x16209/README.md"
@@ -26020,8 +26056,10 @@
     "pins": "48",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16210.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16210/ttl_74x16210.sv",
     "testbench_path": "tb/chips/ttl_74x16210/tb_ttl_74x16210.sv",
     "readme_path": "rtl/chips/ttl_74x16210/README.md"
@@ -26039,8 +26077,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16211c.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16211/ttl_74x16211.sv",
     "testbench_path": "tb/chips/ttl_74x16211/tb_ttl_74x16211.sv",
     "readme_path": "rtl/chips/ttl_74x16211/README.md"
@@ -26058,8 +26098,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16212c.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16212/ttl_74x16212.sv",
     "testbench_path": "tb/chips/ttl_74x16212/tb_ttl_74x16212.sv",
     "readme_path": "rtl/chips/ttl_74x16212/README.md"
@@ -26077,8 +26119,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16213.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16213/ttl_74x16213.sv",
     "testbench_path": "tb/chips/ttl_74x16213/tb_ttl_74x16213.sv",
     "readme_path": "rtl/chips/ttl_74x16213/README.md"
@@ -26096,8 +26140,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16214.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16214/ttl_74x16214.sv",
     "testbench_path": "tb/chips/ttl_74x16214/tb_ttl_74x16214.sv",
     "readme_path": "rtl/chips/ttl_74x16214/README.md"
@@ -26115,8 +26161,10 @@
     "pins": "48",
     "datasheet": "TVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74tvc16222a.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16222/ttl_74x16222.sv",
     "testbench_path": "tb/chips/ttl_74x16222/tb_ttl_74x16222.sv",
     "readme_path": "rtl/chips/ttl_74x16222/README.md"
@@ -26134,8 +26182,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16232.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16232/ttl_74x16232.sv",
     "testbench_path": "tb/chips/ttl_74x16232/tb_ttl_74x16232.sv",
     "readme_path": "rtl/chips/ttl_74x16232/README.md"
@@ -26153,8 +26203,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16233.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16233/ttl_74x16233.sv",
     "testbench_path": "tb/chips/ttl_74x16233/tb_ttl_74x16233.sv",
     "readme_path": "rtl/chips/ttl_74x16233/README.md"
@@ -26193,8 +26245,10 @@
     "pins": "48",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16241/ttl_74x16241.sv",
     "testbench_path": "tb/chips/ttl_74x16241/tb_ttl_74x16241.sv",
     "readme_path": "rtl/chips/ttl_74x16241/README.md"
@@ -26254,8 +26308,10 @@
     "pins": "48",
     "datasheet": "ABTE",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74abte16246.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16246/ttl_74x16246.sv",
     "testbench_path": "tb/chips/ttl_74x16246/tb_ttl_74x16246.sv",
     "readme_path": "rtl/chips/ttl_74x16246/README.md"
@@ -26273,8 +26329,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16260/ttl_74x16260.sv",
     "testbench_path": "tb/chips/ttl_74x16260/tb_ttl_74x16260.sv",
     "readme_path": "rtl/chips/ttl_74x16260/README.md"
@@ -26292,8 +26350,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16269.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16269/ttl_74x16269.sv",
     "testbench_path": "tb/chips/ttl_74x16269/tb_ttl_74x16269.sv",
     "readme_path": "rtl/chips/ttl_74x16269/README.md"
@@ -26311,8 +26371,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16270.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16270/ttl_74x16270.sv",
     "testbench_path": "tb/chips/ttl_74x16270/tb_ttl_74x16270.sv",
     "readme_path": "rtl/chips/ttl_74x16270/README.md"
@@ -26330,8 +26392,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16271.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16271/ttl_74x16271.sv",
     "testbench_path": "tb/chips/ttl_74x16271/tb_ttl_74x16271.sv",
     "readme_path": "rtl/chips/ttl_74x16271/README.md"
@@ -26349,8 +26413,10 @@
     "pins": "80",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=641",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16282/ttl_74x16282.sv",
     "testbench_path": "tb/chips/ttl_74x16282/tb_ttl_74x16282.sv",
     "readme_path": "rtl/chips/ttl_74x16282/README.md"
@@ -26368,8 +26434,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16292.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16292/ttl_74x16292.sv",
     "testbench_path": "tb/chips/ttl_74x16292/tb_ttl_74x16292.sv",
     "readme_path": "rtl/chips/ttl_74x16292/README.md"
@@ -26387,8 +26455,10 @@
     "pins": "48",
     "datasheet": "ALVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvc16334.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16334/ttl_74x16334.sv",
     "testbench_path": "tb/chips/ttl_74x16334/tb_ttl_74x16334.sv",
     "readme_path": "rtl/chips/ttl_74x16334/README.md"
@@ -26406,8 +26476,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74alvch16344.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16344/ttl_74x16344.sv",
     "testbench_path": "tb/chips/ttl_74x16344/tb_ttl_74x16344.sv",
     "readme_path": "rtl/chips/ttl_74x16344/README.md"
@@ -26488,8 +26560,10 @@
     "pins": "56",
     "datasheet": "CBT",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74cbt16390.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16390/ttl_74x16390.sv",
     "testbench_path": "tb/chips/ttl_74x16390/tb_ttl_74x16390.sv",
     "readme_path": "rtl/chips/ttl_74x16390/README.md"
@@ -26507,8 +26581,10 @@
     "pins": "56",
     "datasheet": "ALVCH",
     "datasheet_url": "https://www.ti.com/lit/ug/scyd013b/scyd013b.pdf#page=651",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16409/ttl_74x16409.sv",
     "testbench_path": "tb/chips/ttl_74x16409/tb_ttl_74x16409.sv",
     "readme_path": "rtl/chips/ttl_74x16409/README.md"
@@ -26526,8 +26602,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16460/ttl_74x16460.sv",
     "testbench_path": "tb/chips/ttl_74x16460/tb_ttl_74x16460.sv",
     "readme_path": "rtl/chips/ttl_74x16460/README.md"
@@ -26545,8 +26623,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16470/ttl_74x16470.sv",
     "testbench_path": "tb/chips/ttl_74x16470/tb_ttl_74x16470.sv",
     "readme_path": "rtl/chips/ttl_74x16470/README.md"
@@ -26564,8 +26644,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16500/ttl_74x16500.sv",
     "testbench_path": "tb/chips/ttl_74x16500/tb_ttl_74x16500.sv",
     "readme_path": "rtl/chips/ttl_74x16500/README.md"
@@ -26583,8 +26665,10 @@
     "pins": "56",
     "datasheet": "ABT",
     "datasheet_url": "",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+    ],
     "rtl_path": "rtl/chips/ttl_74x16501/ttl_74x16501.sv",
     "testbench_path": "tb/chips/ttl_74x16501/tb_ttl_74x16501.sv",
     "readme_path": "rtl/chips/ttl_74x16501/README.md"
