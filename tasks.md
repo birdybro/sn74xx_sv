@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 848
+- complete: 849
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 338
+- not_started: 337
 
 ## Chips
 
@@ -17468,7 +17468,7 @@ IDT74FST3245
   - 8-bit serial-to-parallel shift+latch with 3-state output. Verilator + Yosys clean.
 
 ### 74x4102 - 2-digit BCD presettable synchronous down counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4102
 - Aliases: none
 - Source section: Larger footprints
@@ -17481,7 +17481,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4102/tb_ttl_74x4102.sv
 - README: rtl/chips/ttl_74x4102/README.md
 - Notes:
-  - (none)
+  - 2-digit BCD presettable sync down counter with TC output. Verilator + Yosys clean.
 
 ### 74x4103 - 8-bit binary presettable synchronous down counter
 - Status: [ ]

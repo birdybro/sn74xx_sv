@@ -22904,8 +22904,10 @@
     "pins": "16",
     "datasheet": "74HC4102",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/scans/Scans-055/DSAIH000112054.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "2-digit BCD presettable sync down counter with TC output. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4102/ttl_74x4102.sv",
     "testbench_path": "tb/chips/ttl_74x4102/tb_ttl_74x4102.sv",
     "readme_path": "rtl/chips/ttl_74x4102/README.md"
