@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1088
+- complete: 1089
 - blocked: 420
 - digital_only_approximation: 27
-- not_started: 20
+- not_started: 19
 
 ## Chips
 
@@ -24434,7 +24434,7 @@ IDT74FST3245
   - Triple configurable 7-function gate; requires datasheet
 
 ### 74x3G0434 - dual inverter and single buffer
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x3g0434
 - Aliases: none
 - Source section: Smaller footprints
@@ -24447,7 +24447,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x3g0434/tb_ttl_74x3g0434.sv
 - README: rtl/chips/ttl_74x3g0434/README.md
 - Notes:
-  - (none)
+  - Dual inverter + single buffer. Verilator + Yosys clean.
 
 ### 74x3G3404 - dual buffer and single inverter
 - Status: [ ]
