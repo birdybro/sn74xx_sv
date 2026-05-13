@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 945
+- complete: 946
 - blocked: 371
 - digital_only_approximation: 27
-- not_started: 212
+- not_started: 211
 
 ## Chips
 
@@ -19500,7 +19500,7 @@ IDT74FST3245
   - 8-bit sync binary counter with dual enable + carry-out. Verilator + Yosys clean.
 
 ### 74x8240 - octal inverting buffer with JTAG port
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x8240
 - Aliases: none
 - Source section: Larger footprints
@@ -19513,7 +19513,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8240/tb_ttl_74x8240.sv
 - README: rtl/chips/ttl_74x8240/README.md
 - Notes:
-  - (none)
+  - = 74x240 with JTAG (not modeled). Verilator + Yosys clean.
 
 ### 74x8244 - octal non-inverting buffer with JTAG port
 - Status: [ ]
