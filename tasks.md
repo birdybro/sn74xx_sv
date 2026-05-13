@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 762
+- complete: 763
 - blocked: 284
 - digital_only_approximation: 27
-- not_started: 482
+- not_started: 481
 
 ## Chips
 
@@ -16459,7 +16459,7 @@ IDT74FST3244
   - (none)
 
 ### 74FCT3245 - octal bidirectional transceiver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74fct3245
 - Aliases: none
 - Source section: Larger footprints
@@ -16472,7 +16472,7 @@ IDT74FST3244
 - Testbench: tb/chips/ttl_74fct3245/tb_ttl_74fct3245.sv
 - README: rtl/chips/ttl_74fct3245/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74CBT3245 - octal FET bus switch
 - Status: [ ]
