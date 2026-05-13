@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 570
+- complete: 571
 - blocked: 6
 - digital_only_approximation: 27
-- not_started: 952
+- not_started: 951
 
 ## Chips
 
@@ -9688,7 +9688,7 @@ For every chip:
   - Decade up/down counter; functional twin of 74x168 (enable polarity assumed to match 168/169 convention pending 668 datasheet confirmation); Verilator lint+sim clean
 
 ### 74x669 - synchronous 4-bit binary up/down counter
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x669
 - Aliases: none
 - Source section: Larger footprints
@@ -9701,7 +9701,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x669/tb_ttl_74x669.sv
 - README: rtl/chips/ttl_74x669/README.md
 - Notes:
-  - (none)
+  - Binary up/down counter; functional twin of 74x169; Verilator lint+sim clean
 
 ### 74x670 - 16-bit register file (4x4)
 - Status: [ ]
