@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 567
-- blocked: 2
+- blocked: 6
 - digital_only_approximation: 27
-- not_started: 959
+- not_started: 955
 
 ## Chips
 
@@ -9576,7 +9576,7 @@ For every chip:
   - Octal transceiver combining 'F245 with 'F280B parity engine, per SDFS027A datasheet; Verilator lint+sim clean
 
 ### 74x658 - octal bus transceiver, parity, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x658
 - Aliases: none
 - Source section: Larger footprints
@@ -9589,10 +9589,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x658/tb_ttl_74x658.sv
 - README: rtl/chips/ttl_74x658/README.md
 - Notes:
-  - (none)
+  - HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation
 
 ### 74x659 - octal bus transceiver, parity, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x659
 - Aliases: none
 - Source section: Larger footprints
@@ -9605,10 +9605,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x659/tb_ttl_74x659.sv
 - README: rtl/chips/ttl_74x659/README.md
 - Notes:
-  - (none)
+  - HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation
 
 ### 74x664 - octal bus transceiver, parity, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x664
 - Aliases: none
 - Source section: Larger footprints
@@ -9621,10 +9621,10 @@ For every chip:
 - Testbench: tb/chips/ttl_74x664/tb_ttl_74x664.sv
 - README: rtl/chips/ttl_74x664/README.md
 - Notes:
-  - (none)
+  - HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation
 
 ### 74x665 - octal bus transceiver, parity, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x665
 - Aliases: none
 - Source section: Larger footprints
@@ -9637,7 +9637,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x665/tb_ttl_74x665.sv
 - README: rtl/chips/ttl_74x665/README.md
 - Notes:
-  - (none)
+  - HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation
 
 ### 74x666 - 8-bit D-type transparent read-back latch, non-inverting
 - Status: [ ]

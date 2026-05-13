@@ -12539,8 +12539,10 @@
     "pins": "24",
     "datasheet": "SN74HC658",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n395",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x658/ttl_74x658.sv",
     "testbench_path": "tb/chips/ttl_74x658/tb_ttl_74x658.sv",
     "readme_path": "rtl/chips/ttl_74x658/README.md"
@@ -12558,8 +12560,10 @@
     "pins": "24",
     "datasheet": "SN74HC659",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n395",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x659/ttl_74x659.sv",
     "testbench_path": "tb/chips/ttl_74x659/tb_ttl_74x659.sv",
     "readme_path": "rtl/chips/ttl_74x659/README.md"
@@ -12577,8 +12581,10 @@
     "pins": "24",
     "datasheet": "SN74HC664",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n409",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x664/ttl_74x664.sv",
     "testbench_path": "tb/chips/ttl_74x664/tb_ttl_74x664.sv",
     "readme_path": "rtl/chips/ttl_74x664/README.md"
@@ -12596,8 +12602,10 @@
     "pins": "24",
     "datasheet": "SN74HC665",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookogicDataBook_23574286/page/n409",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "HC-family parity transceiver datasheet not accessible from current sources; needs confirmation of control-pin set (registered vs combinational) before implementation"
+    ],
     "rtl_path": "rtl/chips/ttl_74x665/ttl_74x665.sv",
     "testbench_path": "tb/chips/ttl_74x665/tb_ttl_74x665.sv",
     "readme_path": "rtl/chips/ttl_74x665/README.md"
