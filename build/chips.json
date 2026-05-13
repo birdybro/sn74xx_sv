@@ -25756,8 +25756,10 @@
     "pins": "28",
     "datasheet": "SN74ABT8652",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookiCMOSTechnologyDataBook_40217042/page/n775",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x652 with JTAG (not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8652/ttl_74x8652.sv",
     "testbench_path": "tb/chips/ttl_74x8652/tb_ttl_74x8652.sv",
     "readme_path": "rtl/chips/ttl_74x8652/README.md"
