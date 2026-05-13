@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 689
+- complete: 690
 - blocked: 138
 - digital_only_approximation: 27
-- not_started: 701
+- not_started: 700
 
 ## Chips
 
@@ -13994,7 +13994,7 @@ For every chip:
   - Low-power twin of base part; Verilator lint+sim clean
 
 ### 74ALS1645 - octal bus transceiver, non-inverting (lower-power version of 74x645)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74als1645
 - Aliases: none
 - Source section: Larger footprints
@@ -14007,7 +14007,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74als1645/tb_ttl_74als1645.sv
 - README: rtl/chips/ttl_74als1645/README.md
 - Notes:
-  - (none)
+  - Low-power twin of 74x645; Verilator lint+sim clean
 
 ### 74GTLPH1645 - 16-bit LV-TTL-to-GTLP adjustable-edge-rate bus transceiver
 - Status: [ ]

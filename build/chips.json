@@ -18299,8 +18299,10 @@
     "pins": "20",
     "datasheet": "SN74ALS1645A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als1645a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Low-power twin of 74x645; Verilator lint+sim clean"
+    ],
     "rtl_path": "rtl/chips/ttl_74als1645/ttl_74als1645.sv",
     "testbench_path": "tb/chips/ttl_74als1645/tb_ttl_74als1645.sv",
     "readme_path": "rtl/chips/ttl_74als1645/README.md"
