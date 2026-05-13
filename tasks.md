@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 991
+- complete: 992
 - blocked: 395
 - digital_only_approximation: 27
-- not_started: 142
+- not_started: 141
 
 ## Chips
 
@@ -23026,7 +23026,7 @@ IDT74FST3245
   - Single inverter. Verilator + Yosys clean.
 
 ### 74x1GU04 - single inverter gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1gu04
 - Aliases: none
 - Source section: Smaller footprints
@@ -23039,7 +23039,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1gu04/tb_ttl_74x1gu04.sv
 - README: rtl/chips/ttl_74x1gu04/README.md
 - Notes:
-  - (none)
+  - Single unbuffered inverter. Verilator + Yosys clean.
 
 ### 74x1GX04 - single crystal oscillator driver
 - Status: [!]
