@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1048
+- complete: 1049
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 62
+- not_started: 61
 
 ## Chips
 
@@ -23746,7 +23746,7 @@ IDT74FST3245
   - OR-AND combo. Verilator + Yosys clean.
 
 ### 74x2G00 - dual 2-input NAND gate
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2g00
 - Aliases: none
 - Source section: Smaller footprints
@@ -23759,7 +23759,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x2g00/tb_ttl_74x2g00.sv
 - README: rtl/chips/ttl_74x2g00/README.md
 - Notes:
-  - (none)
+  - Dual 2-input NAND via gen_simple_gate.py. Verilator + Yosys clean.
 
 ### 74x2G02 - dual 2-input NOR gate
 - Status: [ ]
