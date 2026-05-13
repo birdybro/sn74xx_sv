@@ -25588,8 +25588,10 @@
     "pins": "24",
     "datasheet": "SN74BCT8244A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookLogicDataBook_44713328/page/n43",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "= 74x244 with JTAG (not modeled). Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x8244/ttl_74x8244.sv",
     "testbench_path": "tb/chips/ttl_74x8244/tb_ttl_74x8244.sv",
     "readme_path": "rtl/chips/ttl_74x8244/README.md"
