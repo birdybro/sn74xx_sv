@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 750
+- complete: 751
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 548
+- not_started: 547
 
 ## Chips
 
@@ -15370,7 +15370,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2377 - 8-bit register, clock enable
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x2377
 - Aliases: none
 - Source section: Larger footprints
@@ -15383,7 +15383,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x2377/tb_ttl_74x2377.sv
 - README: rtl/chips/ttl_74x2377/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x2400 - dual 4-bit buffer, inverting
 - Status: [ ]
