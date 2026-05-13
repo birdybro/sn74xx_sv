@@ -14660,9 +14660,10 @@
     "pins": "24",
     "datasheet": "SN74AS821A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn54as821a",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout",
+      "10-bit posedge D flop with /OE; per SN74AS821A datasheet; Verilator lint+sim clean"
     ],
     "rtl_path": "rtl/chips/ttl_74x821/ttl_74x821.sv",
     "testbench_path": "tb/chips/ttl_74x821/tb_ttl_74x821.sv",
@@ -14681,9 +14682,10 @@
     "pins": "24",
     "datasheet": "SN74AS822",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n557",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout"
+      "Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout",
+      "Inverting-input twin of 821; per SN74AS822 datasheet; Verilator lint+sim clean"
     ],
     "rtl_path": "rtl/chips/ttl_74x822/ttl_74x822.sv",
     "testbench_path": "tb/chips/ttl_74x822/tb_ttl_74x822.sv",

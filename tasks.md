@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 608
-- blocked: 64
+- complete: 610
+- blocked: 62
 - digital_only_approximation: 27
 - not_started: 856
 
@@ -11192,7 +11192,7 @@ For every chip:
   - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
 
 ### 74x821 - 10-bit bus interface flip-flop
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x821
 - Aliases: none
 - Source section: Larger footprints
@@ -11206,9 +11206,10 @@ For every chip:
 - README: rtl/chips/ttl_74x821/README.md
 - Notes:
   - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
+  - 10-bit posedge D flop with /OE; per SN74AS821A datasheet; Verilator lint+sim clean
 
 ### 74x822 - 10-bit bus interface flip-flop, inverting inputs
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x822
 - Aliases: none
 - Source section: Larger footprints
@@ -11222,6 +11223,7 @@ For every chip:
 - README: rtl/chips/ttl_74x822/README.md
 - Notes:
   - Specialized part (readback register / clock driver / GTLP fanout / diagnostic register / bus-interface flop) requires datasheet for control-pin layout
+  - Inverting-input twin of 821; per SN74AS822 datasheet; Verilator lint+sim clean
 
 ### 74x823 - 9-bit D-type flip-flops, clear and clock enable inputs
 - Status: [ ]
