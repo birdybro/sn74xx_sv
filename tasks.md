@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1008
+- complete: 1009
 - blocked: 404
 - digital_only_approximation: 27
-- not_started: 116
+- not_started: 115
 
 ## Chips
 
@@ -23362,7 +23362,7 @@ IDT74FST3245
   - SPST analog switch (CMOS transmission gate); not modeled digitally
 
 ### 74x1G74 - single positive-edge D flip-flop, asynchronous preset & clear, Q & /Q outputs
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g74
 - Aliases: none
 - Source section: Smaller footprints
@@ -23375,7 +23375,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g74/tb_ttl_74x1g74.sv
 - README: rtl/chips/ttl_74x1g74/README.md
 - Notes:
-  - (none)
+  - D-FF with async preset+clear. Verilator + Yosys clean.
 
 ### 74x1G79 - single positive-edge D flip-flop, Q output
 - Status: [ ]
