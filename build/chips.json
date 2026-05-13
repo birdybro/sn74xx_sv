@@ -23240,8 +23240,10 @@
     "pins": "16",
     "datasheet": "CD74HC4511",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd54hc4511",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "BCD to 7-segment latch/decoder with blank and lamp-test. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x4511/ttl_74x4511.sv",
     "testbench_path": "tb/chips/ttl_74x4511/tb_ttl_74x4511.sv",
     "readme_path": "rtl/chips/ttl_74x4511/README.md"

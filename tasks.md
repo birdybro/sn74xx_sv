@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 859
+- complete: 860
 - blocked: 342
 - digital_only_approximation: 27
-- not_started: 327
+- not_started: 326
 
 ## Chips
 
@@ -17724,7 +17724,7 @@ IDT74FST3245
   - BCD decade up/down counter with load + reset + carry-out. Verilator + Yosys clean.
 
 ### 74x4511 - BCD to 7-segment decoder
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x4511
 - Aliases: none
 - Source section: Larger footprints
@@ -17737,7 +17737,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x4511/tb_ttl_74x4511.sv
 - README: rtl/chips/ttl_74x4511/README.md
 - Notes:
-  - (none)
+  - BCD to 7-segment latch/decoder with blank and lamp-test. Verilator + Yosys clean.
 
 ### 74x4514 - 4-to-16 line decoder/demultiplexer, input latches
 - Status: [ ]
