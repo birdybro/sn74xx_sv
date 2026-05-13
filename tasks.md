@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 969
+- complete: 970
 - blocked: 385
 - digital_only_approximation: 27
-- not_started: 174
+- not_started: 173
 
 ## Chips
 
@@ -20220,7 +20220,7 @@ IDT74FST3245
   - 9-bit inverting buffer. Verilator + Yosys clean.
 
 ### 74x9135 - nine-wide buffer, noninverting
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x9135
 - Aliases: none
 - Source section: Larger footprints
@@ -20233,7 +20233,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x9135/tb_ttl_74x9135.sv
 - README: rtl/chips/ttl_74x9135/README.md
 - Notes:
-  - (none)
+  - 9-bit non-inverting buffer. Verilator + Yosys clean.
 
 ### 74x9164 - 8-bit shift register (serial in/out, parallel in/out)
 - Status: [ ]
