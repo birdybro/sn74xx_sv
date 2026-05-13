@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 645
+- complete: 646
 - blocked: 88
 - digital_only_approximation: 27
-- not_started: 795
+- not_started: 794
 
 ## Chips
 
@@ -12218,7 +12218,7 @@ For every chip:
   - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x907 - hex open drain p-channel buffers
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x907
 - Aliases: none
 - Source section: Larger footprints
@@ -12231,7 +12231,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x907/tb_ttl_74x907.sv
 - README: rtl/chips/ttl_74x907/README.md
 - Notes:
-  - (none)
+  - Simple combinational gate/buffer; Verilator lint+sim clean
 
 ### 74x908 - dual 2-input NAND 30 V / 250 mA relay driver
 - Status: [ ]
