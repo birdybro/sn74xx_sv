@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 871
-- blocked: 342
+- blocked: 359
 - digital_only_approximation: 27
-- not_started: 315
+- not_started: 298
 
 ## Chips
 
@@ -18076,7 +18076,7 @@ IDT74FST3245
   - (none)
 
 ### 74x5555 - programmable delay timer with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x5555
 - Aliases: none
 - Source section: Larger footprints
@@ -18089,7 +18089,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x5555/tb_ttl_74x5555.sv
 - README: rtl/chips/ttl_74x5555/README.md
 - Notes:
-  - (none)
+  - Programmable delay timer with oscillator; analog RC oscillator and delay generator
 
 ### 74x5620 - octal bidirectional transceiver
 - Status: [ ]
@@ -18108,7 +18108,7 @@ IDT74FST3245
   - (none)
 
 ### 74x6000 - logic-to-logic optocoupler, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6000
 - Aliases: none
 - Source section: Larger footprints
@@ -18121,10 +18121,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6000/tb_ttl_74x6000.sv
 - README: rtl/chips/ttl_74x6000/README.md
 - Notes:
-  - (none)
+  - Logic-to-logic optocoupler; opto-isolator physical device
 
 ### 74x6001 - logic-to-logic optocoupler, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6001
 - Aliases: none
 - Source section: Larger footprints
@@ -18137,10 +18137,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6001/tb_ttl_74x6001.sv
 - README: rtl/chips/ttl_74x6001/README.md
 - Notes:
-  - (none)
+  - Logic-to-logic optocoupler (inverting); opto-isolator physical device
 
 ### 74x6010 - logic-to-logic optocoupler, non-inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6010
 - Aliases: none
 - Source section: Larger footprints
@@ -18153,10 +18153,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6010/tb_ttl_74x6010.sv
 - README: rtl/chips/ttl_74x6010/README.md
 - Notes:
-  - (none)
+  - Logic-to-logic optocoupler; opto-isolator physical device
 
 ### 74x6011 - logic-to-logic optocoupler, inverting
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6011
 - Aliases: none
 - Source section: Larger footprints
@@ -18169,10 +18169,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6011/tb_ttl_74x6011.sv
 - README: rtl/chips/ttl_74x6011/README.md
 - Notes:
-  - (none)
+  - Logic-to-logic optocoupler (inverting); opto-isolator physical device
 
 ### 74x6300 - programmable dynamic memory refresh timer
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6300
 - Aliases: none
 - Source section: Larger footprints
@@ -18185,10 +18185,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6300/tb_ttl_74x6300.sv
 - README: rtl/chips/ttl_74x6300/README.md
 - Notes:
-  - (none)
+  - Programmable DRAM refresh timer; complex programmable timing controller
 
 ### 74x6301 - dynamic memory refresh controller, transparent and burst modes, for 16K, 64K, 256K, and 1M dRAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6301
 - Aliases: none
 - Source section: Larger footprints
@@ -18201,10 +18201,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6301/tb_ttl_74x6301.sv
 - README: rtl/chips/ttl_74x6301/README.md
 - Notes:
-  - (none)
+  - DRAM refresh controller; complex state machine requires datasheet
 
 ### 74x6302 - dynamic memory refresh controller, transparent and burst modes, for 16K, 64K, 256K, and 1M dRAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6302
 - Aliases: none
 - Source section: Larger footprints
@@ -18217,10 +18217,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6302/tb_ttl_74x6302.sv
 - README: rtl/chips/ttl_74x6302/README.md
 - Notes:
-  - (none)
+  - DRAM refresh controller; complex state machine requires datasheet
 
 ### 74x6310 - static column and page mode access detector for dRAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6310
 - Aliases: none
 - Source section: Larger footprints
@@ -18233,10 +18233,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6310/tb_ttl_74x6310.sv
 - README: rtl/chips/ttl_74x6310/README.md
 - Notes:
-  - (none)
+  - Static column/page mode access detector for dRAM; specialized detector requires datasheet
 
 ### 74x6311 - static column and page mode access detector for dRAM
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6311
 - Aliases: none
 - Source section: Larger footprints
@@ -18249,10 +18249,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6311/tb_ttl_74x6311.sv
 - README: rtl/chips/ttl_74x6311/README.md
 - Notes:
-  - (none)
+  - Static column/page mode access detector for dRAM; specialized detector requires datasheet
 
 ### 74x6323 - programmable ripple counter with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6323
 - Aliases: none
 - Source section: Larger footprints
@@ -18265,10 +18265,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6323/tb_ttl_74x6323.sv
 - README: rtl/chips/ttl_74x6323/README.md
 - Notes:
-  - (none)
+  - Programmable ripple counter with on-chip oscillator; oscillator portion is analog
 
 ### 74x6364 - 64-bit flow-through error detection and correction circuit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6364
 - Aliases: none
 - Source section: Larger footprints
@@ -18281,10 +18281,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6364/tb_ttl_74x6364.sv
 - README: rtl/chips/ttl_74x6364/README.md
 - Notes:
-  - (none)
+  - 64-bit flow-through EDAC; complex syndrome generation/decode requires datasheet
 
 ### 74x6800 - 10-bit FET bus switch with precharge
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6800
 - Aliases: none
 - Source section: Larger footprints
@@ -18297,10 +18297,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6800/tb_ttl_74x6800.sv
 - README: rtl/chips/ttl_74x6800/README.md
 - Notes:
-  - (none)
+  - 10-bit FET bus switch with precharge; analog FET switch
 
 ### 74x6845 - 8-bit FET bus switch with precharge and extended voltage range
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x6845
 - Aliases: none
 - Source section: Larger footprints
@@ -18313,7 +18313,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x6845/tb_ttl_74x6845.sv
 - README: rtl/chips/ttl_74x6845/README.md
 - Notes:
-  - (none)
+  - 8-bit FET bus switch with precharge; analog FET switch
 
 ### 74x7001 - quad 2-input AND gate
 - Status: [ ]
@@ -18492,7 +18492,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7046 - phase-locked loop with voltage-controlled oscillator and lock detector
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x7046
 - Aliases: none
 - Source section: Larger footprints
@@ -18505,10 +18505,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7046/tb_ttl_74x7046.sv
 - README: rtl/chips/ttl_74x7046/README.md
 - Notes:
-  - (none)
+  - PLL with VCO and lock detector; analog phase-locked loop
 
 ### 74x7060 - 14-stage binary counter with oscillator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x7060
 - Aliases: none
 - Source section: Larger footprints
@@ -18521,7 +18521,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7060/tb_ttl_74x7060.sv
 - README: rtl/chips/ttl_74x7060/README.md
 - Notes:
-  - (none)
+  - 14-stage binary counter with on-chip oscillator; oscillator portion is analog
 
 ### 74x7074 - two inverters, one 2-input NAND, one 2-input NOR, two D-type flip-flops
 - Status: [ ]
@@ -18588,7 +18588,7 @@ IDT74FST3245
   - (none)
 
 ### 74x7132 - quad adjustable comparator with output latches
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x7132
 - Aliases: none
 - Source section: Larger footprints
@@ -18601,7 +18601,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x7132/tb_ttl_74x7132.sv
 - README: rtl/chips/ttl_74x7132/README.md
 - Notes:
-  - (none)
+  - Quad adjustable comparator with output latches; analog comparator
 
 ### 74x7200 - 2304-bit FIFO memory (256x9)
 - Status: [ ]

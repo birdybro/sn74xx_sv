@@ -23696,8 +23696,10 @@
     "pins": "16",
     "datasheet": "74HC5555",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74HC5555.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable delay timer with oscillator; analog RC oscillator and delay generator"
+    ],
     "rtl_path": "rtl/chips/ttl_74x5555/ttl_74x5555.sv",
     "testbench_path": "tb/chips/ttl_74x5555/tb_ttl_74x5555.sv",
     "readme_path": "rtl/chips/ttl_74x5555/README.md"
@@ -23734,8 +23736,10 @@
     "pins": "6",
     "datasheet": "74OL6000",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-12/DSA-229129.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Logic-to-logic optocoupler; opto-isolator physical device"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6000/ttl_74x6000.sv",
     "testbench_path": "tb/chips/ttl_74x6000/tb_ttl_74x6000.sv",
     "readme_path": "rtl/chips/ttl_74x6000/README.md"
@@ -23753,8 +23757,10 @@
     "pins": "6",
     "datasheet": "74OL6001",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-12/DSA-229129.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Logic-to-logic optocoupler (inverting); opto-isolator physical device"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6001/ttl_74x6001.sv",
     "testbench_path": "tb/chips/ttl_74x6001/tb_ttl_74x6001.sv",
     "readme_path": "rtl/chips/ttl_74x6001/README.md"
@@ -23772,8 +23778,10 @@
     "pins": "6",
     "datasheet": "74OL6010",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-12/DSA-229129.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Logic-to-logic optocoupler; opto-isolator physical device"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6010/ttl_74x6010.sv",
     "testbench_path": "tb/chips/ttl_74x6010/tb_ttl_74x6010.sv",
     "readme_path": "rtl/chips/ttl_74x6010/README.md"
@@ -23791,8 +23799,10 @@
     "pins": "6",
     "datasheet": "74OL6011",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-12/DSA-229129.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Logic-to-logic optocoupler (inverting); opto-isolator physical device"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6011/ttl_74x6011.sv",
     "testbench_path": "tb/chips/ttl_74x6011/tb_ttl_74x6011.sv",
     "readme_path": "rtl/chips/ttl_74x6011/README.md"
@@ -23810,8 +23820,10 @@
     "pins": "16",
     "datasheet": "SN74ALS6300",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable DRAM refresh timer; complex programmable timing controller"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6300/ttl_74x6300.sv",
     "testbench_path": "tb/chips/ttl_74x6300/tb_ttl_74x6300.sv",
     "readme_path": "rtl/chips/ttl_74x6300/README.md"
@@ -23829,8 +23841,10 @@
     "pins": "52",
     "datasheet": "SN74ALS6301",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n535",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "DRAM refresh controller; complex state machine requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6301/ttl_74x6301.sv",
     "testbench_path": "tb/chips/ttl_74x6301/tb_ttl_74x6301.sv",
     "readme_path": "rtl/chips/ttl_74x6301/README.md"
@@ -23848,8 +23862,10 @@
     "pins": "52",
     "datasheet": "SN74ALS6302",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n535",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "DRAM refresh controller; complex state machine requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6302/ttl_74x6302.sv",
     "testbench_path": "tb/chips/ttl_74x6302/tb_ttl_74x6302.sv",
     "readme_path": "rtl/chips/ttl_74x6302/README.md"
@@ -23867,8 +23883,10 @@
     "pins": "20",
     "datasheet": "SN74ALS6310A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Static column/page mode access detector for dRAM; specialized detector requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6310/ttl_74x6310.sv",
     "testbench_path": "tb/chips/ttl_74x6310/tb_ttl_74x6310.sv",
     "readme_path": "rtl/chips/ttl_74x6310/README.md"
@@ -23886,8 +23904,10 @@
     "pins": "20",
     "datasheet": "SN74ALS6311A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Static column/page mode access detector for dRAM; specialized detector requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6311/ttl_74x6311.sv",
     "testbench_path": "tb/chips/ttl_74x6311/tb_ttl_74x6311.sv",
     "readme_path": "rtl/chips/ttl_74x6311/README.md"
@@ -23905,8 +23925,10 @@
     "pins": "(8)",
     "datasheet": "74HC6323A",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74HC_HCT6323A.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Programmable ripple counter with on-chip oscillator; oscillator portion is analog"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6323/ttl_74x6323.sv",
     "testbench_path": "tb/chips/ttl_74x6323/tb_ttl_74x6323.sv",
     "readme_path": "rtl/chips/ttl_74x6323/README.md"
@@ -23924,8 +23946,10 @@
     "pins": "(207)",
     "datasheet": "SN74AS6364",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "64-bit flow-through EDAC; complex syndrome generation/decode requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6364/ttl_74x6364.sv",
     "testbench_path": "tb/chips/ttl_74x6364/tb_ttl_74x6364.sv",
     "readme_path": "rtl/chips/ttl_74x6364/README.md"
@@ -23943,8 +23967,10 @@
     "pins": "24",
     "datasheet": "IDT74FST6800",
     "datasheet_url": "https://archive.org/details/bitsavers_idtdataBoomanceLogicDataBook_51362967/page/n671",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "10-bit FET bus switch with precharge; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6800/ttl_74x6800.sv",
     "testbench_path": "tb/chips/ttl_74x6800/tb_ttl_74x6800.sv",
     "readme_path": "rtl/chips/ttl_74x6800/README.md"
@@ -23962,8 +23988,10 @@
     "pins": "(20)",
     "datasheet": "SN74CBT6845C",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-36/DSA-711566.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "8-bit FET bus switch with precharge; analog FET switch"
+    ],
     "rtl_path": "rtl/chips/ttl_74x6845/ttl_74x6845.sv",
     "testbench_path": "tb/chips/ttl_74x6845/tb_ttl_74x6845.sv",
     "readme_path": "rtl/chips/ttl_74x6845/README.md"
@@ -24190,8 +24218,10 @@
     "pins": "16",
     "datasheet": "CD74HC7046A",
     "datasheet_url": "https://www.ti.com/lit/gpn/cd74hc7046a",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "PLL with VCO and lock detector; analog phase-locked loop"
+    ],
     "rtl_path": "rtl/chips/ttl_74x7046/ttl_74x7046.sv",
     "testbench_path": "tb/chips/ttl_74x7046/tb_ttl_74x7046.sv",
     "readme_path": "rtl/chips/ttl_74x7046/README.md"
@@ -24209,8 +24239,10 @@
     "pins": "20",
     "datasheet": "CD74AC7060",
     "datasheet_url": "https://archive.org/details/RCA-RCAAdvancedCMOSLogicICs1987OCR/page/n291",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "14-stage binary counter with on-chip oscillator; oscillator portion is analog"
+    ],
     "rtl_path": "rtl/chips/ttl_74x7060/ttl_74x7060.sv",
     "testbench_path": "tb/chips/ttl_74x7060/tb_ttl_74x7060.sv",
     "readme_path": "rtl/chips/ttl_74x7060/README.md"
@@ -24304,8 +24336,10 @@
     "pins": "14",
     "datasheet": "74HCT7132",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-30/DSA-596949.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Quad adjustable comparator with output latches; analog comparator"
+    ],
     "rtl_path": "rtl/chips/ttl_74x7132/ttl_74x7132.sv",
     "testbench_path": "tb/chips/ttl_74x7132/tb_ttl_74x7132.sv",
     "readme_path": "rtl/chips/ttl_74x7132/README.md"
