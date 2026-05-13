@@ -30,9 +30,9 @@ For every chip:
 
 ## Progress (1555 chips)
 - complete: 934
-- blocked: 359
+- blocked: 371
 - digital_only_approximation: 27
-- not_started: 235
+- not_started: 223
 
 ## Chips
 
@@ -19580,7 +19580,7 @@ IDT74FST3245
   - (none)
 
 ### 74x8400 - expandable error checker / corrector
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8400
 - Aliases: none
 - Source section: Larger footprints
@@ -19593,7 +19593,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8400/tb_ttl_74x8400.sv
 - README: rtl/chips/ttl_74x8400/README.md
 - Notes:
-  - (none)
+  - Expandable error checker/corrector; complex EDAC with cascade, needs datasheet
 
 ### 74x8541 - 8-bit buffer, selectable inverting/non-inverting
 - Status: [ ]
@@ -19660,7 +19660,7 @@ IDT74FST3245
   - (none)
 
 ### 74x8818 - 16-bit microprogram sequencer, cascadable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8818
 - Aliases: none
 - Source section: Larger footprints
@@ -19673,10 +19673,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8818/tb_ttl_74x8818.sv
 - README: rtl/chips/ttl_74x8818/README.md
 - Notes:
-  - (none)
+  - 16-bit microprogram sequencer (Am2910-class); complex sequencer requires datasheet
 
 ### 74x8832 - 32-bit registered ALU
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8832
 - Aliases: none
 - Source section: Larger footprints
@@ -19689,10 +19689,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8832/tb_ttl_74x8832.sv
 - README: rtl/chips/ttl_74x8832/README.md
 - Notes:
-  - (none)
+  - 32-bit registered ALU; complex datapath, needs Am29332-class datasheet
 
 ### 74x8834 - 40-bit register file
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8834
 - Aliases: none
 - Source section: Larger footprints
@@ -19705,10 +19705,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8834/tb_ttl_74x8834.sv
 - README: rtl/chips/ttl_74x8834/README.md
 - Notes:
-  - (none)
+  - 40-bit register file; specific port architecture requires datasheet
 
 ### 74x8835 - 16-bit microprogram sequencer, cascadable
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8835
 - Aliases: none
 - Source section: Larger footprints
@@ -19721,10 +19721,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8835/tb_ttl_74x8835.sv
 - README: rtl/chips/ttl_74x8835/README.md
 - Notes:
-  - (none)
+  - 16-bit microprogram sequencer (Am29C10A); needs datasheet
 
 ### 74x8836 - 32x32-bit multiplier/accumulator
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8836
 - Aliases: none
 - Source section: Larger footprints
@@ -19737,10 +19737,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8836/tb_ttl_74x8836.sv
 - README: rtl/chips/ttl_74x8836/README.md
 - Notes:
-  - (none)
+  - 32x32-bit multiplier/accumulator; complex datapath, needs datasheet
 
 ### 74x8837 - 64-bit floating point unit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8837
 - Aliases: none
 - Source section: Larger footprints
@@ -19753,7 +19753,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8837/tb_ttl_74x8837.sv
 - README: rtl/chips/ttl_74x8837/README.md
 - Notes:
-  - (none)
+  - 64-bit FPU; complex IEEE 754 unit, needs datasheet
 
 ### 74x8838 - 64-bit barrel shifter
 - Status: [ ]
@@ -19772,7 +19772,7 @@ IDT74FST3245
   - (none)
 
 ### 74x8839 - 32-bit shuffle/exchange network
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8839
 - Aliases: none
 - Source section: Larger footprints
@@ -19785,10 +19785,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8839/tb_ttl_74x8839.sv
 - README: rtl/chips/ttl_74x8839/README.md
 - Notes:
-  - (none)
+  - 32-bit shuffle/exchange network; specialized permutation network requires datasheet
 
 ### 74x8840 - digital crossbar switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8840
 - Aliases: none
 - Source section: Larger footprints
@@ -19801,10 +19801,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8840/tb_ttl_74x8840.sv
 - README: rtl/chips/ttl_74x8840/README.md
 - Notes:
-  - (none)
+  - Digital crossbar switch; specialized crossbar configuration requires datasheet
 
 ### 74x8841 - digital crossbar switch
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8841
 - Aliases: none
 - Source section: Larger footprints
@@ -19817,10 +19817,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8841/tb_ttl_74x8841.sv
 - README: rtl/chips/ttl_74x8841/README.md
 - Notes:
-  - (none)
+  - Digital crossbar switch; specialized crossbar configuration requires datasheet
 
 ### 74x8847 - 64-bit floating point and integer unit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8847
 - Aliases: none
 - Source section: Larger footprints
@@ -19833,10 +19833,10 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8847/tb_ttl_74x8847.sv
 - README: rtl/chips/ttl_74x8847/README.md
 - Notes:
-  - (none)
+  - 64-bit FPU and integer unit; complex IEEE 754 unit, needs datasheet
 
 ### 74x8867 - 32-bit vector processor unit
-- Status: [ ]
+- Status: [!]
 - Module: ttl_74x8867
 - Aliases: none
 - Source section: Larger footprints
@@ -19849,7 +19849,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x8867/tb_ttl_74x8867.sv
 - README: rtl/chips/ttl_74x8867/README.md
 - Notes:
-  - (none)
+  - 32-bit vector processor unit; complex VPU, needs datasheet
 
 ### 74x8952 - octal registered bus transceiver with JTAG port
 - Status: [ ]

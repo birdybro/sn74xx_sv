@@ -25642,8 +25642,10 @@
     "pins": "48",
     "datasheet": "SN74ALS8400",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n541",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Expandable error checker/corrector; complex EDAC with cascade, needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8400/ttl_74x8400.sv",
     "testbench_path": "tb/chips/ttl_74x8400/tb_ttl_74x8400.sv",
     "readme_path": "rtl/chips/ttl_74x8400/README.md"
@@ -25737,8 +25739,10 @@
     "pins": "(84)",
     "datasheet": "SN74ACT8818",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n19",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "16-bit microprogram sequencer (Am2910-class); complex sequencer requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8818/ttl_74x8818.sv",
     "testbench_path": "tb/chips/ttl_74x8818/tb_ttl_74x8818.sv",
     "readme_path": "rtl/chips/ttl_74x8818/README.md"
@@ -25756,8 +25760,10 @@
     "pins": "(208)",
     "datasheet": "SN74ACT8832",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n79",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "32-bit registered ALU; complex datapath, needs Am29332-class datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8832/ttl_74x8832.sv",
     "testbench_path": "tb/chips/ttl_74x8832/tb_ttl_74x8832.sv",
     "readme_path": "rtl/chips/ttl_74x8832/README.md"
@@ -25775,8 +25781,10 @@
     "pins": "(156)",
     "datasheet": "SN74AS8834",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n545",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "40-bit register file; specific port architecture requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8834/ttl_74x8834.sv",
     "testbench_path": "tb/chips/ttl_74x8834/tb_ttl_74x8834.sv",
     "readme_path": "rtl/chips/ttl_74x8834/README.md"
@@ -25794,8 +25802,10 @@
     "pins": "(156)",
     "datasheet": "SN74AS8835",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0053260.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "16-bit microprogram sequencer (Am29C10A); needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8835/ttl_74x8835.sv",
     "testbench_path": "tb/chips/ttl_74x8835/tb_ttl_74x8835.sv",
     "readme_path": "rtl/chips/ttl_74x8835/README.md"
@@ -25813,8 +25823,10 @@
     "pins": "(156)",
     "datasheet": "SN74ACT8836",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n273",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "32x32-bit multiplier/accumulator; complex datapath, needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8836/ttl_74x8836.sv",
     "testbench_path": "tb/chips/ttl_74x8836/tb_ttl_74x8836.sv",
     "readme_path": "rtl/chips/ttl_74x8836/README.md"
@@ -25832,8 +25844,10 @@
     "pins": "(208)",
     "datasheet": "SN74ACT8837",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n307",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "64-bit FPU; complex IEEE 754 unit, needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8837/ttl_74x8837.sv",
     "testbench_path": "tb/chips/ttl_74x8837/tb_ttl_74x8837.sv",
     "readme_path": "rtl/chips/ttl_74x8837/README.md"
@@ -25870,8 +25884,10 @@
     "pins": "(85)",
     "datasheet": "SN74AS8839",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-112/DSAP0053259.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "32-bit shuffle/exchange network; specialized permutation network requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8839/ttl_74x8839.sv",
     "testbench_path": "tb/chips/ttl_74x8839/tb_ttl_74x8839.sv",
     "readme_path": "rtl/chips/ttl_74x8839/README.md"
@@ -25889,8 +25905,10 @@
     "pins": "(156)",
     "datasheet": "SN74AS8840",
     "datasheet_url": "https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-110/DSAP0010220.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Digital crossbar switch; specialized crossbar configuration requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8840/ttl_74x8840.sv",
     "testbench_path": "tb/chips/ttl_74x8840/tb_ttl_74x8840.sv",
     "readme_path": "rtl/chips/ttl_74x8840/README.md"
@@ -25908,8 +25926,10 @@
     "pins": "(156)",
     "datasheet": "SN74ACT8841",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n435",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "Digital crossbar switch; specialized crossbar configuration requires datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8841/ttl_74x8841.sv",
     "testbench_path": "tb/chips/ttl_74x8841/tb_ttl_74x8841.sv",
     "readme_path": "rtl/chips/ttl_74x8841/README.md"
@@ -25927,8 +25947,10 @@
     "pins": "(208)",
     "datasheet": "SN74ACT8847",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookamily32BitCMOSProcessorBuildingBlocksDat_39357329/page/n461",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "64-bit FPU and integer unit; complex IEEE 754 unit, needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8847/ttl_74x8847.sv",
     "testbench_path": "tb/chips/ttl_74x8847/tb_ttl_74x8847.sv",
     "readme_path": "rtl/chips/ttl_74x8847/README.md"
@@ -25946,8 +25968,10 @@
     "pins": "(208)",
     "datasheet": "SN74ACT8867",
     "datasheet_url": "https://archive.org/details/TexasInstruments-TI-Data-SN74ACT8800Family32-BitCMOSProcessorBuildingBlocks1990OCR/page/n495",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "blocked",
+    "implementation_notes": [
+      "32-bit vector processor unit; complex VPU, needs datasheet"
+    ],
     "rtl_path": "rtl/chips/ttl_74x8867/ttl_74x8867.sv",
     "testbench_path": "tb/chips/ttl_74x8867/tb_ttl_74x8867.sv",
     "readme_path": "rtl/chips/ttl_74x8867/README.md"
