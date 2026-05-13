@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 778
+- complete: 779
 - blocked: 286
 - digital_only_approximation: 27
-- not_started: 464
+- not_started: 463
 
 ## Chips
 
@@ -13690,7 +13690,7 @@ For every chip:
   - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
 
 ### 74x1403 - 8-bit bus receiver plus 4-bit bus driver
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1403
 - Aliases: none
 - Source section: Larger footprints
@@ -13703,7 +13703,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1403/tb_ttl_74x1403.sv
 - README: rtl/chips/ttl_74x1403/README.md
 - Notes:
-  - (none)
+  - Behavioral: 8-bit registered receiver + 4-bit registered driver, each with its own clock/OE. Verilator + Yosys clean.
 
 ### 74x1404 - oscillator driver
 - Status: [ ]
