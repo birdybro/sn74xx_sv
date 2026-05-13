@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1045
+- complete: 1046
 - blocked: 418
 - digital_only_approximation: 27
-- not_started: 65
+- not_started: 64
 
 ## Chips
 
@@ -23682,7 +23682,7 @@ IDT74FST3245
   - Single FET bus switch; analog FET switch
 
 ### 74x1G386 - single 3-input XOR gate (a.k.a. 3-bit even-parity generator)
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1g386
 - Aliases: none
 - Source section: Smaller footprints
@@ -23695,7 +23695,7 @@ IDT74FST3245
 - Testbench: tb/chips/ttl_74x1g386/tb_ttl_74x1g386.sv
 - README: rtl/chips/ttl_74x1g386/README.md
 - Notes:
-  - (none)
+  - 3-input XOR. Verilator + Yosys clean.
 
 ### 74x1G0832 - single 3-input AND-OR combo gate (2-input AND into 2-input OR)
 - Status: [ ]
