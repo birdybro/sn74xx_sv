@@ -29,10 +29,10 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 738
+- complete: 739
 - blocked: 230
 - digital_only_approximation: 27
-- not_started: 560
+- not_started: 559
 
 ## Chips
 
@@ -14298,7 +14298,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x1808 - hex 2-input AND
-- Status: [ ]
+- Status: [x]
 - Module: ttl_74x1808
 - Aliases: none
 - Source section: Larger footprints
@@ -14311,7 +14311,7 @@ For every chip:
 - Testbench: tb/chips/ttl_74x1808/tb_ttl_74x1808.sv
 - README: rtl/chips/ttl_74x1808/README.md
 - Notes:
-  - (none)
+  - Twin of base part; Verilator lint+sim clean
 
 ### 74x1811 - FM, MFM, and DM encoder / decoder, data rates up to 20 MHz
 - Status: [ ]
