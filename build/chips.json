@@ -31344,8 +31344,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC2G34.pdf",
-    "implementation_status": "not_started",
-    "implementation_notes": [],
+    "implementation_status": "complete",
+    "implementation_notes": [
+      "Dual buffer. Verilator + Yosys clean."
+    ],
     "rtl_path": "rtl/chips/ttl_74x2g34/ttl_74x2g34.sv",
     "testbench_path": "tb/chips/ttl_74x2g34/tb_ttl_74x2g34.sv",
     "readme_path": "rtl/chips/ttl_74x2g34/README.md"
