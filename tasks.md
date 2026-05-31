@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1170
-- blocked: 358
+- complete: 1171
+- blocked: 357
 - digital_only_approximation: 27
 
 ## Chips
@@ -9787,7 +9787,7 @@ For every chip:
   - 16-bit parallel-in serial-out shift register, 4 modes (hold/write/read-recirculate/load), falling-edge clk, 3-state SER/Q15 (split si/q15) (SN74LS674, SDLS195). Reference-model tb (directed + 1500 random); lint clean.
 
 ### 74x675 - 16-bit serial-in, serial/parallel-out shift register
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x675
 - Aliases: none
 - Source section: Larger footprints
@@ -9801,6 +9801,7 @@ For every chip:
 - README: rtl/chips/ttl_74x675/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - 16-bit SIPO shift register + storage register (National 74F675A; National counterpart of TI '673). Separate SI/SO, no tri-state/storage-clear. Reference-model tb, directed BEEF round-trip + 1500 random; lint clean.
 
 ### 74x676 - 16-bit serial/parallel-in, serial-out shift register
 - Status: [!]
