@@ -57,6 +57,8 @@ Families of structurally identical parts are generated rather than hand-written.
 - `digital_only_approximation` (`[!]`) — implemented digitally with documented caveats (e.g. open-collector parts modeled as plain logic)
 - `in_progress` (`[~]`), `not_started` (`[ ]`)
 
+Many `blocked` parts are *digital but were under-researched*, not un-modelable — reclaiming them is the main remaining work. When reclaiming, read the function table **directly from the datasheet PDF/scan image** (the fast-model text extraction has hallucinated pins). The `datasheet_url` in chips.json is a hint, not ground truth: reliable for TI databooks/`ti.com`, systematically wrong for non-TI scans. See `docs/datasheet_sourcing.md` for the reliability tiers, how to locate a part in a bitsavers scan, and direct-PDF fallbacks.
+
 ## Authoring guidance for 74xx modules
 
 See `docs/conventions.md` for the full, authoritative style. Load-bearing rules:

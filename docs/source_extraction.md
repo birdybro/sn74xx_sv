@@ -59,6 +59,7 @@ For each row the extractor preserves:
 | `output_features`           | "OC", "OD", "3-state", etc., if given                           |
 | `pins`                      | Pin count, if given                                            |
 | `datasheet`                 | Datasheet link text or URL, if Wikipedia provides one           |
+| `datasheet_url`             | Best-effort datasheet pointer — a **hint, not ground truth**; see [`datasheet_sourcing.md`](datasheet_sourcing.md) |
 | `implementation_status`     | `not_started` / `in_progress` / `complete` / `blocked` / `digital_only_approximation` |
 | `implementation_notes`      | List of free-form notes                                         |
 | `rtl_path`, `testbench_path`, `readme_path` | Conventional paths                            |
@@ -93,6 +94,17 @@ If a row lists multiple part numbers in the same cell:
 
 The judgment of "alias vs. distinct" is conservative: when in doubt the
 extractor splits into separate tasks rather than collapsing.
+
+## Datasheet pointers are unreliable
+
+The `datasheet`/`datasheet_url` fields are best-effort hints from extraction.
+They are reliable for TI databooks and `ti.com/lit`, but **systematically wrong
+for non-TI databook scans** (off by several leaves, or pointing at the wrong
+archive item entirely). Before trusting one, verify by reading the page and
+checking the part number in the scan's corner header. See
+[`datasheet_sourcing.md`](datasheet_sourcing.md) for the reliability tiers, how
+to locate a part in a bitsavers scan, direct-PDF fallbacks, and a table of
+pointers corrected so far.
 
 ## Regenerating tasks.md
 

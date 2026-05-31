@@ -108,7 +108,8 @@ See [`docs/source_extraction.md`](docs/source_extraction.md) for details.
 ├── docs/
 │   ├── conventions.md
 │   ├── unsupported_physical_behavior.md
-│   └── source_extraction.md
+│   ├── source_extraction.md
+│   └── datasheet_sourcing.md
 ├── scripts/
 │   ├── extract_wikipedia_7400.py
 │   ├── update_tasks.py

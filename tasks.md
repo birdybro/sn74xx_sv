@@ -10250,6 +10250,7 @@ For every chip:
 - README: rtl/chips/ttl_74x702/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - Datasheet located: National 74F702 8-bit registered readback transceiver, bitsavers_nationaldaFASTDatabook_31226275 page n621 (chips.json previously pointed to the 1988 FAST Advanced databook scan with an off-by-several page number). Complex bidirectional readback transceiver - deferred.
 
 ### 74x705 - arithmetic logic unit for digital signal processing applications
 - Status: [!]
@@ -10282,6 +10283,7 @@ For every chip:
 - README: rtl/chips/ttl_74x707/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - Datasheet location: National 74F707 8-bit TTL-ECL shift register, bitsavers_nationaldaFASTDatabook_31226275 ~n622 (advance-information entry: general description + logic diagram only, no detailed function table). Cannot implement faithfully without the MODE/LE/clock-edge function table.
 
 ### 74x708 - 576-bit FIFO memory (64x9)
 - Status: [x]
@@ -10315,6 +10317,7 @@ For every chip:
 - README: rtl/chips/ttl_74x710/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - Datasheet located: National 74F710 single-supply TTL-ECL 8-bit shift register, bitsavers_nationaldaFASTDatabook_31226275 n624-625 (8-bit holding latch + shift register, MODE load/shift, differential ECL clock SC/SC-bar, outputs only at Q3/Q7). ADVANCE INFORMATION - no detailed function table (MODE/LE polarity), so not implementable faithfully from the available scan.
 
 ### 74x711 - quint 2-to-1 multiplexers
 - Status: [x]
@@ -10849,6 +10852,7 @@ For every chip:
 - README: rtl/chips/ttl_74x779/README.md
 - Notes:
   - Complex specialized part (DRAM controller, FutureBus latched transceiver, multiplier, display address mux, bus arbiter, EDAC, readback latch) requires datasheet for accurate control-pin layout
+  - Datasheet located: National 74F779 8-bit bidirectional binary counter with tri-state, bitsavers_nationaldaFASTDatabook_31226275 n626-627 (chips.json previously pointed to a Motorola databook - WRONG archive item). Multiplexed tri-state I/O, S0/S1 modes (hold/up/down/load), lookahead carry. ADVANCE INFORMATION - no detailed function table in the available scan.
 
 ### 74x783 - synchronous address multiplexer for display systems
 - Status: [!]
