@@ -19806,9 +19806,10 @@
     "pins": "28",
     "datasheet": "SN74ALS2233A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookeFIFOMemoriesDatabook_63352841/page/n175",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet",
+      "64x9 synchronous FIFO via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2233/ttl_74x2233.sv",
     "testbench_path": "tb/chips/ttl_74x2233/tb_ttl_74x2233.sv",
