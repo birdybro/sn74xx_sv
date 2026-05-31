@@ -19766,9 +19766,10 @@
     "pins": "(28)",
     "datasheet": "SN74ACT2229",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74act2229",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet",
+      "dual 256x1 FIFO (two independent queues) via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2229/ttl_74x2229.sv",
     "testbench_path": "tb/chips/ttl_74x2229/tb_ttl_74x2229.sv",
