@@ -9897,6 +9897,7 @@ For every chip:
 - README: rtl/chips/ttl_74x681/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - Datasheet FOUND and correct: TI SN74LS681 (D2422, tidataBookVol2 n1339). NOT a simple accumulator: it is a 4-bit ALU (16 arithmetic + 16 logic ops) plus Word-A register and Word-B shift/accumulator register, carry look-ahead (Cn/P/G/Cn+4), bus-driving bidirectional I/O, 8 register modes (RS0-2), and serial shift (RI/LO, LI/RO). Implementable but a large multi-table effort (needs Tables 1/2/3) - deferred as a bigger task than the rest of this batch.
 
 ### 74x682 - 8-bit magnitude comparator, P>Q output
 - Status: [x]
@@ -11548,6 +11549,7 @@ For every chip:
 - README: rtl/chips/ttl_74x848/README.md
 - Notes:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
+  - chips.json datasheet_url page pointer is WRONG (points to the 74LS323 page in the Motorola Schottky databook). The real 74LS848 (8-to-3 'glitch-less' priority encoder) was not located; likely functionally close to the '148 but needs its own datasheet to confirm I/O polarity and the glitch-free/cascade pins. Needs correct datasheet before implementing.
 
 ### 74x850 - 1 of 16 data selector/multiplexer, clocked select
 - Status: [x]
