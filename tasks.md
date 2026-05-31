@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1130
-- blocked: 398
+- complete: 1131
+- blocked: 397
 - digital_only_approximation: 27
 
 ## Chips
@@ -12398,7 +12398,7 @@ For every chip:
   - 14-pin sibling of 74x908; Verilator lint+sim clean
 
 ### 74x920 - 1024-bit RAM (256x4), separate data inputs and outputs
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x920
 - Aliases: none
 - Source section: Larger footprints
@@ -12412,6 +12412,7 @@ For every chip:
 - README: rtl/chips/ttl_74x920/README.md
 - Notes:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
+  - 256x4 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean.
 
 ### 74x921 - 1024-bit RAM (256x4)
 - Status: [!]
