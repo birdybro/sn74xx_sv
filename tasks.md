@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1127
-- blocked: 401
+- complete: 1128
+- blocked: 400
 - digital_only_approximation: 27
 
 ## Chips
@@ -9832,7 +9832,7 @@ For every chip:
   - 16-bit address comparator: P=k threshold; Y low iff enabled and A1..Ak low, A(k+1)..A16 high (SN74ALS677A function table, all 16 rows). 64 directed + 1000 random vectors; lint clean.
 
 ### 74x678 - 16-bit address comparator, latch
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x678
 - Aliases: none
 - Source section: Larger footprints
@@ -9846,6 +9846,7 @@ For every chip:
 - README: rtl/chips/ttl_74x678/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - 16-bit address comparator with transparent output latch (C high=transparent y=~match, C low=hold). Compare core same as '677. always_latch. Directed + latch-hold sequences + 2000 random; lint clean.
 
 ### 74x679 - 12-bit address comparator, latch
 - Status: [x]

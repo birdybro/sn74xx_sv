@@ -12876,9 +12876,10 @@
     "pins": "24",
     "datasheet": "SN74ALS678",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n507",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL",
+      "16-bit address comparator with transparent output latch (C high=transparent y=~match, C low=hold). Compare core same as '677. always_latch. Directed + latch-hold sequences + 2000 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x678/ttl_74x678.sv",
     "testbench_path": "tb/chips/ttl_74x678/tb_ttl_74x678.sv",
