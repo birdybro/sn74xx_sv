@@ -10109,6 +10109,7 @@ For every chip:
 - README: rtl/chips/ttl_74x694/README.md
 - Notes:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
+  - Not present in the TI SN54LS690-693 / SN54LS696-699 databook — the family skips 694/695 (690-693, then 696-699). No datasheet found in TI/Signetics/Wikipedia sources; likely a spurious entry in the Wikipedia-derived list. Verify the part actually exists before attempting.
 
 ### 74x695 - 4-bit binary counter/latch/multiplexer, synchronous and asynchronous clears
 - Status: [!]
@@ -10125,6 +10126,7 @@ For every chip:
 - README: rtl/chips/ttl_74x695/README.md
 - Notes:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
+  - Not present in the TI SN54LS690-693 / SN54LS696-699 databook — the family skips 694/695. No datasheet found; likely a spurious entry in the Wikipedia-derived list. Verify existence before attempting.
 
 ### 74x696 - 4-bit decimal counter/register/multiplexer, asynchronous clear
 - Status: [x]
@@ -10486,6 +10488,7 @@ For every chip:
 - README: rtl/chips/ttl_74x732/README.md
 - Notes:
   - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
+  - Datasheet LOCATED: Signetics FAST 74F732 (Quad 4-bit 3-bus data multiplexer, bidirectional A/B/C buses, inverting, 3-state). chips.json datasheet_url page pointer was wrong (pointed to the 723/725 FIFO page). Correct location: bitsavers signeticsdaManual_57966640 pages n790-791. Held blocked: the routing FUNCTION TABLE (select S0..S2 / OEA,OEB,OEC -> source->dest) is not legible enough in the available scan to implement faithfully; needs a clearer datasheet.
 
 ### 74x733 - 4-bit 3-bus multiplexer, non-inverting
 - Status: [!]
@@ -10502,6 +10505,7 @@ For every chip:
 - README: rtl/chips/ttl_74x733/README.md
 - Notes:
   - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
+  - Datasheet LOCATED: Signetics FAST 74F733 (Quad 4-bit 3-bus data multiplexer, bidirectional, NON-inverting, 3-state). Correct location: bitsavers signeticsdaManual_57966640 pages n790-791 (chips.json pointer was wrong). Held blocked: routing function table not legible enough in the scan to implement faithfully; needs a clearer datasheet.
 
 ### 74x734 - octal dRAM driver, non-inverting
 - Status: [x]
