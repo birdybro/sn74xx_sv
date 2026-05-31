@@ -15381,9 +15381,10 @@
     "pins": "24",
     "datasheet": "SN74ALS867A",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als867a",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation",
+      "Synchronous 8-bit up/down counter, ASYNC clear (SN74ALS867A/AS867, SDAS115C). Mode S1S0 select; ENP/ENT; /RCO. Async clear when S1=S0=L. Reference-model tb (directed + 2000 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x867/ttl_74x867.sv",
     "testbench_path": "tb/chips/ttl_74x867/tb_ttl_74x867.sv",

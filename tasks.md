@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1162
-- blocked: 366
+- complete: 1163
+- blocked: 365
 - digital_only_approximation: 27
 
 ## Chips
@@ -11747,7 +11747,7 @@ For every chip:
   - 8-bit magnitude comparator with P/Q input latches, output latch, async Q-clear, signed/unsigned, cascade, P=Q (open-collector, OC not modeled) (SN74AS866, D2661). Reference-model tb (directed + 3000 random); lint clean.
 
 ### 74x867 - synchronous 8-bit up/down counter, asynchronous clear
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x867
 - Aliases: none
 - Source section: Larger footprints
@@ -11761,6 +11761,7 @@ For every chip:
 - README: rtl/chips/ttl_74x867/README.md
 - Notes:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
+  - Synchronous 8-bit up/down counter, ASYNC clear (SN74ALS867A/AS867, SDAS115C). Mode S1S0 select; ENP/ENT; /RCO. Async clear when S1=S0=L. Reference-model tb (directed + 2000 random); lint clean.
 
 ### 74x869 - synchronous 8-bit up/down counter, synchronous clear
 - Status: [x]
