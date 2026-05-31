@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1172
-- blocked: 356
+- complete: 1173
+- blocked: 355
 - digital_only_approximation: 27
 
 ## Chips
@@ -11397,7 +11397,7 @@ For every chip:
   - Inverting twin of 74x833; bus outputs inverted, parity logic identical; Verilator lint+sim clean
 
 ### 74x835 - 8-bit shift register with 2:1 input multiplexers, one input latched, serial output
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x835
 - Aliases: none
 - Source section: Larger footprints
@@ -11411,6 +11411,7 @@ For every chip:
 - README: rtl/chips/ttl_74x835/README.md
 - Notes:
   - Shift-register variant datasheet not accessible from current sources
+  - 8-bit shift register with 2:1 mux-in + transparent B-input latch (combines '373+two'157+'166) (Philips 74F835). PE load/shift, LE latch, SA/B mux, serial DS/Q7. Reference-model tb, directed all modes + 1500 random; lint clean.
 
 ### 74x839 - field-programmable logic array 14x32x6
 - Status: [!]

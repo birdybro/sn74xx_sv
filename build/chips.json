@@ -14921,9 +14921,10 @@
     "pins": "24",
     "datasheet": "74F835",
     "datasheet_url": "https://web.archive.org/web/20220331111840/https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F835_PhilipsSemiconductors.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Shift-register variant datasheet not accessible from current sources"
+      "Shift-register variant datasheet not accessible from current sources",
+      "8-bit shift register with 2:1 mux-in + transparent B-input latch (combines '373+two'157+'166) (Philips 74F835). PE load/shift, LE latch, SA/B mux, serial DS/Q7. Reference-model tb, directed all modes + 1500 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x835/ttl_74x835.sv",
     "testbench_path": "tb/chips/ttl_74x835/tb_ttl_74x835.sv",
