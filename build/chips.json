@@ -20021,9 +20021,10 @@
     "pins": "(16)",
     "datasheet": "CD74FCT2253",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n191",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet",
+      "Dual 4:1 mux, 3-state; logically identical to '253 (the '2253 adds electrical series-damping resistors, not modeled). Exhaustive 4096-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2253/ttl_74x2253.sv",
     "testbench_path": "tb/chips/ttl_74x2253/tb_ttl_74x2253.sv",
@@ -20042,9 +20043,10 @@
     "pins": "(16)",
     "datasheet": "CD74FCT2257",
     "datasheet_url": "https://archive.org/details/bitsavers_harrisdataCTLogic_25505286/page/n197",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet",
+      "Quad 2:1 mux, 3-state; logically identical to '257 (the '2257 adds electrical series-damping resistors, not modeled). Exhaustive 1024-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2257/ttl_74x2257.sv",
     "testbench_path": "tb/chips/ttl_74x2257/tb_ttl_74x2257.sv",

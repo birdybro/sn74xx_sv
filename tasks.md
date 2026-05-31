@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1144
-- blocked: 384
+- complete: 1146
+- blocked: 382
 - digital_only_approximation: 27
 
 ## Chips
@@ -15276,7 +15276,7 @@ For every chip:
   - Twin of base 240/244/245 family; Verilator lint+sim clean
 
 ### 74x2253 - dual 4-line to 1-line multiplexer
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2253
 - Aliases: none
 - Source section: Larger footprints
@@ -15290,9 +15290,10 @@ For every chip:
 - README: rtl/chips/ttl_74x2253/README.md
 - Notes:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
+  - Dual 4:1 mux, 3-state; logically identical to '253 (the '2253 adds electrical series-damping resistors, not modeled). Exhaustive 4096-vector tb; lint clean.
 
 ### 74x2257 - quad 2-line to 1-line multiplexer
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2257
 - Aliases: none
 - Source section: Larger footprints
@@ -15306,6 +15307,7 @@ For every chip:
 - README: rtl/chips/ttl_74x2257/README.md
 - Notes:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
+  - Quad 2:1 mux, 3-state; logically identical to '257 (the '2257 adds electrical series-damping resistors, not modeled). Exhaustive 1024-vector tb; lint clean.
 
 ### 74x2273 - octal D-type flip-flop, shared clock and clear
 - Status: [x]
