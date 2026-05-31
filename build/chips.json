@@ -15138,9 +15138,10 @@
     "pins": "28",
     "datasheet": "SN74AS851",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n603",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation",
+      "16:1 mux, latched (enable-controlled) select, complementary 3-state Y/W with /G,/GY,/GW (SN74AS851; SC low=transparent). always_latch. Reference-model tb (16 selects, 8 control combos, hold, 2000 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x851/ttl_74x851.sv",
     "testbench_path": "tb/chips/ttl_74x851/tb_ttl_74x851.sv",
