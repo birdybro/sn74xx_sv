@@ -17888,9 +17888,10 @@
     "pins": "20",
     "datasheet": "QS74FCT1280",
     "datasheet_url": "https://web.archive.org/web/20181117162114/https://4donline.ihs.com/images/VipMasterIC/IC/QSEM/QSEMD004/QSEMD004-3-71.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet",
+      "9-bit parity gen/checker with registered outputs (QS74FCT1280): sum_o=^i[7:0]^(en8&i8), registered QSe/QSo with /CEN clock-enable, async /CLR, /OER 3-state. Exhaustive 1024 comb + directed + 2000 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1280/ttl_74x1280.sv",
     "testbench_path": "tb/chips/ttl_74x1280/tb_ttl_74x1280.sv",

@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1160
-- blocked: 368
+- complete: 1161
+- blocked: 367
 - digital_only_approximation: 27
 
 ## Chips
@@ -13655,7 +13655,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x1280 - 9-bit parity generator/checker with registered outputs
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1280
 - Aliases: none
 - Source section: Larger footprints
@@ -13669,6 +13669,7 @@ For every chip:
 - README: rtl/chips/ttl_74x1280/README.md
 - Notes:
   - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
+  - 9-bit parity gen/checker with registered outputs (QS74FCT1280): sum_o=^i[7:0]^(en8&i8), registered QSe/QSo with /CEN clock-enable, async /CLR, /OER 3-state. Exhaustive 1024 comb + directed + 2000 random; lint clean.
 
 ### 74x1284 - parallel printer interface transceiver / buffer (IEEE 1284)
 - Status: [!]
