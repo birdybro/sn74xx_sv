@@ -12854,9 +12854,10 @@
     "pins": "24",
     "datasheet": "SN74ALS677",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n507",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL",
+      "16-bit address comparator: P=k threshold; Y low iff enabled and A1..Ak low, A(k+1)..A16 high (SN74ALS677A function table, all 16 rows). 64 directed + 1000 random vectors; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x677/ttl_74x677.sv",
     "testbench_path": "tb/chips/ttl_74x677/tb_ttl_74x677.sv",
