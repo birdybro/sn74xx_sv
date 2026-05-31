@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1154
-- blocked: 374
+- complete: 1155
+- blocked: 373
 - digital_only_approximation: 27
 
 ## Chips
@@ -10127,7 +10127,7 @@ For every chip:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
 
 ### 74x696 - 4-bit decimal counter/register/multiplexer, asynchronous clear
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x696
 - Aliases: none
 - Source section: Larger footprints
@@ -10141,6 +10141,7 @@ For every chip:
 - README: rtl/chips/ttl_74x696/README.md
 - Notes:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
+  - 4-bit decade up/down counter + snapshot register (no reg clear) + R/C mux + /G 3-state (SN74LS696, D2424). Async clear. Up/down version of '690. Reference-model tb + 1500 random; lint clean.
 
 ### 74x697 - 4-bit binary counter/register/multiplexer, asynchronous clear
 - Status: [!]
