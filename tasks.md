@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1168
-- blocked: 360
+- complete: 1169
+- blocked: 359
 - digital_only_approximation: 27
 
 ## Chips
@@ -9719,7 +9719,7 @@ For every chip:
   - 4x4 register file with independent read/write ports; level-sensitive (transparent) write; Verilator lint+sim clean
 
 ### 74x671 - 4-bit bidirectional shift register/latch/multiplexer, direct clear
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x671
 - Aliases: none
 - Source section: Larger footprints
@@ -9733,6 +9733,7 @@ For every chip:
 - README: rtl/chips/ttl_74x671/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - 4-bit universal shift register ('194A-like) + storage register ('175) + R/S output mux ('258-like) + cascade out, DIRECT (async) SR clear (SN74LS671, D2638). Reference-model tb (directed + 1500 random); lint clean.
 
 ### 74x672 - 4-bit bidirectional shift register/latch/multiplexer, synchronous clear
 - Status: [!]

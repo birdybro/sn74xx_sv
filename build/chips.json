@@ -12728,9 +12728,10 @@
     "pins": "20",
     "datasheet": "SN74LS671",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol2_45945352/page/n1327",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL",
+      "4-bit universal shift register ('194A-like) + storage register ('175) + R/S output mux ('258-like) + cascade out, DIRECT (async) SR clear (SN74LS671, D2638). Reference-model tb (directed + 1500 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x671/ttl_74x671.sv",
     "testbench_path": "tb/chips/ttl_74x671/tb_ttl_74x671.sv",
