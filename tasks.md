@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1167
-- blocked: 361
+- complete: 1168
+- blocked: 360
 - digital_only_approximation: 27
 
 ## Chips
@@ -9751,7 +9751,7 @@ For every chip:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x673 - 16-bit serial-in, serial/parallel-out shift register, output storage registers
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x673
 - Aliases: none
 - Source section: Larger footprints
@@ -9765,6 +9765,7 @@ For every chip:
 - README: rtl/chips/ttl_74x673/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - 16-bit shift register + 16-bit storage register with data loop (SN74LS673, SDLS195). Shift: write/read-recirc/parallel-load-from-storage; storage: async clear + load-from-shift on dual-use MODE/STRCLK rising edge. Directed BEEF round-trip + 1500 random; lint clean.
 
 ### 74x674 - 16-bit parallel-in, serial-out shift register
 - Status: [x]
