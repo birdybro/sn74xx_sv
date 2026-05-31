@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1150
-- blocked: 378
+- complete: 1151
+- blocked: 377
 - digital_only_approximation: 27
 
 ## Chips
@@ -10304,7 +10304,7 @@ For every chip:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x711 - quint 2-to-1 multiplexers
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x711
 - Aliases: none
 - Source section: Larger footprints
@@ -10318,6 +10318,7 @@ For every chip:
 - README: rtl/chips/ttl_74x711/README.md
 - Notes:
   - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
+  - Quint 2:1 mux, common select + common active-low 3-state OE (74F711; q[n]=oe_n?Z:(s?db:da)). Exhaustive 4096-vector tb; lint clean.
 
 ### 74x712 - quint 3-to-1 multiplexers
 - Status: [!]

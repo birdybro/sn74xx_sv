@@ -13493,9 +13493,10 @@
     "pins": "20",
     "datasheet": "74F711",
     "datasheet_url": "https://archive.org/details/bitsavers_signeticsdaManual_57966640/page/n777",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL"
+      "Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL",
+      "Quint 2:1 mux, common select + common active-low 3-state OE (74F711; q[n]=oe_n?Z:(s?db:da)). Exhaustive 4096-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x711/ttl_74x711.sv",
     "testbench_path": "tb/chips/ttl_74x711/tb_ttl_74x711.sv",
