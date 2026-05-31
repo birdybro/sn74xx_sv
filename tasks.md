@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1113
-- blocked: 415
+- complete: 1121
+- blocked: 407
 - digital_only_approximation: 27
 
 ## Chips
@@ -23958,7 +23958,7 @@ IDT74FST3245
   - Single SPDT analog switch / mux; CMOS transmission gate
 
 ### 74x2G57 - dual configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -23972,9 +23972,10 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x2g57/README.md
 - Notes:
   - Dual configurable 7-function gate; requires datasheet
+  - Dual config gate; per-gate y = in2 ? in1 : ~in0. gen_config_gate.py. Exhaustive 64-vector tb; lint clean.
 
 ### 74x2G58 - dual configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -23988,6 +23989,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x2g58/README.md
 - Notes:
   - Dual configurable 7-function gate; requires datasheet
+  - Dual config gate; per-gate y = in2 ? ~in1 : in0. gen_config_gate.py. Exhaustive 64-vector tb; lint clean.
 
 ### 74x2G66 - dual SPST analog switch
 - Status: [!]
@@ -24070,7 +24072,7 @@ IDT74FST3245
   - Dual 2-input XOR. Verilator + Yosys clean.
 
 ### 74x2G97 - dual configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -24084,9 +24086,10 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x2g97/README.md
 - Notes:
   - Dual configurable 7-function gate; requires datasheet
+  - Dual config gate; per-gate y = in2 ? in0 : in1. Generated via gen_config_gate.py. Exhaustive 64-vector tb; lint clean.
 
 ### 74x2G98 - dual configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -24100,6 +24103,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x2g98/README.md
 - Notes:
   - Dual configurable 7-function gate; requires datasheet
+  - Dual config gate; per-gate y = ~(in2 ? in0 : in1). gen_config_gate.py. Exhaustive 64-vector tb; lint clean.
 
 ### 74x2G125 - dual bus buffer, active-low enable
 - Status: [x]
@@ -24374,7 +24378,7 @@ IDT74FST3245
   - Triple buffer. Verilator + Yosys clean.
 
 ### 74x3G57 - triple configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x3g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -24388,9 +24392,10 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x3g57/README.md
 - Notes:
   - Triple configurable 7-function gate; requires datasheet
+  - Triple config gate; per-gate y = in2 ? in1 : ~in0. gen_config_gate.py. Exhaustive 512-vector tb; lint clean.
 
 ### 74x3G58 - triple configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x3g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -24404,9 +24409,10 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x3g58/README.md
 - Notes:
   - Triple configurable 7-function gate; requires datasheet
+  - Triple config gate; per-gate y = in2 ? ~in1 : in0. gen_config_gate.py. Exhaustive 512-vector tb; lint clean.
 
 ### 74x3G97 - triple configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x3g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -24420,9 +24426,10 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x3g97/README.md
 - Notes:
   - Triple configurable 7-function gate; requires datasheet
+  - Triple config gate; per-gate y = in2 ? in0 : in1. gen_config_gate.py. Exhaustive 512-vector tb; lint clean.
 
 ### 74x3G98 - triple configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x3g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -24436,6 +24443,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x3g98/README.md
 - Notes:
   - Triple configurable 7-function gate; requires datasheet
+  - Triple config gate; per-gate y = ~(in2 ? in0 : in1). gen_config_gate.py. Exhaustive 512-vector tb; lint clean.
 
 ### 74x3G0434 - dual inverter and single buffer
 - Status: [x]

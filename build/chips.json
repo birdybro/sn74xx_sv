@@ -31414,9 +31414,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G57.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Dual configurable 7-function gate; requires datasheet"
+      "Dual configurable 7-function gate; requires datasheet",
+      "Dual config gate; per-gate y = in2 ? in1 : ~in0. gen_config_gate.py. Exhaustive 64-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2g57/ttl_74x2g57.sv",
     "testbench_path": "tb/chips/ttl_74x2g57/tb_ttl_74x2g57.sv",
@@ -31435,9 +31436,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G58.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Dual configurable 7-function gate; requires datasheet"
+      "Dual configurable 7-function gate; requires datasheet",
+      "Dual config gate; per-gate y = in2 ? ~in1 : in0. gen_config_gate.py. Exhaustive 64-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2g58/ttl_74x2g58.sv",
     "testbench_path": "tb/chips/ttl_74x2g58/tb_ttl_74x2g58.sv",
@@ -31561,9 +31563,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G97.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Dual configurable 7-function gate; requires datasheet"
+      "Dual configurable 7-function gate; requires datasheet",
+      "Dual config gate; per-gate y = in2 ? in0 : in1. Generated via gen_config_gate.py. Exhaustive 64-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2g97/ttl_74x2g97.sv",
     "testbench_path": "tb/chips/ttl_74x2g97/tb_ttl_74x2g97.sv",
@@ -31582,9 +31585,10 @@
     "pins": "10",
     "datasheet": "AUP",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74AUP2G98.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Dual configurable 7-function gate; requires datasheet"
+      "Dual configurable 7-function gate; requires datasheet",
+      "Dual config gate; per-gate y = ~(in2 ? in0 : in1). gen_config_gate.py. Exhaustive 64-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2g98/ttl_74x2g98.sv",
     "testbench_path": "tb/chips/ttl_74x2g98/tb_ttl_74x2g98.sv",
@@ -31960,9 +31964,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g57.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Triple configurable 7-function gate; requires datasheet"
+      "Triple configurable 7-function gate; requires datasheet",
+      "Triple config gate; per-gate y = in2 ? in1 : ~in0. gen_config_gate.py. Exhaustive 512-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x3g57/ttl_74x3g57.sv",
     "testbench_path": "tb/chips/ttl_74x3g57/tb_ttl_74x3g57.sv",
@@ -31981,9 +31986,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g58.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Triple configurable 7-function gate; requires datasheet"
+      "Triple configurable 7-function gate; requires datasheet",
+      "Triple config gate; per-gate y = in2 ? ~in1 : in0. gen_config_gate.py. Exhaustive 512-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x3g58/ttl_74x3g58.sv",
     "testbench_path": "tb/chips/ttl_74x3g58/tb_ttl_74x3g58.sv",
@@ -32002,9 +32008,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g97.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Triple configurable 7-function gate; requires datasheet"
+      "Triple configurable 7-function gate; requires datasheet",
+      "Triple config gate; per-gate y = in2 ? in0 : in1. gen_config_gate.py. Exhaustive 512-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x3g97/ttl_74x3g97.sv",
     "testbench_path": "tb/chips/ttl_74x3g97/tb_ttl_74x3g97.sv",
@@ -32023,9 +32030,10 @@
     "pins": "14",
     "datasheet": "LVC",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74lvc3g98.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Triple configurable 7-function gate; requires datasheet"
+      "Triple configurable 7-function gate; requires datasheet",
+      "Triple config gate; per-gate y = ~(in2 ? in0 : in1). gen_config_gate.py. Exhaustive 512-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x3g98/ttl_74x3g98.sv",
     "testbench_path": "tb/chips/ttl_74x3g98/tb_ttl_74x3g98.sv",
