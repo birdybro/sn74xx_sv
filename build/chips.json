@@ -32390,9 +32390,10 @@
     "pins": "6",
     "datasheet": "AUP",
     "datasheet_url": "https://www.ti.com/lit/ds/symlink/sn74aup1t58.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Configurable 9-function gate; requires datasheet"
+      "Configurable 9-function gate; requires datasheet",
+      "AUP single-supply translator (digital pass-through). Logic = '1G97: y = c ? a : b (SN74AUP1T97 Table 7-1, verified). Exhaustive 8-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1t97/ttl_74x1t97.sv",
     "testbench_path": "tb/chips/ttl_74x1t97/tb_ttl_74x1t97.sv",

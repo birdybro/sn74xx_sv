@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1123
-- blocked: 405
+- complete: 1124
+- blocked: 404
 - digital_only_approximation: 27
 
 ## Chips
@@ -24707,7 +24707,7 @@ IDT74FST3245
   - Single XNOR. Verilator + Yosys clean.
 
 ### 74x1T97 - single-supply configurable 9-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1t97
 - Aliases: none
 - Source section: Voltage translation
@@ -24721,6 +24721,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1t97/README.md
 - Notes:
   - Configurable 9-function gate; requires datasheet
+  - AUP single-supply translator (digital pass-through). Logic = '1G97: y = c ? a : b (SN74AUP1T97 Table 7-1, verified). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1T98 - single-supply configurable 9-function gate
 - Status: [!]
