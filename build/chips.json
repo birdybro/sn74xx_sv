@@ -16412,9 +16412,10 @@
     "pins": "16",
     "datasheet": "MM74C929",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n155",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study",
+      "1024x1 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x929/ttl_74x929.sv",
     "testbench_path": "tb/chips/ttl_74x929/tb_ttl_74x929.sv",

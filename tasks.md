@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1132
-- blocked: 396
+- complete: 1133
+- blocked: 395
 - digital_only_approximation: 27
 
 ## Chips
@@ -12528,7 +12528,7 @@ For every chip:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
 
 ### 74x929 - 1024-bit RAM (1024x1), single chip select
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x929
 - Aliases: none
 - Source section: Larger footprints
@@ -12542,6 +12542,7 @@ For every chip:
 - README: rtl/chips/ttl_74x929/README.md
 - Notes:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
+  - 1024x1 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean.
 
 ### 74x930 - 1024-bit RAM (1024x1), three chip selects
 - Status: [!]
