@@ -19232,9 +19232,10 @@
     "pins": "(52)",
     "datasheet": "SN74ACT2140A",
     "datasheet_url": "https://usermanual.wiki/Document/1990TICacheMemoryManagementDataBook.1210032352.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet"
+      "Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet",
+      "8192x18 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x2140/ttl_74x2140.sv",
     "testbench_path": "tb/chips/ttl_74x2140/tb_ttl_74x2140.sv",

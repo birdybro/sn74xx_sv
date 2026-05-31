@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1134
-- blocked: 394
+- complete: 1135
+- blocked: 393
 - digital_only_approximation: 27
 
 ## Chips
@@ -14674,7 +14674,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2140 - 8k x 18 cache data RAM
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2140
 - Aliases: none
 - Source section: Larger footprints
@@ -14688,6 +14688,7 @@ For every chip:
 - README: rtl/chips/ttl_74x2140/README.md
 - Notes:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
+  - 8192x18 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean.
 
 ### 74x2150 - 512 x 8 cache address comparator
 - Status: [!]
