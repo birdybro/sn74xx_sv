@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1149
-- blocked: 379
+- complete: 1150
+- blocked: 378
 - digital_only_approximation: 27
 
 ## Chips
@@ -10078,7 +10078,7 @@ For every chip:
   - 4-bit decade counter + snapshot register + R/C mux + /G 3-state, SYNCHRONOUS counter clear (SN74LS692, D2423; datasheet 'register', chips.json 'latch'). Reference-model tb + 1500 random; lint clean.
 
 ### 74x693 - 4-bit binary counter/latch/multiplexer, synchronous clear
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x693
 - Aliases: none
 - Source section: Larger footprints
@@ -10092,6 +10092,7 @@ For every chip:
 - README: rtl/chips/ttl_74x693/README.md
 - Notes:
   - Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL
+  - 4-bit binary counter + snapshot register + R/C mux + /G 3-state, SYNCHRONOUS counter clear (SN74LS693, D2423; datasheet 'register', chips.json 'latch'). Reference-model tb + 1500 random; lint clean.
 
 ### 74x694 - 4-bit decimal counter/latch/multiplexer, synchronous and asynchronous clears
 - Status: [!]
