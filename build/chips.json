@@ -12791,9 +12791,10 @@
     "pins": "24",
     "datasheet": "SN74LS674",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls674",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL",
+      "16-bit parallel-in serial-out shift register, 4 modes (hold/write/read-recirculate/load), falling-edge clk, 3-state SER/Q15 (split si/q15) (SN74LS674, SDLS195). Reference-model tb (directed + 1500 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x674/ttl_74x674.sv",
     "testbench_path": "tb/chips/ttl_74x674/tb_ttl_74x674.sv",
