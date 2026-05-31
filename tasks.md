@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1151
-- blocked: 377
+- complete: 1152
+- blocked: 376
 - digital_only_approximation: 27
 
 ## Chips
@@ -10321,7 +10321,7 @@ For every chip:
   - Quint 2:1 mux, common select + common active-low 3-state OE (74F711; q[n]=oe_n?Z:(s?db:da)). Exhaustive 4096-vector tb; lint clean.
 
 ### 74x712 - quint 3-to-1 multiplexers
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x712
 - Aliases: none
 - Source section: Larger footprints
@@ -10335,6 +10335,7 @@ For every chip:
 - README: rtl/chips/ttl_74x712/README.md
 - Notes:
   - Mux/3-bus-mux datasheet not accessible; needs confirmation of select/enable pin organization before RTL
+  - Quint 3:1 mux, selects S0/S1 (74F712; S1 high->c else S0 picks a/b; no OE). Exhaustive 131072-vector tb; lint clean.
 
 ### 74x715 - programmable video sync generator
 - Status: [!]
