@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1111
-- blocked: 417
+- complete: 1112
+- blocked: 416
 - digital_only_approximation: 27
 
 ## Chips
@@ -23313,7 +23313,7 @@ IDT74FST3245
   - Single 2-input NAND (open-drain not modeled). Verilator + Yosys clean.
 
 ### 74x1G57 - single configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1g57
 - Aliases: none
 - Source section: Smaller footprints
@@ -23327,6 +23327,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1g57/README.md
 - Notes:
   - Configurable 7-function gate; function selection by input wiring requires datasheet
+  - Config gate y = in2 ? in1 : ~in0 (SN74LVC1G57 Table 1; offers XNOR). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1G58 - single configurable 7-function gate
 - Status: [!]

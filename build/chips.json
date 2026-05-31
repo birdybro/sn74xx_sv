@@ -30569,9 +30569,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G57.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+      "Configurable 7-function gate; function selection by input wiring requires datasheet",
+      "Config gate y = in2 ? in1 : ~in0 (SN74LVC1G57 Table 1; offers XNOR). Exhaustive 8-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1g57/ttl_74x1g57.sv",
     "testbench_path": "tb/chips/ttl_74x1g57/tb_ttl_74x1g57.sv",
