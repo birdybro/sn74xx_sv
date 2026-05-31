@@ -13327,9 +13327,10 @@
     "pins": "20",
     "datasheet": "SN74LS699",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74ls697",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL"
+      "Counter/latch/multiplexer family datasheet not accessible from current sources; needs confirmation of control-pin set (load, count, latch, mux-select, OE) before RTL",
+      "4-bit binary up/down counter + register + R/C mux + /G, SYNCHRONOUS clear (SN74LS699, D2424). Reference-model tb + 1500 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x699/ttl_74x699.sv",
     "testbench_path": "tb/chips/ttl_74x699/tb_ttl_74x699.sv",
