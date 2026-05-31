@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1129
-- blocked: 399
+- complete: 1130
+- blocked: 398
 - digital_only_approximation: 27
 
 ## Chips
@@ -12269,7 +12269,7 @@ For every chip:
   - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
 
 ### 74x910 - 256-bit RAM (64x4)
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x910
 - Aliases: none
 - Source section: Larger footprints
@@ -12283,6 +12283,7 @@ For every chip:
 - README: rtl/chips/ttl_74x910/README.md
 - Notes:
   - Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study
+  - 64x4 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean.
 
 ### 74x911 - 4-digit expandable display controller
 - Status: [!]

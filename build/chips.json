@@ -16073,9 +16073,10 @@
     "pins": "18",
     "datasheet": "MM74C910",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSIntegratedCircuits_16413029/page/n115",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study"
+      "Specialized (SAR / voltage comparator analog / RAM / display controllers) — needs dedicated datasheet study",
+      "64x4 RAM via gen_ram.py; sync write / async read, split I/O, INIT_FILE load. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x910/ttl_74x910.sv",
     "testbench_path": "tb/chips/ttl_74x910/tb_ttl_74x910.sv",
