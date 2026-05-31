@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1159
-- blocked: 369
+- complete: 1160
+- blocked: 368
 - digital_only_approximation: 27
 
 ## Chips
@@ -12370,7 +12370,7 @@ For every chip:
   - Hex inverter with Schmitt input; Verilator lint+sim clean
 
 ### 74x915 - 7-segment to BCD converter
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x915
 - Aliases: none
 - Source section: Larger footprints
@@ -12384,6 +12384,7 @@ For every chip:
 - README: rtl/chips/ttl_74x915/README.md
 - Notes:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
+  - 7-segment to BCD converter (MM74C915): invert control, output latch (LE), 3-state (OE), Error and Minus flags. Decodes against library-canonical ttl_pkg font (inverse of '47/'48); datasheet specifies 'standard 7-seg' without a pattern table. 256 exhaustive + directed + 2000 random; lint clean.
 
 ### 74x917 - 6-digit hex display controller and driver
 - Status: [!]

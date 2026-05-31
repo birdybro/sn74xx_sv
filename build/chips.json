@@ -16199,9 +16199,10 @@
     "pins": "18",
     "datasheet": "MM74C915",
     "datasheet_url": "https://archive.org/details/bitsavers_nationaldaCMOSDatabook_23595721/page/n141",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study",
+      "7-segment to BCD converter (MM74C915): invert control, output latch (LE), 3-state (OE), Error and Minus flags. Decodes against library-canonical ttl_pkg font (inverse of '47/'48); datasheet specifies 'standard 7-seg' without a pattern table. 256 exhaustive + directed + 2000 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x915/ttl_74x915.sv",
     "testbench_path": "tb/chips/ttl_74x915/tb_ttl_74x915.sv",
