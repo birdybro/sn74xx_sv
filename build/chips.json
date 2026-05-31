@@ -13637,9 +13637,10 @@
     "pins": "28",
     "datasheet": "74ACT725",
     "datasheet_url": "https://archive.org/details/bitsavers_fairchilddldFACTLogicDataBook_27153725/page/n395",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL"
+      "Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL",
+      "512x9 synchronous FIFO via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x725/ttl_74x725.sv",
     "testbench_path": "tb/chips/ttl_74x725/tb_ttl_74x725.sv",

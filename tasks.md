@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1137
-- blocked: 391
+- complete: 1138
+- blocked: 390
 - digital_only_approximation: 27
 
 ## Chips
@@ -10413,7 +10413,7 @@ For every chip:
   - Voltage-controlled multivibrator with analog inputs; not a synthesizable digital part for this library
 
 ### 74x725 - 4608-bit FIFO memory (512x9)
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x725
 - Aliases: none
 - Source section: Larger footprints
@@ -10427,6 +10427,7 @@ For every chip:
 - README: rtl/chips/ttl_74x725/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - 512x9 synchronous FIFO via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean.
 
 ### 74x730 - octal dRAM driver, inverting
 - Status: [x]
