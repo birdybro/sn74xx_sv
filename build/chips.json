@@ -17747,9 +17747,10 @@
     "pins": "24",
     "datasheet": "SN74AS1181",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBook_28346484/page/n503",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet"
+      "Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet",
+      "4-bit ALU, '181 family speed grade (SN74AS1181, D1915). Datasheet addition-time table groups 'AS1181 with 'AS181A/'AS882, confirming '181 function identity. Same impl as 881/181. Exhaustive 16384-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1181/ttl_74x1181.sv",
     "testbench_path": "tb/chips/ttl_74x1181/tb_ttl_74x1181.sv",

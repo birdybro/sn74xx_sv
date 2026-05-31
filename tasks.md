@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1165
-- blocked: 363
+- complete: 1166
+- blocked: 362
 - digital_only_approximation: 27
 
 ## Chips
@@ -13549,7 +13549,7 @@ For every chip:
   - Verilator lint+sim clean
 
 ### 74x1181 - 4-bit arithmetic logic unit
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1181
 - Aliases: none
 - Source section: Larger footprints
@@ -13563,6 +13563,7 @@ For every chip:
 - README: rtl/chips/ttl_74x1181/README.md
 - Notes:
   - Termination array / IEEE 1284 / GTLP transceiver / wider parity register — needs datasheet
+  - 4-bit ALU, '181 family speed grade (SN74AS1181, D1915). Datasheet addition-time table groups 'AS1181 with 'AS181A/'AS882, confirming '181 function identity. Same impl as 881/181. Exhaustive 16384-vector tb; lint clean.
 
 ### 74x1240 - octal buffer / line driver, inverting (lower-power version of 74x240)
 - Status: [x]
