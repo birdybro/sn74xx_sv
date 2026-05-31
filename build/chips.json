@@ -15614,9 +15614,10 @@
     "pins": "24",
     "datasheet": "SN74AS881A",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n681",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL",
+      "4-bit ALU, Advanced-Schottky member of the '181 family (same pinset/function table; AS881A databook page was advance-info). Function verified against SN74181 table. Exhaustive 16384-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x881/ttl_74x881.sv",
     "testbench_path": "tb/chips/ttl_74x881/tb_ttl_74x881.sv",

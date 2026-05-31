@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1163
-- blocked: 365
+- complete: 1164
+- blocked: 364
 - digital_only_approximation: 27
 
 ## Chips
@@ -11925,7 +11925,7 @@ For every chip:
   - Per SN74ALS873B family datasheet (SDAS036D); two independent 4-bit units, each with own LE/clk, /CLR or /PRE, /OE; Verilator lint+sim clean
 
 ### 74x881 - 4-bit arithmetic logic unit
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x881
 - Aliases: none
 - Source section: Larger footprints
@@ -11939,6 +11939,7 @@ For every chip:
 - README: rtl/chips/ttl_74x881/README.md
 - Notes:
   - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
+  - 4-bit ALU, Advanced-Schottky member of the '181 family (same pinset/function table; AS881A databook page was advance-info). Function verified against SN74181 table. Exhaustive 16384-vector tb; lint clean.
 
 ### 74x882 - 32-bit lookahead carry generator
 - Status: [!]
