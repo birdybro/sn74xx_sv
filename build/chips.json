@@ -30738,9 +30738,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G98.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+      "Configurable 7-function gate; function selection by input wiring requires datasheet",
+      "Inverting 2-to-1 mux y = ~(in2 ? in0 : in1) (SN74LVC1G98 Function Table). Exhaustive 8-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1g98/ttl_74x1g98.sv",
     "testbench_path": "tb/chips/ttl_74x1g98/tb_ttl_74x1g98.sv",

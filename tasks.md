@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1109
-- blocked: 419
+- complete: 1110
+- blocked: 418
 - digital_only_approximation: 27
 
 ## Chips
@@ -23442,7 +23442,7 @@ IDT74FST3245
   - 2-to-1 mux silicon function y = in2 ? in0 : in1 (datasheet SN74LVC1G97 Table 1). Exhaustive 8-vector tb passes; Verilator lint clean.
 
 ### 74x1G98 - single configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1g98
 - Aliases: none
 - Source section: Smaller footprints
@@ -23456,6 +23456,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1g98/README.md
 - Notes:
   - Configurable 7-function gate; function selection by input wiring requires datasheet
+  - Inverting 2-to-1 mux y = ~(in2 ? in0 : in1) (SN74LVC1G98 Function Table). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1G99 - single configurable 15-function gate, active-low enable
 - Status: [!]
