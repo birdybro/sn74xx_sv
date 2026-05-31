@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1126
-- blocked: 402
+- complete: 1127
+- blocked: 401
 - digital_only_approximation: 27
 
 ## Chips
@@ -9848,7 +9848,7 @@ For every chip:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
 
 ### 74x679 - 12-bit address comparator, latch
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x679
 - Aliases: none
 - Source section: Larger footprints
@@ -9862,6 +9862,7 @@ For every chip:
 - README: rtl/chips/ttl_74x679/README.md
 - Notes:
   - Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL
+  - 12-bit address comparator with ENABLE (datasheet '679 = enable, not latch; chips.json description is reversed). Same threshold scheme as '677, 12 A inputs. Exhaustive 131072-vector tb; lint clean.
 
 ### 74x680 - 12-bit address comparator, enable
 - Status: [!]
