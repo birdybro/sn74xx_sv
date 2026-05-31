@@ -15116,9 +15116,10 @@
     "pins": "28",
     "datasheet": "SN74AS850",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n603",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation",
+      "16:1 mux, clocked select register, complementary 3-state Y/W with master /G + per-output /GY,/GW (SN74AS850). Reference-model tb (all 16 selects, 8 control combos, hold, 2000 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x850/ttl_74x850.sv",
     "testbench_path": "tb/chips/ttl_74x850/tb_ttl_74x850.sv",

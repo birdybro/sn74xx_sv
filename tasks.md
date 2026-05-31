@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1152
-- blocked: 376
+- complete: 1153
+- blocked: 375
 - digital_only_approximation: 27
 
 ## Chips
@@ -11542,7 +11542,7 @@ For every chip:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x850 - 1 of 16 data selector/multiplexer, clocked select
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x850
 - Aliases: none
 - Source section: Larger footprints
@@ -11556,6 +11556,7 @@ For every chip:
 - README: rtl/chips/ttl_74x850/README.md
 - Notes:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
+  - 16:1 mux, clocked select register, complementary 3-state Y/W with master /G + per-output /GY,/GW (SN74AS850). Reference-model tb (all 16 selects, 8 control combos, hold, 2000 random); lint clean.
 
 ### 74x851 - 1 of 16 data selector/multiplexer
 - Status: [!]
