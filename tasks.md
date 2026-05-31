@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1108
-- blocked: 420
+- complete: 1109
+- blocked: 419
 - digital_only_approximation: 27
 
 ## Chips
@@ -23425,7 +23425,7 @@ IDT74FST3245
   - 2-input XOR. Verilator + Yosys clean.
 
 ### 74x1G97 - single configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1g97
 - Aliases: none
 - Source section: Smaller footprints
@@ -23439,6 +23439,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1g97/README.md
 - Notes:
   - Configurable 7-function gate; function selection by input wiring requires datasheet
+  - 2-to-1 mux silicon function y = in2 ? in0 : in1 (datasheet SN74LVC1G97 Table 1). Exhaustive 8-vector tb passes; Verilator lint clean.
 
 ### 74x1G98 - single configurable 7-function gate
 - Status: [!]
