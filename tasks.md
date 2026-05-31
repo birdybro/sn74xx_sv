@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1174
-- blocked: 354
+- complete: 1175
+- blocked: 353
 - digital_only_approximation: 27
 
 ## Chips
@@ -15441,7 +15441,7 @@ For every chip:
   - Twin of base part; Verilator lint+sim clean
 
 ### 74x2400 - dual 4-bit buffer, inverting
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2400
 - Aliases: none
 - Source section: Larger footprints
@@ -15455,6 +15455,7 @@ For every chip:
 - README: rtl/chips/ttl_74x2400/README.md
 - Notes:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
+  - Dual 4-bit inverting buffer / 8-bit input port, 3-state per nibble (iC-Haus iC-NH / 74THC2400): y=~a, ng high=Hi-Z. Schmitt inputs not modeled. Exhaustive 1024-vector tb; lint clean.
 
 ### 74x2410 - 11-bit MOS memory driver, non-inverting
 - Status: [!]
