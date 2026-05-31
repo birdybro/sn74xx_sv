@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1164
-- blocked: 364
+- complete: 1165
+- blocked: 363
 - digital_only_approximation: 27
 
 ## Chips
@@ -11942,7 +11942,7 @@ For every chip:
   - 4-bit ALU, Advanced-Schottky member of the '181 family (same pinset/function table; AS881A databook page was advance-info). Function verified against SN74181 table. Exhaustive 16384-vector tb; lint clean.
 
 ### 74x882 - 32-bit lookahead carry generator
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x882
 - Aliases: none
 - Source section: Larger footprints
@@ -11956,6 +11956,7 @@ For every chip:
 - README: rtl/chips/ttl_74x882/README.md
 - Notes:
   - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
+  - 32-bit look-ahead carry generator for eight 4-bit ALUs ('181A/'881A compatible). Active-low P/G inputs (like '182); 4 carry outputs per datasheet equations (SN74AS882, D2661). Exhaustive 131072-vector tb; lint clean.
 
 ### 74x885 - 8-bit magnitude comparator
 - Status: [x]

@@ -15636,9 +15636,10 @@
     "pins": "24",
     "datasheet": "SN74AS882",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n683",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL",
+      "32-bit look-ahead carry generator for eight 4-bit ALUs ('181A/'881A compatible). Active-low P/G inputs (like '182); 4 carry outputs per datasheet equations (SN74AS882, D2661). Exhaustive 131072-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x882/ttl_74x882.sv",
     "testbench_path": "tb/chips/ttl_74x882/tb_ttl_74x882.sv",
