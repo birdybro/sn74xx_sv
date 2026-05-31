@@ -15357,9 +15357,10 @@
     "pins": "24",
     "datasheet": "SN74AS866",
     "datasheet_url": "https://archive.org/details/bitsavers_tidataBookVol3_25840031/page/n633",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation"
+      "Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation",
+      "8-bit magnitude comparator with P/Q input latches, output latch, async Q-clear, signed/unsigned, cascade, P=Q (open-collector, OC not modeled) (SN74AS866, D2661). Reference-model tb (directed + 3000 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x866/ttl_74x866.sv",
     "testbench_path": "tb/chips/ttl_74x866/tb_ttl_74x866.sv",

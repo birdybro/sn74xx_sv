@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1158
-- blocked: 370
+- complete: 1159
+- blocked: 369
 - digital_only_approximation: 27
 
 ## Chips
@@ -11728,7 +11728,7 @@ For every chip:
   - Per SN74ABT861 datasheet (SCBS199C); dual-/OE, non-inverting/inverting variants; Verilator lint+sim clean
 
 ### 74x866 - 8-bit magnitude comparator with latches
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x866
 - Aliases: none
 - Source section: Larger footprints
@@ -11742,6 +11742,7 @@ For every chip:
 - README: rtl/chips/ttl_74x866/README.md
 - Notes:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
+  - 8-bit magnitude comparator with P/Q input latches, output latch, async Q-clear, signed/unsigned, cascade, P=Q (open-collector, OC not modeled) (SN74AS866, D2661). Reference-model tb (directed + 3000 random); lint clean.
 
 ### 74x867 - synchronous 8-bit up/down counter, asynchronous clear
 - Status: [!]
