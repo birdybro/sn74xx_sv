@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1136
-- blocked: 392
+- complete: 1137
+- blocked: 391
 - digital_only_approximation: 27
 
 ## Chips
@@ -10380,7 +10380,7 @@ For every chip:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x723 - 576-bit FIFO memory (64x9)
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x723
 - Aliases: none
 - Source section: Larger footprints
@@ -10394,6 +10394,7 @@ For every chip:
 - README: rtl/chips/ttl_74x723/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - 64x9 synchronous FIFO via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean.
 
 ### 74x724 - voltage-controlled multivibrator
 - Status: [!]
