@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1110
-- blocked: 418
+- complete: 1111
+- blocked: 417
 - digital_only_approximation: 27
 
 ## Chips
@@ -23459,7 +23459,7 @@ IDT74FST3245
   - Inverting 2-to-1 mux y = ~(in2 ? in0 : in1) (SN74LVC1G98 Function Table). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1G99 - single configurable 15-function gate, active-low enable
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1g99
 - Aliases: none
 - Source section: Smaller footprints
@@ -23473,6 +23473,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1g99/README.md
 - Notes:
   - Configurable 15-function gate with active-low enable; function selection by wiring requires datasheet
+  - 4-input config gate, 3-state: y = oe_n ? 0 : (d ^ (c ? b : a)) (SN74LVC1G99 Function Table, all 16 enabled rows verified). Exhaustive 32-vector tb; lint clean. High-Z modeled as muxed zero.
 
 ### 74x1G123 - single retriggerable monostable multivibrator
 - Status: [!]

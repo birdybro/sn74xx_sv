@@ -30760,9 +30760,10 @@
     "pins": "8",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G99.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Configurable 15-function gate with active-low enable; function selection by wiring requires datasheet"
+      "Configurable 15-function gate with active-low enable; function selection by wiring requires datasheet",
+      "4-input config gate, 3-state: y = oe_n ? 0 : (d ^ (c ? b : a)) (SN74LVC1G99 Function Table, all 16 enabled rows verified). Exhaustive 32-vector tb; lint clean. High-Z modeled as muxed zero."
     ],
     "rtl_path": "rtl/chips/ttl_74x1g99/ttl_74x1g99.sv",
     "testbench_path": "tb/chips/ttl_74x1g99/tb_ttl_74x1g99.sv",
