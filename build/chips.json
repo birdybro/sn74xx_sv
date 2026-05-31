@@ -30591,9 +30591,10 @@
     "pins": "6",
     "datasheet": "LVC",
     "datasheet_url": "https://assets.nexperia.com/documents/data-sheet/74LVC1G58.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Configurable 7-function gate; function selection by input wiring requires datasheet"
+      "Configurable 7-function gate; function selection by input wiring requires datasheet",
+      "Config gate y = in2 ? ~in1 : in0 (SN74LVC1G58 Function Table; = ~'1G57; offers XOR). Exhaustive 8-vector tb; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1g58/ttl_74x1g58.sv",
     "testbench_path": "tb/chips/ttl_74x1g58/tb_ttl_74x1g58.sv",

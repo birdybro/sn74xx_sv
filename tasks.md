@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1112
-- blocked: 416
+- complete: 1113
+- blocked: 415
 - digital_only_approximation: 27
 
 ## Chips
@@ -23330,7 +23330,7 @@ IDT74FST3245
   - Config gate y = in2 ? in1 : ~in0 (SN74LVC1G57 Table 1; offers XNOR). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1G58 - single configurable 7-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1g58
 - Aliases: none
 - Source section: Smaller footprints
@@ -23344,6 +23344,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1g58/README.md
 - Notes:
   - Configurable 7-function gate; function selection by input wiring requires datasheet
+  - Config gate y = in2 ? ~in1 : in0 (SN74LVC1G58 Function Table; = ~'1G57; offers XOR). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1G66 - single SPST analog switch
 - Status: [!]
