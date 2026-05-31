@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1173
-- blocked: 355
+- complete: 1174
+- blocked: 354
 - digital_only_approximation: 27
 
 ## Chips
@@ -13767,7 +13767,7 @@ For every chip:
   - Oscillator driver; physical/analog crystal-oscillator buffer with no clocked logic to model
 
 ### 74x1604 - dual 8-bit transparent latch with output multiplexer
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1604
 - Aliases: none
 - Source section: Larger footprints
@@ -13781,6 +13781,7 @@ For every chip:
 - README: rtl/chips/ttl_74x1604/README.md
 - Notes:
   - Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study
+  - Dual 8-bit transparent latch (A+B, shared active-low LE) with 2:1 output mux (SELECT A/B) (Philips 74F1604). always_latch. Reference-model tb, directed + 3000 random; lint clean.
 
 ### 74x1612 - 18-bit LV-TTL-to-GTLP adjustable-edge-rate universal bus transceiver
 - Status: [!]

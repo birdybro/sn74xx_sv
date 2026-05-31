@@ -18030,9 +18030,10 @@
     "pins": "28",
     "datasheet": "74F1604",
     "datasheet_url": "https://cdn.datasheetspdf.com/pdf-down/7/4/F/74F1604_PhilipsSemiconductors.pdf",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study"
+      "Specialized Widebus/FET/GTLP/Futurebus part — needs dedicated datasheet study",
+      "Dual 8-bit transparent latch (A+B, shared active-low LE) with 2:1 output mux (SELECT A/B) (Philips 74F1604). always_latch. Reference-model tb, directed + 3000 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x1604/ttl_74x1604.sv",
     "testbench_path": "tb/chips/ttl_74x1604/tb_ttl_74x1604.sv",
