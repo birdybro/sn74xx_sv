@@ -12838,9 +12838,10 @@
     "pins": "24",
     "datasheet": "74F676",
     "datasheet_url": "https://archive.org/stream/NationalSemiconductor1988FASTAdvancedSchottkyDatabook/National%20Semiconductor%201988%20FAST%20Advanced%20Schottky%20Databook#page/n611",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL"
+      "Datasheet not yet accessible via current sources; specific control-pin layout (shift register variants 671-676, ALS-family address comparators 677-680, accumulator 681) needs confirmation before RTL",
+      "16-bit serial/parallel-in serial-out shift register, single register, 3 modes (hold/shift/parallel-load), falling-edge CP, separate SI/SO (National 74F676). Reference-model tb, directed + 1500 random; lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x676/ttl_74x676.sv",
     "testbench_path": "tb/chips/ttl_74x676/tb_ttl_74x676.sv",
