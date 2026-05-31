@@ -12882,6 +12882,7 @@ For every chip:
 - README: rtl/chips/ttl_74x952/README.md
 - Notes:
   - Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study
+  - Datasheet FOUND: National DM74LS952 (TL/F/6437; syntax.com.tw/upload/pdf/IC-74LS952.pdf). NOT a simple shift register: dual-rank (upper register A + lower shift register B) with 8 bidirectional TRI-STATE I/O, 6 active-low control lines, and a ~20-row function table including a Data-OR (DOR) function (ORs I/O with reg B), simultaneous transfer-up+down = synchronous clear, and combined shift+transfer modes. Complex multi-mode part - deferred (high mis-model risk), like 681/870/871.
 
 ### 74C956 - 4-digit, 17-segment alpha-numeric LED display driver with memory and decoder
 - Status: [!]

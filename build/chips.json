@@ -16849,7 +16849,8 @@
     "datasheet_url": "https://archive.org/stream/NationalSemiconductorLogicDatabook1981/National%20Semiconductor%20Logic%20Databook%201981#page/n417",
     "implementation_status": "blocked",
     "implementation_notes": [
-      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study"
+      "Display controller / RAM / key encoder / counter+display / ADC / modem / LCD driver / shift register variant — needs dedicated datasheet study",
+      "Datasheet FOUND: National DM74LS952 (TL/F/6437; syntax.com.tw/upload/pdf/IC-74LS952.pdf). NOT a simple shift register: dual-rank (upper register A + lower shift register B) with 8 bidirectional TRI-STATE I/O, 6 active-low control lines, and a ~20-row function table including a Data-OR (DOR) function (ORs I/O with reg B), simultaneous transfer-up+down = synchronous clear, and combined shift+transfer modes. Complex multi-mode part - deferred (high mis-model risk), like 681/870/871."
     ],
     "rtl_path": "rtl/chips/ttl_74x952/ttl_74x952.sv",
     "testbench_path": "tb/chips/ttl_74x952/tb_ttl_74x952.sv",
