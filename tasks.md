@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1135
-- blocked: 393
+- complete: 1136
+- blocked: 392
 - digital_only_approximation: 27
 
 ## Chips
@@ -10267,7 +10267,7 @@ For every chip:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
 
 ### 74x708 - 576-bit FIFO memory (64x9)
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x708
 - Aliases: none
 - Source section: Larger footprints
@@ -10281,6 +10281,7 @@ For every chip:
 - README: rtl/chips/ttl_74x708/README.md
 - Notes:
   - Datasheet not accessible from current sources; complex programmable/registered/FIFO part needs control-pin and internal-state confirmation before RTL
+  - 64x9 synchronous FIFO via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean.
 
 ### 74x710 - 8-bit single-supply TTL-ECL shift register
 - Status: [!]
