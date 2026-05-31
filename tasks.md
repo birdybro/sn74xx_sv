@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1161
-- blocked: 367
+- complete: 1162
+- blocked: 366
 - digital_only_approximation: 27
 
 ## Chips
@@ -11763,7 +11763,7 @@ For every chip:
   - Datasheet not yet pulled; control-pin layout (transceiver port controller / 1-of-16 mux / parity-latch / counter) needs confirmation
 
 ### 74x869 - synchronous 8-bit up/down counter, synchronous clear
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x869
 - Aliases: none
 - Source section: Larger footprints
@@ -11777,6 +11777,7 @@ For every chip:
 - README: rtl/chips/ttl_74x869/README.md
 - Notes:
   - Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL
+  - Synchronous 8-bit up/down counter, SYNC clear (SN74ALS869/AS869, SDAS115C). Mode S1S0: 00=clear,01=down,10=load,11=up; ENP/ENT enables; /RCO terminal carry. Reference-model tb (directed + 2000 random); lint clean.
 
 ### 74x870 - dual 16x4 register files
 - Status: [!]

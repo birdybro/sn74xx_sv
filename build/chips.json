@@ -15402,9 +15402,10 @@
     "pins": "24",
     "datasheet": "SN74ALS869",
     "datasheet_url": "https://www.ti.com/lit/gpn/sn74als869",
-    "implementation_status": "blocked",
+    "implementation_status": "complete",
     "implementation_notes": [
-      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL"
+      "Complex bit-slice / processor / sequencer / wide register file / programmable counter / barrel shifter — needs datasheet study before RTL",
+      "Synchronous 8-bit up/down counter, SYNC clear (SN74ALS869/AS869, SDAS115C). Mode S1S0: 00=clear,01=down,10=load,11=up; ENP/ENT enables; /RCO terminal carry. Reference-model tb (directed + 2000 random); lint clean."
     ],
     "rtl_path": "rtl/chips/ttl_74x869/ttl_74x869.sv",
     "testbench_path": "tb/chips/ttl_74x869/tb_ttl_74x869.sv",
