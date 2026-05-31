@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1142
-- blocked: 386
+- complete: 1143
+- blocked: 385
 - digital_only_approximation: 27
 
 ## Chips
@@ -15064,7 +15064,7 @@ For every chip:
   - dual 64x1 FIFO (two independent queues) via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean.
 
 ### 74x2228 - dual 256-bit FIFO memories (256x1)
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x2228
 - Aliases: none
 - Source section: Larger footprints
@@ -15078,6 +15078,7 @@ For every chip:
 - README: rtl/chips/ttl_74x2228/README.md
 - Notes:
   - Specialized cache comparator / NuBus / GTL / clock driver / FIFO / level translator — needs dedicated datasheet
+  - dual 256x1 FIFO (two independent queues) via gen_fifo.py; posedge write/read, async clear, full/empty flags. Testbench passes; lint clean.
 
 ### 74x2229 - dual 256-bit FIFO memories (256x1)
 - Status: [!]
