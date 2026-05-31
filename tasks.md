@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1121
-- blocked: 407
+- complete: 1122
+- blocked: 406
 - digital_only_approximation: 27
 
 ## Chips
@@ -24641,7 +24641,7 @@ IDT74FST3245
   - Single-supply Schmitt buffer (Schmitt not modeled). Verilator + Yosys clean.
 
 ### 74x1T57 - single-supply configurable 9-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1t57
 - Aliases: none
 - Source section: Voltage translation
@@ -24655,6 +24655,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1t57/README.md
 - Notes:
   - Configurable 9-function gate; requires datasheet
+  - AUP single-supply translator (digital pass-through; translation not modeled). Logic = '1G57: y = c ? b : ~a (SN74AUP1T57). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1T58 - single-supply configurable 9-function gate
 - Status: [!]
