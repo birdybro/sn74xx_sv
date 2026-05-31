@@ -29,8 +29,8 @@ For every chip:
 12. git push
 
 ## Progress (1555 chips)
-- complete: 1124
-- blocked: 404
+- complete: 1125
+- blocked: 403
 - digital_only_approximation: 27
 
 ## Chips
@@ -24724,7 +24724,7 @@ IDT74FST3245
   - AUP single-supply translator (digital pass-through). Logic = '1G97: y = c ? a : b (SN74AUP1T97 Table 7-1, verified). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1T98 - single-supply configurable 9-function gate
-- Status: [!]
+- Status: [x]
 - Module: ttl_74x1t98
 - Aliases: none
 - Source section: Voltage translation
@@ -24738,6 +24738,7 @@ IDT74FST3245
 - README: rtl/chips/ttl_74x1t98/README.md
 - Notes:
   - Configurable 9-function gate; requires datasheet
+  - AUP single-supply translator (digital pass-through). Logic = '1G98: y = ~(c ? a : b) (SN74AUP1T98). Exhaustive 8-vector tb; lint clean.
 
 ### 74x1T125 - single-supply single buffer/driver with 3-state output
 - Status: [x]
